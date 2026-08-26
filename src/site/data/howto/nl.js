@@ -1,12 +1,12 @@
 export const nl = {
   'getting-started': {
     name: 'SWAYA Mediacenter Installeren en Configureren',
-    description: 'Stappenplan voor installatie op Windows, mapselectie en het opzetten van uw offline mediabibliotheek.',
+    description: 'Stappenplan voor installatie op Windows & Linux, mapselectie en het opzetten van uw offline mediabibliotheek.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Downloaden en Installeren',
-        text: 'Installeer de SWAYA desktopapplicatie op Windows 10 of 11.',
+        text: 'Installeer de SWAYA desktopapplicatie op Windows of Linux.',
       },
       {
         name: 'Opslagmappen Selecteren',

@@ -1,7 +1,7 @@
 export const ja = {
   filebot: {
     title: 'SWAYA vs FileBot: 最新デスクトップメディアワークステーション＆ファイル一括リネーマー',
-    metaTitle: 'Windows向けFileBotの決定版オルタナティブ - SWAYA 一括リネーム＆MPVプレイヤー',
+    metaTitle: 'Windows / Linux向けFileBotの決定版オルタナティブ - SWAYA 一括リネーム＆MPVプレイヤー',
     metaDescription: 'FileBotのモダンな代替ソフトをお探しですか？SWAYAはTMDbやStashDBでファイルをリネームし、オフラインライブラリと4K MPVプレイヤーを1つに統合。',
     heroTagline: '単なるファイル名変更で終わらせず、コレクション全体の整理と再生を楽しみませんか？',
     heroSubtitle: 'FileBotはファイル名変更に優れていますが、SWAYAはローカルメディアを次の次元へ導きます。ディスク整理、美しいオフラインライブラリ、そして内蔵4K HDR MPVプレイヤーをひとつのWindowsデスクトップアプリに統合しました。',
@@ -61,7 +61,7 @@ export const ja = {
   },
   plex: {
     title: 'SWAYA vs Plex: サーバー不要の完全100%オフラインメディアワークステーション',
-    metaTitle: 'Windows向けPlex代替ソフト（サーバー不要） - SWAYA',
+    metaTitle: 'Windows / Linux向けPlex代替ソフト（サーバー不要） - SWAYA',
     metaDescription: 'サーバー設定なしで使えるプライベートなPlexオルタナティブをお探しですか？SWAYAはハードディスクのファイルを整理し、アカウント不要で4K HDRをMPV再生します。',
     heroTagline: 'サーバー、クラウド連携、テレメトリーに縛られないあなただけのコレクション。',
     heroSubtitle: 'Plexは家庭内ネットワーク配信向けですが、常時稼働のサーバーデーモン、クラウドログイン、有料サブスクが必要です。SWAYAはゼロ設定で100%オフラインの快適なデスクトップ体験を提供します。',
@@ -73,7 +73,7 @@ export const ja = {
       'iOS、Android、Apple TV間での再生進捗リモート同期が必要な場合。',
     ],
     whenToChooseSwaya: [
-      '映画やアニメをWindows PC、ノートPC、直結モニターで楽しむ場合。',
+      '映画やアニメをWindows or Linux PC、ノートPC、直結モニターで楽しむ場合。',
       '100%のプライバシーを守りたい場合（クラウド登録ゼロ、テレメトリーゼロ、開放ポートゼロ）。',
       'ハードディスク内の物理ファイル自体を綺麗にリネーム・フォルダ分類したい場合。',
       'サーバーのメンテやトランスコードの不具合・カクつきから解放されたい場合。',
@@ -121,7 +121,7 @@ export const ja = {
   },
   tinymediamanager: {
     title: 'SWAYA vs tinyMediaManager: 最新メディアオーガナイザー＆プレイヤー',
-    metaTitle: 'Windows向けtinyMediaManager代替ソフト - SWAYA',
+    metaTitle: 'Windows / Linux向けtinyMediaManager代替ソフト - SWAYA',
     metaDescription: 'tinyMediaManagerに代わるモダンな管理ソフトをお探しですか？SWAYAは高速な一括リネーム、TMDb/StashDB取得、内蔵4K MPVプレイヤーをJava不要で実現。',
     heroTagline: '重いJava製UIに悩まされることなく、メディアの整理から視聴までを瞬時に。',
     heroSubtitle: 'tinyMediaManagerは高機能なNFOジェネレータですが、Javaを必要とし再生プレイヤーがありません。SWAYAはディスクの物理整理、洗練されたライブラリ、4K MPV再生をひとまとめにしました。',
@@ -176,7 +176,7 @@ export const ja = {
   },
   stash: {
     title: 'SWAYA vs StashApp: Webサーバー不要のネイティブデスクトップワークステーション',
-    metaTitle: 'Windows向けStashApp代替ソフト - SWAYA デスクトップオーガナイザー',
+    metaTitle: 'Windows / Linux向けStashApp代替ソフト - SWAYA デスクトップオーガナイザー',
     metaDescription: 'StashAppのWindowsネイティブな代替ソフトをお探しですか？SWAYAはStashDBスクレイピング、ファイル整理、内蔵MPVプレイヤーをWebサーバーなしで実現。',
     heroTagline: 'Localhost WebサーバーやDockerに頼らない、究極のプライベートメディアステーション。',
     heroSubtitle: 'Stashは優れたアダルトメディアサーバーですが、ブラウザ上のWebアプリとして動作します。SWAYAはTMDbとStashDBの両方をネイティブに扱い、MPVプレイヤーを内蔵したWindows専用ソフトです。',
@@ -231,7 +231,7 @@ export const ja = {
   },
   jellyfin: {
     title: 'SWAYA vs Jellyfin: ローカルデスクトップ再生 vs ホームメディアサーバー',
-    metaTitle: 'Windows向けJellyfin代替ソフト（サーバー不要） - SWAYA',
+    metaTitle: 'Windows / Linux向けJellyfin代替ソフト（サーバー不要） - SWAYA',
     metaDescription: 'Dockerやサーバー保守不要のシンプルなメディア環境をお探しですか？SWAYAはネットワーク設定なしでファイルを整理し、4K HDRをMPV再生します。',
     heroTagline: 'Dockerコンテナやサーバー設定に悩まされない、快適なハードディスクメディア環境。',
     heroSubtitle: 'Jellyfinは優れたホームネットワーク用サーバーですが、自分のPCで動画を見て整理したいだけなら、SWAYAのほうが圧倒的に高速かつ手軽です。',
@@ -243,7 +243,7 @@ export const ja = {
       '完全なオープンソースサーバーソフトにこだわりたい場合。',
     ],
     whenToChooseSwaya: [
-      '手元のWindows PCやノートPCで映画を鑑賞し、ダウンロードファイルを整理したい場合。',
+      '手元のWindows or Linux PCやノートPCで映画を鑑賞し、ダウンロードファイルを整理したい場合。',
       'ポート開放や常駐デーモン、トランスコード設定の手間を省きたい場合。',
       '物理ファイルのリネームと、ネイティブMPVによる高画質4K再生を求めたい場合。',
       '一般作品と同時にStashDBのアダルト作品も管理したい場合。',
@@ -285,7 +285,7 @@ export const ja = {
   },
   kodi: {
     title: 'SWAYA vs Kodi: 不安定なアドオンに悩まされない最新デスクトップメディアセンター',
-    metaTitle: 'Windows PC向けKodi代替ソフト - SWAYA',
+    metaTitle: 'Windows or Linux PC向けKodi代替ソフト - SWAYA',
     metaDescription: 'PC向けに設計されたモダンなKodi代替ソフトをお探しですか？SWAYAはMPVプレイヤー、ファイル整理、洗練されたUIを統合。',
     heroTagline: 'マウス、キーボード、そしてハードディスクのために設計されたモダンなメディア体験。',
     heroSubtitle: 'Kodiはテレビのリモコン操作には適していますが、PCモニターでのマウス操作には不向きでアドオン破損の不安もあります。SWAYAはWindowsデスクトップのために作られました。',
@@ -297,13 +297,13 @@ export const ja = {
       'ソファから見る10フィートUIを求めている場合。',
     ],
     whenToChooseSwaya: [
-      'マウスとキーボードを使ってWindows PCで快適にメディアを扱いたい場合。',
+      'マウスとキーボードを使ってWindows or Linux PCで快適にメディアを扱いたい場合。',
       'ハードディスク内のファイルを安全にリネーム・フォルダ整理したい場合。',
       'アップデートで壊れる心配のない、軽量で堅牢なアプリを使いたい場合。',
       '映画・アニメ（TMDb）とアダルト作品（StashDB）を1つの場所で管理したい場合。',
     ],
     matrix: [
-      { feature: 'モダンなデスクトップUI（マウス＆キーボード最適化）', swayaNote: '滑らかなWindows向けUI', competitorNote: 'テレビ用リモコン向けUI' },
+      { feature: 'モダンなデスクトップUI（マウス＆キーボード最適化）', swayaNote: '滑らかなWindows / Linux向けUI', competitorNote: 'テレビ用リモコン向けUI' },
       { feature: '物理ディスク上のファイル名変更＆フォルダ整理', swayaNote: '実際のファイルを一括リネーム・移動', competitorNote: 'データベースのみ（ファイル名は不変）' },
       { feature: '内蔵4K/HDR MPVビデオエンジン', swayaNote: 'ハードウェアGPU再生、コマ落ちなし', competitorNote: '内蔵プレイヤーエンジン' },
       { feature: 'アダルトメディア（StashDB）＆デュアルモード', swayaNote: 'StashDB/FansDBネイティブ統合', competitorNote: '不安定な外部アドオンが必要' },

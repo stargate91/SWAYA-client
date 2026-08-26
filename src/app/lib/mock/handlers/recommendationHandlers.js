@@ -1,5 +1,6 @@
 import {
   MOCK_MOVIES,
+  MOCK_DISCOVER_MOVIES,
   MOCK_VIDEOS,
   MOCK_SHOWS,
   MOCK_ADULT_SCENES,
@@ -7,9 +8,11 @@ import {
   MOCK_STUDIOS
 } from '../mockData';
 
+const getOrigin = () => (typeof window !== 'undefined' && window?.location?.origin ? window.location.origin : 'http://localhost');
+
 export function handleRecommendationRequests(path, options, urlStr) {
   if (path === 'recommendations/recently-added') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const type = urlObj.searchParams.get('media_type');
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true' || type === 'scene' || type === 'scenes';
     let items;
@@ -43,7 +46,7 @@ export function handleRecommendationRequests(path, options, urlStr) {
   }
 
   if (path === 'recommendations/recently-activated-people') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true';
     const items = MOCK_PEOPLE.filter(p => includeAdult ? Boolean(p.is_adult) : !p.is_adult);
     return new Response(JSON.stringify(items), {
@@ -53,7 +56,7 @@ export function handleRecommendationRequests(path, options, urlStr) {
   }
 
   if (path === 'recommendations/recently-followed-studios') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true';
     const items = MOCK_STUDIOS.filter(s => includeAdult ? Boolean(s.is_adult) : !s.is_adult);
     return new Response(JSON.stringify(items), {
@@ -64,7 +67,7 @@ export function handleRecommendationRequests(path, options, urlStr) {
 
   // 1. Studio listing
   if (path === 'metadata/studios' || path === 'metadata/studios/') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true';
     const items = MOCK_STUDIOS.filter(s => includeAdult ? Boolean(s.is_adult) : !s.is_adult);
     return new Response(JSON.stringify({
@@ -106,10 +109,10 @@ export function handleRecommendationRequests(path, options, urlStr) {
     }
 
     if (subAction === 'discover') {
-      const urlObj = new URL(urlStr, window.location.origin);
+      const urlObj = new URL(urlStr, getOrigin());
       const mediaType = urlObj.searchParams.get('media_type') || 'movies';
       
-      let items = [];
+      let items;
       if (mediaType === 'tv') {
         items = MOCK_SHOWS.filter(s => s.studios?.some(st => String(st.id) === String(studioId) || st.name === studio?.name) || s.companies?.some(c => String(c.id) === String(studioId) || c.name === studio?.name));
       } else if (mediaType === 'scenes') {
@@ -138,7 +141,22 @@ export function handleRecommendationRequests(path, options, urlStr) {
   }
 
   if (path === 'recommendations/discover') {
-    return new Response(JSON.stringify(MOCK_MOVIES), {
+    const urlObj = new URL(urlStr, getOrigin());
+    const genreParam = urlObj.searchParams.get('genre_id') || urlObj.searchParams.get('genre');
+    const yearParam = urlObj.searchParams.get('year');
+
+    let items = [...MOCK_DISCOVER_MOVIES];
+
+    if (genreParam) {
+      const gId = Number(genreParam);
+      items = items.filter(m => (Array.isArray(m.genre_ids) && m.genre_ids.includes(gId)) || m.genres?.some(g => String(g).toLowerCase() === String(genreParam).toLowerCase()));
+    }
+
+    if (yearParam) {
+      items = items.filter(m => String(m.year) === String(yearParam));
+    }
+
+    return new Response(JSON.stringify(items), {
       status: 200,
       headers: { 'Content-Type': 'application/json' }
     });
@@ -152,7 +170,7 @@ export function handleRecommendationRequests(path, options, urlStr) {
   }
 
   if (path === 'recommendations') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true';
     if (includeAdult) {
       const resumeItems = MOCK_ADULT_SCENES.filter(item => (item.resume_position || 0) > 0);

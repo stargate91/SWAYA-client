@@ -1,12 +1,12 @@
 export const hu = {
   'getting-started': {
     name: 'Hogyan állítsd be és kezd el használni a SWAYA Offline Médiatárat',
-    description: 'Rövid útmutató a SWAYA Windowsos telepítéséhez, a merevlemezek csatlakoztatásához és a privát könyvtár beállításához.',
+    description: 'Rövid útmutató a SWAYA Windows és Linux alatti telepítéséhez, a merevlemezek csatlakoztatásához és a privát könyvtár beállításához.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Letöltés és Indítás',
-        text: 'Telepítsd a SWAYA asztali alkalmazást Windows 10 vagy 11 rendszerre.',
+        text: 'Telepítsd a SWAYA asztali alkalmazást Windows vagy Linux rendszerre.',
       },
       {
         name: 'Könyvtármappák Beállítása',

@@ -114,7 +114,7 @@ export default function TermsPage() {
           </p>
           <ul className={styles.list}>
             <li>{t('landing.terms.section2Point1', { defaultValue: 'Unactivated Licenses (14-Day Money-Back Guarantee): If you have not activated your license key in the SWAYA software, you are eligible for a 100% unconditional refund within 14 days of purchase upon email request.' })}</li>
-            <li>{t('landing.terms.section2Point2', { defaultValue: 'Activated Licenses (7-Day Technical Support Guarantee): Under EU Consumer Rights Directive regulations, downloading and activating digital software with immediate performance constitutes execution of the digital delivery. However, if you experience an unresolved technical incompatibility or defect on your supported Windows system that our support team cannot rectify, we will grant a 100% refund within 7 days of purchase.' })}</li>
+            <li>{t('landing.terms.section2Point2', { defaultValue: 'Activated Licenses (7-Day Technical Support Guarantee): Under EU Consumer Rights Directive regulations, downloading and activating digital software with immediate performance constitutes execution of the digital delivery. However, if you experience an unresolved technical incompatibility or defect on your supported Windows or Linux system that our support team cannot rectify, we will grant a 100% refund within 7 days of purchase.' })}</li>
             <li>{t('landing.terms.section2Point3', { defaultValue: 'Automatic Key Revocation: When a refund or payment reversal is issued, the associated license key and its cryptographic tokens are permanently revoked on our activation server. The software on your devices will return to setup mode.' })}</li>
           </ul>
         </section>

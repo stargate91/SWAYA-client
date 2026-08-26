@@ -1,10 +1,10 @@
 export const zhTw = {
   filebot: {
     title: 'SWAYA vs FileBot: 現代化桌面影音工作站 & 批次檔案命名專家',
-    metaTitle: 'Windows 最佳 FileBot 替代方案 - SWAYA 批次命名與 MPV 播放器',
+    metaTitle: 'Windows 與 Linux 最佳 FileBot 替代方案 - SWAYA 批次命名與 MPV 播放器',
     metaDescription: '尋找現代化的 FileBot 替代品？SWAYA 透過 TMDb/StashDB 為檔案重新命名，整合離線媒體庫與 4K MPV 播放器。',
     heroTagline: '超越單純的檔案重新命名：全面整理並以 4K 享受你的珍貴收藏。',
-    heroSubtitle: 'FileBot 在重新命名方面表現出色，但 SWAYA 將本機影音管理推向全新境界。集硬碟目錄整理、精美視覺化媒體庫與 4K HDR MPV 播放器於單一 Windows 軟體中。',
+    heroSubtitle: 'FileBot 在重新命名方面表現出色，但 SWAYA 將本機影音管理推向全新境界。集硬碟目錄整理、精美視覺化媒體庫與 4K HDR MPV 播放器於單一 Windows 與 Linux 軟體中。',
     competitorPricing: '每年 $6 或 $48 終身買斷授權',
     swayaPricing: '首發早鳥特惠 €39 終身買斷（原價 €79）',
     whenToChooseCompetitor: [
@@ -55,13 +55,13 @@ export const zhTw = {
       },
       {
         q: '執行 SWAYA 需要另外安裝 Java 嗎？',
-        a: '不需要。SWAYA 是獨立編譯的 Windows 桌面應用程式，無需 Java 或其他額外執行階段環境。',
+        a: '不需要。SWAYA 是獨立編譯的 Windows 与 Linux 桌面應用程式，無需 Java 或其他額外執行階段環境。',
       },
     ],
   },
   plex: {
     title: 'SWAYA vs Plex: 零伺服器負擔的 100% 離線影音工作站',
-    metaTitle: 'Windows 最佳 Plex 替代方案（無伺服器，100% 離線） - SWAYA',
+    metaTitle: 'Windows 與 Linux 最佳 Plex 替代方案（無伺服器，100% 離線） - SWAYA',
     metaDescription: '尋找無需架設伺服器的私密 Plex 替代品？SWAYA 整理硬碟檔案並以 MPV 播放 4K HDR，無雲端帳號，零外部依賴。',
     heroTagline: '擺脫伺服器維護、雲端登入與隱私追蹤的極致個人收藏體驗。',
     heroSubtitle: 'Plex 主打區域網路串流，但需要常駐伺服器服務、雲端帳號與月費訂閱。SWAYA 則提供免設定、100% 離線的純粹桌面極速體驗。',
@@ -73,7 +73,7 @@ export const zhTw = {
       '需要在 iOS、Android 與 Apple TV 間同步觀看進度。',
     ],
     whenToChooseSwaya: [
-      '主要在 Windows 電腦、筆電或直連螢幕上觀賞高畫質影片。',
+      '主要在 Windows 或 Linux 電腦、筆電或直連螢幕上觀賞高畫質影片。',
       '注重絕對隱私（無雲端帳號、無外部遙測、無對外開放連接埠）。',
       '希望真正將硬碟上的實體檔案與資料夾整理得井井有條。',
       '厭倦了伺服器維護、轉碼卡頓與網路延遲問題。',
@@ -109,7 +109,7 @@ export const zhTw = {
   },
   tinymediamanager: {
     title: 'SWAYA vs tinyMediaManager (tmm): 現代化媒體管理與 4K 播放器',
-    metaTitle: 'Windows 最佳 tinyMediaManager (tmm) 替代方案 - SWAYA',
+    metaTitle: 'Windows 與 Linux 最佳 tinyMediaManager (tmm) 替代方案 - SWAYA',
     metaDescription: '尋找 tinyMediaManager 的現代化替代品？SWAYA 提供無需 Java 的流暢介面、極速檔案整理與 4K MPV 播放器。',
     heroTagline: '告別沉重陳舊的 Java 工具，擁抱 GPU 加速的現代工作站。',
     heroSubtitle: 'tinyMediaManager 是一款出色的 NFO 產生器，但缺乏內建播放器且介面陳舊。SWAYA 將直覺管理、智慧命名與 4K 播放完美融為一體。',
@@ -120,7 +120,7 @@ export const zhTw = {
       '需要在 Linux 與 macOS 上透過 Java 獲得一致的跨平台介面。',
     ],
     whenToChooseSwaya: [
-      '希望在 Windows 上獲得極速反應、視覺動態優雅的現代化介面。',
+      '希望在 Windows 与 Linux 上獲得極速反應、視覺動態優雅的現代化介面。',
       '整理完成後希望直接在軟體內以 4K HDR 欣賞影片，無需調用外部程式。',
       '需要將一般影視與成人內容安全分開管理。',
     ],
@@ -145,7 +145,7 @@ export const zhTw = {
   },
   stash: {
     title: 'SWAYA vs StashApp: 私密影音管理 & 桌面 4K 播放中心',
-    metaTitle: 'Windows 最佳 StashApp 替代方案（無伺服器） - SWAYA',
+    metaTitle: 'Windows 與 Linux 最佳 StashApp 替代方案（無伺服器） - SWAYA',
     metaDescription: '無需本地 Web 伺服器的 StashApp 替代品。SWAYA 支援 StashDB 整合、演職員檔案、4K MPV 播放與隱形保險庫。',
     heroTagline: '無需搭建本地 Web 伺服器：一台獨立桌面軟體搞定一切。',
     heroSubtitle: 'StashApp 是一款強大的開源工具，但需要常駐本地後端伺服器並透過瀏覽器操作。SWAYA 則是 100% 獨立的桌面軟體，具備極致隱私保護。',
@@ -156,7 +156,7 @@ export const zhTw = {
       '希望自行修改程式碼並編譯客製化版本。',
     ],
     whenToChooseSwaya: [
-      '偏好 1 秒啟動、無任何背景伺服器行程的純粹 Windows 桌面應用。',
+      '偏好 1 秒啟動、無任何背景伺服器行程的純粹 Windows 与 Linux 桌面應用。',
       '需要全域防窺快捷鍵以瞬間隱藏敏感收藏。',
       '希望在同一軟體內以雙重模式同時管理一般電影（TMDb）與成人內容（StashDB）。',
     ],
@@ -169,7 +169,7 @@ export const zhTw = {
     deepDives: [
       {
         title: '無伺服器負擔的純粹桌面隱私',
-        description: '使用 SWAYA 無需開啟瀏覽器，亦無需管理任何網路連接埠。所有內容均嚴密保護在獨立的 Windows 桌面應用程式中。',
+        description: '使用 SWAYA 無需開啟瀏覽器，亦無需管理任何網路連接埠。所有內容均嚴密保護在獨立的 Windows 与 Linux 桌面應用程式中。',
       },
     ],
     faqs: [
@@ -181,10 +181,10 @@ export const zhTw = {
   },
   jellyfin: {
     title: 'SWAYA vs Jellyfin: 100% 離線桌面影音工作站',
-    metaTitle: 'Windows 最佳 Jellyfin 替代方案（離線焦點） - SWAYA',
+    metaTitle: 'Windows 與 Linux 最佳 Jellyfin 替代方案（離線焦點） - SWAYA',
     metaDescription: '無需伺服器的 Jellyfin 替代品。整理硬碟檔案、離線檢索目錄並以 MPV 享受 4K HDR 極致畫質。',
     heroTagline: '擺脫串流伺服器束縛，專為個人電腦打造的極致離線影音體驗。',
-    heroSubtitle: 'Jellyfin 是優秀的開源串流伺服器，但對於直接在 Windows 電腦上看影片的使用者而言，其伺服器架構顯得過於繁瑣。SWAYA 專為本地高畫質播放而生。',
+    heroSubtitle: 'Jellyfin 是優秀的開源串流伺服器，但對於直接在 Windows 或 Linux 電腦上看影片的使用者而言，其伺服器架構顯得過於繁瑣。SWAYA 專為本地高畫質播放而生。',
     competitorPricing: '免費 (開源專案)',
     swayaPricing: '首發早鳥特惠 €39 終身買斷（原價 €79）',
     whenToChooseCompetitor: [
@@ -216,10 +216,10 @@ export const zhTw = {
   },
   kodi: {
     title: 'SWAYA vs Kodi: 專為 Windows 打造的現代影音中心與檔案整理器',
-    metaTitle: 'Windows 最佳 Kodi 替代方案 - SWAYA 個人影音中心',
+    metaTitle: 'Windows 與 Linux 最佳 Kodi 替代方案 - SWAYA 個人影音中心',
     metaDescription: '尋找專為電腦桌面而非客廳電視設計的現代影音中心？SWAYA 為鍵盤與滑鼠操作深度最佳化。',
     heroTagline: '告別客廳遙控器介面，體驗專為滑鼠鍵盤量身打造的現代工作站。',
-    heroSubtitle: 'Kodi 專為電視大螢幕遙控器設計，在 Windows 電腦上操作較為繁複。SWAYA 提供現代簡約、直覺流暢且專為電腦打造的影音操作環境。',
+    heroSubtitle: 'Kodi 專為電視大螢幕遙控器設計，在 Windows 或 Linux 電腦上操作較為繁複。SWAYA 提供現代簡約、直覺流暢且專為電腦打造的影音操作環境。',
     competitorPricing: '免費 (開源專案)',
     swayaPricing: '首發早鳥特惠 €39 終身買斷（原價 €79）',
     whenToChooseCompetitor: [

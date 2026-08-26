@@ -1,12 +1,12 @@
 export const ko = {
   'getting-started': {
     name: 'SWAYA 오프라인 미디어 센터 설치 및 초기 설정 방법',
-    description: 'Windows에 SWAYA를 설치하고, 저장 경로를 지정하고, 오프라인 라이브러리를 구축하는 단계별 가이드.',
+    description: 'Windows 및 Linux에 SWAYA를 설치하고, 저장 경로를 지정하고, 오프라인 라이브러리를 구축하는 단계별 가이드.',
     totalTime: 'PT3M',
     steps: [
       {
         name: '다운로드 및 앱 실행',
-        text: 'Windows 10 또는 11 환경에 SWAYA 데스크톱 애플리케이션을 설치하고 실행합니다.',
+        text: 'Windows 또는 Linux 환경에 SWAYA 데스크톱 애플리케이션을 설치하고 실행합니다.',
       },
       {
         name: '저장 디렉토리 지정',

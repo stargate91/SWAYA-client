@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - Media Center Offline & Video Player per Windows",
-    "description": "Alternativa offline a Plex e FileBot per Windows. Rinomina automaticamente i download, organizza collezioni video su hard disk e riproduci 4K HDR senza server."
+    "title": "SWAYA - Media Center Offline & Video Player per Windows e Linux",
+    "description": "Alternativa offline a Plex e FileBot per Windows e Linux. Rinomina automaticamente i download, organizza collezioni video su hard disk e riproduci 4K HDR senza server."
   },
   "navbar": {
     "brand": "SWAYA",
@@ -37,7 +37,7 @@
     "tag": "Panoramica Prodotto",
     "title": "Cos'è SWAYA?",
     "titleAccent": "Guardalo in Azione.",
-    "subtitle": "SWAYA è un'app desktop per Windows che riordina i file disordinati sul disco, organizza la tua libreria e riproduce la tua intera collezione offline con un player MPV integrato.",
+    "subtitle": "SWAYA è un'app desktop per Windows e Linux che riordina i file disordinati sul disco, organizza la tua libreria e riproduce la tua intera collezione offline con un player MPV integrato.",
     "badge": "Tour di 2:48",
     "placeholderTitle": "Video Panoramica Prodotto",
     "placeholderSubtitle": "Panoramica completa su rinomina file in batch, gestione libreria e riproduzione MPV integrata.",
@@ -126,19 +126,19 @@
       },
       {
         "question": "Come funziona la licenza?",
-        "answer": "SWAYA è un acquisto una tantum di €39 per l'accesso a vita. Include tutti i futuri aggiornamenti e può essere attivato su un massimo di 3 PC Windows personali senza abbonamenti ricorrenti."
+        "answer": "SWAYA è un acquisto una tantum di €39 per l'accesso a vita. Include tutti i futuri aggiornamenti e può essere attivato su un massimo di 3 PC Windows o Linux personali senza abbonamenti ricorrenti."
       }
     ]
   },
   "download": {
     "title": "Prendi il Controllo della Tua Collezione Oggi",
-    "subtitle": "Ottieni accesso a vita a SWAYA per Windows. Acquisto una tantum a €39, tuo per sempre. Nessun abbonamento ricorrente.",
+    "subtitle": "Ottieni accesso a vita a SWAYA per Windows e Linux. Acquisto una tantum a €39, tuo per sempre. Nessun abbonamento ricorrente.",
     "button": "Acquista Licenza a Vita (€39)",
-    "disclaimer": "Download istantaneo e chiave di licenza subito dopo il pagamento. Funziona al 100% offline."
+    "disclaimer": "Download istantaneo e chiave di licenza dopo il pagamento. Disponibile per Windows e Linux."
   },
   "footer": {
     "tagline": "Media center desktop incentrato sulla privacy e organizer batch intelligente per collezioni personali.",
-    "badge": "Offline-First • v1.0 Windows",
+    "badge": "Offline-First • v1.0 Windows & Linux",
     "columns": {
       "navigation": "Navigazione",
       "comparisons": "Confronti",
@@ -158,7 +158,7 @@
       "allGuides": "Tutte le Guide →",
       "allComparisons": "Tutti i Confronti →"
     },
-    "licenseDescription": "Acquisto una tantum, accesso a vita su un massimo di 3 PC Windows personali.",
+    "licenseDescription": "Acquisto una tantum, accesso a vita su un massimo di 3 PC Windows o Linux personali.",
     "buyLicense": "Acquista Licenza (€39)",
     "copyright": "© {{year}} SWAYA. Tutti i diritti riservati.",
     "madeWithLove": "Fatto con",
@@ -204,7 +204,7 @@
   },
   "compare": {
     "metaTitle": "SWAYA Confronti & Alternative Software",
-    "metaDescription": "Confronta SWAYA con FileBot, Plex, tinyMediaManager, StashApp, Jellyfin e Kodi. Trova il miglior media center offline per Windows.",
+    "metaDescription": "Confronta SWAYA con FileBot, Plex, tinyMediaManager, StashApp, Jellyfin e Kodi. Trova il miglior media center offline per Windows e Linux.",
     "tag": "Alternative Software",
     "title": "Perché SWAYA?",
     "titleAccent": "Scopri il confronto.",
@@ -278,7 +278,7 @@
     "lastUpdated": "Ultimo aggiornamento: 20 agosto 2026",
     "scope": "Software desktop SWAYA v1.x",
     "section1Title": "1. Concessione della Licenza Software & Utilizzo",
-    "section1Text": "Previo pagamento della tariffa una tantum applicabile (prezzo di lancio €39, standard €79), SWAYA ti concede una licenza personale, perpetua e non trasferibile per installare ed eseguire il software su un massimo di 3 dispositivi Windows personali.",
+    "section1Text": "Previo pagamento della tariffa una tantum applicabile (prezzo di lancio €39, standard €79), SWAYA ti concede una licenza personale, perpetua e non trasferibile per installare ed eseguire il software su un massimo di 3 dispositivi Windows o Linux personali.",
     "section1Point1": "Puoi disattivare un dispositivo in qualsiasi momento nell'applicazione per trasferire la licenza su un nuovo PC.",
     "section1Point2": "È vietata la rivendita, il noleggio o la condivisione pubblica della chiave di licenza o dei token.",
     "section1Point3": "La ridistribuzione commerciale o il reverse engineering degli algoritmi di validazione è severamente proibita.",

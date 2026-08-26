@@ -1,12 +1,12 @@
 export const zh = {
   'getting-started': {
     name: '如何安装配置并开始使用 SWAYA 离线媒体中心',
-    description: '在 Windows 上安装 SWAYA、配置文件存储目录并建立完全私密离线媒体库的快速指南。',
+    description: '在 Windows 与 Linux 上安装 SWAYA、配置文件存储目录并建立完全私密离线媒体库的快速指南。',
     totalTime: 'PT3M',
     steps: [
       {
         name: '下载并启动应用',
-        text: '在 Windows 10 或 11 系统上安装并运行 SWAYA 桌面客户端。',
+        text: '在 Windows 或 Linux 系统上安装并运行 SWAYA 桌面客户端。',
       },
       {
         name: '配置存储目录',

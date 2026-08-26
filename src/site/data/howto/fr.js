@@ -1,12 +1,12 @@
 export const fr = {
   'getting-started': {
     name: 'Comment configurer et démarrer avec le Media Center SWAYA',
-    description: 'Guide rapide pour installer SWAYA sur Windows, configurer vos dossiers de stockage et organiser votre médiathèque hors ligne.',
+    description: 'Guide rapide pour installer SWAYA sur Windows & Linux, configurer vos dossiers de stockage et organiser votre médiathèque hors ligne.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Téléchargement et Lancement',
-        text: 'Installez l’application SWAYA sur votre ordinateur sous Windows 10 ou 11.',
+        text: 'Installez l’application SWAYA sur votre ordinateur sous Windows ou Linux.',
       },
       {
         name: 'Configurer les Dossiers de Stockage',

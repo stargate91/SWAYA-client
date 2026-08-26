@@ -47,7 +47,7 @@ export function getCompareJsonLd({
   };
 
   const softwareApp = createSoftwareApplicationSchema({
-    description: 'Offline media center, batch disk organizer, and 4K HDR MPV player for Windows.',
+    description: 'Offline media center, batch disk organizer, and 4K HDR MPV player for Windows & Linux.',
   });
 
   const faqSchema =
@@ -80,9 +80,9 @@ export function getCompareHubJsonLd({
   const collectionPage = createCollectionPageSchema({
     id: `${currentUrl}#collection`,
     url: currentUrl,
-    name: 'SWAYA Comparisons & Alternative Media Centers for Windows',
+    name: 'SWAYA Comparisons & Alternative Media Centers for Windows & Linux',
     description:
-      'Compare SWAYA with FileBot, Plex, tinyMediaManager, StashApp, Jellyfin, and Kodi. Find the right offline media center for Windows.',
+      'Compare SWAYA with FileBot, Plex, tinyMediaManager, StashApp, Jellyfin, and Kodi. Find the right offline media center for Windows & Linux.',
     inLanguage: locale || 'en',
     breadcrumb: breadcrumbs,
     mainEntity: {
@@ -100,7 +100,7 @@ export function getCompareHubJsonLd({
   const itemList = {
     '@type': 'ItemList',
     '@id': `${currentUrl}#itemlist`,
-    'name': 'SWAYA Comparisons & Alternative Media Centers for Windows',
+    'name': 'SWAYA Comparisons & Alternative Media Centers for Windows & Linux',
     'description': 'Compare SWAYA with FileBot, Plex, tinyMediaManager, StashApp, Jellyfin, and Kodi.',
     'itemListElement': COMPARISONS_LIST.map((comp, idx) => ({
       '@type': 'ListItem',

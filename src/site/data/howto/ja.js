@@ -1,12 +1,12 @@
 export const ja = {
   'getting-started': {
     name: 'SWAYA オフラインメディアセンターのセットアップと初期設定方法',
-    description: 'WindowsへのSWAYAインストール、保存先フォルダの指定、オフラインライブラリ構築の手順。',
+    description: 'Windows / LinuxへのSWAYAインストール、保存先フォルダの指定、オフラインライブラリ構築の手順。',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'ダウンロードと起動',
-        text: 'Windows 10または11にSWAYAデスクトップアプリをインストールします。',
+        text: 'WindowsまたはLinuxにSWAYAデスクトップアプリをインストールします。',
       },
       {
         name: 'ストレージディレクトリの設定',

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - 100% Offline Mediacenter & MPV-spelare för Windows",
-    "description": "Det serverlösa offline-alternativet till Plex och FileBot för Windows. Byt namn på filer automatiskt, organisera din samling och spela upp 4K HDR i MPV."
+    "title": "SWAYA - 100% Offline Mediacenter & MPV-spelare för Windows & Linux",
+    "description": "Det serverlösa offline-alternativet till Plex och FileBot för Windows & Linux. Byt namn på filer automatiskt, organisera din samling och spela upp 4K HDR i MPV."
   },
   "navbar": {
     "brand": "SWAYA",
@@ -30,14 +30,14 @@
     "guarantees": {
       "payment": "Engångsbetalning, äg för alltid",
       "updates": "Livstids gratis uppdateringar",
-      "devices": "Upp till 3 personliga Windows-datorer"
+      "devices": "Upp till 3 personliga enheter"
     }
   },
   "video": {
     "tag": "Produktpresentation",
     "title": "Vad är SWAYA?",
     "titleAccent": "Se hur det fungerar i praktiken.",
-    "subtitle": "SWAYA är ett modernt Windows-program som byter namn på kaotiska nedladdningar, bygger ett visuellt bibliotek och ger sömlös 4K MPV-uppspelning.",
+    "subtitle": "SWAYA är ett modernt Windows- & Linux-program som byter namn på kaotiska nedladdningar, bygger ett visuellt bibliotek och ger sömlös 4K MPV-uppspelning.",
     "badge": "2:48 Produktgenomgång",
     "placeholderTitle": "Produktpresentationsvideo",
     "placeholderSubtitle": "En snabb genomgång av filnamnsändring, multikällekatalog och MPV-spelare.",
@@ -102,7 +102,7 @@
     "items": [
       {
         "question": "Hur skiljer sig SWAYA från Plex, Jellyfin eller Kodi?",
-        "answer": "Till skillnad från Plex eller Jellyfin kräver SWAYA ingen serverinstallation, inget nätverkskrångel och inget användarkonto. Det är ett blixtsnabbt Windows-program som organiserar dina fysiska filer och spelar upp dem direkt med högsta möjliga kvalitet via MPV."
+        "answer": "Till skillnad från Plex eller Jellyfin kräver SWAYA ingen serverinstallation, inget nätverkskrångel och inget användarkonto. Det är ett blixtsnabbt Windows- & Linux-program som organiserar dina fysiska filer och spelar upp dem direkt med högsta möjliga kvalitet via MPV."
       },
       {
         "question": "Kan SWAYA ersätta FileBot för filnamnändring?",
@@ -126,19 +126,19 @@
       },
       {
         "question": "Hur fungerar licensen?",
-        "answer": "SWAYA säljs som ett engångsköp för €39 med livstidslicens. Inga månadskostnader, gratis uppdateringar för alla framtida v1.x-versioner och aktivering på upp till 3 personliga Windows-datorer."
+        "answer": "SWAYA säljs som ett engångsköp för €39 med livstidslicens. Inga månadskostnader, gratis uppdateringar för alla framtida v1.x-versioner och aktivering på upp till 3 personliga Windows- eller Linux-datorer."
       }
     ]
   },
   "download": {
     "title": "Börja organisera din mediesamling idag",
-    "subtitle": "Köp en livstidslicens för Windows. Engångsbetalning på €39, inga återkommande avgifter.",
+    "subtitle": "Köp en livstidslicens för Windows & Linux. Engångsbetalning på €39, inga återkommande avgifter.",
     "button": "Köp livstidslicens (€39)",
-    "disclaimer": "Omedelbar leverans av licensnyckel och nedladdningslänk. 100% offline-kompatibel."
+    "disclaimer": "Omedelbar nedladdning och licensnyckel efter betalning. Tillgänglig för Windows & Linux."
   },
   "footer": {
     "tagline": "Den integritetsfokuserade mediecentret och filorganisatören för seriösa samlare.",
-    "badge": "Offline-först • v1.0 Windows",
+    "badge": "Offline-först • v1.0 Windows & Linux",
     "columns": {
       "navigation": "Navigering",
       "comparisons": "Jämförelser",
@@ -158,7 +158,7 @@
       "allGuides": "Alla guider →",
       "allComparisons": "Alla jämförelser →"
     },
-    "licenseDescription": "Köp en gång, använd för alltid på upp till 3 personliga Windows-datorer.",
+    "licenseDescription": "Köp en gång, använd för alltid på upp till 3 personliga Windows- eller Linux-datorer.",
     "buyLicense": "Köp licens (€39)",
     "copyright": "© {{year}} SWAYA. Alla rättigheter förbehållna.",
     "madeWithLove": "Skapad med omsorg",
@@ -204,7 +204,7 @@
   },
   "compare": {
     "metaTitle": "SWAYA Jämförelser & Programvarualternativ",
-    "metaDescription": "Jämför SWAYA med FileBot, Plex, tinyMediaManager, StashApp, Jellyfin och Kodi. Upptäck det ultimata 100% offline-mediecentret för Windows.",
+    "metaDescription": "Jämför SWAYA med FileBot, Plex, tinyMediaManager, StashApp, Jellyfin och Kodi. Upptäck det ultimata 100% offline-mediecentret för Windows & Linux.",
     "tag": "Jämförelse",
     "title": "Varför välja SWAYA?",
     "titleAccent": "En noggrann jämförelse",
@@ -213,7 +213,7 @@
     "badge": "Programvaruanalys",
     "hubTitle": "SWAYA mot",
     "hubTitleAccent": "Populära Alternativ",
-    "hubSubtitle": "Jämför SWAYA med populära medieservrar och filnamnshanterare, och upptäck fördelarna med en 100% offline-lösning för Windows.",
+    "hubSubtitle": "Jämför SWAYA med populära medieservrar och filnamnshanterare, och upptäck fördelarna med en 100% offline-lösning för Windows & Linux.",
     "viewComparison": "Visa jämförelse",
     "relatedDocsTitle": "Relaterade SWAYA-funktioner",
     "relatedDocsSubtitle": "Läs fördjupande tekniska guider om funktionerna som nämns i jämförelsen.",
@@ -228,7 +228,7 @@
     "whySwitchSubtitle": "Utvecklat specifikt för seriösa mediesamlares krav.",
     "faqSubtitle": "Vanliga frågor om att byta från eller kombinera med {{name}}.",
     "ctaTitle": "Redo att ta full kontroll över din mediesamling?",
-    "ctaSubtitle": "Det ultimata offline-mediecentret för Windows. Organisera dina filer och njut av perfekt 4K HDR-uppspelning.",
+    "ctaSubtitle": "Det ultimata offline-mediecentret för Windows & Linux. Organisera dina filer och njut av perfekt 4K HDR-uppspelning.",
     "buyCta": "Köp livstidslicens (€39)",
     "demoCta": "Starta interaktiv demo",
     "yes": "Ja",
@@ -245,9 +245,9 @@
   "privacy": {
     "badge": "Integritet & Säkerhet",
     "title": "Integritetspolicy",
-    "subtitle": "SWAYA är 100% offline för Windows. Noll telemetri, all data lagras lokalt på din egen dator.",
+    "subtitle": "SWAYA är 100% offline för Windows & Linux. Noll telemetri, all data lagras lokalt på din egen dator.",
     "lastUpdated": "Senast uppdaterad: 20 augusti 2026",
-    "scope": "Gäller för SWAYA Windows-program och swaya.xyz",
+    "scope": "Gäller för SWAYA Windows- & Linux-program och swaya.xyz",
     "section1Title": "1. Noll telemetri & 100% lokal lagring",
     "section1Text": "SWAYA är byggt enligt offline-först-principen. Dina filer, kataloger, tittarhistorik, betyg och anteckningar sparas uteslutande i din lokala SQLite-databas (data/swaya.db).",
     "section1Point1": "Vi laddar aldrig upp eller analyserar innehållet på dina hårddiskar.",
@@ -278,7 +278,7 @@
     "lastUpdated": "Senast uppdaterad: 20 augusti 2026",
     "scope": "SWAYA v1.x Windows skrivbordsprogram",
     "section1Title": "1. Licensomfattning",
-    "section1Text": "Vid köp av licens (€39 lanseringspris, €79 ordinarie) erhåller du en icke-exklusiv, livslång licens för personligt bruk på upp till 3 Windows-datorer.",
+    "section1Text": "Vid köp av licens (€39 lanseringspris, €79 ordinarie) erhåller du en icke-exklusiv, livslång licens för personligt bruk på upp till 3 Windows- eller Linux-datorer.",
     "section1Point1": "Du kan flytta licensen mellan datorer genom att avaktivera den gamla enheten.",
     "section1Point2": "Vidareförsäljning, uthyrning eller offentlig spridning av licensnyckeln är förbjuden.",
     "section1Point3": "Kommersiell vidarespridning eller bakåtkompilering av programvaran är inte tillåtet.",

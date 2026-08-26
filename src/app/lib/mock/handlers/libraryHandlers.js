@@ -1,5 +1,6 @@
 import {
   MOCK_MOVIES,
+  MOCK_DISCOVER_MOVIES,
   MOCK_VIDEOS,
   MOCK_SHOWS,
   MOCK_ADULT_SCENES,
@@ -10,10 +11,12 @@ import {
 } from '../mockData';
 import { computeLibraryStats, computeRatingsStats } from '../statsCalculator';
 
+const getOrigin = () => (typeof window !== 'undefined' && window?.location?.origin ? window.location.origin : 'http://localhost');
+
 export function handleLibraryRequests(path, options, urlStr) {
   // 1. Collections
   if (path === 'library/collections') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true' || urlObj.searchParams.get('tab') === 'adult';
     const items = MOCK_COLLECTIONS.filter(c => includeAdult ? Boolean(c.is_adult) : !c.is_adult);
     return new Response(JSON.stringify({
@@ -50,7 +53,7 @@ export function handleLibraryRequests(path, options, urlStr) {
 
   // 3. Main library catalog grid
   if (path === 'library') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const tab = urlObj.searchParams.get('tab') || urlObj.searchParams.get('media_type');
     const query = urlObj.searchParams.get('q') || urlObj.searchParams.get('search') || '';
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true' || (tab && tab.includes('adult'));
@@ -213,7 +216,7 @@ export function handleLibraryRequests(path, options, urlStr) {
 
   // 4. Statistics
   if (path === 'library/stats' || path.startsWith('library/stats?')) {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const isNsfw = urlObj.searchParams.get('is_nsfw') === 'true' || urlObj.searchParams.get('include_adult') === 'true';
     const stats = computeLibraryStats(isNsfw);
     return new Response(JSON.stringify(stats), {
@@ -223,7 +226,7 @@ export function handleLibraryRequests(path, options, urlStr) {
   }
 
   if (path === 'library/ratings/stats' || path.startsWith('library/ratings/stats?')) {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const isNsfw = urlObj.searchParams.get('is_nsfw') === 'true' || urlObj.searchParams.get('include_adult') === 'true';
     const stats = computeRatingsStats(isNsfw);
     return new Response(JSON.stringify(stats), {
@@ -234,7 +237,7 @@ export function handleLibraryRequests(path, options, urlStr) {
 
   // 5. Continue watching
   if (path === 'library/continue-watching') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true';
     const pool = includeAdult
       ? [...MOCK_ADULT_SCENES, ...MOCK_VIDEOS.filter(v => v.is_adult)]
@@ -252,7 +255,7 @@ export function handleLibraryRequests(path, options, urlStr) {
 
   // 6. Filters & tags
   if (path === 'library/filters') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true' || (urlObj.searchParams.get('tab') && urlObj.searchParams.get('tab').includes('adult'));
     const pool = includeAdult
       ? [...MOCK_ADULT_SCENES, ...MOCK_VIDEOS.filter(v => v.is_adult)]
@@ -272,7 +275,7 @@ export function handleLibraryRequests(path, options, urlStr) {
   }
 
   if (path === 'tags' || path === 'library/tags') {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const includeAdult = urlObj.searchParams.get('include_adult') === 'true' || urlObj.searchParams.get('session_mode') === 'nsfw';
     const items = MOCK_TAGS.filter(t => includeAdult ? Boolean(t.is_adult) : !t.is_adult);
     return new Response(JSON.stringify(items), {
@@ -365,10 +368,10 @@ export function handleLibraryRequests(path, options, urlStr) {
 
   // 9. Single media item detail
   if (path.startsWith('library/item')) {
-    const urlObj = new URL(urlStr, window.location.origin);
+    const urlObj = new URL(urlStr, getOrigin());
     const itemId = urlObj.searchParams.get('item_id') || urlObj.searchParams.get('external_id') || path.split('/').pop();
     
-    const found = [...MOCK_MOVIES, ...MOCK_VIDEOS, ...MOCK_SHOWS, ...MOCK_ADULT_SCENES].find(item => {
+    const found = [...MOCK_MOVIES, ...MOCK_DISCOVER_MOVIES, ...MOCK_VIDEOS, ...MOCK_SHOWS, ...MOCK_ADULT_SCENES].find(item => {
       const rawId = String(item.id);
       const tmdbId = String(item.tmdb_id || item.tv_tmdb_id || '');
       const queryId = String(itemId);
@@ -391,7 +394,7 @@ export function handleLibraryRequests(path, options, urlStr) {
   // 10. Update item status/rating/favorite/comment
   if (path.startsWith('item/') && path.endsWith('/status')) {
     const itemId = path.split('/')[1];
-    const target = [...MOCK_MOVIES, ...MOCK_VIDEOS, ...MOCK_SHOWS, ...MOCK_ADULT_SCENES].find(item => {
+    const target = [...MOCK_MOVIES, ...MOCK_DISCOVER_MOVIES, ...MOCK_VIDEOS, ...MOCK_SHOWS, ...MOCK_ADULT_SCENES].find(item => {
       const rawId = String(item.id);
       const tmdbId = String(item.tmdb_id || item.tv_tmdb_id || '');
       const queryId = String(itemId);

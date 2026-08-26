@@ -1,5 +1,6 @@
 export { MOCK_SETTINGS } from './mockSettings';
 export { MOCK_MOVIES } from './mockMovies';
+export { MOCK_DISCOVER_MOVIES } from './mockDiscoverMovies';
 export { MOCK_VIDEOS } from './mockVideos';
 export { MOCK_SHOWS } from './mockShows';
 export { MOCK_PEOPLE } from './mockPeople';

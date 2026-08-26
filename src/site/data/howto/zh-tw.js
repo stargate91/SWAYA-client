@@ -1,12 +1,12 @@
 export const zhTw = {
   'getting-started': {
     name: '如何安裝與初始化 SWAYA 離線個人影音中心',
-    description: 'Windows 系統安裝步驟、儲存目錄指定與建立離線媒體庫教學。',
+    description: 'Windows 與 Linux 系統安裝步驟、儲存目錄指定與建立離線媒體庫教學。',
     totalTime: 'PT3M',
     steps: [
       {
         name: '下載並啟動軟體',
-        text: '在 Windows 10 或 11 系統上下載並安裝 SWAYA 桌面應用程式。',
+        text: '在 Windows 或 Linux 系統上下載並安裝 SWAYA 桌面應用程式。',
       },
       {
         name: '指定儲存目錄',

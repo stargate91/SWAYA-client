@@ -1,12 +1,12 @@
 export const tr = {
   'getting-started': {
     name: 'SWAYA çevrimdışı medya merkezi nasıl kurulur ve yapılandırılır',
-    description: 'Windows kurulumu, klasör seçimi ve çevrimdışı kütüphane oluşturma adımları.',
+    description: 'Windows ve Linux kurulumu, klasör seçimi ve çevrimdışı kütüphane oluşturma adımları.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'İndirme ve Kurulum',
-        text: 'SWAYA masaüstü uygulamasını Windows 10 veya 11 üzerine kurun ve başlatın.',
+        text: 'SWAYA masaüstü uygulamasını Windows veya Linux üzerine kurun ve başlatın.',
       },
       {
         name: 'Depolama Dizinlerini Belirleme',

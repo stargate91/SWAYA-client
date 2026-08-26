@@ -1,12 +1,12 @@
 export const de = {
   'getting-started': {
     name: 'Einrichtung und erste Schritte mit dem SWAYA Offline Media Center',
-    description: 'Kurzanleitung zur Installation von SWAYA unter Windows, zum Einrichten von Speicherpfaden und zur Medienverwaltung.',
+    description: 'Kurzanleitung zur Installation von SWAYA unter Windows & Linux, zum Einrichten von Speicherpfaden und zur Medienverwaltung.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Herunterladen & Starten',
-        text: 'Installieren Sie die SWAYA-Desktopanwendung unter Windows 10 oder 11.',
+        text: 'Installieren Sie die SWAYA-Desktopanwendung unter Windows oder Linux.',
       },
       {
         name: 'Speicherverzeichnisse konfigurieren',

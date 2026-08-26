@@ -1,10 +1,10 @@
 export const zh = {
   filebot: {
     title: 'SWAYA vs FileBot: 现代化桌面媒体中心与批量文件重命名工具',
-    metaTitle: 'Windows 上 FileBot 的最佳替代品 - SWAYA 批量重命名与 MPV 播放器',
+    metaTitle: 'Windows 与 Linux 上 FileBot 的最佳替代品 - SWAYA 批量重命名与 MPV 播放器',
     metaDescription: '在寻找 FileBot 的现代替代方案？SWAYA 通过 TMDb 和 StashDB 重命名本地文件，提供离线媒体库和内置 4K MPV 播放器。',
     heroTagline: '为什么只重命名文件？整理并畅享播放您的整个媒体库！',
-    heroSubtitle: 'FileBot 在文件重命名方面很出色，但 SWAYA 将您的本地媒体管理提升至全新维度：磁盘整理、精美的离线媒体库以及内置的 4K HDR MPV 播放器，全部集成在一个现代化的 Windows 桌面应用中。',
+    heroSubtitle: 'FileBot 在文件重命名方面很出色，但 SWAYA 将您的本地媒体管理提升至全新维度：磁盘整理、精美的离线媒体库以及内置的 4K HDR MPV 播放器，全部集成在一个现代化的 Windows 与 Linux 桌面应用中。',
     competitorPricing: '$6/年 或 $48 终身授权',
     swayaPricing: '首发特惠 €39 终身授权（原价 €79）',
     whenToChooseCompetitor: [
@@ -61,7 +61,7 @@ export const zh = {
   },
   plex: {
     title: 'SWAYA vs Plex: 真正 100% 离线且无需服务器的媒体工作站',
-    metaTitle: 'Windows 上无需服务器的 Plex 替代品 - SWAYA',
+    metaTitle: 'Windows 与 Linux 上无需服务器的 Plex 替代品 - SWAYA',
     metaDescription: '在寻找无需搭建服务器的私密 Plex 替代品？SWAYA 整理硬盘文件，通过 MPV 播放 4K HDR，无需任何云端账户。',
     heroTagline: '无需服务器、云端账号或数据收集的专属个人媒体库。',
     heroSubtitle: 'Plex 专为家庭网络串流而设计，但需要常驻后台服务、云端登录和 Plex Pass 订阅。SWAYA 则直接在您的电脑上提供零配置、100% 离线的桌面体验。',
@@ -73,7 +73,7 @@ export const zh = {
       '您需要在 iOS、Android 和 Apple TV 之间进行多设备远程进度同步。',
     ],
     whenToChooseSwaya: [
-      '您直接在 Windows 电脑、笔记本或直连显示器上观看影视。',
+      '您直接在 Windows 或 Linux 电脑、笔记本或直连显示器上观看影视。',
       '您要求 100% 隐私保护：零云端账户、零遥测收集、零开放网络端口。',
       '您希望硬盘上的实际物理文件被整洁地分类和重命名。',
       '您厌倦了服务器配置、后台常驻占用和转码卡顿。',
@@ -121,7 +121,7 @@ export const zh = {
   },
   tinymediamanager: {
     title: 'SWAYA vs tinyMediaManager: 现代化媒体管理器与播放器',
-    metaTitle: 'Windows 上 tinyMediaManager 的替代方案 - SWAYA',
+    metaTitle: 'Windows 与 Linux 上 tinyMediaManager 的替代方案 - SWAYA',
     metaDescription: '寻找 tinyMediaManager 的现代替代品？SWAYA 提供高速批量文件重命名、TMDb/StashDB 刮削与内置 4K MPV 播放器，无需 Java。',
     heroTagline: '告别笨重的 Java 界面，即刻整理并畅享您的影音收藏。',
     heroSubtitle: 'tinyMediaManager 是功能强大的 NFO 生成器，但需要 Java 环境且缺乏内置播放器。SWAYA 将磁盘文件整理、优雅媒体库与 4K MPV 播放完美结合。',
@@ -133,7 +133,7 @@ export const zh = {
       '您需要对冷门标签进行精细复杂的 XML/NFO 编辑。',
     ],
     whenToChooseSwaya: [
-      '您想要一款快速流畅、无需安装 Java 运行时的现代 Windows 桌面软件。',
+      '您想要一款快速流畅、无需安装 Java 运行时的现代 Windows 与 Linux 桌面软件。',
       '您需要一站式整合体验：整理、浏览、一键播放全部在一个软件中搞定。',
       '您同时管理成人媒体（StashDB、FansDB）与普通电影电视剧。',
       '您更喜欢一次性买断的终身授权，而非按年续费的订阅制。',
@@ -176,10 +176,10 @@ export const zh = {
   },
   stash: {
     title: 'SWAYA vs StashApp: 无需 Web 服务器的原生桌面工作站',
-    metaTitle: 'Windows 上 StashApp 的原生替代品 - SWAYA 桌面管理器',
+    metaTitle: 'Windows 与 Linux 上 StashApp 的原生替代品 - SWAYA 桌面管理器',
     metaDescription: '寻找 StashApp 的 Windows 原生替代方案？SWAYA 结合了 StashDB 刮削、磁盘文件重命名和内置 MPV 播放器，无需配置服务器。',
     heroTagline: '无需 Localhost 网页服务器或 Docker 的终极私密媒体工作站。',
-    heroSubtitle: 'Stash 是优秀的成人媒体服务器，但作为浏览器 Web 守护进程运行。SWAYA 是一款原生 Windows 桌面软件，同时支持 TMDb 和 StashDB，并内置 MPV 播放器。',
+    heroSubtitle: 'Stash 是优秀的成人媒体服务器，但作为浏览器 Web 守护进程运行。SWAYA 是一款原生 Windows 与 Linux 桌面软件，同时支持 TMDb 和 StashDB，并内置 MPV 播放器。',
     competitorPricing: '免费 / 开源软件',
     swayaPricing: '首发特惠 €39 终身授权（原价 €79）',
     whenToChooseCompetitor: [
@@ -231,7 +231,7 @@ export const zh = {
   },
   jellyfin: {
     title: 'SWAYA vs Jellyfin: 本地桌面工作站 vs 家用媒体服务器',
-    metaTitle: 'Windows 上无需服务器的 Jellyfin 替代品 - SWAYA',
+    metaTitle: 'Windows 与 Linux 上无需服务器的 Jellyfin 替代品 - SWAYA',
     metaDescription: '想要免除 Docker 和服务器维护的桌面媒体中心？SWAYA 整理磁盘文件，通过 MPV 播放 4K HDR，无需任何网络配置。',
     heroTagline: '无需 Docker 容器或网络服务器配置，轻松畅享本地硬盘收藏。',
     heroSubtitle: 'Jellyfin 是出色的家庭网络串流服务器。但如果您只是想在自己的电脑上看电影和整理文件，SWAYA 的速度与便利性要远远胜出。',
@@ -243,7 +243,7 @@ export const zh = {
       '您坚持必须使用 100% 纯开源的服务器软件。',
     ],
     whenToChooseSwaya: [
-      '您直接在自己的 Windows PC 或笔记本上观看影片并整理下载文件。',
+      '您直接在自己的 Windows or Linux PC 或笔记本上观看影片并整理下载文件。',
       '您不想折腾开放端口、常驻后台服务或调试转码参数。',
       '您需要真实的物理磁盘重命名与原生 MPV 4K 播放画质。',
       '您希望在管理普通电影的同时原生支持 StashDB 成人内容。',
@@ -285,10 +285,10 @@ export const zh = {
   },
   kodi: {
     title: 'SWAYA vs Kodi: 告别插件故障的现代化桌面媒体中心',
-    metaTitle: 'Windows PC 上 Kodi 的现代替代品 - SWAYA',
+    metaTitle: 'Windows or Linux PC 上 Kodi 的现代替代品 - SWAYA',
     metaDescription: '寻找专为 PC 打造的现代 Kodi 替代品？SWAYA 提供 MPV 播放器、文件整理和现代化桌面界面，告别插件失效烦恼。',
     heroTagline: '专为鼠标、键盘和存储硬盘打造的现代媒体体验。',
-    heroSubtitle: 'Kodi 适合电视遥控器操作，但在电脑屏幕上用鼠标操作十分别扭，且插件极易失效。SWAYA 专为 Windows 桌面环境打造，直接管理磁盘。',
+    heroSubtitle: 'Kodi 适合电视遥控器操作，但在电脑屏幕上用鼠标操作十分别扭，且插件极易失效。SWAYA 专为 Windows 与 Linux 桌面环境打造，直接管理磁盘。',
     competitorPricing: '免费 / 开源软件 (FOSS)',
     swayaPricing: '首发特惠 €39 终身授权（原价 €79）',
     whenToChooseCompetitor: [
@@ -297,7 +297,7 @@ export const zh = {
       '您需要专为沙发距离设计的 10 英尺用户界面。',
     ],
     whenToChooseSwaya: [
-      '您在 Windows PC 上使用鼠标和键盘进行日常操作。',
+      '您在 Windows or Linux PC 上使用鼠标和键盘进行日常操作。',
       '您希望安全地在硬盘上批量重命名文件并整理目录。',
       '您需要一款软件更新后绝不会莫名损坏的轻量稳定工具。',
       '您希望在一个软件中同时收纳普通影视（TMDb）与成人内容（StashDB）。',
@@ -314,7 +314,7 @@ export const zh = {
     deepDives: [
       {
         title: '桌面优先体验，告别遥控器界面的笨拙',
-        description: 'Kodi 专为遥控器设计，在桌面多窗口和鼠标环境下操作繁琐。SWAYA 专为 Windows 桌面的敏捷交互量身定制。',
+        description: 'Kodi 专为遥控器设计，在桌面多窗口和鼠标环境下操作繁琐。SWAYA 专为 Windows 与 Linux 桌面的敏捷交互量身定制。',
       },
       {
         title: '直接在磁盘上整理物理文件',

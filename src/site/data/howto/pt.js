@@ -1,12 +1,12 @@
 export const pt = {
   'getting-started': {
     name: 'Como configurar e começar a usar o Central de Mídia SWAYA',
-    description: 'Guia rápido para instalar o SWAYA no Windows, configurar diretórios de armazenamento e criar sua biblioteca offline.',
+    description: 'Guia rápido para instalar o SWAYA no Windows e Linux, configurar diretórios de armazenamento e criar sua biblioteca offline.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Baixar e Iniciar',
-        text: 'Instale o aplicativo desktop SWAYA no Windows 10 ou 11.',
+        text: 'Instale o aplicativo desktop SWAYA no Windows ou Linux.',
       },
       {
         name: 'Configurar Diretórios de Armazenamento',

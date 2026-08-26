@@ -1,7 +1,7 @@
 export const en = {
   "filebot": {
     "title": "SWAYA vs FileBot: Modern Desktop Media Center & Renamer",
-    "metaTitle": "FileBot Alternative for Windows - SWAYA Batch Renamer & Player",
+    "metaTitle": "FileBot Alternative for Windows & Linux - SWAYA Batch Renamer & Player",
     "metaDescription": "Looking for a modern FileBot alternative? SWAYA renames files on disk with TMDb & StashDB, plus provides a full offline media library and 4K MPV player.",
     "heroTagline": "Why just rename your files when you can organize and play your entire collection?",
     "heroSubtitle": "FileBot is great for renaming files, but SWAYA takes your local media to the next level: disk organization, beautiful offline library browsing, and a built-in 4K HDR MPV player in one modern desktop app.",
@@ -101,7 +101,7 @@ export const en = {
   },
   "plex": {
     "title": "SWAYA vs Plex: True 100% Offline Media Workstation",
-    "metaTitle": "Plex Alternative for Windows (No Server Needed) - SWAYA",
+    "metaTitle": "Plex Alternative for Windows & Linux (No Server Needed) - SWAYA",
     "metaDescription": "Need a private, offline Plex alternative with no server setup? SWAYA organizes files on your hard drive, plays 4K HDR via MPV, and requires zero cloud accounts.",
     "heroTagline": "Your personal media collection without servers, cloud accounts, or telemetry.",
     "heroSubtitle": "Plex is designed for streaming over home networks, but requires always-on server daemons, cloud accounts, and Plex Pass subscriptions. SWAYA gives you a zero-config, 100% offline desktop experience directly on your PC.",
@@ -113,7 +113,7 @@ export const en = {
       "You need remote multi-device sync across iOS, Android, and Apple TV."
     ],
     "whenToChooseSwaya": [
-      "You watch movies and series directly on your Windows PC, laptop, or connected monitor/TV.",
+      "You watch movies and series directly on your Windows or Linux PC, laptop, or connected monitor/TV.",
       "You want 100% privacy: zero cloud accounts, zero telemetry, and zero open network ports.",
       "You want physical files on your hard drives renamed and organized cleanly.",
       "You hate server setup, background daemon overhead, and transcoding glitches."
@@ -201,7 +201,7 @@ export const en = {
   },
   "tinymediamanager": {
     "title": "SWAYA vs tinyMediaManager: Modern Media Organizer & Player",
-    "metaTitle": "tinyMediaManager Alternative for Windows - SWAYA Organizer",
+    "metaTitle": "tinyMediaManager Alternative for Windows & Linux - SWAYA Organizer",
     "metaDescription": "Seeking a modern tinyMediaManager alternative? SWAYA offers fast batch file renaming, TMDb/StashDB scraping, and an integrated 4K MPV player without Java.",
     "heroTagline": "Manage, organize, and immediately enjoy your media without clumsy Java UIs.",
     "heroSubtitle": "tinyMediaManager is a capable NFO generator, but requires Java and lacks an integrated media player. SWAYA combines physical disk renaming with an elegant visual library and built-in 4K MPV player.",
@@ -292,7 +292,7 @@ export const en = {
   },
   "stash": {
     "title": "SWAYA vs StashApp: Native Desktop Media Workstation",
-    "metaTitle": "StashApp Alternative for Windows - SWAYA Desktop Organizer",
+    "metaTitle": "StashApp Alternative for Windows & Linux - SWAYA Desktop Organizer",
     "metaDescription": "Looking for a native Windows alternative to StashApp? SWAYA combines StashDB scraping, physical file renaming, and an integrated MPV player with zero server setup.",
     "heroTagline": "The ultimate private media workstation without localhost web servers or Docker.",
     "heroSubtitle": "Stash is a great open-source adult media server, but runs as a local web daemon in your browser. SWAYA is a native Windows desktop app that handles both mainstream TMDb and adult StashDB media with a built-in MPV player.",
@@ -383,10 +383,10 @@ export const en = {
   },
   "jellyfin": {
     "title": "SWAYA vs Jellyfin: Zero-Setup Desktop Workstation",
-    "metaTitle": "Jellyfin Alternative for Windows (No Server) - SWAYA",
+    "metaTitle": "Jellyfin Alternative for Windows & Linux (No Server) - SWAYA",
     "metaDescription": "Want a desktop media center without Docker or server maintenance? SWAYA organizes disk files and plays 4K HDR via native MPV with zero network setup.",
     "heroTagline": "Enjoy your hard drive collections without Docker containers or server configurations.",
-    "heroSubtitle": "Jellyfin is an excellent self-hosted media server for network streaming. But if you just want to manage and watch media on your Windows PC, SWAYA provides a zero-config, physical disk organizer and native MPV player.",
+    "heroSubtitle": "Jellyfin is an excellent self-hosted media server for network streaming. But if you just want to manage and watch media on your Windows or Linux PC, SWAYA provides a zero-config, physical disk organizer and native MPV player.",
     "competitorPricing": "Free / Open Source (FOSS)",
     "swayaPricing": "€39 launch lifetime (€79 regular)",
     "whenToChooseCompetitor": [
@@ -469,10 +469,10 @@ export const en = {
   },
   "kodi": {
     "title": "SWAYA vs Kodi: Modern Desktop Media Center",
-    "metaTitle": "Kodi Alternative for Windows Desktop - SWAYA Media Center",
+    "metaTitle": "Kodi Alternative for Windows & Linux Desktop - SWAYA Media Center",
     "metaDescription": "Searching for a modern Kodi alternative designed for desktop PCs? SWAYA renames disk files, organizes libraries, and plays 4K HDR without broken plugins.",
     "heroTagline": "A modern desktop media workstation designed for mouse, keyboard, and disks.",
-    "heroSubtitle": "Kodi is legendary for 10-foot TV interfaces, but clumsy on desktop monitors and vulnerable to broken addons. SWAYA is purpose-built for Windows desktops with direct disk organizing and native MPV playback.",
+    "heroSubtitle": "Kodi is legendary for 10-foot TV interfaces, but clumsy on desktop monitors and vulnerable to broken addons. SWAYA is purpose-built for Windows & Linux desktops with direct disk organizing and native MPV playback.",
     "competitorPricing": "Free / Open Source (FOSS)",
     "swayaPricing": "€39 launch lifetime (€79 regular)",
     "whenToChooseCompetitor": [
@@ -526,7 +526,7 @@ export const en = {
     "deepDives": [
       {
         "title": "Desktop First vs 10-Foot Couch Interface",
-        "description": "Kodi is designed for TV remotes on a couch, making mouse navigation and window multitasking awkward. SWAYA is crafted specifically for Windows desktop environments with fluid keyboard shortcuts and mouse interactions."
+        "description": "Kodi is designed for TV remotes on a couch, making mouse navigation and window multitasking awkward. SWAYA is crafted specifically for Windows & Linux desktop environments with fluid keyboard shortcuts and mouse interactions."
       },
       {
         "title": "Physical File Organization on Disk",

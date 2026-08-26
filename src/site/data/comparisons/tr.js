@@ -1,10 +1,10 @@
 export const tr = {
   filebot: {
     title: 'SWAYA vs FileBot: Modern Medya İstasyonu & Akıllı Toplu Yeniden Adlandırma',
-    metaTitle: 'Windows İçin En İyi FileBot Alternatifi - SWAYA Toplu Yeniden Adlandırma & MPV',
+    metaTitle: 'Windows ve Linux İçin En İyi FileBot Alternatifi - SWAYA Toplu Yeniden Adlandırma & MPV',
     metaDescription: 'Modern bir FileBot alternatifi mi arıyorsunuz? SWAYA; TMDb/StashDB ile dosya isimlerini düzenler, çevrimdışı kütüphane ve 4K MPV oynatıcı sunar.',
     heroTagline: 'Yalnızca dosya adı değiştirmekle kalmayın: arşivinizi 4K kalitesinde yönetin ve izleyin.',
-    heroSubtitle: 'FileBot dosya adlandırmada başarılıdır ancak SWAYA yerel medya yönetimini bir üst seviyeye taşır. Sabit disk düzenleme, görsel katalog ve dahili 4K HDR MPV oynatıcı tek bir Windows uygulamasında.',
+    heroSubtitle: 'FileBot dosya adlandırmada başarılıdır ancak SWAYA yerel medya yönetimini bir üst seviyeye taşır. Sabit disk düzenleme, görsel katalog ve dahili 4K HDR MPV oynatıcı tek bir Windows ve Linux uygulamasında.',
     competitorPricing: '$6/yıl veya $48 ömür boyu lisans',
     swayaPricing: 'Lansman fiyatı €39 ömür boyu lisans (standart €79)',
     whenToChooseCompetitor: [
@@ -55,13 +55,13 @@ export const tr = {
       },
       {
         q: 'SWAYA’yı çalıştırmak için Java gerekli mi?',
-        a: 'Hayır. SWAYA bağımsız bir Windows masaüstü uygulamasıdır ve Java kurulumu gerektirmez.',
+        a: 'Hayır. SWAYA bağımsız bir Windows ve Linux masaüstü uygulamasıdır ve Java kurulumu gerektirmez.',
       },
     ],
   },
   plex: {
-    title: 'SWAYA vs Plex: Windows İçin Sunucusuz %100 Çevrimdışı Medya Merkezi',
-    metaTitle: 'Windows İçin Plex Alternatifi (Sunucusuz, %100 Çevrimdışı) - SWAYA',
+    title: 'SWAYA vs Plex: Windows ve Linux İçin Sunucusuz %100 Çevrimdışı Medya Merkezi',
+    metaTitle: 'Windows ve Linux İçin Plex Alternatifi (Sunucusuz, %100 Çevrimdışı) - SWAYA',
     metaDescription: 'Sunucu kurulumu gerektirmeyen gizli bir Plex alternatifi mi arıyorsunuz? SWAYA disklerinizi düzenler ve 4K HDR MPV oynatır; hesap yok, bulut yok.',
     heroTagline: 'Sunuculardan, bulut girişlerinden ve telemetriden arınmış kişisel arşiviniz.',
     heroSubtitle: 'Plex ağ üzerinden akışa odaklanır ancak sürekli çalışan bir sunucu, bulut hesapları ve abonelikler gerektirir. SWAYA ise sıfır yapılandırmayla anında %100 yerel deneyim sunar.',
@@ -73,7 +73,7 @@ export const tr = {
       'iOS, Android ve Apple TV arasında izleme geçmişini senkronize etmeniz gerekiyorsa.',
     ],
     whenToChooseSwaya: [
-      'Medyaları doğrudan Windows bilgisayarınızda veya bağlı monitörünüzde izliyorsanız.',
+      'Medyaları doğrudan Windows veya Linux bilgisayarınızda veya bağlı monitörünüzde izliyorsanız.',
       '%100 gizlilik talep ediyorsanız (hesap yok, telemetri yok, açık ağ portu yok).',
       'Sabit disklerinizdeki gerçek dosya ve klasörleri fiziksel olarak düzenlemek istiyorsanız.',
       'Dönüştürme gecikmelerinden, takılmalardan ve sunucu bakımından kurtulmak istiyorsanız.',
@@ -109,7 +109,7 @@ export const tr = {
   },
   tinymediamanager: {
     title: 'SWAYA vs tinyMediaManager (tmm): Modern Medya Düzenleyici & 4K Oynatıcı',
-    metaTitle: 'Windows İçin tinyMediaManager (tmm) Alternatifi - SWAYA',
+    metaTitle: 'Windows ve Linux İçin tinyMediaManager (tmm) Alternatifi - SWAYA',
     metaDescription: 'tinyMediaManager alternatifi mi arıyorsunuz? SWAYA; Java gerektirmeyen modern arayüz, hızlı dosya adlandırma ve 4K MPV oynatıcı sunar.',
     heroTagline: 'Hantal Java araçları yerine — GPU hızlandırmalı modern bir istasyon.',
     heroSubtitle: 'tinyMediaManager güçlü bir NFO oluşturucudur ancak dahili video oynatıcısı yoktur ve arayüzü eskidir. SWAYA; sezgisel yönetim, yeniden adlandırma ve 4K oynatımı tek çatı altında birleştirir.',
@@ -145,7 +145,7 @@ export const tr = {
   },
   stash: {
     title: 'SWAYA vs StashApp: Özel Medya Merkezi & Masaüstü 4K Oynatıcı',
-    metaTitle: 'Windows İçin StashApp Alternatifi (Sunucusuz) - SWAYA',
+    metaTitle: 'Windows ve Linux İçin StashApp Alternatifi (Sunucusuz) - SWAYA',
     metaDescription: 'Yerel web sunucusu gerektirmeyen StashApp alternatifi. SWAYA; StashDB entegrasyonu, oyuncu profilleri, 4K MPV oynatıcı ve gizli kasa sunar.',
     heroTagline: 'Yerel web sunucularına gerek yok: tek bir bağımsız masaüstü yazılımı.',
     heroSubtitle: 'StashApp harika bir açık kaynaklı yazılımdır ancak arka planda yerel bir sunucu çalıştırmayı ve tarayıcı kullanmayı gerektirir. SWAYA ise üstün gizlilik sunan %100 bağımsız bir Windows programıdır.',
@@ -156,7 +156,7 @@ export const tr = {
       'Kaynak kodunu kendiniz derlemek ve değiştirmek istiyorsanız.',
     ],
     whenToChooseSwaya: [
-      'Arka plan servisi olmadan 1 saniyede açılan hızlı bir Windows uygulaması tercih ediyorsanız.',
+      'Arka plan servisi olmadan 1 saniyede açılan hızlı bir Windows ve Linux uygulaması tercih ediyorsanız.',
       'Özel arşivlerinizi anında gizlemek için genel bir kısayol tuşuna ihtiyaç duyuyorsanız.',
       'Filmleri (TMDb) ve yetişkin medyalarını (StashDB) tek bir araçta yönetmek istiyorsanız.',
     ],
@@ -169,7 +169,7 @@ export const tr = {
     deepDives: [
       {
         title: 'Sunucusuz masaüstünde mutlak gizlilik',
-        description: 'SWAYA ile tarayıcı açmanıza veya port yönetmenize gerek kalmaz. Tüm içerikleriniz Windows masaüstü ortamında tamamen izole ve güvende kalır.',
+        description: 'SWAYA ile tarayıcı açmanıza veya port yönetmenize gerek kalmaz. Tüm içerikleriniz Windows ve Linux masaüstü ortamında tamamen izole ve güvende kalır.',
       },
     ],
     faqs: [
@@ -180,8 +180,8 @@ export const tr = {
     ],
   },
   jellyfin: {
-    title: 'SWAYA vs Jellyfin: Windows İçin %100 Çevrimdışı Medya Merkezi',
-    metaTitle: 'Windows İçin Jellyfin Alternatifi (Çevrimdışı Odaklı) - SWAYA',
+    title: 'SWAYA vs Jellyfin: Windows ve Linux İçin %100 Çevrimdışı Medya Merkezi',
+    metaTitle: 'Windows ve Linux İçin Jellyfin Alternatifi (Çevrimdışı Odaklı) - SWAYA',
     metaDescription: 'Sunucusuz Jellyfin alternatifi. Sabit diskleri düzenleyin, çevrimdışı kataloğu tarayın ve 4K HDR MPV kalitesinin tadını çıkarın.',
     heroTagline: 'Akış sunucuları yerine — kişisel bilgisayarınız için en iyi çevrimdışı deneyim.',
     heroSubtitle: 'Jellyfin harika bir akış sunucusudur ancak bilgisayar başında video izleyen kullanıcılar için gereksiz karmaşıklık yaratır. SWAYA doğrudan yerel oynatım için optimize edilmiştir.',
@@ -215,8 +215,8 @@ export const tr = {
     ],
   },
   kodi: {
-    title: 'SWAYA vs Kodi: Windows İçin Modern Medya Merkezi & Dosya Düzenleyici',
-    metaTitle: 'Windows İçin Kodi Alternatifi - SWAYA Medya Merkezi',
+    title: 'SWAYA vs Kodi: Windows ve Linux İçin Modern Medya Merkezi & Dosya Düzenleyici',
+    metaTitle: 'Windows ve Linux İçin Kodi Alternatifi - SWAYA Medya Merkezi',
     metaDescription: 'TV arayüzü yerine fare ve klavyeye göre tasarlanmış modern bir medya merkezi mi arıyorsunuz? SWAYA masaüstü için optimize edilmiştir.',
     heroTagline: 'Uzaktan kumanda arayüzü yerine — fare ve klavye için modern bir istasyon.',
     heroSubtitle: 'Kodi televizyon ekranları ve uzaktan kumandalar için tasarlanmıştır, bu da bilgisayarda kullanışsız olabilir. SWAYA masaüstü kullanıcıları için modern ve akıcı bir ortam sunar.',

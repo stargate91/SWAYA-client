@@ -73,7 +73,7 @@ export const es = {
       'Necesitas sincronización remota entre dispositivos iOS, Android y Apple TV.',
     ],
     whenToChooseSwaya: [
-      'Ves películas y series directamente en tu ordenador o monitor con Windows.',
+      'Ves películas y series directamente en tu ordenador o monitor con Windows & Linux.',
       'Quieres 100% de privacidad: cero cuentas en la nube, cero telemetría y cero puertos abiertos.',
       'Quieres que los archivos reales en tu disco duro queden renombrados y organizados.',
       'No quieres lidiar con configuraciones de servidor ni fallos de transcodificación.',
@@ -243,7 +243,7 @@ export const es = {
       'Priorizas software de servidor estrictamente open-source.',
     ],
     whenToChooseSwaya: [
-      'Ves películas y organizas descargas directamente en tu PC con Windows.',
+      'Ves películas y organizas descargas directamente en tu PC con Windows & Linux.',
       'No quieres abrir puertos de red ni configurar demonios o perfiles de transcodificación.',
       'Quieres renombrado real de archivos y reproducción fluida en 4K con MPV.',
       'Quieres soporte integrado de StashDB junto a tus películas habituales.',
@@ -297,7 +297,7 @@ export const es = {
       'Quieres una interfaz de 10 pies para el sofá.',
     ],
     whenToChooseSwaya: [
-      'Utilizas un PC con Windows con ratón y teclado.',
+      'Utilizas un PC con Windows & Linux con ratón y teclado.',
       'Quieres renombrado seguro de archivos y orden en tus discos duros.',
       'Quieres un programa estable que no se rompa tras las actualizaciones.',
       'Quieres gestionar películas (TMDb) y contenido para adultos (StashDB) en el mismo lugar.',

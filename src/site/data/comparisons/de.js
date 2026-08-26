@@ -285,7 +285,7 @@ export const de = {
   },
   kodi: {
     title: 'SWAYA vs Kodi: Moderne Medien-Workstation ohne kaputte Addons',
-    metaTitle: 'Kodi Alternative für Windows PC - SWAYA',
+    metaTitle: 'Kodi Alternative für Windows or Linux PC - SWAYA',
     metaDescription: 'Moderne Kodi Alternative für Windows gesucht? SWAYA bietet MPV Player, Dateiumbenennung und eine moderne Oberfläche ohne fehlerhafte Plugins.',
     heroTagline: 'Ein modernes Medien-Erlebnis optimiert für Maus, Tastatur und Festplatten.',
     heroSubtitle: 'Kodi ist ideal für Fernseher mit Fernbedienung, aber umständlich am PC-Monitor. SWAYA wurde speziell für Windows-Desktop-Umgebungen mit direkter Festplattenorganisation entwickelt.',

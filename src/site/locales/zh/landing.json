@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - 专为 Windows 打造的离线媒体中心与 4K 播放器",
-    "description": "专为 Windows 用户打造的离线 Plex 和 FileBot 替代方案。自动重命名下载文件、将硬盘中的影视收藏整理得井井有条，无需搭建服务器即可播放 4K HDR 视频。"
+    "title": "SWAYA - 专为 Windows 与 Linux 打造的离线媒体中心与 4K 播放器",
+    "description": "专为 Windows 与 Linux 用户打造的离线 Plex 和 FileBot 替代方案。自动重命名下载文件、将硬盘中的影视收藏整理得井井有条，无需搭建服务器即可播放 4K HDR 视频。"
   },
   "navbar": {
     "brand": "SWAYA",
@@ -30,14 +30,14 @@
     "guarantees": {
       "payment": "一次性付款",
       "updates": "终身免费更新",
-      "devices": "支持最多 3 台个人设备"
+      "devices": "最多 3 台个人设备"
     }
   },
   "video": {
     "tag": "产品概览",
     "title": "什么是 SWAYA？",
     "titleAccent": "亲眼见证它的强大。",
-    "subtitle": "SWAYA 是一款 Windows 桌面应用，能整理混乱的文件名、管理你的专属媒体库，并通过内置的高性能 MPV 播放器离线播放整个收藏。",
+    "subtitle": "SWAYA 是一款 Windows 与 Linux 桌面应用，能整理混乱的文件名、管理你的专属媒体库，并通过内置的高性能 MPV 播放器离线播放整个收藏。",
     "badge": "2分48秒 演示",
     "placeholderTitle": "产品演示视频",
     "placeholderSubtitle": "完整演示批量文件整理、媒体库浏览管理及内置 MPV 播放体验。",
@@ -126,7 +126,7 @@
       },
       {
         "question": "授权许可如何生效？",
-        "answer": "SWAYA 为 €39 一次性买断制，享受终身使用权限。包含所有未来版本更新，可激活最多 3 台个人 Windows 电脑，绝无任何订阅月费。"
+        "answer": "SWAYA 为 €39 一次性买断制，享受终身使用权限。包含所有未来版本更新，可激活最多 3 台个人 Windows 或 Linux 电脑，绝无任何订阅月费。"
       }
     ]
   },
@@ -134,11 +134,11 @@
     "title": "立即掌控你的本地影视收藏",
     "subtitle": "获取 SWAYA Windows 桌面版终身访问权限。一次性买断 €39，永久拥有，无任何续费陷阱。",
     "button": "购买终身授权 (€39)",
-    "disclaimer": "付款后即时获取下载链接与授权密钥。支持 100% 纯离线运行。"
+    "disclaimer": "支付成功后即可下载软件并获取激活码。支持 Windows 与 Linux。"
   },
   "footer": {
     "tagline": "隐私优先的桌面媒体中心与智能批量本地文件整理神器。",
-    "badge": "离线优先 • v1.0 Windows",
+    "badge": "离线优先 • v1.0 Windows & Linux",
     "columns": {
       "navigation": "快速导航",
       "comparisons": "产品对比",
@@ -158,7 +158,7 @@
       "allGuides": "所有指南 →",
       "allComparisons": "查看全部对比 →"
     },
-    "licenseDescription": "一次购买，终身授权，支持最多 3 台个人 Windows 设备。",
+    "licenseDescription": "一次购买，终身授权，支持最多 3 台个人 Windows 或 Linux 设备。",
     "buyLicense": "购买授权 (€39)",
     "copyright": "© {{year}} SWAYA. 保留所有权利。",
     "madeWithLove": "用心打造",
@@ -204,7 +204,7 @@
   },
   "compare": {
     "metaTitle": "SWAYA 软件对比与替代方案",
-    "metaDescription": "将 SWAYA 与 FileBot、Plex、tinyMediaManager、StashApp、Jellyfin 和 Kodi 进行对比。寻找适合 Windows 的终极离线媒体中心。",
+    "metaDescription": "将 SWAYA 与 FileBot、Plex、tinyMediaManager、StashApp、Jellyfin 和 Kodi 进行对比。寻找适合 Windows 与 Linux 的终极离线媒体中心。",
     "tag": "软件对比",
     "title": "为什么选择 SWAYA？",
     "titleAccent": "查看全面对比",
@@ -228,7 +228,7 @@
     "whySwitchSubtitle": "专为本地媒体收藏家与电脑高阶用户量身定制的底层架构优势。",
     "faqSubtitle": "关于从 {{name}} 迁移至 SWAYA 或搭配使用的常见问题解答。",
     "ctaTitle": "准备好掌控您的媒体资产了吗？",
-    "ctaSubtitle": "体验 Windows 平台上终极的离线媒体中心。批量整理本地物理硬盘文件，畅享原生 4K HDR MPV 超清播放。",
+    "ctaSubtitle": "体验 Windows 与 Linux 平台上终极的离线媒体中心。批量整理本地物理硬盘文件，畅享原生 4K HDR MPV 超清播放。",
     "buyCta": "以 €39 获取终身授权",
     "demoCta": "立即体验网页版 Demo",
     "yes": "支持",
@@ -276,9 +276,9 @@
     "title": "服务条款与退款政策",
     "subtitle": "购买或使用 SWAYA 前请仔细阅读本协议。购买授权或下载本软件即代表您同意接受本协议的全部条款约束。",
     "lastUpdated": "最后更新：2026年8月20日",
-    "scope": "SWAYA v1.x Windows 桌面软件",
+    "scope": "SWAYA v1.x Windows 与 Linux 桌面软件",
     "section1Title": "1. 软件使用授权与许可范围",
-    "section1Text": "在您支付适用的一次性买断许可费后（首发优惠价 €39，日常价格 €79），SWAYA 授予您一项非排他性、永久有效、不可转让的个人软件使用许可，可在您个人拥有或控制的最多 3 台 Windows 设备上安装并运行。",
+    "section1Text": "在您支付适用的一次性买断许可费后（首发优惠价 €39，日常价格 €79），SWAYA 授予您一项非排他性、永久有效、不可转让的个人软件使用许可，可在您个人拥有或控制的最多 3 台 Windows 或 Linux 设备上安装并运行。",
     "section1Point1": "您可以随时在软件内解除设备激活绑定，将授权名额迁移至您的新电脑。",
     "section1Point2": "严禁转售、出租、分发或公开分享您的授权密钥或加密凭证文件。",
     "section1Point3": "严禁商业性二次分发、捆绑至第三方商业软件或对授权保护算法进行逆向工程。",

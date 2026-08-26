@@ -532,8 +532,245 @@ export const MOCK_PEOPLE = [
     known_for: [
       { id: 9004, title: 'Tokyo Reverie', poster_path: '/media/scenes/tokyo_reverie.webp', backdrop_path: '/media/scenes/tokyo_reverie.webp', media_type: 'scene', in_library: true }
     ],
+  },
+  {
+    id: 6384,
+    name: 'Keanu Reeves',
+    profile_path: '/4D0PpNI0kmP58hgrwGC3wC5x0Vy.jpg',
+    backdrop_path: '/7u3DUTNuLq9ugKyLQVCxnkEvHTE.jpg',
+    biography: 'Keanu Charles Reeves is a Canadian actor. Known for his roles in blockbusters across sci-fi and action, he gained worldwide fame starring as Neo in The Matrix franchise and the titular assassin in the John Wick series.',
+    birthday: '1964-09-02',
+    place_of_birth: 'Beirut, Lebanon',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Keanu Charles Reeves'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.5,
+    known_for: [
+      { id: 603, title: 'The Matrix', poster_path: '/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg', backdrop_path: '/7u3DUTNuLq9ugKyLQVCxnkEvHTE.jpg', media_type: 'movie', in_library: false }
+    ],
     external_links: [
-      { provider: 'stashdb', url: 'https://stashdb.org/performers/1a7df630-db4c-4d5d-9c4f-fd7c3c225d01', label: 'StashDB' }
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0000206/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/6384', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 934,
+    name: 'Russell Crowe',
+    profile_path: '/mGTtPwwE2m0kbtiLd2Xm0v7qU7h.jpg',
+    backdrop_path: '/hZkgoQYus5vegHoetLkCJzb17zJ.jpg',
+    biography: 'Russell Ira Crowe is an Academy Award-winning actor and filmmaker born in New Zealand and raised in Australia. He achieved international renown for his role as Maximus in Gladiator, A Beautiful Mind, and Master and Commander.',
+    birthday: '1964-04-07',
+    place_of_birth: 'Wellington, New Zealand',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Russell Ira Crowe'],
+    is_active: true,
+    is_favorite: false,
+    is_adult: false,
+    user_rating: 9.0,
+    known_for: [
+      { id: 98, title: 'Gladiator', poster_path: '/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg', backdrop_path: '/hZkgoQYus5vegHoetLkCJzb17zJ.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0000128/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/934', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 2231,
+    name: 'Samuel L. Jackson',
+    profile_path: '/mXN4Gw9tZCc9m9jKqXwL7f7oP7g.jpg',
+    backdrop_path: '/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg',
+    biography: 'Samuel Leroy Jackson is an American actor and producer. One of the most widely recognized and highest-grossing actors of all time, his standout roles include Pulp Fiction, Django Unchained, Star Wars, and Nick Fury in the Marvel Cinematic Universe.',
+    birthday: '1948-12-21',
+    place_of_birth: 'Washington, D.C., USA',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Sam Jackson', 'Samuel Jackson'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.0,
+    known_for: [
+      { id: 680, title: 'Pulp Fiction', poster_path: '/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg', backdrop_path: '/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0000168/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/2231', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 11288,
+    name: 'Robert Pattinson',
+    profile_path: '/8A484398kL1k9b7.jpg',
+    backdrop_path: '/b0PlSFdDwbyK0cf5RxwDpaOJQvQ.jpg',
+    biography: 'Robert Douglas Thomas Pattinson is an English actor. Known for versatile performances in both major blockbusters and independent auteur cinema, he received critical acclaim as Bruce Wayne in The Batman, The Lighthouse, Tenet, and Good Time.',
+    birthday: '1986-05-13',
+    place_of_birth: 'London, England, UK',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Rob Pattinson'],
+    is_active: true,
+    is_favorite: false,
+    is_adult: false,
+    user_rating: 8.5,
+    known_for: [
+      { id: 414906, title: 'The Batman', poster_path: '/74xTEgt7R36Fpooo50r9T25onhq.jpg', backdrop_path: '/b0PlSFdDwbyK0cf5RxwDpaOJQvQ.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm1500155/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/11288', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 1397778,
+    name: 'Anya Taylor-Joy',
+    profile_path: '/1Uvfh7xL4U2evkhs0M3C7BbBYFf.jpg',
+    backdrop_path: '/wNAhuOZ3Zf84jCI5TeTVrwUm4tw.jpg',
+    biography: 'Anya-Josephine Marie Taylor-Joy is an actress born in Miami and raised in Buenos Aires and London. She rose to international stardom with The Queen\'s Gambit, The Witch, Split, The Menu, and starring as Imperator Furiosa in Furiosa: A Mad Max Saga.',
+    birthday: '1996-04-16',
+    place_of_birth: 'Miami, Florida, USA',
+    gender: 1,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Anya Taylor Joy'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.5,
+    known_for: [
+      { id: 786892, title: 'Furiosa: A Mad Max Saga', poster_path: '/iADOJ8Zymht2JPMoy3R7xUMZ51f.jpg', backdrop_path: '/wNAhuOZ3Zf84jCI5TeTVrwUm4tw.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm5896355/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/1397778', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 287,
+    name: 'Brad Pitt',
+    profile_path: '/ejYIW1enUcGJ9GS3Bs34mtONwWS.jpg',
+    backdrop_path: '/hZkgoQYus5vegHoetLkCJzb17zJ.jpg',
+    biography: 'William Bradley Pitt is an American actor and producer. A two-time Academy Award winner, his legendary career spans iconic performances in Fight Club, Once Upon a Time in Hollywood, Se7en, Inglourious Basterds, and Moneyball.',
+    birthday: '1963-12-18',
+    place_of_birth: 'Shawnee, Oklahoma, USA',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['William Bradley Pitt'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.5,
+    known_for: [
+      { id: 550, title: 'Fight Club', poster_path: '/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg', backdrop_path: '/hZkgoQYus5vegHoetLkCJzb17zJ.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0000093/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/287', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 1620,
+    name: 'Michelle Yeoh',
+    profile_path: '/6oxvfyrrM3YmhgFZSqc8ESqPZoC.jpg',
+    backdrop_path: '/7ZO959VEPfAcHRuNjMzStNXft8E.jpg',
+    biography: 'Tan Sri Michelle Yeoh Choo Kheng is a Malaysian actress. She won the Academy Award for Best Actress for her performance in Everything Everywhere All at Once (2022), becoming the first Asian woman to win the award.',
+    birthday: '1962-08-06',
+    place_of_birth: 'Ipoh, Perak, Malaysia',
+    gender: 1,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Michelle Khan'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.0,
+    known_for: [
+      { id: 545611, title: 'Everything Everywhere All at Once', poster_path: '/u68AjlvlutfEIcpmbYpKcdi09ut.jpg', backdrop_path: '/7ZO959VEPfAcHRuNjMzStNXft8E.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0000706/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/1620', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 500,
+    name: 'Tom Cruise',
+    profile_path: '/pDVfME2z2DiosnHFBALHvoSvqs5.jpg',
+    backdrop_path: '/AaV1YIdWKnjAiaOe0UUKNJm322h.jpg',
+    biography: 'Thomas Cruise Mapother IV is an American actor and producer. One of the world\'s highest-paid actors, he has received numerous accolades and is renowned for performing his own stunts in the Mission: Impossible series and Top Gun: Maverick.',
+    birthday: '1962-07-03',
+    place_of_birth: 'Syracuse, New York, USA',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Thomas Cruise Mapother IV'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.5,
+    known_for: [
+      { id: 361743, title: 'Top Gun: Maverick', poster_path: '/62HCnUTziyWcpDaBO2i1DX17ljH.jpg', backdrop_path: '/AaV1YIdWKnjAiaOe0UUKNJm322h.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0000129/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/500', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 10859,
+    name: 'Ryan Reynolds',
+    profile_path: '/4bL9k2v0u1.jpg',
+    backdrop_path: '/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg',
+    biography: 'Ryan Rodney Reynolds is a Canadian-American actor, producer, and businessman. Known for his sharp wit and comedic timing, he achieved massive global success portraying Deadpool in the Marvel franchise.',
+    birthday: '1976-10-23',
+    place_of_birth: 'Vancouver, British Columbia, Canada',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Ryan Rodney Reynolds'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.0,
+    known_for: [
+      { id: 533535, title: 'Deadpool & Wolverine', poster_path: '/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg', backdrop_path: '/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0005351/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/10859', label: 'TMDb' }
+    ]
+  },
+  {
+    id: 6968,
+    name: 'Hugh Jackman',
+    profile_path: '/yE5QtXUzcrnCzMRctZL8F5g842B.jpg',
+    backdrop_path: '/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg',
+    biography: 'Hugh Michael Jackman AC is an Australian actor and singer. He is world-renowned for his defining portrayal of Wolverine in the X-Men film series for over two decades, as well as starring in Les Misérables and The Prestige.',
+    birthday: '1968-10-12',
+    place_of_birth: 'Sydney, New South Wales, Australia',
+    gender: 2,
+    known_for_department: 'Acting',
+    department: 'Acting',
+    aliases: ['Hugh Michael Jackman'],
+    is_active: true,
+    is_favorite: true,
+    is_adult: false,
+    user_rating: 9.5,
+    known_for: [
+      { id: 533535, title: 'Deadpool & Wolverine', poster_path: '/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg', backdrop_path: '/yDHYTfA3R0jFYba16jBB1ef8oIt.jpg', media_type: 'movie', in_library: false }
+    ],
+    external_links: [
+      { provider: 'imdb', url: 'https://www.imdb.com/name/nm0413168/', label: 'IMDb' },
+      { provider: 'tmdb', url: 'https://www.themoviedb.org/person/6968', label: 'TMDb' }
     ]
   }
 ];

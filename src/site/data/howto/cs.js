@@ -1,12 +1,12 @@
 export const cs = {
   'getting-started': {
     name: 'Jak nainstalovat a nastavit mediální centrum SWAYA',
-    description: 'Návod krok za krokem k instalaci ve Windows, výběru složek a vytvoření offline knihovny.',
+    description: 'Návod krok za krokem k instalaci ve Windows a Linuxu, výběru složek a vytvoření offline knihovny.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Stažení a Instalace',
-        text: 'Nainstalujte a spusťte desktopovou aplikaci SWAYA v systému Windows 10 nebo 11.',
+        text: 'Nainstalujte a spusťte desktopovou aplikaci SWAYA v systému Windows nebo Linux.',
       },
       {
         name: 'Výběr Adresářů Úložiště',

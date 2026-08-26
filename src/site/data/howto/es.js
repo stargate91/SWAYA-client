@@ -1,12 +1,12 @@
 export const es = {
   'getting-started': {
     name: 'Cómo configurar y comenzar con el Centro Multimedia SWAYA',
-    description: 'Guía rápida para instalar SWAYA en Windows, configurar directorios de almacenamiento y crear tu biblioteca multimedia sin conexión.',
+    description: 'Guía rápida para instalar SWAYA en Windows y Linux, configurar directorios de almacenamiento y crear tu biblioteca multimedia sin conexión.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Descargar e Iniciar',
-        text: 'Instala la aplicación SWAYA para escritorio en Windows 10 o 11.',
+        text: 'Instala la aplicación SWAYA para escritorio en Windows o Linux.',
       },
       {
         name: 'Configurar Directorios de Almacenamiento',

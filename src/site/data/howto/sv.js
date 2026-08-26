@@ -1,12 +1,12 @@
 export const sv = {
   'getting-started': {
     name: 'Hur man installerar och konfigurerar SWAYA mediacenter',
-    description: 'Steg-för-steg-guide för Windows-installation, val av mappar och skapande av ett offline-bibliotek.',
+    description: 'Steg-för-steg-guide för Windows- och Linux-installation, val av mappar och skapande av ett offline-bibliotek.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Ladda ner och Installera',
-        text: 'Installera och starta SWAYA skrivbordsapplikation på Windows 10 eller 11.',
+        text: 'Installera och starta SWAYA skrivbordsapplikation på Windows eller Linux.',
       },
       {
         name: 'Välj Lagringsmappar',

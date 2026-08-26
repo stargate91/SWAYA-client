@@ -1,12 +1,12 @@
 export const pl = {
   'getting-started': {
     name: 'Jak zainstalować i skonfigurować centrum multimedialne SWAYA',
-    description: 'Instrukcja krok po kroku instalacji w systemie Windows, wyboru folderów i tworzenia biblioteki offline.',
+    description: 'Instrukcja krok po kroku instalacji w systemach Windows i Linux, wyboru folderów i tworzenia biblioteki offline.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Pobranie i Instalacja',
-        text: 'Zainstaluj i uruchom aplikację desktopową SWAYA w systemie Windows 10 lub 11.',
+        text: 'Zainstaluj i uruchom aplikację desktopową SWAYA w systemie Windows lub Linux.',
       },
       {
         name: 'Wybór Katalogów Przechowywania',

@@ -1,7 +1,7 @@
 export const ko = {
   filebot: {
     title: 'SWAYA vs FileBot: 최신 데스크톱 미디어 워크스테이션 및 일괄 파일 정리기',
-    metaTitle: 'Windows용 최고의 FileBot 대안 - SWAYA 일괄 파일 정리 & MPV 플레이어',
+    metaTitle: 'Windows 및 Linux용 최고의 FileBot 대안 - SWAYA 일괄 파일 정리 & MPV 플레이어',
     metaDescription: 'FileBot의 최신 대안을 찾고 계신가요? SWAYA는 TMDb와 StashDB로 파일을 정리하고, 오프라인 라이브러리와 4K MPV 플레이어를 하나로 결합합니다.',
     heroTagline: '단순 파일 이름 변경을 넘어, 컬렉션의 완벽한 큐레이션과 4K 재생까지.',
     heroSubtitle: 'FileBot은 파일 이름 변경에 탁월하지만, SWAYA는 로컬 미디어를 한 단계 더 진화시킵니다. 하드 드라이브 정리, 아름다운 오프라인 카탈로그, 내장 4K HDR MPV 플레이어를 하나의 가벼운 Windows 앱으로 통합했습니다.',
@@ -61,7 +61,7 @@ export const ko = {
   },
   plex: {
     title: 'SWAYA vs Plex: 서버 없는 100% 오프라인 미디어 워크스테이션',
-    metaTitle: 'Windows용 Plex 대안 (서버 불필요, 100% 오프라인) - SWAYA',
+    metaTitle: 'Windows 및 Linux용 Plex 대안 (서버 불필요, 100% 오프라인) - SWAYA',
     metaDescription: '복잡한 서버 설정 없이 사용할 개인용 Plex 대안을 찾고 계신가요? SWAYA는 하드 드라이브를 정리하고 계정 없이 4K HDR을 MPV로 즉시 재생합니다.',
     heroTagline: '서버, 클라우드 로그인, 텔레메트리에 얽매이지 않는 온전한 나만의 컬렉션.',
     heroSubtitle: 'Plex는 네트워크 스트리밍에 최적화되어 있지만 상시 서버 구동, 클라우드 계정, 유료 구독이 필요합니다. SWAYA는 설정 제로의 100% 오프라인 데스크톱 경험을 선사합니다.',
@@ -73,7 +73,7 @@ export const ko = {
       'iOS, Android, Apple TV 간의 원격 시청 진행률 동기화가 필요한 경우.',
     ],
     whenToChooseSwaya: [
-      'Windows PC, 노트북, 다이렉트 모니터에서 미디어를 감상하는 경우.',
+      'Windows or Linux PC, 노트북, 다이렉트 모니터에서 미디어를 감상하는 경우.',
       '100% 프라이버시를 원하는 경우 (계정 제로, 외부 텔레메트리 제로, 포트 개방 제로).',
       '하드 드라이브의 실제 물리 파일명을 깔끔하게 일괄 정리하고 싶은 경우.',
       '서버 유지보수나 트랜스코딩 버벅임에서 벗어나고 싶은 경우.',
@@ -117,7 +117,7 @@ export const ko = {
   },
   tinymediamanager: {
     title: 'SWAYA vs tinyMediaManager (tmm): 현대적인 미디어 오거나이저 & 4K 플레이어',
-    metaTitle: 'Windows용 tinyMediaManager(tmm) 대안 - SWAYA',
+    metaTitle: 'Windows 및 Linux용 tinyMediaManager(tmm) 대안 - SWAYA',
     metaDescription: 'tinyMediaManager의 최신 대안을 찾으시나요? SWAYA는 Java 없이 동작하는 모던 UI, 빠른 파일 정리, 4K MPV 플레이어를 제공합니다.',
     heroTagline: 'Java 기반의 무거운 도구에서 벗어나, 현대적인 GPU 가속 워크스테이션으로.',
     heroSubtitle: 'tinyMediaManager는 훌륭한 NFO 생성기지만 인터페이스가 복잡하고 비디오 플레이어가 없습니다. SWAYA는 직관적인 UI, 파일 정리, 4K HDR 재생을 하나로 통합했습니다.',
@@ -153,7 +153,7 @@ export const ko = {
   },
   stash: {
     title: 'SWAYA vs StashApp: 프라이빗 성인 미디어 정리 & 데스크톱 4K 플레이어',
-    metaTitle: 'Windows용 StashApp 대안 - SWAYA 오프라인 미디어 센터',
+    metaTitle: 'Windows 및 Linux용 StashApp 대안 - SWAYA 오프라인 미디어 센터',
     metaDescription: '로컬 서버 설정 없는 StashApp 대안. SWAYA는 StashDB 연동, 출연진 프로필, 4K MPV 재생, 스텔스 금고를 제공합니다.',
     heroTagline: '로컬 웹 서버 구축 없이, 단 하나의 독립 데스크톱 앱으로.',
     heroSubtitle: 'StashApp은 뛰어난 오픈소스지만 로컬 백엔드 서버를 띄워야 합니다. SWAYA는 서버 없는 순수 데스크톱 앱으로 완벽한 스텔스 프라이버시를 보장합니다.',
@@ -189,7 +189,7 @@ export const ko = {
   },
   jellyfin: {
     title: 'SWAYA vs Jellyfin: 100% 오프라인 데스크톱 미디어 워크스테이션',
-    metaTitle: 'Windows용 Jellyfin 대안 (오프라인 전용) - SWAYA',
+    metaTitle: 'Windows 및 Linux용 Jellyfin 대안 (오프라인 전용) - SWAYA',
     metaDescription: '서버 설정 없는 Jellyfin 대안. 하드 드라이브 파일 정리, 오프라인 카탈로그, 4K HDR MPV 플레이어를 경험하세요.',
     heroTagline: '스트리밍 서버 대신, 로컬 PC를 위한 최상의 오프라인 미디어 경험.',
     heroSubtitle: 'Jellyfin은 무료 오픈소스 스트리밍 서버로 훌륭하지만, 로컬 PC에서 영상을 볼 때는 불필요한 서버 구성이 따릅니다. SWAYA는 오프라인 환경에 최적화된 도구입니다.',
@@ -224,7 +224,7 @@ export const ko = {
   },
   kodi: {
     title: 'SWAYA vs Kodi: 모던 Windows 미디어 센터 & 파일 오거나이저',
-    metaTitle: 'Windows용 Kodi 대안 - SWAYA 미디어 센터',
+    metaTitle: 'Windows 및 Linux용 Kodi 대안 - SWAYA 미디어 센터',
     metaDescription: '거실 TV 인터페이스 대신 모던 데스크톱 워크스테이션을 찾으시나요? SWAYA는 마우스와 키보드에 최적화된 미디어 관리자입니다.',
     heroTagline: '거실 리모컨 UI를 넘어, 마우스와 키보드에 최적화된 모던 워크스테이션.',
     heroSubtitle: 'Kodi는 TV 화면을 위한 10-foot 인터페이스로 유명하지만, PC 데스크톱에서는 조작이 번거롭습니다. SWAYA는 마우스와 키보드에 완벽히 최적화된 세련된 경험을 제공합니다.',

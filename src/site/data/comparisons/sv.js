@@ -4,7 +4,7 @@ export const sv = {
     metaTitle: 'Bästa FileBot-alternativet för Windows - SWAYA Massnamnändring & MPV',
     metaDescription: 'Letar du efter ett modernt alternativ till FileBot? SWAYA byter namn på filer via TMDb/StashDB och kombinerar offline-bibliotek med 4K MPV-spelare.',
     heroTagline: 'Mer än bara filnamnändring: hantera och njut av hela din samling i 4K.',
-    heroSubtitle: 'FileBot är utmärkt för namnändring, men SWAYA tar lokal mediehantering till nästa nivå. Diskorganisering, visuell katalog och inbyggd 4K HDR MPV-spelare i ett och samma Windows-program.',
+    heroSubtitle: 'FileBot är utmärkt för namnändring, men SWAYA tar lokal mediehantering till nästa nivå. Diskorganisering, visuell katalog och inbyggd 4K HDR MPV-spelare i ett och samma Windows- och Linux-program.',
     competitorPricing: '$6/år eller $48 livstidslicens',
     swayaPricing: 'Lanseringspris €39 livstidslicens (ordinarie €79)',
     whenToChooseCompetitor: [
@@ -55,7 +55,7 @@ export const sv = {
       },
       {
         q: 'Krävs Java för att köra SWAYA?',
-        a: 'Nej. SWAYA är ett fristående Windows-program och kräver ingen Java-installation.',
+        a: 'Nej. SWAYA är ett fristående Windows- och Linux-program och kräver ingen Java-installation.',
       },
     ],
   },
@@ -73,7 +73,7 @@ export const sv = {
       'Du behöver synkronisera uppspelningsframsteg mellan iOS, Android och Apple TV.',
     ],
     whenToChooseSwaya: [
-      'Du tittar på medier direkt på din Windows-dator, bärbara dator eller anslutna bildskärm.',
+      'Du tittar på medier direkt på din Windows- eller Linux-dator, bärbara dator eller anslutna bildskärm.',
       'Du kräver 100% integritet (inga konton, ingen telemetri, inga öppna nätverksportar).',
       'Du vill faktiskt organisera och strukturera de fysiska filerna och mapparna på hårddiskarna.',
       'Du vill slippa problem med buffring, omkodning och serverunderhåll.',
@@ -148,7 +148,7 @@ export const sv = {
     metaTitle: 'Alternativ till StashApp för Windows (Serverlöst) - SWAYA',
     metaDescription: 'Ett alternativ till StashApp utan lokal webbserver. SWAYA erbjuder StashDB-integration, skådespelarprofiler, 4K MPV-uppspelning och diskret valv.',
     heroTagline: 'Inga lokala webbservrar: ett enda självständigt skrivbordsprogram.',
-    heroSubtitle: 'StashApp är ett utmärkt öppen källkod-verktyg, men kräver en lokal server i bakgrunden och en webbläsare. SWAYA är ett 100% självständigt Windows-program med maximal integritet.',
+    heroSubtitle: 'StashApp är ett utmärkt öppen källkod-verktyg, men kräver en lokal server i bakgrunden och en webbläsare. SWAYA är ett 100% självständigt Windows- och Linux-program med maximal integritet.',
     competitorPricing: 'Gratis (Öppen källkod)',
     swayaPricing: 'Lanseringspris €39 livstidslicens (ordinarie €79)',
     whenToChooseCompetitor: [

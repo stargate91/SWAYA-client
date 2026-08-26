@@ -1,5 +1,6 @@
 import {
   MOCK_MOVIES,
+  MOCK_DISCOVER_MOVIES,
   MOCK_SHOWS,
   MOCK_ADULT_SCENES,
   MOCK_PEOPLE
@@ -65,7 +66,8 @@ export function handlePeopleRequests(path, options, urlStr) {
     }
 
     if (subPath === 'movies') {
-      const items = MOCK_MOVIES.filter(m => 
+      const allMovies = [...MOCK_MOVIES, ...MOCK_DISCOVER_MOVIES];
+      const items = allMovies.filter(m => 
         m.cast?.some(c => String(c.id) === String(personId) || c.name?.toLowerCase() === person?.name?.toLowerCase()) ||
         m.directors?.some(d => String(d.id) === String(personId) || d.name?.toLowerCase() === person?.name?.toLowerCase()) ||
         m.writers?.some(w => String(w.id) === String(personId) || w.name?.toLowerCase() === person?.name?.toLowerCase())
@@ -78,7 +80,7 @@ export function handlePeopleRequests(path, options, urlStr) {
           ...m,
           character: castEntry?.character,
           job,
-          in_library: true
+          in_library: m.in_library ?? false
         };
       });
 
@@ -129,7 +131,7 @@ export function handlePeopleRequests(path, options, urlStr) {
     }
 
     if (subPath === 'credit-backdrops') {
-      const relatedMovies = MOCK_MOVIES.filter(m => 
+      const relatedMovies = [...MOCK_MOVIES, ...MOCK_DISCOVER_MOVIES].filter(m => 
         m.cast?.some(c => String(c.id) === String(personId) || c.name?.toLowerCase() === person?.name?.toLowerCase()) ||
         m.directors?.some(d => String(d.id) === String(personId) || d.name?.toLowerCase() === person?.name?.toLowerCase()) ||
         m.writers?.some(w => String(w.id) === String(personId) || w.name?.toLowerCase() === person?.name?.toLowerCase())

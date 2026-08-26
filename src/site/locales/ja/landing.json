@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "SWAYA - Windows向け完全オフラインメディアセンター＆動画プレイヤー",
+    "title": "SWAYA - Windows / Linux向け完全オフラインメディアセンター＆動画プレイヤー",
     "description": "サーバー不要の完全オフラインPlex＆FileBot代替ソフト。ダウンロード動画の自動リネーム、外付けHDDの映画整理、4K HDR再生を100%プライベートに実現。"
   },
   "navbar": {
@@ -30,7 +30,7 @@
     "guarantees": {
       "payment": "買い切り (一括払い)",
       "updates": "永久無料アップデート",
-      "devices": "最大3台の個人PCで利用可能"
+      "devices": "最大3台の個人端末"
     }
   },
   "video": {
@@ -126,19 +126,19 @@
       },
       {
         "question": "ライセンスの仕組みはどうなっていますか？",
-        "answer": "SWAYAは€39の買い切り型永久ライセンスです。月額費用はなく、将来のすべてのアップデートが含まれ、最大3台の個人用Windows PCでご利用いただけます。"
+        "answer": "SWAYAは€39の買い切り型永久ライセンスです。月額費用はなく、将来のすべてのアップデートが含まれ、最大3台の個人用WindowsまたはLinux PCでご利用いただけます。"
       }
     ]
   },
   "download": {
     "title": "今すぐあなたのコレクションを整理しましょう",
-    "subtitle": "Windows向けSWAYAの永久ライセンスを取得。€39の一括購入で永久に利用可能。月額課金はありません。",
+    "subtitle": "Windows / Linux向けSWAYAの永久ライセンスを取得。€39の一括購入で永久に利用可能。月額課金はありません。",
     "button": "永久ライセンスを購入 (€39)",
-    "disclaimer": "決済後すぐにダウンロードリンクとライセンスキーが発行されます。100%オフライン対応。"
+    "disclaimer": "決済完了後、すぐにダウンロードとライセンスキーが発行されます。WindowsおよびLinuxに対応。"
   },
   "footer": {
     "tagline": "個人コレクションのためのプライバシー重視オフラインメディアセンター＆スマートバッチオーガナイザー。",
-    "badge": "Offline-First • v1.0 Windows",
+    "badge": "Offline-First • v1.0 Windows & Linux",
     "columns": {
       "navigation": "ナビゲーション",
       "comparisons": "製品比較",
@@ -158,7 +158,7 @@
       "allGuides": "すべてのガイド →",
       "allComparisons": "すべての比較 →"
     },
-    "licenseDescription": "一度の購入で、最大3台の個人用Windows PCで永久にご利用いただけます。",
+    "licenseDescription": "一度の購入で、最大3台の個人用WindowsまたはLinux PCで永久にご利用いただけます。",
     "buyLicense": "ライセンスを購入 (€39)",
     "copyright": "© {{year}} SWAYA. All rights reserved.",
     "madeWithLove": "Made with",
@@ -204,7 +204,7 @@
   },
   "compare": {
     "metaTitle": "SWAYA 比較＆ソフトウェア代替案",
-    "metaDescription": "SWAYAをFileBot、Plex、tinyMediaManager、StashApp、Jellyfin、Kodiと比較。Windows向けの最高のオフラインメディアセンターを見つけましょう。",
+    "metaDescription": "SWAYAをFileBot、Plex、tinyMediaManager、StashApp、Jellyfin、Kodiと比較。Windows / Linux向けの最高のオフラインメディアセンターを見つけましょう。",
     "tag": "ソフトウェア比較",
     "title": "なぜSWAYAなのか？",
     "titleAccent": "他社製品との比較",
@@ -228,7 +228,7 @@
     "whySwitchSubtitle": "メディアコレクターやパワーユーザーのために設計された設計の違い。",
     "faqSubtitle": "{{name}}からの移行や併用に関するよくある質問。",
     "ctaTitle": "コレクションを完全にコントロールしませんか？",
-    "ctaSubtitle": "Windows向け最高峰のオフラインメディアセンター。物理ファイルを整理し、高画質4K HDR MPV再生をお楽しみください。",
+    "ctaSubtitle": "Windows / Linux向け最高峰のオフラインメディアセンター。物理ファイルを整理し、高画質4K HDR MPV再生をお楽しみください。",
     "buyCta": "永久ライセンスを €39 で購入",
     "demoCta": "ライブデモを体験",
     "yes": "対応",

@@ -73,7 +73,7 @@ export const hu = {
       'Eszközök közötti távoli szinkronizációra van szükséged iOS, Android és Apple TV között.',
     ],
     whenToChooseSwaya: [
-      'Közvetlenül a Windows PC-den, laptopodon vagy monitorodon nézel filmeket és sorozatokat.',
+      'Közvetlenül a Windows or Linux PC-den, laptopodon vagy monitorodon nézel filmeket és sorozatokat.',
       '100% adatvédelmet akarsz: nulla felhőfiók, nulla telemetria és nulla nyitott hálózati port.',
       'A merevlemezeden lévő fizikai fájlok tiszta és rendezett elnevezését szeretnéd.',
       'Eleged van a szerverkonfigurálásból, háttérfolyamatokból és a transzkódolási hibákból.',
@@ -285,10 +285,10 @@ export const hu = {
   },
   kodi: {
     title: 'SWAYA vs Kodi: Modern Asztali Médiaállomás Bonyolult Bővítmények Nélkül',
-    metaTitle: 'Kodi Alternatíva Windows PC-re - SWAYA',
+    metaTitle: 'Kodi Alternatíva Windows or Linux PC-re - SWAYA',
     metaDescription: 'Modern Kodi alternatívát keresel Windows-ra? A SWAYA beépített MPV lejátszót, fájlrendezőt és modern felületet biztosít törékeny kiegészítők nélkül.',
     heroTagline: 'Gyönyörű médiaélmény a 10 méteres felületek és törékeny pluginok nélkül.',
-    heroSubtitle: 'A Kodi kiváló a nappaliban lévő TV-khez, de egérrel és billentyűzettel nehézkes a használata. A SWAYA kifejezetten modern Windows asztali munkára és fájlkezelésre lett tervezve.',
+    heroSubtitle: 'A Kodi kiváló a nappaliban lévő TV-khez, de egérrel és billentyűzettel nehézkes a használata. A SWAYA kifejezetten modern Windows és Linux asztali munkára és fájlkezelésre lett tervezve.',
     competitorPricing: 'Ingyenes & Nyílt forráskódú',
     swayaPricing: '€39 bevezető ár (€79 normál ár)',
     whenToChooseCompetitor: [
@@ -314,7 +314,7 @@ export const hu = {
     deepDives: [
       {
         title: 'Asztali Elsődlegesség a 10 Méteres TV Felület Helyett',
-        description: 'A Kodi távirányítós vezérlésre lett tervezve, ami egérrel és többablakos asztali környezetben kényelmetlen. A SWAYA közvetlenül Windows asztali munkára készült.',
+        description: 'A Kodi távirányítós vezérlésre lett tervezve, ami egérrel és többablakos asztali környezetben kényelmetlen. A SWAYA közvetlenül Windows és Linux asztali munkára készült.',
       },
       {
         title: 'Fizikai Fájlrendezés a Merevlemezen',

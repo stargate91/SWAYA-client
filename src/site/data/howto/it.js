@@ -1,12 +1,12 @@
 export const it = {
   'getting-started': {
     name: 'Come configurare e iniziare a usare il Media Center SWAYA',
-    description: 'Guida rapida per installare SWAYA su Windows, configurare le cartelle di archiviazione e creare la tua libreria offline.',
+    description: 'Guida rapida per installare SWAYA su Windows e Linux, configurare le cartelle di archiviazione e creare la tua libreria offline.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Download e Avvio',
-        text: 'Installa l’applicazione desktop SWAYA su Windows 10 o 11.',
+        text: 'Installa l’applicazione desktop SWAYA su Windows o Linux.',
       },
       {
         name: 'Configura le Cartelle di Archiviazione',

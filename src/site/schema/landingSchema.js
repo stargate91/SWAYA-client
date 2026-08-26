@@ -23,7 +23,7 @@ export function getLandingJsonLd({
     'url': BASE_URL,
     'name': 'SWAYA',
     'description':
-      'Personal offline media center and video player for Windows. Organize movies, TV shows, and adult video collections with rich metadata, custom curation, and complete privacy.',
+      'Personal offline media center and video player for Windows and Linux. Organize movies, TV shows, and adult video collections with rich metadata, custom curation, and complete privacy.',
     'publisher': {
       '@id': `${BASE_URL}/#organization`,
     },
@@ -102,10 +102,10 @@ export function getLandingJsonLd({
     '@type': 'WebPage',
     '@id': `${BASE_URL}${prefix}/#webpage`,
     'url': prefix ? `${BASE_URL}${prefix}` : `${BASE_URL}/`,
-    'name': t('landing.hero.title', { defaultValue: 'SWAYA - Personal Offline Media Center & Video Player for Windows' }),
+    'name': t('landing.hero.title', { defaultValue: 'SWAYA - Personal Offline Media Center & Video Player for Windows & Linux' }),
     'description': t('landing.hero.subtitle', {
       defaultValue:
-        'Personal offline media center and video player for Windows. Organize movies, TV shows, and adult video collections with rich metadata, custom curation, and complete privacy.',
+        'Personal offline media center and video player for Windows and Linux. Organize movies, TV shows, and adult video collections with rich metadata, custom curation, and complete privacy.',
     }),
     'isPartOf': {
       '@id': `${BASE_URL}/#website`,

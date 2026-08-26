@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - Offline Médiaközpont & Videórendszerező Windowshoz",
-    "description": "Offline Plex és FileBot alternatíva Windowshoz. Automatikus fájlátnevezés, merevlemezes filmrendszerezés és 4K HDR lejátszás 100% privát adatvédelemmel."
+    "title": "SWAYA - Offline Médiaközpont & Videórendszerező Windows és Linux rendszerekhez",
+    "description": "Offline Plex és FileBot alternatíva Windows és Linux rendszerekhez. Automatikus fájlátnevezés, merevlemezes filmrendszerezés és 4K HDR lejátszás 100% privát adatvédelemmel."
   },
   "navbar": {
     "brand": "SWAYA",
@@ -37,7 +37,7 @@
     "tag": "Termék áttekintés",
     "title": "Mi az a SWAYA?",
     "titleAccent": "Nézd meg működés közben.",
-    "subtitle": "A SWAYA egy Windows asztali alkalmazás, amely rendezi a merevlemezen lévő fájlokat, rendszerezi a médiatáradat, és a beépített MPV lejátszóval 100%-ban offline játssza le a teljes gyűjteményt.",
+    "subtitle": "A SWAYA egy Windows és Linux asztali alkalmazás, amely rendezi a merevlemezen lévő fájlokat, rendszerezi a médiatáradat, és a beépített MPV lejátszóval 100%-ban offline játssza le a teljes gyűjteményt.",
     "badge": "2:48 bemutató",
     "placeholderTitle": "Termékbemutató videó",
     "placeholderSubtitle": "Teljes bemutató a kötegelt fájlátnevezésről, médiakurálásról és a beépített MPV lejátszásról.",
@@ -126,19 +126,19 @@
       },
       {
         "question": "Hogyan működik a licencelés?",
-        "answer": "A SWAYA egyszeri 39 €-s vásárlással örökös hozzáférést biztosít. Tartalmazza az összes jövőbeli frissítést, és akár 3 saját Windows PC-n aktiválható előfizetési díjak nélkül."
+        "answer": "A SWAYA egyszeri 39 €-s vásárlással örökös hozzáférést biztosít. Tartalmazza az összes jövőbeli frissítést, és akár 3 saját Windows vagy Linux PC-n aktiválható előfizetési díjak nélkül."
       }
     ]
   },
   "download": {
     "title": "Vedd át az irányítást a gyűjteményed felett még ma",
-    "subtitle": "Szerezz örökös hozzáférést a Windowsos SWAYA-hoz. Egyszeri 39 €-s vásárlás, örökre a tiéd. Nincsenek előfizetések.",
+    "subtitle": "Szerezz örökös hozzáférést a Windows és Linux SWAYA-hoz. Egyszeri 39 €-s vásárlás, örökre a tiéd. Nincsenek előfizetések.",
     "button": "Örökös licenc vásárlása (39 €)",
-    "disclaimer": "Azonnali letöltés és licenckulcs a fizetést követően. 100%-ban offline működik."
+    "disclaimer": "Azonnali letöltés és licenckulcs a fizetést követően. Elérhető Windows és Linux rendszerekre."
   },
   "footer": {
     "tagline": "Adatvédelem-központú asztali médiaközpont és intelligens kötegelt fájlrendező személyes gyűjteményekhez.",
-    "badge": "Offline-First • v1.0 Windows",
+    "badge": "Offline-First • v1.0 Windows & Linux",
     "columns": {
       "navigation": "Navigáció",
       "comparisons": "Összehasonlítások",

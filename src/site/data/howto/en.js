@@ -1,12 +1,12 @@
 export const en = {
   'getting-started': {
     name: 'How to Set Up & Get Started with SWAYA Offline Media Center',
-    description: 'Quick walkthrough to install SWAYA on Windows, configure storage directories, and build your offline media library.',
+    description: 'Quick walkthrough to install SWAYA on Windows & Linux, configure storage directories, and build your offline media library.',
     totalTime: 'PT3M',
     steps: [
       {
         name: 'Download & Launch SWAYA',
-        text: 'Install the SWAYA desktop application on Windows 10 or 11.',
+        text: 'Install the SWAYA desktop application on Windows or Linux.',
       },
       {
         name: 'Configure Storage Directories',

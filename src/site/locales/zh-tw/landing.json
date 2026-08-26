@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - 100% 離線個人影音中心 & Windows 播放器",
-    "description": "無需伺服器的 Windows 離線 Plex 與 FileBot 替代方案。自動批次重新命名下載檔案、整理硬碟影音收藏並流暢播放 4K HDR。"
+    "title": "SWAYA - 100% 離線個人影音中心 & Windows & Linux 播放器",
+    "description": "無需伺服器的 Windows 與 Linux 離線 Plex 與 FileBot 替代方案。自動批次重新命名下載檔案、整理硬碟影音收藏並流暢播放 4K HDR。"
   },
   "navbar": {
     "brand": "SWAYA",
@@ -30,14 +30,14 @@
     "guarantees": {
       "payment": "一次買斷，終身使用",
       "updates": "終身免費更新",
-      "devices": "最多支援 3 台個人 Windows 電腦"
+      "devices": "最多支援 3 台個人裝置"
     }
   },
   "video": {
     "tag": "產品展示",
     "title": "什麼是 SWAYA？",
     "titleAccent": "觀看實際運作展示。",
-    "subtitle": "SWAYA 是一款專為 Windows 打造的現代化桌面應用程式，能為混亂的下載檔案重新命名、建立精美的視覺化媒體庫，並提供極致流暢的 4K MPV 播放體驗。",
+    "subtitle": "SWAYA 是一款專為 Windows 與 Linux 打造的現代化桌面應用程式，能為混亂的下載檔案重新命名、建立精美的視覺化媒體庫，並提供極致流暢的 4K MPV 播放體驗。",
     "badge": "2:48 產品導覽",
     "placeholderTitle": "產品展示影片",
     "placeholderSubtitle": "快速導覽批次命名、多來源媒體目錄與內建 MPV 播放器。",
@@ -102,7 +102,7 @@
     "items": [
       {
         "question": "SWAYA 與 Plex、Jellyfin 或 Kodi 有何不同？",
-        "answer": "與 Plex 或 Jellyfin 不同，SWAYA 不需要搭建後端伺服器、無需區域網路串流或帳號註冊。它是一款極速 Windows 桌面軟體，能直接在硬碟上整理檔案，並透過內建 MPV 引擎提供最高畫質的直出播放。"
+        "answer": "與 Plex 或 Jellyfin 不同，SWAYA 不需要搭建後端伺服器、無需區域網路串流或帳號註冊。它是一款極速 Windows 與 Linux 桌面軟體，能直接在硬碟上整理檔案，並透過內建 MPV 引擎提供最高畫質的直出播放。"
       },
       {
         "question": "SWAYA 可以取代 FileBot 進行檔案批次重新命名嗎？",
@@ -126,19 +126,19 @@
       },
       {
         "question": "授權方式是如何運作的？",
-        "answer": "SWAYA 採 €39 一次性買斷制終身授權。無訂閱費用，包含未來所有 v1.x 系列更新，最多可在 3 台個人 Windows 電腦上啟用。"
+        "answer": "SWAYA 採 €39 一次性買斷制終身授權。無訂閱費用，包含未來所有 v1.x 系列更新，最多可在 3 台個人 Windows 或 Linux 電腦上啟用。"
       }
     ]
   },
   "download": {
     "title": "立即開始打造專屬的完美影音收藏庫",
-    "subtitle": "購買 Windows 終身授權。一次性支付 €39，無需任何月費。",
+    "subtitle": "購買 Windows 與 Linux 終身授權。一次性支付 €39，無需任何月費。",
     "button": "購買終身授權 (€39)",
-    "disclaimer": "付款完成後將立即收到授權金鑰與下載連結。100% 離線相容。"
+    "disclaimer": "結帳完成後即可下載軟體並獲取授權金鑰。支援 Windows 與 Linux。"
   },
   "footer": {
     "tagline": "為影音收藏家打造的隱私優先離線媒體中心與智慧檔案批次整理工作站。",
-    "badge": "離線優先 • v1.0 Windows",
+    "badge": "離線優先 • v1.0 Windows & Linux",
     "columns": {
       "navigation": "網站導覽",
       "comparisons": "軟體比較",
@@ -158,7 +158,7 @@
       "allGuides": "所有指南 →",
       "allComparisons": "所有軟體比較 →"
     },
-    "licenseDescription": "一次購買，可在最多 3 台個人 Windows 電腦上永久使用。",
+    "licenseDescription": "一次購買，可在最多 3 台個人 Windows 或 Linux 電腦上永久使用。",
     "buyLicense": "購買授權 (€39)",
     "copyright": "© {{year}} SWAYA. 版權所有。",
     "madeWithLove": "精心打造",
@@ -204,7 +204,7 @@
   },
   "compare": {
     "metaTitle": "SWAYA 軟體比較與替代方案",
-    "metaDescription": "將 SWAYA 與 FileBot、Plex、tinyMediaManager、StashApp、Jellyfin 及 Kodi 進行深度比較。探索最適合 Windows 的 100% 離線媒體中心。",
+    "metaDescription": "將 SWAYA 與 FileBot、Plex、tinyMediaManager、StashApp、Jellyfin 及 Kodi 進行深度比較。探索最適合 Windows 與 Linux 的 100% 離線媒體中心。",
     "tag": "軟體比較",
     "title": "為什麼選擇 SWAYA？",
     "titleAccent": "全面橫向評測",
@@ -228,7 +228,7 @@
     "whySwitchSubtitle": "專為硬派影音收藏家的極致需求量身打造。",
     "faqSubtitle": "關於自 {{name}} 遷移或搭配使用的常見問題。",
     "ctaTitle": "準備好完全掌控你的影音收藏了嗎？",
-    "ctaSubtitle": "專為 Windows 打造的極致離線影音工作站。整理實體檔案，享受無拘無束的 4K HDR 播放體驗。",
+    "ctaSubtitle": "專為 Windows 與 Linux 打造的極致離線影音工作站。整理實體檔案，享受無拘無束的 4K HDR 播放體驗。",
     "buyCta": "購買終身授權 (€39)",
     "demoCta": "啟動線上即時展示",
     "yes": "支援",
@@ -247,7 +247,7 @@
     "title": "隱私權政策",
     "subtitle": "SWAYA 被設計為 100% 離線桌面應用程式。零遙測追蹤、本機全儲存、強大的本機密碼保護。",
     "lastUpdated": "最後更新日期：2026 年 8 月 20 日",
-    "scope": "適用於 SWAYA Windows 桌面軟體及 swaya.xyz",
+    "scope": "適用於 SWAYA Windows 與 Linux 桌面軟體及 swaya.xyz",
     "section1Title": "1. 零遙測追蹤 & 本機資料儲存",
     "section1Text": "SWAYA 是完全離線優先的影音中心。影音檔案、目錄結構、觀看歷史、評分與筆記均僅儲存於本機 SQLite 資料庫 (data/swaya.db)。",
     "section1Point1": "絕不上傳、索引或遠端分析使用者的任何影音檔案或硬碟內容。",
@@ -276,16 +276,16 @@
     "title": "服務條款與退款政策",
     "subtitle": "請仔細閱讀以下條款。購買或下載本軟體即代表你同意本協議。",
     "lastUpdated": "最後更新日期：2026 年 8 月 20 日",
-    "scope": "SWAYA v1.x Windows 桌面軟體",
+    "scope": "SWAYA v1.x Windows 與 Linux 桌面軟體",
     "section1Title": "1. 軟體授權與使用範圍",
-    "section1Text": "購買授權（早鳥價 €39，標準價 €79）後，SWAYA 授予你非排他性、永久性的個人使用授權，最多可在 3 台個人 Windows 裝置上使用。",
+    "section1Text": "購買授權（早鳥價 €39，標準價 €79）後，SWAYA 授予你非排他性、永久性的個人使用授權，最多可在 3 台個人 Windows 或 Linux 裝置上使用。",
     "section1Point1": "你可以隨時解除舊電腦的授權並將其轉移至新電腦。",
     "section1Point2": "嚴禁轉售、出租或公開散布授權金鑰。",
     "section1Point3": "明確禁止任何商業二次分發或對軟體進行逆向工程。",
     "section2Title": "2. 退款政策保障",
     "section2Text": "SWAYA 提供清晰透明的退款保障條款：",
     "section2Point1": "未啟用之金鑰（14 天猶豫期）：自購買起 14 天內且未進行裝置啟用，可申請 100% 全額退款。",
-    "section2Point2": "已啟用之金鑰（7 天技術保障）：若軟體在受支援的 Windows 系統上遭遇無法排除的嚴重技術問題，7 天內可申請 100% 全額退款。",
+    "section2Point2": "已啟用之金鑰（7 天技術保障）：若軟體在受支援的 Windows 或 Linux 系統上遭遇無法排除的嚴重技術問題，7 天內可申請 100% 全額退款。",
     "section2Point3": "退款後處置：一旦退款完成，該授權金鑰將被永久註銷。",
     "section3Title": "3. 內容責任與合規使用",
     "section3Text": "SWAYA 僅為檔案管理與本機影音播放工具。使用者須對自己管理的媒體內容負全部法律責任。",

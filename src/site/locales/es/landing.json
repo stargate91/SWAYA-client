@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - Centro Multimedia Offline & Reproductor de Video para Windows",
-    "description": "Alternativa offline a Plex y FileBot para Windows. Renombra automáticamente tus descargas, organiza colecciones en tus discos duros y reproduce 4K HDR sin servidores."
+    "title": "SWAYA - Centro Multimedia Offline & Reproductor de Video para Windows y Linux",
+    "description": "Alternativa offline a Plex y FileBot para Windows y Linux. Renombra automáticamente tus descargas, organiza colecciones en tus discos duros y reproduce 4K HDR sin servidores."
   },
   "navbar": {
     "brand": "SWAYA",
@@ -37,7 +37,7 @@
     "tag": "Descripción del Producto",
     "title": "¿Qué es SWAYA?",
     "titleAccent": "Míralo en acción.",
-    "subtitle": "SWAYA es una aplicación de escritorio para Windows que limpia los archivos desordenados, organiza tu biblioteca y reproduce toda tu colección offline con un reproductor MPV integrado.",
+    "subtitle": "SWAYA es una aplicación de escritorio para Windows y Linux y Linux que limpia los archivos desordenados, organiza tu biblioteca y reproduce toda tu colección offline con un reproductor MPV integrado.",
     "badge": "Recorrido de 2:48",
     "placeholderTitle": "Video de presentación del producto",
     "placeholderSubtitle": "Demostración completa que muestra la organización de archivos por lotes, gestión de biblioteca y reproducción MPV integrada.",
@@ -126,19 +126,19 @@
       },
       {
         "question": "¿Cómo funciona la licencia?",
-        "answer": "SWAYA es una compra única de 39 € para acceso de por vida. Incluye todas las actualizaciones futuras y se puede activar en hasta 3 PC con Windows de uso personal sin cuotas mensuales."
+        "answer": "SWAYA es una compra única de 39 € para acceso de por vida. Incluye todas las actualizaciones futuras y se puede activar en hasta 3 PC con Windows o Linux de uso personal sin cuotas mensuales."
       }
     ]
   },
   "download": {
     "title": "Toma el Control de tu Colección Hoy",
-    "subtitle": "Obtén acceso de por vida a SWAYA para Windows. Pago único de 39 €, tuyo para siempre. Sin suscripciones recurrentes.",
+    "subtitle": "Obtén acceso de por vida a SWAYA para Windows y Linux. Pago único de 39 €, tuyo para siempre. Sin suscripciones recurrentes.",
     "button": "Comprar licencia de por vida (39 €)",
-    "disclaimer": "Descarga instantánea y clave de licencia tras el pago. Funciona 100% offline."
+    "disclaimer": "Descarga instantánea y clave de licencia tras la compra. Disponible para Windows y Linux."
   },
   "footer": {
     "tagline": "Centro multimedia de escritorio centrado en la privacidad y organizador inteligente por lotes.",
-    "badge": "Offline en primer lugar • v1.0 Windows",
+    "badge": "Offline en primer lugar • v1.0 Windows & Linux",
     "columns": {
       "navigation": "Navegación",
       "comparisons": "Comparativas",
@@ -158,7 +158,7 @@
       "allGuides": "Todas las Guías →",
       "allComparisons": "Todas las Comparativas →"
     },
-    "licenseDescription": "Compra única, acceso de por vida en hasta 3 PC con Windows personales.",
+    "licenseDescription": "Compra única, acceso de por vida en hasta 3 PC con Windows o Linux personales.",
     "buyLicense": "Comprar licencia (39 €)",
     "copyright": "© {{year}} SWAYA. Todos los derechos reservados.",
     "madeWithLove": "Creado con",
@@ -204,7 +204,7 @@
   },
   "compare": {
     "metaTitle": "SWAYA Comparativas & Alternativas de Software",
-    "metaDescription": "Compara SWAYA con FileBot, Plex, tinyMediaManager, StashApp, Jellyfin y Kodi. Encuentra el mejor centro multimedia sin conexión para Windows.",
+    "metaDescription": "Compara SWAYA con FileBot, Plex, tinyMediaManager, StashApp, Jellyfin y Kodi. Encuentra el mejor centro multimedia sin conexión para Windows y Linux.",
     "tag": "Alternativas de Software",
     "title": "¿Por qué SWAYA?",
     "titleAccent": "Mira cómo nos comparamos.",
@@ -228,7 +228,7 @@
     "whySwitchSubtitle": "Diferencias arquitectónicas clave para coleccionistas y usuarios avanzados.",
     "faqSubtitle": "Preguntas frecuentes sobre la migración o el uso de SWAYA junto con {{name}}.",
     "ctaTitle": "¿Listo para tomar el control de tus medios?",
-    "ctaSubtitle": "Descubre el centro multimedia offline definitivo para Windows. Organiza archivos en disco y disfruta de reproducción MPV 4K HDR.",
+    "ctaSubtitle": "Descubre el centro multimedia offline definitivo para Windows y Linux. Organiza archivos en disco y disfruta de reproducción MPV 4K HDR.",
     "buyCta": "Comprar Licencia de por Vida por 39 €",
     "demoCta": "Iniciar Demostración en Vivo",
     "yes": "Sí",
@@ -278,7 +278,7 @@
     "lastUpdated": "Última actualización: 20 de agosto de 2026",
     "scope": "Software de escritorio SWAYA v1.x",
     "section1Title": "1. Concesión de Licencia de Software & Uso",
-    "section1Text": "Sujeto al pago de la tarifa única aplicable (precio de lanzamiento 39 €, tarifa regular 79 €), SWAYA te concede una licencia personal, perpetua y no transferible para instalar y ejecutar el software en hasta 3 dispositivos Windows personales.",
+    "section1Text": "Sujeto al pago de la tarifa única aplicable (precio de lanzamiento 39 €, tarifa regular 79 €), SWAYA te concede una licencia personal, perpetua y no transferible para instalar y ejecutar el software en hasta 3 dispositivos Windows o Linux personales.",
     "section1Point1": "Puedes desactivar un dispositivo en cualquier momento dentro de la aplicación para transferir la licencia a un nuevo equipo.",
     "section1Point2": "Queda terminantemente prohibida la reventa, alquiler o compartición pública de tu clave de licencia o tokens.",
     "section1Point3": "La redistribución comercial o la ingeniería inversa de los algoritmos de validación está estrictamente prohibida.",

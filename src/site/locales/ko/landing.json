@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - Windows용 오프라인 미디어 센터 및 비디오 플레이어",
-    "description": "서버가 필요 없는 Windows용 완전 오프라인 Plex 및 FileBot 대안. 다운로드 자동 파일 이름 정리, 외장 하드 드라이브 컬렉션 정리 및 4K HDR 완벽 재생."
+    "title": "SWAYA - Windows 및 Linux용 오프라인 미디어 센터 및 비디오 플레이어",
+    "description": "서버가 필요 없는 Windows 및 Linux용 완전 오프라인 Plex 및 FileBot 대안. 다운로드 자동 파일 이름 정리, 외장 하드 드라이브 컬렉션 정리 및 4K HDR 완벽 재생."
   },
   "navbar": {
     "brand": "SWAYA",
@@ -30,14 +30,14 @@
     "guarantees": {
       "payment": "평생 단 1회 결제",
       "updates": "평생 무료 업데이트",
-      "devices": "최대 3대의 개인 PC 지원"
+      "devices": "최대 3대의 개인 기기"
     }
   },
   "video": {
     "tag": "제품 개요",
     "title": "SWAYA란 무엇인가요?",
     "titleAccent": "실제 작동 영상 보기",
-    "subtitle": "SWAYA는 하드 드라이브의 복잡한 파일명을 자동으로 정리하고, 멋진 카탈로그를 만들며, 내장 MPV 엔진으로 100% 오프라인 재생을 지원하는 Windows 데스크톱 앱입니다.",
+    "subtitle": "SWAYA는 하드 드라이브의 복잡한 파일명을 자동으로 정리하고, 멋진 카탈로그를 만들며, 내장 MPV 엔진으로 100% 오프라인 재생을 지원하는 Windows 및 Linux 데스크톱 앱입니다.",
     "badge": "2:48 둘러보기",
     "placeholderTitle": "제품 데모 영상",
     "placeholderSubtitle": "일괄 파일 정리, 미디어 라이브러리 및 내장 MPV 플레이어 시연.",
@@ -126,19 +126,19 @@
       },
       {
         "question": "라이선스는 어떻게 작동하나요?",
-        "answer": "SWAYA는 €39의 1회 평생 라이선스입니다. 월 구독료가 없으며, 향후 모든 버전 1.x 업데이트가 포함되고 최대 3대의 개인 Windows PC에서 사용할 수 있습니다."
+        "answer": "SWAYA는 €39의 1회 평생 라이선스입니다. 월 구독료가 없으며, 향후 모든 버전 1.x 업데이트가 포함되고 최대 3대의 개인 Windows 또는 Linux PC에서 사용할 수 있습니다."
       }
     ]
   },
   "download": {
     "title": "지금 당신의 미디어 컬렉션을 완벽하게 정리하세요",
-    "subtitle": "Windows용 SWAYA 평생 라이선스를 획득하세요. €39 1회 구매로 평생 이용 가능하며 월 구독료가 없습니다.",
+    "subtitle": "Windows 및 Linux용 SWAYA 평생 라이선스를 획득하세요. €39 1회 구매로 평생 이용 가능하며 월 구독료가 없습니다.",
     "button": "평생 라이선스 구매 (€39)",
-    "disclaimer": "결제 즉시 라이선스 키와 다운로드 링크가 발급됩니다. 100% 오프라인 호환."
+    "disclaimer": "결제 즉시 소프트웨어 다운로드 및 라이선스 키 발급. Windows 및 Linux 지원."
   },
   "footer": {
     "tagline": "개인 미디어 컬렉션을 위한 프라이버시 우선 오프라인 미디어 센터 및 스마트 배치 오거나이저.",
-    "badge": "Offline-First • v1.0 Windows",
+    "badge": "Offline-First • v1.0 Windows & Linux",
     "columns": {
       "navigation": "바로가기",
       "comparisons": "제품 비교",
@@ -158,7 +158,7 @@
       "allGuides": "모든 가이드 보기 →",
       "allComparisons": "모든 비교 보기 →"
     },
-    "licenseDescription": "한 번의 구매로 최대 3대의 개인 Windows PC에서 평생 이용할 수 있습니다.",
+    "licenseDescription": "한 번의 구매로 최대 3대의 개인 Windows 또는 Linux PC에서 평생 이용할 수 있습니다.",
     "buyLicense": "라이선스 구매 (€39)",
     "copyright": "© {{year}} SWAYA. All rights reserved.",
     "madeWithLove": "Made with",
@@ -228,7 +228,7 @@
     "whySwitchSubtitle": "미디어 컬렉터와 파워 유저를 위해 설계된 핵심 차별점.",
     "faqSubtitle": "{{name}}에서의 전환 및 함께 사용하는 방법에 관한 질문입니다.",
     "ctaTitle": "컬렉션을 완벽하게 통제할 준비가 되셨나요?",
-    "ctaSubtitle": "Windows용 최고의 오프라인 미디어 센터. 하드 드라이브를 정리하고 4K HDR MPV 화질을 즐기세요.",
+    "ctaSubtitle": "Windows 및 Linux용 최고의 오프라인 미디어 센터. 하드 드라이브를 정리하고 4K HDR MPV 화질을 즐기세요.",
     "buyCta": "€39 평생 라이선스 구매",
     "demoCta": "라이브 웹 데모 체험",
     "yes": "지원",
@@ -278,7 +278,7 @@
     "lastUpdated": "최종 업데이트: 2026년 8월 20일",
     "scope": "SWAYA v1.x 데스크톱 소프트웨어",
     "section1Title": "1. 소프트웨어 라이선스 부여 & 사용 조건",
-    "section1Text": "1회성 라이선스 요금(출시 기념 €39, 정가 €79) 결제로 사용자가 소유한 최대 3대의 개인 Windows 기기에 SWAYA를 설치하고 실행할 수 있는 비독점적이고 영구적인 개인 라이선스를 부여합니다.",
+    "section1Text": "1회성 라이선스 요금(출시 기념 €39, 정가 €79) 결제로 사용자가 소유한 최대 3대의 개인 Windows 또는 Linux 기기에 SWAYA를 설치하고 실행할 수 있는 비독점적이고 영구적인 개인 라이선스를 부여합니다.",
     "section1Point1": "앱 내에서 언제든지 기기 인증을 해제하고 새 PC로 이전할 수 있습니다.",
     "section1Point2": "라이선스 키나 암호화 토큰의 재판매, 임대, 공개 배포는 금지됩니다.",
     "section1Point3": "상업적 재배포, 제3자 상용 소프트웨어에의 통합 또는 검증 로직 리버스 엔지니어링은 엄격히 금지됩니다.",

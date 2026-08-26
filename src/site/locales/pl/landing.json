@@ -30,7 +30,7 @@
     "guarantees": {
       "payment": "Jednorazowy zakup",
       "updates": "Dożywotnie darmowe aktualizacje",
-      "devices": "Do 3 osobistych komputerów z Windows"
+      "devices": "Do 3 urządzeń osobistych"
     }
   },
   "video": {
@@ -134,11 +134,11 @@
     "title": "Zacznij Porządkować Swoją Kolekcję Już Dziś",
     "subtitle": "Kup dożywotnią licencję na system Windows. Jednorazowa płatność €39. Bez opłat miesięcznych.",
     "button": "Kup Licencję Wieczystą (€39)",
-    "disclaimer": "Natychmiast po zakupie otrzymasz klucz licencyjny i link do pobrania. 100% zgodności offline."
+    "disclaimer": "Natychmiastowe pobranie i klucz licencyjny po zakupie. Dostępne dla systemów Windows i Linux."
   },
   "footer": {
     "tagline": "Prywatne centrum multimedialne offline i inteligentny masowy organizer plików dla kolekcjonerów.",
-    "badge": "Offline-First • v1.0 Windows",
+    "badge": "Offline-First • v1.0 Windows & Linux",
     "columns": {
       "navigation": "Nawigacja",
       "comparisons": "Porównania",

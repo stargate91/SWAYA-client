@@ -17,7 +17,7 @@ export const COMPARISONS_SUMMARY_LIST = [
     slug: 'plex',
     name: 'Plex',
     shortCategory: 'Media Server',
-    heroTagline: 'Ditch the heavy client-server setup. Enjoy your offline media on your Windows PC instantly.',
+    heroTagline: 'Ditch the heavy client-server setup. Enjoy your offline media on your Windows & Linux PC instantly.',
     heroSubtitle:
       'Plex is built for multi-device streaming and remote access. SWAYA is designed for collectors who want zero servers, 100% offline privacy, and direct physical file management on local hard drives.',
     competitorPricing: 'Free or $4.99/mo ($119.99 lifetime)',
@@ -35,9 +35,9 @@ export const COMPARISONS_SUMMARY_LIST = [
     slug: 'stash',
     name: 'Stash (StashApp)',
     shortCategory: 'Adult Media Server',
-    heroTagline: 'Native Windows desktop app with instant setup, multi-database scraping, and true offline privacy.',
+    heroTagline: 'Native Windows & Linux desktop app with instant setup, multi-database scraping, and true offline privacy.',
     heroSubtitle:
-      'StashApp is a powerful self-hosted server for adult media, but requires complex browser-server setup. SWAYA runs locally as a native Windows desktop app with multi-database metadata scraping.',
+      'StashApp is a powerful self-hosted server for adult media, but requires complex browser-server setup. SWAYA runs locally as a native Windows & Linux desktop app with multi-database metadata scraping.',
     competitorPricing: 'Free & Open Source',
   },
   {
@@ -55,7 +55,7 @@ export const COMPARISONS_SUMMARY_LIST = [
     shortCategory: 'Home Theater',
     heroTagline: 'Clean desktop workflow with automated file renaming and modern UI, without complex addon setups.',
     heroSubtitle:
-      'Kodi is a 10-foot TV interface with a complex addon ecosystem. SWAYA is crafted specifically for Windows desktop users with physical disk renaming, automated scraping, and 1-click stealth privacy.',
+      'Kodi is a 10-foot TV interface with a complex addon ecosystem. SWAYA is crafted specifically for Windows & Linux desktop users with physical disk renaming, automated scraping, and 1-click stealth privacy.',
     competitorPricing: 'Free & Open Source',
   },
 ];

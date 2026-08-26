@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "SWAYA - Offline-Mediencenter & Videoplayer für Windows",
-    "description": "Offline-Alternative zu Plex & FileBot für Windows. Downloads automatisch umbenennen, Filme auf Festplatten organisieren und 4K HDR ohne Server abspielen."
+    "title": "SWAYA - Offline-Mediencenter & Videoplayer für Windows & Linux",
+    "description": "Offline-Alternative zu Plex & FileBot für Windows & Linux. Downloads automatisch umbenennen, Filme auf Festplatten organisieren und 4K HDR ohne Server abspielen."
   },
   "navbar": {
     "brand": "SWAYA",
@@ -126,19 +126,19 @@
       },
       {
         "question": "Wie funktioniert die Lizenz?",
-        "answer": "SWAYA ist ein einmaliger Kauf für 39 € mit lebenslangem Zugriff. Alle zukünftigen Updates sind enthalten und die Lizenz kann auf bis zu 3 persönlichen Windows-PCs aktiviert werden."
+        "answer": "SWAYA ist ein einmaliger Kauf für 39 € mit lebenslangem Zugriff. Alle zukünftigen Updates sind enthalten und die Lizenz kann auf bis zu 3 persönlichen Windows- oder Linux-PCs aktiviert werden."
       }
     ]
   },
   "download": {
     "title": "Übernehmen Sie noch heute die Kontrolle über Ihre Mediensammlung",
-    "subtitle": "Holen Sie sich lebenslangen Zugriff auf Swaya für Windows. Einmaliger Kauf für 39 €, für immer Ihr Eigentum. Keine Abos.",
+    "subtitle": "Holen Sie sich lebenslangen Zugriff auf Swaya für Windows & Linux. Einmaliger Kauf für 39 €, für immer Ihr Eigentum. Keine Abos.",
     "button": "Lebenslange Lizenz kaufen (39 €)",
-    "disclaimer": "Sofortiger Download und Lizenzschlüssel nach dem Checkout. Funktioniert 100 % offline."
+    "disclaimer": "Sofortiger Download und Lizenzschlüssel nach dem Kauf. Verfügbar für Windows & Linux."
   },
   "footer": {
     "tagline": "Datenschutzorientiertes Desktop-Medien-Center und intelligenter Batch-Dateiorganizer für private Sammlungen.",
-    "badge": "Offline-First • v1.0 Windows",
+    "badge": "Offline-First • v1.0 Windows & Linux",
     "columns": {
       "navigation": "Navigation",
       "comparisons": "Vergleiche",
@@ -158,7 +158,7 @@
       "allGuides": "Alle Anleitungen →",
       "allComparisons": "Alle Alternativen →"
     },
-    "licenseDescription": "Einmaliger Kauf, lebenslanger Zugriff auf bis zu 3 persönlichen Windows-PCs.",
+    "licenseDescription": "Einmaliger Kauf, lebenslanger Zugriff auf bis zu 3 persönlichen Windows- oder Linux-PCs.",
     "buyLicense": "Lizenz kaufen (€39)",
     "copyright": "© {{year}} SWAYA. Alle Rechte vorbehalten.",
     "madeWithLove": "Erstellt mit",
@@ -204,7 +204,7 @@
   },
   "compare": {
     "metaTitle": "SWAYA Vergleiche & Software-Alternativen",
-    "metaDescription": "Vergleichen Sie SWAYA mit FileBot, Plex, tinyMediaManager, StashApp, Jellyfin und Kodi. Finden Sie das beste Offline-Mediacenter für Windows.",
+    "metaDescription": "Vergleichen Sie SWAYA mit FileBot, Plex, tinyMediaManager, StashApp, Jellyfin und Kodi. Finden Sie das beste Offline-Mediacenter für Windows & Linux.",
     "tag": "Software-Alternativen",
     "title": "Warum SWAYA?",
     "titleAccent": "Der direkte Vergleich.",
@@ -228,7 +228,7 @@
     "whySwitchSubtitle": "Zentrale Vorteile für Mediensammler und Desktop-Power-User.",
     "faqSubtitle": "Häufige Fragen zum Wechsel oder zur Parallelnutzung von SWAYA mit {{name}}.",
     "ctaTitle": "Bereit für die volle Kontrolle über Ihre Medien?",
-    "ctaSubtitle": "Erleben Sie das ultimative Offline-Medien-Center für Windows. Organisieren Sie echte Dateien auf der Festplatte und genießen Sie hardwarebeschleunigtes MPV 4K HDR.",
+    "ctaSubtitle": "Erleben Sie das ultimative Offline-Medien-Center für Windows & Linux. Organisieren Sie echte Dateien auf der Festplatte und genießen Sie hardwarebeschleunigtes MPV 4K HDR.",
     "buyCta": "Lebenslange Lizenz für 39 € sichern",
     "demoCta": "Live-Demo starten",
     "yes": "Ja",
@@ -278,7 +278,7 @@
     "lastUpdated": "Zuletzt aktualisiert: 20. August 2026",
     "scope": "SWAYA v1.x Desktop-Software",
     "section1Title": "1. Software-Lizenzgewährung & Nutzung",
-    "section1Text": "Mit Zahlung der einmaligen Lizenzgebühr (Einführungspreis 39 €, regulär 79 €) gewährt SWAYA Ihnen eine unbefristete, nicht ausschließliche, persönliche Lizenz zur Nutzung auf bis zu 3 eigenen Windows-Geräten.",
+    "section1Text": "Mit Zahlung der einmaligen Lizenzgebühr (Einführungspreis 39 €, regulär 79 €) gewährt SWAYA Ihnen eine unbefristete, nicht ausschließliche, persönliche Lizenz zur Nutzung auf bis zu 3 eigenen Windows- oder Linux-Geräten.",
     "section1Point1": "Sie können ein Gerät jederzeit in den Einstellungen deaktivieren, um die Lizenz auf einen neuen PC zu übertragen.",
     "section1Point2": "Der Weiterverkauf, die Vermietung oder die öffentliche Weitergabe des Lizenzschlüssels oder der Tokens ist untersagt.",
     "section1Point3": "Kommerzielle Weiterverbreitung oder Reverse-Engineering der Lizenzierungslogik ist strengstens untersagt.",

@@ -84,7 +84,7 @@
       ]
     },
     {
-      "source": "/(.*\\.html|docs(?:/.*)?|(?:de|ja|hu|fr|es|zh|it|ru|pt|ko|nl|pl|zh-tw|sv|tr|cs)(?:/.*)?|changelog(?:/.*)?|help(?:/.*)?|compare(?:/.*)?|index.html)",
+      "source": "/(.*\\.html|docs(?:/.*)?|(?:de|ja|hu|fr|es|zh|it|ru|pt|ko|nl|pl|zh-tw|sv|tr|cs)(?:/.*)?|changelog(?:/.*)?|help(?:/.*)?|compare(?:/.*)?|privacy(?:/.*)?|terms(?:/.*)?|dashboard(?:/.*)?|library(?:/.*)?|organizer(?:/.*)?|player(?:/.*)?|settings(?:/.*)?|onboarding(?:/.*)?|search(?:/.*)?|history(?:/.*)?|ratings(?:/.*)?|my-ratings(?:/.*)?|lists(?:/.*)?|statistics(?:/.*)?|torrent(?:/.*)?|tags(?:/.*)?|about(?:/.*)?|index.html)",
       "headers": [
         {
           "key": "Cache-Control",

@@ -7,7 +7,9 @@ import { setupMockApi } from '@/lib/mockApi';
 import { setupFetchInterceptor } from '@/lib/fetchInterceptor';
 import { installSafePerformanceMeasure } from '@/lib/perfMeasure';
 import { initRendererLogger } from '@/lib/rendererLogger';
+import { setupPreloadErrorHandler } from '@/lib/preloadErrorHandler';
 
+setupPreloadErrorHandler();
 setupMockApi();
 setupFetchInterceptor();
 installSafePerformanceMeasure();

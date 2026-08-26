@@ -26,6 +26,8 @@ export default function GlobalSearch() {
     ActiveTypeIcon,
     placeholder,
     hasAnyProvider,
+    isLiveDemo,
+    isSearchDisabled,
     translatedSources,
     translatedTypeOptions,
     handleInputChange,
@@ -38,13 +40,19 @@ export default function GlobalSearch() {
     resolveCardImageUrl,
   } = useGlobalSearch({ t });
 
+  const tooltipContent = isLiveDemo
+    ? (t('search.demoDisabled') || 'Search is disabled in live demo')
+    : !hasAnyProvider
+      ? (t('search.noProvidersConfigured') || 'Configure API keys in Settings')
+      : (t('common.advancedSearch') || 'Advanced Search');
+
   return (
     <div className={styles['global-search']} ref={containerRef}>
       <SearchInputCombo
         inputRef={inputRef}
         value={query}
         tabIndex={-1}
-        disabled={!hasAnyProvider}
+        disabled={isSearchDisabled}
         onChange={handleInputChange}
         onKeyDown={handleKeyDown}
         onFocus={handleFocus}
@@ -59,12 +67,12 @@ export default function GlobalSearch() {
         onOptionChange={setSelectedType}
         size="xs"
         rightElement={
-          <Tooltip content={!hasAnyProvider ? (t('search.noProvidersConfigured') || 'Configure API keys in Settings') : (t('common.advancedSearch') || 'Advanced Search')} side="bottom">
+          <Tooltip content={tooltipContent} side="bottom">
             <IconButton
               variant="ghost"
               size="xs"
               tabIndex={-1}
-              disabled={!hasAnyProvider}
+              disabled={isSearchDisabled}
               label={t('common.advancedSearch') || 'Advanced Search'}
               title={null}
               onClick={handleAdvancedSearchClick}

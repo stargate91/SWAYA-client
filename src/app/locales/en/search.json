@@ -3,6 +3,7 @@
   "title": "Global Search",
   "inputPlaceholder": "Type to search and press Enter...",
   "noProvidersConfigured": "Configure API keys in Settings to search...",
+  "demoDisabled": "Search is disabled in live demo",
   "sourceLabel": "Source",
   "typeLabel": "Type",
   "empty": {

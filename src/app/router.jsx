@@ -12,9 +12,12 @@ const OverlayShell = lazy(() => import('./shell/OverlayShell'));
 const OnboardingWizard = lazy(() => import('./pages/onboarding/OnboardingWizard'));
 const PlayerPage = lazy(() => import('./pages/player/PlayerPage'));
 
+import RouteErrorBoundary from './shell/RouteErrorBoundary';
+
 const routes = [
   {
     path: '/onboarding',
+    errorElement: <RouteErrorBoundary />,
     element: (
       <Suspense fallback={null}>
         <OnboardingWizard />
@@ -23,6 +26,7 @@ const routes = [
   },
   {
     path: '/player/:itemId',
+    errorElement: <RouteErrorBoundary />,
     element: (
       <Suspense fallback={null}>
         <PlayerPage />
@@ -35,6 +39,7 @@ const routes = [
         <OverlayShell />
       </Suspense>
     ),
+    errorElement: <RouteErrorBoundary />,
     children: [
       ...overlayCoreRoutes,
       ...overlayLibraryRoutes,
@@ -46,6 +51,7 @@ const routes = [
         <AppShell />
       </Suspense>
     ),
+    errorElement: <RouteErrorBoundary />,
     children: [
       ...coreRoutes.filter((route) => !route.index),
       ...organizerRoutes,

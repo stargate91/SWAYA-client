@@ -10,10 +10,13 @@ import { resolveSearchResultPath } from '@/lib/urlHelpers';
 import { SOURCES, TYPES_BY_SOURCE } from '@/lib/searchConstants';
 import { hasProviderCredential, getFirstEnabledProvider } from '@/lib/providerAvailability';
 import { ROUTES } from '@/lib/routes';
+import { isElectron } from '@/lib/ipc';
 import { Clapperboard } from '@/ui/icons';
 
 export function useGlobalSearch({ t }) {
   const navigate = useNavigate();
+
+  const isLiveDemo = !isElectron;
 
   // Search query input state
   const [query, setQuery] = useState('');
@@ -28,13 +31,15 @@ export function useGlobalSearch({ t }) {
       .filter((s) => !s.adult || hasAdult)
       .map((s) => ({
         ...s,
-        disabled: !hasProviderCredential(settings, s.id),
+        disabled: isLiveDemo || !hasProviderCredential(settings, s.id),
       }));
-  }, [hasAdult, settings]);
+  }, [hasAdult, isLiveDemo, settings]);
 
   const hasAnyProvider = useMemo(() => {
-    return filteredSources.some((s) => !s.disabled);
-  }, [filteredSources]);
+    return !isLiveDemo && filteredSources.some((s) => !s.disabled);
+  }, [filteredSources, isLiveDemo]);
+
+  const isSearchDisabled = isLiveDemo || !hasAnyProvider;
 
   // Selection state
   const [selectedSource, setSelectedSource] = useState(() => getFirstEnabledProvider(filteredSources, 'tmdb') || 'tmdb');
@@ -57,7 +62,7 @@ export function useGlobalSearch({ t }) {
   const containerRef = useRef(null);
   const inputRef = useRef(null);
 
-  const hasValidSource = hasAnyProvider && filteredSources.some((s) => s.id === effectiveSource && !s.disabled);
+  const hasValidSource = !isLiveDemo && hasAnyProvider && filteredSources.some((s) => s.id === effectiveSource && !s.disabled);
 
   const { data: searchResults = [] } = useGlobalSearchQuery(
     {
@@ -234,6 +239,9 @@ export function useGlobalSearch({ t }) {
   const ActiveTypeIcon = activeTypeObj.icon;
 
   const placeholder = useMemo(() => {
+    if (isLiveDemo) {
+      return t('search.demoDisabled') || 'Search is disabled in live demo';
+    }
     if (!hasAnyProvider) {
       return t('search.noProvidersConfigured') || 'Configure API keys in Settings to search...';
     }
@@ -242,7 +250,7 @@ export function useGlobalSearch({ t }) {
       return t('search.placeholderTmdb', { type: typeLabel }) || `Search ${typeLabel}...`;
     }
     return t('search.placeholderPattern', { type: typeLabel, source: activeSourceObj.name }) || `Search ${typeLabel} on ${activeSourceObj.name}...`;
-  }, [hasAnyProvider, t, activeTypeObj, selectedSource, activeSourceObj.name]);
+  }, [isLiveDemo, hasAnyProvider, t, activeTypeObj, selectedSource, activeSourceObj.name]);
 
   const translatedSources = useMemo(() => {
     return filteredSources.map((s) => ({
@@ -277,6 +285,8 @@ export function useGlobalSearch({ t }) {
     ActiveTypeIcon,
     placeholder,
     hasAnyProvider,
+    isLiveDemo,
+    isSearchDisabled,
     translatedSources,
     translatedTypeOptions,
     handleInputChange,

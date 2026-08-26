@@ -1,0 +1,101 @@
+.route-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: var(--space-2xl);
+  background: var(--color-bg-canvas);
+  color: var(--color-text-primary);
+  box-sizing: border-box;
+}
+
+.route-error__card {
+  max-width: 33.75rem;
+  width: 100%;
+  padding: var(--space-3xl);
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-2xl);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.route-error__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--button-height-lg);
+  height: var(--button-height-lg);
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--color-brand-primary) 12%, transparent);
+  color: var(--color-brand-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.route-error__icon--danger {
+  background: color-mix(in srgb, var(--color-state-danger) 12%, transparent);
+  color: var(--color-state-danger);
+}
+
+.route-error__title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.route-error__description {
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.route-error__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  justify-content: center;
+  width: 100%;
+  margin-top: var(--space-sm);
+}
+
+.route-error__details {
+  width: 100%;
+  text-align: left;
+  margin-top: var(--space-md);
+  border-top: 1px solid var(--color-border-subtle);
+  padding-top: var(--space-md);
+}
+
+.route-error__summary {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.route-error__summary:hover {
+  color: var(--color-text-secondary);
+}
+
+.route-error__stack {
+  margin-top: var(--space-sm);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-bg-canvas) 60%, transparent);
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+  font-size: var(--font-size-xs);
+  overflow-x: auto;
+  max-height: 11.25rem;
+  white-space: pre-wrap;
+  word-break: break-all;
+}

@@ -1,0 +1,11 @@
+.browser-grid {
+  max-height: 29.5rem;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding: var(--space-md);
+}
+
+.sentinel {
+  height: var(--space-xl);
+  margin: var(--space-md) 0;
+}

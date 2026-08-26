@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Home",
+    "breadcrumbDocs": "Documentazione",
+    "defaultCategory": "Documentazione",
+    "minRead": "{{count}} min di lettura",
+    "prevGuide": "Guida Precedente",
+    "nextGuide": "Guida Successiva",
+    "searchPlaceholder": "Cerca guide...",
+    "searchAriaLabel": "Cerca nella documentazione",
+    "clearSearchAriaLabel": "Cancella ricerca",
+    "noGuidesFound": "Nessuna guida trovata per \"{{query}}\"",
+    "onThisPage": "In questa pagina",
+    "tableOfContents": "Indice dei contenuti",
+    "navigationAriaLabel": "Navigazione Documentazione",
+    "relatedGuides": "Guide Correlate",
+    "error404": "Errore 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Pagina Non Trovata",
+    "pageNotFoundDesc": "La guida o pagina richiesta non esiste o è stata spostata.",
+    "goBack": "Indietro",
+    "returnHome": "Torna alla Home",
+    "skipToContent": "Salta al contenuto principale",
+    "errorBoundaryTitle": "Qualcosa è andato storto",
+    "errorBoundaryDesc": "Si è verificato un errore imprevisto durante il caricamento della pagina. Puoi ricaricare o tornare alla home.",
+    "reloadPage": "Ricarica la pagina",
+    "browseDocs": "Sfoglia Documentazione",
+    "allGuides": "Tutte le Guide",
+    "home": "Home",
+    "popularGuides": "Guide Popolari",
+    "documentationHub": "Guide per l'Utente",
+    "hubTitle": "SWAYA Documentazione & Guide",
+    "hubSubtitle": "Tutto ciò di cui hai bisogno per configurare la rinomina batch, lo scraping di metadati, la curatela della libreria e la riproduzione con accelerazione hardware."
+  },
+  "categories": {
+    "gettingStarted": "Per Iniziare",
+    "coreWorkflows": "Flussi di Lavoro Principali",
+    "libraryCuration": "Libreria & Curatela",
+    "systemAutomation": "Sistema & Automazione"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Introduzione & Panoramica",
+      "description": "Comprendi l'architettura di SWAYA, le caratteristiche e i pilastri fondamentali."
+    },
+    "organizer": {
+      "title": "Organizer Intelligente File",
+      "description": "Corrispondenza automatica, rinomina in batch e risoluzione collisioni."
+    },
+    "dashboard": {
+      "title": "Dashboard & Scoperta",
+      "description": "Banner in primo piano, ripresa visione e feed di scoperta."
+    },
+    "library": {
+      "title": "Libreria & Catalogo Multimediale",
+      "description": "Navigazione a griglia, modalità duale, filtri avanzati, tag e stato locale vs tracciato."
+    },
+    "details": {
+      "title": "Pagine Dettaglio & Profili",
+      "description": "Selettore artwork, stagioni serie TV e filmografie artisti."
+    },
+    "player": {
+      "title": "Motore di Riproduzione",
+      "description": "Integrazione MPV, accelerazione GPU e supporto lettore esterno."
+    },
+    "search": {
+      "title": "Ricerca Universale & Filtri",
+      "description": "Ricerca globale multi-sorgente e filtri in tempo reale."
+    },
+    "lists": {
+      "title": "Liste Personalizzate & Collezioni",
+      "description": "Collezioni a tema, cover collage a 4 poster, importazione ed esportazione."
+    },
+    "ratings": {
+      "title": "Valutazioni & Recensioni",
+      "description": "Scala a 10 stelle, recensioni in markdown e preferiti."
+    },
+    "history": {
+      "title": "Cronologia & Registro Visione",
+      "description": "Tracciamento avanzato ripresa e cronologia di riproduzione granulare."
+    },
+    "statistics": {
+      "title": "Statistiche Libreria (DNA)",
+      "description": "Grafici di archiviazione, ripartizione generi DNA libreria e timeline."
+    },
+    "settings": {
+      "title": "Impostazioni & Configurazione",
+      "description": "Template cartelle, policy collisioni, temi e chiavi API."
+    },
+    "torrent": {
+      "title": "Integrazione Torrent",
+      "description": "Monitoraggio e flusso di lavoro con qBittorrent."
+    }
+  }
+}

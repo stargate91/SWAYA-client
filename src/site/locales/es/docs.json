@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbDocs": "Documentación",
+    "defaultCategory": "Documentación",
+    "minRead": "{{count}} min de lectura",
+    "prevGuide": "Guía Anterior",
+    "nextGuide": "Guía Siguiente",
+    "searchPlaceholder": "Buscar en las guías...",
+    "searchAriaLabel": "Buscar en la documentación",
+    "clearSearchAriaLabel": "Limpiar búsqueda",
+    "noGuidesFound": "No se encontraron guías para «{{query}}»",
+    "onThisPage": "En esta página",
+    "tableOfContents": "Tabla de contenidos",
+    "navigationAriaLabel": "Navegación de la documentación",
+    "relatedGuides": "Guías Relacionadas",
+    "error404": "Error 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Página No Encontrada",
+    "pageNotFoundDesc": "La guía de documentación o la página que buscas no existe o ha sido movida.",
+    "goBack": "Volver",
+    "returnHome": "Volver al Inicio",
+    "skipToContent": "Saltar al contenido principal",
+    "errorBoundaryTitle": "Algo salió mal",
+    "errorBoundaryDesc": "Ocurrió un error inesperado al cargar esta página. Puedes recargarla o volver a la página de inicio.",
+    "reloadPage": "Recargar página",
+    "browseDocs": "Explorar Documentación",
+    "allGuides": "Todas las Guías",
+    "home": "Inicio",
+    "popularGuides": "Guías Populares",
+    "documentationHub": "Guías de la Estación de Trabajo",
+    "hubTitle": "Documentación & Guías de SWAYA",
+    "hubSubtitle": "Todo lo que necesitas para configurar el renombrado por lotes automatizado, scraping de metadatos multifuente, gestión de biblioteca personalizada y reproducción acelerada por hardware."
+  },
+  "categories": {
+    "gettingStarted": "Primeros Pasos",
+    "coreWorkflows": "Flujos Principales",
+    "libraryCuration": "Biblioteca & Curaduría",
+    "systemAutomation": "Sistema & Automatización"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Introducción & Visión General",
+      "description": "Comprende la arquitectura de SWAYA, almacenamiento sin conexión, funciones y pilares clave."
+    },
+    "organizer": {
+      "title": "Organizador Inteligente de Archivos",
+      "description": "Coincidencia automática con TMDb y StashDB, renombrado por lotes y enrutamiento seguro sin colisiones."
+    },
+    "dashboard": {
+      "title": "Panel de Control & Descubrimiento",
+      "description": "Banner destacado, reanudación de reproducción, canales de recomendación y navegación rápida."
+    },
+    "library": {
+      "title": "Catálogo & Biblioteca de Medios",
+      "description": "Navegación en cuadrícula, modo dual, filtros avanzados, etiquetas y estado local vs seguimiento."
+    },
+    "details": {
+      "title": "Páginas de Detalles & Perfiles",
+      "description": "Selectores de pósteres y fondos, botones de acción, desglose de temporadas y filmografías de artistas."
+    },
+    "player": {
+      "title": "Motor de Reproducción",
+      "description": "Motor MPV 4K HDR con aceleración por GPU, audio y subtítulos multipista y reanudación instantánea."
+    },
+    "search": {
+      "title": "Búsqueda Universal & Filtros",
+      "description": "Búsqueda global multifuente, filtros en tiempo real para películas, series, artistas y escenas."
+    },
+    "lists": {
+      "title": "Listas & Colecciones Personalizadas",
+      "description": "Colecciones temáticas, collages automáticos de 4 pósteres e importación/exportación JSON."
+    },
+    "ratings": {
+      "title": "Calificaciones & Reseñas",
+      "description": "Escala de 10 estrellas, reseñas privadas en markdown y gestión de favoritos."
+    },
+    "history": {
+      "title": "Historial de Reproducción & Registros",
+      "description": "Seguimiento de reanudación, historial detallado de visualización y máquina del tiempo de renombrados."
+    },
+    "statistics": {
+      "title": "Estadísticas de la Biblioteca (DNA)",
+      "description": "Gráficos de almacenamiento, desglose de géneros (Library DNA), resoluciones y líneas de tiempo."
+    },
+    "settings": {
+      "title": "Ajustes & Configuración",
+      "description": "Plantillas de carpetas, políticas de colisión, temas, claves API y atajos de privacidad."
+    },
+    "torrent": {
+      "title": "Integración con Torrent",
+      "description": "Monitoreo de descargas, coincidencia inteligente, importación automática e integración con qBittorrent."
+    }
+  }
+}

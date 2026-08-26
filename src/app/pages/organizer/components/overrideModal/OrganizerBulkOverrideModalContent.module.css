@@ -1,0 +1,10 @@
+.side-panel-list {
+  max-height: 21.25rem;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.source-tooltip {
+  min-width: 0;
+  flex: 1;
+}

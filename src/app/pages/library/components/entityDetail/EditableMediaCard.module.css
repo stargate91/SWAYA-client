@@ -1,0 +1,49 @@
+.card {
+  box-shadow: 0 1.375rem 3rem color-mix(in srgb, var(--color-bg-canvas) 34%, transparent);
+}
+
+.size-hero {
+  --ui-poster-card-width: 15.625rem;
+  --ui-poster-card-height: 23.4375rem;
+  width: var(--ui-poster-card-width);
+  height: var(--ui-poster-card-height);
+  max-width: var(--ui-poster-card-width);
+  max-height: var(--ui-poster-card-height);
+  flex-shrink: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 1.25rem 2.5rem color-mix(in srgb, var(--color-bg-canvas) 50%, transparent),
+    0 0 0 0.0625rem color-mix(in srgb, var(--color-text-primary) 8%, transparent);
+  align-self: flex-start;
+  transition: transform var(--motion-base), box-shadow var(--motion-base);
+}
+
+.size-hero:hover {
+  transform: scale(1.02);
+}
+
+.hover-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: color-mix(in srgb, var(--color-bg-canvas) 45%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--motion-base);
+  pointer-events: none;
+  z-index: var(--z-index-sticky);
+}
+
+.hover-icon {
+  transform: scale(0.9);
+  transition: transform var(--motion-base);
+}
+
+.card:hover .hover-overlay {
+  opacity: 1;
+}
+
+.card:hover .hover-icon {
+  transform: scale(1);
+}

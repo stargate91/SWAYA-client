@@ -1,0 +1,52 @@
+.silhouette {
+  width: 100%;
+  height: 90%;
+  opacity: 0.25;
+  transition: opacity var(--motion-base), transform var(--motion-base);
+  background-color: currentcolor;
+  mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+
+.silhouette:hover {
+  opacity: 0.45;
+  transform: scale(1.03);
+}
+
+.silhouette--female {
+  mask-image: url(/silhouettes/girl.svg);
+  color: var(--color-accent-pink);
+}
+
+.silhouette--male {
+  mask-image: url(/silhouettes/man.svg);
+  color: var(--color-accent-blue);
+}
+
+.silhouette--other {
+  color: var(--color-accent-purple);
+  width: 2rem;
+  height: 2rem;
+}
+
+.is-linking {
+  animation: silhouette-pulse var(--motion-duration-pulse) infinite var(--motion-ease-in-out);
+}
+
+@keyframes silhouette-pulse {
+  0% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: scale(1.08);
+  }
+
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,188 @@
+.welcome-hero-shell {
+  position: relative;
+  width: min(100%, 20rem);
+  min-height: 10.5rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.25rem;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.welcome-hero-shell::before {
+  content: "";
+  position: absolute;
+  inset: 1.625rem 2rem;
+  border-radius: 1.75rem;
+  background:
+    linear-gradient(90deg, hsl(205 100% 53.9% / 0.12), hsl(211 100% 41% / 0.05) 42%, transparent 78%),
+    linear-gradient(180deg, hsl(0 0% 100% / 0.05), hsl(0 0% 100% / 0.018)),
+    var(--ui-surface-card-gradient);
+  border: 1px solid var(--ui-overlay-panel-border);
+  box-shadow: 0 1.125rem 2.5rem color-mix(in srgb, var(--color-bg-canvas) 24%, transparent), inset 0 1px 0 color-mix(in srgb, var(--color-text-primary) 4%, transparent);
+  transform: perspective(56.25rem) rotateX(6deg);
+  z-index: var(--z-index-underlay);
+}
+
+.welcome-hero-shell::after {
+  content: "";
+  position: absolute;
+  inset: 0.625rem 0.75rem;
+  border-radius: var(--radius-full);
+  background:
+    radial-gradient(circle at top right, color-mix(in srgb, var(--color-accent-blue) 10%, transparent), transparent 34%),
+    radial-gradient(circle at bottom left, color-mix(in srgb, var(--color-accent-blue) 6%, transparent), transparent 30%);
+  border: 1px solid color-mix(in srgb, var(--ui-overlay-panel-border) 88%, transparent);
+  opacity: 0.42;
+  z-index: calc(var(--z-index-underlay) + 1);
+}
+
+.welcome-hero-orbit {
+  position: absolute;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-line);
+}
+
+.welcome-hero-orbit-primary {
+  --drift-primary-dur: 8s;
+  --drift-primary-ease: ease-in-out;
+  inset: 0 var(--space-2xl);
+  transform: rotate(-12deg);
+  animation: orbitDriftPrimary var(--drift-primary-dur) var(--drift-primary-ease) infinite;
+}
+
+.welcome-hero-orbit-secondary {
+  --drift-secondary-dur: 9s;
+  --drift-secondary-ease: ease-in-out;
+  inset: 1.375rem 0;
+  transform: rotate(18deg);
+  opacity: 0.38;
+  animation: orbitDriftSecondary var(--drift-secondary-dur) var(--drift-secondary-ease) infinite;
+}
+
+.welcome-logo-badge {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface-glass-heavy);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-full);
+  box-shadow:
+    0 1.5rem 3.75rem hsl(0 0% 0% / 0.45),
+    inset 0 1px 0 hsl(0 0% 100% / 0.08);
+  backdrop-filter: var(--glass-blur-lg);
+}
+
+.welcome-logo-badge .badge-glow {
+  --pulse-glow-dur: 3s;
+  --pulse-glow-ease: ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--color-accent-blue);
+  opacity: 0.15;
+  filter: blur(var(--space-md));
+  animation: pulseGlow var(--pulse-glow-dur) infinite var(--pulse-glow-ease);
+}
+
+.welcome-logo-badge .badge-icon {
+  --icon-orbit-dur: 14s;
+  --icon-orbit-ease: linear;
+  color: var(--color-accent-blue);
+  z-index: var(--z-index-step-2);
+  animation: heroIconOrbit var(--icon-orbit-dur) var(--icon-orbit-ease) infinite;
+}
+
+.welcome-hero-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4375rem;
+  min-height: calc(2 * var(--space-lg));
+  padding: 0 var(--space-md);
+  border-radius: var(--radius-full);
+  background:
+    linear-gradient(180deg, hsl(0 0% 100% / 0.05), hsl(0 0% 100% / 0.018)),
+    linear-gradient(180deg, hsl(218 40% 7.8% / 0.94), hsl(220 42.9% 5.5% / 0.98));
+  border: 1px solid color-mix(in srgb, var(--color-accent) 16%, color-mix(in srgb, var(--color-text-primary) 8%, transparent));
+  box-shadow:
+    0 0.75rem 1.625rem hsl(0 0% 0% / 0.2),
+    inset 0 1px 0 hsl(0 0% 100% / 0.04);
+  color: color-mix(in srgb, var(--color-signal) 70%, var(--color-text-primary) 30%);
+  font: 600 0.6875rem/1 var(--font-sans);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  --welcome-hero-float-duration: 5.2s;
+  --welcome-hero-float-timing: ease-in-out;
+  animation-name: heroFloat;
+  animation-duration: var(--welcome-hero-float-duration);
+  animation-timing-function: var(--welcome-hero-float-timing);
+  animation-iteration-count: infinite;
+}
+
+.welcome-hero-chip svg {
+  color: var(--color-signal);
+}
+
+.welcome-hero-chip-orbit {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.15;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.25;
+  }
+}
+
+@keyframes heroFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.25rem);
+  }
+}
+
+@keyframes heroIconOrbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orbitDriftPrimary {
+  0%, 100% {
+    transform: rotate(-12deg) scale(1);
+  }
+  50% {
+    transform: rotate(-8deg) scale(1.015);
+  }
+}
+
+@keyframes orbitDriftSecondary {
+  0%, 100% {
+    transform: rotate(18deg) scale(1);
+  }
+  50% {
+    transform: rotate(14deg) scale(0.985);
+  }
+}

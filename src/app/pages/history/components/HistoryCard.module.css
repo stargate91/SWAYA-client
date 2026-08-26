@@ -1,0 +1,31 @@
+.icon-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--button-height-md);
+  height: var(--button-height-md);
+  border-radius: var(--radius-sm);
+  background: var(--ui-surface-soft);
+  box-shadow: inset 0 0 0 0.0625rem var(--color-border-subtle);
+  color: var(--accent-color, var(--color-accent));
+  flex-shrink: 0;
+  transition: all var(--motion-base);
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  border-top: 0.0625rem solid var(--color-border-subtle);
+  background: color-mix(in srgb, var(--color-bg-canvas) 35%, transparent);
+  padding: var(--space-lg) var(--space-xl) var(--space-xl) var(--space-xl);
+}
+
+.scroll-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  max-height: 15rem;
+  overflow-y: auto;
+  padding-right: var(--space-sm);
+}

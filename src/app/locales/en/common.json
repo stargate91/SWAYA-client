@@ -1,0 +1,155 @@
+{
+  "common": {
+    "back": "Back",
+    "clear": "Clear",
+    "forward": "Forward",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "all": "All",
+    "error": "Error",
+    "close": "Close",
+    "create": "Create",
+    "default": "Default",
+    "remove": "Remove",
+    "save": "Save",
+    "search": "Search",
+    "advancedSearch": "Advanced search",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noData": "Nothing here yet",
+    "uploading": "Uploading...",
+    "showDetails": "Show details",
+    "hideDetails": "Hide details",
+    "sfwMode": "SFW Mode",
+    "nsfwMode": "NSFW Mode",
+    "other": "Other",
+    "showLess": "Show less",
+    "showMore": "Show more",
+    "adult_badge": "18+",
+    "noResults": "No matches found",
+    "select": "Select...",
+    "loading": "Loading...",
+    "searchPlaceholder": "Search...",
+    "subtitles": "Subtitles",
+    "subtitle": "Subtitle",
+    "adult": "Adult",
+    "browse": "Browse",
+    "download": "Download",
+    "viewLarge": "Click to view full size",
+    "exitDemo": "Exit Demo",
+    "nsfwConfirmTitle": "18+ Age Verification & Content Warning",
+    "nsfwConfirmDescription": "This section contains sexually explicit (18+) adult media. Are you at least 18 years of age or the age of majority in your jurisdiction and consent to view adult material?",
+    "nsfwConfirmButton": "I am 18+ - Enter",
+    "none": "None"
+  },
+  "tabs": {
+    "movies": "Movies",
+    "tvShows": "TV Shows",
+    "scenes": "Scenes",
+    "videos": "Videos",
+    "people": "Talents",
+    "studios": "Studios"
+  },
+  "dropzone": {
+    "label": "Drop files or folders here",
+    "description": "Drag and drop your media files right here to start scanning."
+  },
+  "pagination": {
+    "rowsPerPage": "Rows per page",
+    "first": "First",
+    "prev": "Prev",
+    "next": "Next",
+    "last": "Last",
+    "modePages": "Pages",
+    "modeInfinite": "Infinite"
+  },
+  "dropdown": {
+    "ascending": "Ascending",
+    "descending": "Descending"
+  },
+  "input": {
+    "hidePassword": "Hide password",
+    "showPassword": "Show password"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "organizer": "Organizer",
+    "library": "Library",
+    "history": "History",
+    "myRatings": "My Ratings",
+    "lists": "Lists",
+    "statistics": "Statistics",
+    "settings": "Settings",
+    "about": "About",
+    "quit": "Quit",
+    "expand": "Expand sidebar",
+    "collapse": "Collapse sidebar",
+    "torrent": "Downloads"
+  },
+  "titlebar": {
+    "minimizeWindow": "Minimize",
+    "maximizeWindow": "Maximize",
+    "closeWindow": "Close"
+  },
+  "progress": {
+    "abortConfirm": {
+      "title": "Stop current task?",
+      "description": "Are you sure you want to cancel the running task?",
+      "body": "We'll finish processing the current file and wrap up safely.",
+      "confirm": "Stop task",
+      "cancel": "Keep running"
+    },
+    "ready": "Ready",
+    "working": "Working on it...",
+    "images": {
+      "downloading": "Downloading posters & backdrops..."
+    },
+    "people": {
+      "hydrating": "Updating star details...",
+      "importing": "Adding stars..."
+    },
+    "collections": {
+      "enriching": "Fetching collection info..."
+    },
+    "sync": {
+      "running": "Syncing metadata languages..."
+    },
+    "torrent": {
+      "downloading_single": "Downloading {{name}}...",
+      "downloading_multiple": "Downloading {{count}} items..."
+    }
+  },
+  "closePrompt": {
+    "title": "Close SWAYA?",
+    "description": "Would you like to quit SWAYA completely or keep it running quietly in the tray?",
+    "info": "You can change this anytime in Settings > General.",
+    "action": {
+      "tray": "Minimize to Tray",
+      "quit": "Quit SWAYA"
+    },
+    "dontAskAgain": "Remember my choice"
+  },
+  "player": {
+    "ends_at": "Ends at",
+    "audio_tracks": "Audio Tracks",
+    "no_audio_tracks": "No extra audio tracks",
+    "off": "Off",
+    "track": "Track",
+    "external_track": "External Track",
+    "external_subtitle": "External Subtitle",
+    "finished_watching": "Finished watching",
+    "back_to_video": "Back to Video",
+    "starting_in": "Starting in {{count}}s...",
+    "replay": "Replay",
+    "close_player": "Close Player",
+    "season_number": "Season {{season}}",
+    "episode_number": "Episode {{episode}}",
+    "rate_show_prompt": "Ready to rate this series?",
+    "peaks_recorded": "You recorded {{count}} finishes in this scene"
+  },
+  "widget": {
+    "failed_to_load": "Couldn't load widget",
+    "unknown_error": "An unexpected error occurred while loading this section."
+  }
+}

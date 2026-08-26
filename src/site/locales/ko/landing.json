@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - Windows용 오프라인 미디어 센터 및 비디오 플레이어",
+    "description": "서버가 필요 없는 Windows용 완전 오프라인 Plex 및 FileBot 대안. 다운로드 자동 파일 이름 정리, 외장 하드 드라이브 컬렉션 정리 및 4K HDR 완벽 재생."
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "홈",
+    "docs": "문서",
+    "changelog": "변경 로그",
+    "compare": "비교",
+    "help": "고객지원",
+    "download": "다운로드 & 가격",
+    "title": "SWAYA 사이트 내비게이션",
+    "discord": "디스코드",
+    "buy": "SWAYA 구매 (€39)",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "당신의 모든 오프라인 미디어 유니버스를,",
+    "taglineAccent": "완벽한 통제 아래에.",
+    "subtitle": "하드 드라이브에 가득 찬 복잡한 파일명과 영상들. SWAYA는 파일을 깔끔하게 정리하고, 아름다운 4K 라이브러리를 구축하며 완전한 프라이버시를 보장합니다.",
+    "priceOld": "€79",
+    "priceNew": "€39",
+    "priceTag": "출시 기념 특별 할인 (50% OFF)",
+    "buyCta": "€39 평생 라이선스 구매",
+    "demoCta": "실시간 웹 데모 실행",
+    "guarantees": {
+      "payment": "평생 단 1회 결제",
+      "updates": "평생 무료 업데이트",
+      "devices": "최대 3대의 개인 PC 지원"
+    }
+  },
+  "video": {
+    "tag": "제품 개요",
+    "title": "SWAYA란 무엇인가요?",
+    "titleAccent": "실제 작동 영상 보기",
+    "subtitle": "SWAYA는 하드 드라이브의 복잡한 파일명을 자동으로 정리하고, 멋진 카탈로그를 만들며, 내장 MPV 엔진으로 100% 오프라인 재생을 지원하는 Windows 데스크톱 앱입니다.",
+    "badge": "2:48 둘러보기",
+    "placeholderTitle": "제품 데모 영상",
+    "placeholderSubtitle": "일괄 파일 정리, 미디어 라이브러리 및 내장 MPV 플레이어 시연.",
+    "transcriptTitle": "비디오 둘러보기 하이라이트 & 기능 요약",
+    "transcriptOrganizer": "00:00 - 스마트 일괄 파일 이름 변경 및 폴더 자동 정리",
+    "transcriptCuration": "01:00 - 미디어 라이브러리, 상세 페이지 및 큐레이션",
+    "transcriptPrivacy": "02:25 - 내장 MPV 플레이어, 이어보기 및 시청 기록",
+    "comingSoon": "데모 비디오가 곧 공개됩니다",
+    "play": "데모 영상 재생",
+    "pause": "데모 영상 일시정지"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "자동 파일 정리",
+      "title": "지저분한 다운로드 폴더를 정돈된 라이브러리로.",
+      "titleAccent": "실제 하드 드라이브에서 직접 실행.",
+      "description": "영화, 드라마, 애니메이션을 TMDb 및 StashDB와 자동으로 매칭합니다. 사용자 정의 명명 템플릿과 충돌 방지 미리보기를 통해 드라이브의 수천 개 파일을 Plex/Jellyfin 규격으로 일괄 정리합니다.",
+      "benefits": [
+        "글로벌 및 특화 데이터베이스 기반 자동 메타데이터 수집",
+        "실제 파일 일괄 이름 변경 및 Plex/Jellyfin 폴더 구조 자동화",
+        "안전한 드라이 런(Dry-run) 미리보기 및 파일 덮어쓰기 보호"
+      ],
+      "supportedApisLabel": "지원 메타데이터 제공자",
+      "mockupTitle": "스마트 배치 오거나이저",
+      "mockupBadge": "142개 항목 매칭 완료 • 정리 준비됨",
+      "mockupPlaceholder": "오거나이저 스크린샷"
+    },
+    "curation": {
+      "tag": "모든 것을 한곳에서 관리",
+      "title": "영화, 시리즈, 비디오, 출연진을.",
+      "titleAccent": "하나의 통합 카탈로그에서.",
+      "description": "로컬 하드 드라이브의 미디어를 4K 포스터, 배경 아트워크, 출연진 프로필, 제작사 정보로 풍성하게 만듭니다. 자동 4-포스터 콜라주 커버 리스트와 마크다운 개인 리뷰를 작성할 수 있습니다.",
+      "benefits": [
+        "영화, TV 시리즈, 출연진, 제작사를 통합 관리하는 라이브러리",
+        "로컬 및 외장 하드 드라이브 컬렉션의 즉각적인 브라우징",
+        "10점 척도 평점과 마크다운 개인 비공개 리뷰"
+      ],
+      "mockupTitle": "유니버설 미디어 카탈로그",
+      "mockupBadge": "4K 아트워크 • 통합 데이터베이스",
+      "mockupPlaceholder": "미디어 상세 페이지 스크린샷"
+    },
+    "privacy": {
+      "tag": "클라우드 없음 • 계정 불필요",
+      "title": "100% 오프라인 & 철저한 프라이버시.",
+      "titleAccent": "클라우드 의존성 제로, 추적 제로.",
+      "description": "Plex 서버 설정 불필요, 클라우드 불필요, 월 구독료 제로. 모든 미디어는 사용자의 PC 내부에만 머물며, 글로벌 단축키로 민감한 컬렉션을 즉시 숨기는 스텔스 금고를 제공합니다.",
+      "benefits": [
+        "100% 로컬 데이터 처리 (원격 텔레메트리나 데이터 전송 없음)",
+        "단축키로 즉시 숨기는 프라이빗 스텔스 금고 모드",
+        "€39 1회 결제로 평생 오프라인 이용"
+      ],
+      "mockupTitle": "스텔스 금고 & 프라이버시 보호",
+      "mockupBadge": "로컬 DB • 외부 통신 없음",
+      "mockupPlaceholder": "프라이버시 스텔스 금고 스크린샷"
+    }
+  },
+  "faq": {
+    "tag": "자주 묻는 질문",
+    "title": "자주 묻는 질문",
+    "titleAccent": "(FAQ)",
+    "subtitle": "SWAYA의 기능, 라이선스, 오프라인 프라이버시 및 재생 성능에 대해 자세히 알아보세요.",
+    "items": [
+      {
+        "question": "SWAYA는 Plex, Jellyfin, Kodi와 어떻게 다른가요?",
+        "answer": "Plex나 Jellyfin과 달리 SWAYA는 서버 구축, 네트워크 스트리밍, 계정 생성이 전혀 필요하지 않습니다. 로컬 하드 드라이브의 미디어를 직접 정리하고 고성능 내장 MPV 엔진으로 즉시 재생하는 가벼운 독립형 데스크톱 앱입니다."
+      },
+      {
+        "question": "SWAYA를 FileBot 대신 파일 일괄 이름 변경에 사용할 수 있나요?",
+        "answer": "네, 가능합니다. SWAYA에는 TMDb, StashDB 등을 활용한 자동 배치 오거나이저가 내장되어 있어 복잡한 다운로드 파일을 인식하고 Plex/Jellyfin 규격의 폴더 구조로 안전하게 일괄 정리할 수 있습니다."
+      },
+      {
+        "question": "외장 하드 드라이브나 USB 드라이브에서도 사용할 수 있나요?",
+        "answer": "네, 완벽하게 지원합니다. SWAYA는 외장 HDD, USB 드라이브, 로컬 공유 폴더에 최적화되어 있습니다. 드라이브가 분리되어 있어도 카탈로그, 포스터, 시청 기록을 그대로 검색하고 확인할 수 있습니다."
+      },
+      {
+        "question": "SWAYA는 완전히 오프라인으로 작동하며 개인정보가 보호되나요?",
+        "answer": "네. 모든 메타데이터, SQLite 로컬 데이터베이스, 컬렉션 정보는 100% 사용자의 PC에만 저장됩니다. 외부 추적이 없으며, 단축키로 민감한 라이브러리를 즉시 가릴 수 있습니다."
+      },
+      {
+        "question": "비디오 재생에는 어떤 엔진이 사용되나요?",
+        "answer": "SWAYA에는 하드웨어 GPU 가속을 완벽 지원하는 최적화된 MPV 플레이어가 내장되어 있습니다. 4K HDR 재생, 다중 오디오/자막 트랙 전환, 자동 이어보기를 지원합니다."
+      },
+      {
+        "question": "어떤 메타데이터 제공자를 지원하나요?",
+        "answer": "TMDb, OMDb, StashDB, FansDB, ThePornDB와 직접 연동되어 영화, 시리즈 포스터, 출연진 정보, 제작사 로고를 자동으로 매칭합니다."
+      },
+      {
+        "question": "라이선스는 어떻게 작동하나요?",
+        "answer": "SWAYA는 €39의 1회 평생 라이선스입니다. 월 구독료가 없으며, 향후 모든 버전 1.x 업데이트가 포함되고 최대 3대의 개인 Windows PC에서 사용할 수 있습니다."
+      }
+    ]
+  },
+  "download": {
+    "title": "지금 당신의 미디어 컬렉션을 완벽하게 정리하세요",
+    "subtitle": "Windows용 SWAYA 평생 라이선스를 획득하세요. €39 1회 구매로 평생 이용 가능하며 월 구독료가 없습니다.",
+    "button": "평생 라이선스 구매 (€39)",
+    "disclaimer": "결제 즉시 라이선스 키와 다운로드 링크가 발급됩니다. 100% 오프라인 호환."
+  },
+  "footer": {
+    "tagline": "개인 미디어 컬렉션을 위한 프라이버시 우선 오프라인 미디어 센터 및 스마트 배치 오거나이저.",
+    "badge": "Offline-First • v1.0 Windows",
+    "columns": {
+      "navigation": "바로가기",
+      "comparisons": "제품 비교",
+      "documentation": "문서 가이드",
+      "getSwaya": "SWAYA 구매"
+    },
+    "links": {
+      "home": "홈",
+      "docs": "문서",
+      "changelog": "업데이트 기록",
+      "help": "고객지원",
+      "privacy": "개인정보 처리방침",
+      "terms": "이용약관 및 환불 정책",
+      "discord": "디스코드 커뮤니티",
+      "contact": "개발자 문의",
+      "liveDemo": "라이브 웹 데모",
+      "allGuides": "모든 가이드 보기 →",
+      "allComparisons": "모든 비교 보기 →"
+    },
+    "licenseDescription": "한 번의 구매로 최대 3대의 개인 Windows PC에서 평생 이용할 수 있습니다.",
+    "buyLicense": "라이선스 구매 (€39)",
+    "copyright": "© {{year}} SWAYA. All rights reserved.",
+    "madeWithLove": "Made with",
+    "forCollectors": "미디어 컬렉터를 위해 제작됨",
+    "languages": "언어:"
+  },
+  "changelog": {
+    "badge": "릴리스 기록",
+    "title": "릴리스 노트 및 업데이트 기록",
+    "subtitle": "SWAYA의 새로운 기능, 성능 최적화 및 업데이트 내역을 확인하세요.",
+    "latest": "최신 릴리스",
+    "highlights": "주요 하이라이트"
+  },
+  "help": {
+    "badge": "고객지원 & 커뮤니티",
+    "title": "무엇을 도와드릴까요?",
+    "subtitle": "개발자에게 직접 문의하거나, 디스코드 커뮤니티에 참여하거나, 기술 가이드를 확인해보세요.",
+    "cards": {
+      "discord": {
+        "tag": "실시간 커뮤니티 및 채팅",
+        "title": "공식 디스코드 서버",
+        "description": "미디어 컬렉터 커뮤니티에 참여하여 팁을 공유하고, 질문하고, 최신 소식을 가장 먼저 받아보세요.",
+        "button": "디스코드 서버 참여",
+        "badge": "온라인 커뮤니티"
+      },
+      "email": {
+        "tag": "개발자 직접 문의",
+        "title": "이메일 고객지원",
+        "description": "라이선스 문의, 기능 제안, 피드백, 버그 리포트는 개발자에게 직접 이메일을 보내주세요.",
+        "button": "이메일 보내기",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "기술 문서를 찾고 계신가요?",
+      "subtitle": "배치 파일 정리 워크플로우, 설정 옵션 및 세부 기술 가이드를 확인하세요.",
+      "allGuides": "총 13개 가이드 전체 보기 →"
+    },
+    "faq": {
+      "title": "고객지원 자주 묻는 질문",
+      "subtitle": "라이선스, 프라이버시, 기술적 지원에 대한 빠른 답변입니다."
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA 비교 및 소프트웨어 대안",
+    "metaDescription": "SWAYA를 FileBot, Plex, tinyMediaManager, StashApp, Jellyfin, Kodi와 비교해보세요. Windows를 위한 최고의 오프라인 미디어 센터를 만나보세요.",
+    "tag": "소프트웨어 비교",
+    "title": "왜 SWAYA를 선택해야 할까요?",
+    "titleAccent": "대안 제품과의 비교",
+    "subtitle": "서버 없는 오프라인 아키텍처, 물리 파일 자동 정리, 4K MPV 비디오 플레이어가 결합된 차세대 워크스테이션을 확인하세요.",
+    "viewAll": "모든 대안 제품 및 비교 표 보기 →",
+    "badge": "소프트웨어 비교",
+    "hubTitle": "SWAYA vs",
+    "hubTitleAccent": "대안 소프트웨어 비교",
+    "hubSubtitle": "인기 미디어 서버, 배치 파일 정리기, 미디어 관리자와 SWAYA를 비교하여 컬렉터들이 100% 오프라인 데스크톱 앱을 선택하는 이유를 확인하세요.",
+    "viewComparison": "비교 보기",
+    "relatedDocsTitle": "관련 SWAYA 기능 및 가이드",
+    "relatedDocsSubtitle": "비교된 핵심 기능을 심도 있게 다루는 공식 문서 가이드입니다.",
+    "honestComparison": "솔직한 비교: 나에게 가장 적합한 도구는?",
+    "honestSubtitle": "모든 도구는 고유한 장점이 있습니다. 올바른 선택을 위한 객관적인 비교입니다.",
+    "chooseCompetitor": "{{name}}을(를) 선택해야 하는 경우...",
+    "chooseSwaya": "SWAYA를 선택해야 하는 경우...",
+    "featureBreakdown": "상세 기능 비교 매트릭스",
+    "featureSubtitle": "SWAYA와 {{name}}의 기술 사양 및 워크플로우 직접 비교.",
+    "featureHeader": "기능 / 사양",
+    "whySwitch": "SWAYA가 돋보이는 이유",
+    "whySwitchSubtitle": "미디어 컬렉터와 파워 유저를 위해 설계된 핵심 차별점.",
+    "faqSubtitle": "{{name}}에서의 전환 및 함께 사용하는 방법에 관한 질문입니다.",
+    "ctaTitle": "컬렉션을 완벽하게 통제할 준비가 되셨나요?",
+    "ctaSubtitle": "Windows용 최고의 오프라인 미디어 센터. 하드 드라이브를 정리하고 4K HDR MPV 화질을 즐기세요.",
+    "buyCta": "€39 평생 라이선스 구매",
+    "demoCta": "라이브 웹 데모 체험",
+    "yes": "지원",
+    "no": "미지원",
+    "partial": "부분 지원"
+  },
+  "cookies": {
+    "ariaLabel": "개인정보 및 쿠키 설정",
+    "title": "프라이버시 및 익명 분석",
+    "description": "SWAYA의 성능과 안정성 향상을 위해 익명 진단 분석을 사용합니다.",
+    "essentialOnly": "필수 항목만",
+    "acceptAll": "모두 허용"
+  },
+  "privacy": {
+    "badge": "프라이버시 및 보안",
+    "title": "개인정보 처리방침",
+    "subtitle": "SWAYA는 오프라인 우선 데스크톱 애플리케이션으로 설계되었습니다. 텔레메트리 제로, 완전한 로컬 데이터 저장, 강력한 암호화 보호를 약속합니다.",
+    "lastUpdated": "최종 업데이트: 2026년 8월 20일",
+    "scope": "SWAYA 데스크톱 앱 및 swaya.xyz 웹사이트 적용",
+    "section1Title": "1. 텔레메트리 제로 & 로컬 미디어 저장",
+    "section1Text": "SWAYA는 오프라인 우선 미디어 센터이자 비디오 플레이어입니다. 미디어 파일, 폴더 구조, 재생 기록, 평점, 태그, 메모는 로컬 SQLite 데이터베이스(data/swaya.db)에만 저장됩니다.",
+    "section1Point1": "사용자의 미디어 파일이나 디스크 내용을 전송, 인덱싱 또는 모니터링하지 않습니다.",
+    "section1Point2": "시청 시간, 시청 습관 또는 사용량 통계를 원격으로 기록하지 않습니다.",
+    "section1Point3": "메타데이터 쿼리(TMDb, OMDb, StashDB 등)는 당사 서버를 거치지 않고 사용자의 PC에서 직접 대상 서비스로 전송됩니다.",
+    "section2Title": "2. 결제 정보 & 라이선스 발급",
+    "section2Text": "라이선스 구매 시 결제는 Stripe Inc.를 통해 안전하게 처리됩니다. 카드 번호나 금융 정보는 당사 서버에 저장되지 않습니다.",
+    "section2Point1": "수집 항목: 구매자 이메일, 이름(선택), Stripe 거래 ID, 타임스탬프.",
+    "section2Point2": "이용 목적: 암호화 서명된 라이선스 키 발급, 주문 확인 메일 전송 및 고객지원 제공.",
+    "section2Point3": "보관 기간: 관련 세법 및 회계 규정에 따라 결제 기록을 보관합니다.",
+    "section3Title": "3. 디바이스 활성화 & 오프라인 검증",
+    "section3Text": "라이선스 키 입력 시 앱은 라이선스 서버와 단 1회 통신하여 오프라인 검증 토큰(HMAC-SHA256)을 생성합니다:",
+    "section3Point1": "활성화 요청에는 3대 기기 제한을 관리하기 위한 단방향 해시 하드웨어 식별자만 포함됩니다.",
+    "section3Point2": "검증 완료 후 토큰이 로컬에 저장되며, 이후 상시 인터넷 연결 없이 완전 오프라인으로 작동합니다.",
+    "section3Point3": "설정에서 언제든지 기기 인증을 해제하고 새 PC로 라이선스를 이전할 수 있습니다.",
+    "section4Title": "4. 웹사이트 분석 & 쿠키",
+    "section4Text": "공식 웹사이트(swaya.xyz)에서는 로딩 속도 및 성능 모니터링을 위해 익명화된 분석 도구를 사용합니다:",
+    "section4Point1": "크로스 사이트 추적이나 광고 네트워크로의 데이터 판매는 절대 하지 않습니다.",
+    "section4Point2": "분석 쿠키는 동의 배너에서 수락한 경우에만 활성화됩니다.",
+    "section5Title": "5. 사용자의 권리 (GDPR 등) & 문의",
+    "section5Text": "GDPR 등 데이터 보호 규정에 따라 등록 정보 및 이메일 데이터의 열람, 수정, 삭제를 언제든지 요청할 수 있습니다.",
+    "section5Contact": "질문, 데이터 삭제 요청, 지원 문의는 개발자에게 직접 연락주시기 바랍니다:"
+  },
+  "terms": {
+    "badge": "이용약관",
+    "title": "이용약관 및 환불 정책",
+    "subtitle": "구매 전 본 약관을 주의 깊게 읽어주세요. 라이선스 구매 또는 소프트웨어 다운로드 시 본 약관에 동의한 것으로 간주됩니다.",
+    "lastUpdated": "최종 업데이트: 2026년 8월 20일",
+    "scope": "SWAYA v1.x 데스크톱 소프트웨어",
+    "section1Title": "1. 소프트웨어 라이선스 부여 & 사용 조건",
+    "section1Text": "1회성 라이선스 요금(출시 기념 €39, 정가 €79) 결제로 사용자가 소유한 최대 3대의 개인 Windows 기기에 SWAYA를 설치하고 실행할 수 있는 비독점적이고 영구적인 개인 라이선스를 부여합니다.",
+    "section1Point1": "앱 내에서 언제든지 기기 인증을 해제하고 새 PC로 이전할 수 있습니다.",
+    "section1Point2": "라이선스 키나 암호화 토큰의 재판매, 임대, 공개 배포는 금지됩니다.",
+    "section1Point3": "상업적 재배포, 제3자 상용 소프트웨어에의 통합 또는 검증 로직 리버스 엔지니어링은 엄격히 금지됩니다.",
+    "section2Title": "2. 환불 및 취소 정책",
+    "section2Text": "SWAYA는 디지털 다운로드 소프트웨어로서 다음과 같은 명확한 환불 정책을 운영합니다:",
+    "section2Point1": "미활성화 라이선스 (14일 환불 보장): 앱 내에서 한 번도 활성화되지 않은 경우, 구매 후 14일 이내에 이메일 요청 시 100% 무조건 전액 환불됩니다.",
+    "section2Point2": "활성화된 라이선스 (7일 기술 호환성 보장): 지원되는 Windows 환경에서 기술적 결함이나 호환성 문제가 해결되지 않는 경우, 구매 후 7일 이내에 100% 환불됩니다.",
+    "section2Point3": "라이선스 비활성화: 환불 처리 시 관련 라이선스 키와 토큰은 서버에서 영구 무효화됩니다.",
+    "section3Title": "3. 올바른 사용 & 콘텐츠에 대한 책임",
+    "section3Text": "SWAYA는 로컬 파일 관리 및 비디오 재생 도구입니다. 본 앱으로 처리되는 모든 미디어 및 데이터에 대한 책임은 전적으로 사용자에게 있습니다.",
+    "section3Point1": "사용자는 자신의 미디어 파일에 대한 모든 저작권과 소유권을 100% 보유합니다.",
+    "section3Point2": "저작권법을 포함한 모든 해당 법률을 준수하여 본 소프트웨어를 사용하는 데 동의합니다.",
+    "section4Title": "4. 평생 업데이트 & 유지보수",
+    "section4Text": "평생 라이선스 보유자는 제품 수명 주기 동안 모든 버전 1.x 업데이트, 새로운 기능 및 보안 패치를 무료로 받습니다.",
+    "section5Title": "5. 보증의 부인 & 책임의 제한",
+    "section5Text1": "SWAYA는 '있는 그대로(AS IS)' 제공됩니다. 파일 이름 변경 전 미리보기가 제공되며, 디스크 쓰기 실행 전 미리보기를 확인할 책임은 사용자에게 있습니다.",
+    "section5Text2": "법률이 허용하는 최대 범위 내에서, 개발자는 데이터 손실이나 저장 장치 장애를 포함한 간접적 손해에 대해 책임을 지지 않습니다.",
+    "section6Title": "6. 고객지원 & 문의처",
+    "section6Text": "환불 요청, 기술 문의 등은 levicore@proton.me 또는 공식 디스코드 커뮤니티로 언제든지 문의하세요."
+  }
+}

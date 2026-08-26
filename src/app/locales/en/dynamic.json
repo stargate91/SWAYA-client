@@ -1,0 +1,504 @@
+{
+  "emptyStates": {
+    "search": {
+      "title": "No matching {tab} found",
+      "description": "Try searching with a different keyword or checking your spelling."
+    },
+    "filter": {
+      "title": "No matches for these filters",
+      "description": "Try clearing or relaxing a few filters to see more {tab}."
+    },
+    "movies": {
+      "title": "Your movie library is empty",
+      "description": "Organize your media files to start building your movie collection."
+    },
+    "tv": {
+      "title": "Your TV show library is empty",
+      "description": "Organize your media files to start building your TV show collection."
+    },
+    "people": {
+      "title": "Your stars library is empty",
+      "description": "Follow actors, directors, and stars to see them listed here."
+    },
+    "collections": {
+      "title": "No collections yet",
+      "description": "Group movies into franchises and collections to organize your library."
+    },
+    "tags": {
+      "title": "No tags yet",
+      "description": "Create custom tags to label, sort, and organize your media."
+    },
+    "scenes": {
+      "title": "Your scenes library is empty",
+      "description": "Organize your video files and clips to see them listed here."
+    },
+    "adult": {
+      "title": "Your adult movie library is empty",
+      "description": "Organize your adult movies to start building your collection."
+    },
+    "adult_tv": {
+      "title": "Your adult TV show library is empty",
+      "description": "Organize your adult series to start building your collection."
+    },
+    "adultPeople": {
+      "title": "Your adult stars library is empty",
+      "description": "Follow adult stars to see them listed in your library."
+    },
+    "adultCollections": {
+      "title": "No adult collections yet",
+      "description": "Group adult media into custom collections to organize your library."
+    },
+    "adultTags": {
+      "title": "No adult tags yet",
+      "description": "Create custom tags to label and organize your adult media."
+    },
+    "adult_scenes": {
+      "title": "Your adult scenes library is empty",
+      "description": "Organize your adult scenes to see them listed here."
+    },
+    "studios": {
+      "title": "Your studios library is empty",
+      "description": "Follow studios to see them listed in your library."
+    },
+    "adult_studios": {
+      "title": "Your adult studios library is empty",
+      "description": "Follow adult studios to see them listed in your library."
+    },
+    "emptyCredits_scenes_stashdb": {
+      "title": "No StashDB scenes",
+      "description": "No scenes found for this performer on StashDB."
+    },
+    "emptyCredits_scenes_fansdb": {
+      "title": "No FansDB scenes",
+      "description": "No scenes found for this performer on FansDB."
+    },
+    "emptyCredits_scenes_theporndb": {
+      "title": "No ThePornDB scenes",
+      "description": "No scenes found for this performer on ThePornDB."
+    },
+    "emptyCredits_movies_tmdb": {
+      "title": "No TMDb movies",
+      "description": "No movies found for this performer on TMDb."
+    },
+    "emptyCredits_movies_theporndb": {
+      "title": "No ThePornDB movies",
+      "description": "No movies found for this performer on ThePornDB."
+    },
+    "emptyCredits_tv": {
+      "title": "No TV shows",
+      "description": "No TV shows found for this performer."
+    }
+  },
+  "genres": {
+    "Action": "Action",
+    "Adventure": "Adventure",
+    "Animation": "Animation",
+    "Comedy": "Comedy",
+    "Crime": "Crime",
+    "Documentary": "Documentary",
+    "Drama": "Drama",
+    "Family": "Family",
+    "Fantasy": "Fantasy",
+    "History": "History",
+    "Horror": "Horror",
+    "Music": "Music",
+    "Mystery": "Mystery",
+    "Romance": "Romance",
+    "Science Fiction": "Sci-Fi",
+    "Sci-Fi": "Sci-Fi",
+    "TV Movie": "TV Movie",
+    "Thriller": "Thriller",
+    "War": "War",
+    "Western": "Western",
+    "News": "News",
+    "Reality": "Reality",
+    "Soap": "Soap",
+    "Talk": "Talk",
+    "Kids": "Kids",
+    "Politics": "Politics",
+    "War & Politics": "War & Politics",
+    "Action & Adventure": "Action & Adventure",
+    "Sci-Fi & Fantasy": "Sci-Fi & Fantasy"
+  },
+  "roles": {
+    "artist": "Star",
+    "performer": "Adult Star",
+    "actor": "Actor",
+    "actress": "Actress",
+    "director": "Director",
+    "writer": "Writer",
+    "creator": "Creator",
+    "producer": "Producer",
+    "production": "Production",
+    "story": "Story",
+    "screenplay": "Screenplay",
+    "acting": "Actor",
+    "directing": "Director",
+    "writing": "Writer",
+    "sound": "Composer"
+  },
+  "performerTraits": {
+    "buttShapes": {
+      "bubble": "Bubble",
+      "heart": "Heart",
+      "square": "Square",
+      "flat": "Flat"
+    },
+    "buttSizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "big": "Big",
+      "extra_big": "Extra Big"
+    },
+    "breastSizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "big": "Big",
+      "extra_big": "Extra Big"
+    },
+    "breastTypes": {
+      "natural": "Natural",
+      "fake": "Fake / Implant",
+      "na": "N/A"
+    },
+    "hairColors": {
+      "blonde": "Blonde",
+      "brunette": "Brunette",
+      "black": "Black",
+      "red": "Red",
+      "auburn": "Auburn",
+      "grey": "Grey",
+      "bald": "Bald",
+      "various": "Various",
+      "white": "White"
+    },
+    "eyeColors": {
+      "blue": "Blue",
+      "brown": "Brown",
+      "grey": "Grey",
+      "green": "Green",
+      "hazel": "Hazel",
+      "red": "Red"
+    },
+    "ethnicities": {
+      "caucasian": "Caucasian",
+      "black": "Black",
+      "asian": "Asian",
+      "indian": "Indian",
+      "latin": "Latin",
+      "middle_eastern": "Middle Eastern",
+      "mixed": "Mixed",
+      "other": "Other"
+    }
+  },
+  "languages": {
+    "en": "English (English)",
+    "hu": "Hungarian (Magyar)",
+    "de": "German (Deutsch)",
+    "fr": "French (Français)",
+    "es": "Spanish (Español)",
+    "it": "Italian (Italiano)",
+    "zh": "Chinese (中文)",
+    "ko": "Korean (한국어)",
+    "ru": "Russian (Русский)",
+    "ja": "Japanese (日本語)",
+    "pt": "Portuguese (Português)",
+    "pl": "Polish (Polski)",
+    "nl": "Dutch (Nederlands)",
+    "zh-tw": "Traditional Chinese (繁體中文)",
+    "sv": "Swedish (Svenska)",
+    "tr": "Turkish (Türkçe)",
+    "cs": "Czech (Čeština)",
+    "en-US": "English (English)",
+    "hu-HU": "Hungarian (Magyar)",
+    "de-DE": "German (Deutsch)",
+    "fr-FR": "French (Français)",
+    "es-ES": "Spanish (Español)",
+    "it-IT": "Italian (Italiano)",
+    "zh-CN": "Chinese (中文)",
+    "ko-KR": "Korean (한국어)",
+    "ru-RU": "Russian (Русский)",
+    "ja-JP": "Japanese (日本語)",
+    "pt-PT": "Portuguese (Português)",
+    "pl-PL": "Polish (Polski)",
+    "nl-NL": "Dutch (Nederlands)",
+    "zh-TW": "Traditional Chinese (繁體中文)",
+    "sv-SE": "Swedish (Svenska)",
+    "tr-TR": "Turkish (Türkçe)",
+    "cs-CZ": "Czech (Čeština)"
+  },
+  "defaultLists": {
+    "watchlist": {
+      "name": "Watchlist",
+      "description": "Your list for movies and TV shows you want to watch later."
+    },
+    "video_watchlist": {
+      "name": "Video Watchlist",
+      "description": "Your list for videos and clips you want to watch later."
+    },
+    "adult_scenes": {
+      "name": "Adult Scenes",
+      "description": "Your list for adult scenes you want to watch later."
+    },
+    "adult_movies": {
+      "name": "Adult Movies",
+      "description": "Your list for adult movies and series you want to watch later."
+    }
+  },
+  "validation": {
+    "backendUnavailable": "SWAYA couldn't check your folders right now.",
+    "vlcNotExist": "That VLC executable path doesn't exist.",
+    "vlcNotFile": "VLC path must point to an executable.",
+    "mpcNotExist": "That MPC-HC executable path doesn't exist.",
+    "mpcNotFile": "MPC-HC path must point to an executable.",
+    "scanDirRequired": "Please select a scan source folder.",
+    "scanDirNotExist": "That scan folder doesn't exist.",
+    "scanDirNotFolder": "The scan path must point to a folder.",
+    "scanDirNotReadable": "SWAYA cannot read that scan folder.",
+    "scanDirInvalid": "That scan folder path is invalid.",
+    "libraryDirRequired": "Please select a target library folder.",
+    "libraryDirNotExist": "That target folder doesn't exist.",
+    "libraryDirNotFolder": "The target path must point to a folder.",
+    "libraryDirNotWritable": "SWAYA cannot write to that target folder.",
+    "libraryDirInvalid": "That target folder path is invalid.",
+    "adultTargetFolderNotExist": "That adult target folder doesn't exist.",
+    "foldersCannotBeSame": "The scan source folder and target library folder cannot be the same.",
+    "foldersVerified": "Folder paths verified successfully.",
+    "adultProviderNames": {
+      "stashdb": "StashDB",
+      "fansdb": "FansDB",
+      "theporndb": "ThePornDB"
+    },
+    "adultApiKeyInvalid": "The {{provider}} API key is invalid.",
+    "adultValidationFailedEndpointApiKey": "{{provider}} validation failed. Please check the endpoint URL and API key.",
+    "adultValidationTimedOut": "{{provider}} validation timed out. Please check your connection and try again.",
+    "adultValidationFailedEndpoint": "{{provider}} validation failed. Please check the endpoint URL.",
+    "Default Scan Folder is required.": "Please select a scan folder.",
+    "Default Scan Folder does not exist.": "That scan folder doesn't exist.",
+    "Default Scan Folder must point to a folder.": "The scan path must point to a folder.",
+    "Default Scan Folder is not readable.": "SWAYA cannot read that scan folder.",
+    "Target Library Folder is required.": "Please select a target folder.",
+    "Target Library Folder does not exist.": "That target folder doesn't exist.",
+    "Target Library Folder must point to a folder.": "The target path must point to a folder.",
+    "Target Library Folder is not writable.": "SWAYA cannot write to that target folder.",
+    "Default Scan Folder and Target Library Folder cannot be the same.": "The scan folder and target folder cannot be the same."
+  },
+  "searchTypes": {
+    "all": "All",
+    "movie": "Movies",
+    "tv": "TV Shows",
+    "person": "Stars",
+    "collection": "Collections",
+    "studio": "Studios",
+    "scene": "Scenes"
+  },
+  "dashboardWelcome": {
+    "onboarding": "Welcome to SWAYA, {name}! Let's get your collection organized.",
+    "onboarding_nsfw": "Welcome to SWAYA, {name}! Let's curate your private sanctuary.",
+    "morning": "Good morning, {name}! Ready for a cinema session today?",
+    "afternoon": "Good afternoon, {name}! Time to take a movie break?",
+    "evening": "Good evening, {name}! Let's unwind with a great movie tonight.",
+    "night": "Late night session, {name}? Enjoy the midnight screening.",
+    "morning_nsfw": "Good morning, {name}! Starting the day with something spicy?",
+    "afternoon_nsfw": "Good afternoon, {name}! Taking a private break?",
+    "evening_nsfw": "Good evening, {name}! Ready to unwind with your favorite scenes?",
+    "night_nsfw": "Late night pleasures, {name}! Enjoy the private hours."
+  },
+  "dashboardWelcomeNoName": {
+    "onboarding": "Welcome to SWAYA! Let's get your collection organized.",
+    "onboarding_nsfw": "Welcome to SWAYA! Let's curate your private sanctuary.",
+    "morning": "Good morning! Ready for a cinema session today?",
+    "afternoon": "Good afternoon! Time to take a movie break?",
+    "evening": "Good evening! Let's unwind with a great movie tonight.",
+    "night": "Late night session? Enjoy the midnight screening.",
+    "morning_nsfw": "Good morning! Starting the day with something spicy?",
+    "afternoon_nsfw": "Good afternoon! Taking a private break?",
+    "evening_nsfw": "Good evening! Ready to unwind with your favorite scenes?",
+    "night_nsfw": "Late night pleasures! Enjoy the private hours."
+  },
+  "organizerConfirm": {
+    "tv": {
+      "title": "Match TV Show",
+      "descWithExisting": "This file is already matched to {existing}. Applying a show-level match will clear the existing episode number.",
+      "descNoExisting": "Apply show-level match to this file?"
+    },
+    "season": {
+      "title": "Match Season",
+      "descWithExisting": "This file is already matched to {existing}. Applying a season-level match will clear the existing episode number.",
+      "descNoExisting": "Apply season-level match to this file?"
+    },
+    "bucket": {
+      "title": "Apply Selected Episodes",
+      "descWithExisting": "This will assign the selected episodes to the target files.",
+      "descNoExisting": "This will assign the selected episodes to the target files."
+    }
+  },
+  "organizerOptions": {
+    "sources": {
+      "none": "None",
+      "bluray": "Blu-Ray",
+      "web": "WEB-DL",
+      "dvd": "DVD",
+      "tv": "HDTV",
+      "cam": "CAM"
+    },
+    "editions": {
+      "none": "None",
+      "theatrical": "Theatrical Cut",
+      "directors_cut": "Director's Cut",
+      "extended": "Extended Edition",
+      "unrated": "Unrated",
+      "remastered": "Remastered",
+      "special": "Special Edition",
+      "ultimate": "Ultimate Edition",
+      "collectors_edition": "Collector's Edition",
+      "fan_edit": "Fan Edit"
+    },
+    "audioTypes": {
+      "none": "None",
+      "mono": "Mono",
+      "stereo": "Stereo",
+      "surround": "Surround Sound",
+      "dual_audio": "Dual Audio",
+      "multi_audio": "Multi Audio"
+    },
+    "mainTypes": {
+      "movie": "Movie",
+      "episode": "Episode",
+      "bonus": "Bonus Video",
+      "scene": "Scene"
+    },
+    "subcategories": {
+      "trailer": "Trailer",
+      "sample": "Sample",
+      "behind_the_scenes": "Behind the Scenes",
+      "featurette": "Featurette",
+      "deleted_scenes": "Deleted Scenes",
+      "interview": "Interview",
+      "scene_comparison": "Scene Comparison",
+      "short": "Short",
+      "promo": "Promo",
+      "clip": "Clip",
+      "poster": "Poster",
+      "backdrop": "Backdrop",
+      "banner": "Banner",
+      "logo": "Logo",
+      "clearlogo": "Clear Logo",
+      "thumbnail": "Thumbnail",
+      "fanart": "Fanart",
+      "disc": "Disc",
+      "character_art": "Character Art",
+      "theme_song": "Theme Song",
+      "theme_video": "Theme Video",
+      "nfo": "NFO",
+      "xml": "XML",
+      "json": "JSON",
+      "txt": "TXT",
+      "url": "URL",
+      "full": "Full",
+      "forced": "Forced",
+      "sdh": "SDH",
+      "hearing_impaired": "Hearing Impaired",
+      "commentary_sub": "Commentary Sub",
+      "lyrics": "Lyrics",
+      "dubbed": "Dubbed",
+      "original": "Original",
+      "commentary_audio": "Commentary Audio",
+      "descriptive": "Descriptive Audio",
+      "isolated_score": "Isolated Score"
+    }
+  },
+  "settingsOptions": {
+    "collisionOptions": {
+      "keep_both": "Keep Both Files",
+      "skip": "Skip File",
+      "replace_if_better": "Replace If Higher Quality",
+      "replace": "Replace Existing File"
+    },
+    "actionOptions": {
+      "rename": "Rename",
+      "ignore": "Leave As Is",
+      "delete": "Delete"
+    },
+    "collectionModeOptions": {
+      "never": "Never Group",
+      "always": "Always Group",
+      "threshold": "Group When Threshold Met",
+      "complete_only": "Group When Franchise Complete"
+    },
+    "folderModeOptions": {
+      "subfolder": "In dedicated subfolder (e.g. Extras/)",
+      "flat": "Alongside main video file"
+    },
+    "casingOptions": {
+      "default": "Default Casing",
+      "lower": "lower case",
+      "upper": "UPPER CASE",
+      "title": "Title Case"
+    },
+    "separatorOptions": {
+      "space": "Space ( )",
+      "dot": "Dot (.)",
+      "dash": "Dash (-)",
+      "underscore": "Underscore (_)"
+    }
+  },
+  "docsItems": {
+    "tmdb": "TMDb API Key",
+    "omdb": "OMDb API Key",
+    "stashdb": "StashDB",
+    "fansdb": "FansDB",
+    "theporndb": "ThePornDB",
+    "offline": "Offline Scan",
+    "features": "Feature Tour"
+  },
+  "scanPhases": {
+    "collecting": "Scanning files...",
+    "resolving": "Matching metadata...",
+    "enriching": "Fetching media details...",
+    "organizing": "Organizing and renaming files...",
+    "undoing": "Undoing batch..."
+  },
+  "themeOptions": {
+    "dark": "Dark SWAYA",
+    "swayaLegacy": "SWAYA Legacy",
+    "matrixCode": "Matrix Code",
+    "synthwaveOutrun": "Synthwave Outrun",
+    "alienNostromo": "Alien Nostromo",
+    "cyberdyneSteel": "Cyberdyne Steel",
+    "cyberRenaissance": "Cyber Renaissance",
+    "evaUnit01": "Eva Unit-01",
+    "lcarsConsole": "LCARS Console",
+    "cyberStealth": "Cyber Stealth",
+    "midnightTokyo": "Midnight Tokyo",
+    "vaporwaveDream": "Vaporwave Dream",
+    "sakuraNeon": "Sakura Neon",
+    "discoGlam": "Disco Glam",
+    "midnightAmber": "Midnight Amber",
+    "rubyVelvet": "Ruby Velvet",
+    "solarizedDark": "Solarized Dark",
+    "tokyoNight": "Tokyo Night",
+    "cyberpunkDark": "Cyberpunk Dark",
+    "bladerunner2049": "Blade Runner 2049 Las Vegas",
+    "bladerunnerLA": "Blade Runner 2049 Los Angeles",
+    "nord": "Nord Frost",
+    "dracula": "Dracula",
+    "gruvboxDark": "Gruvbox Dark",
+    "pineForest": "Pine Forest",
+    "rosePine": "Rosé Pine",
+    "classicDark": "Classic Dark",
+    "premiumCarbon": "Premium Carbon",
+    "amoledModern": "Amoled Modern",
+    "hotRed": "Hot Red"
+  },
+  "torrent": {
+    "stats": {
+      "activeDownloadsDesc": "Active across {{count}} downloads",
+      "pausedDownloadsDesc": "{{count}} downloads paused"
+    },
+    "deleteConfirmDesc": "How would you like to remove '{{name}}'?",
+    "searchModal": {
+      "statusInClientDownloading": "Downloading {{progress}}%"
+    }
+  }
+}

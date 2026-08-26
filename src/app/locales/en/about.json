@@ -1,0 +1,190 @@
+{
+  "title": "About & Help",
+  "general": "General",
+  "subtitle": "Your modern personal media center to organize, enrich, and play your local library.",
+  "links": {
+    "email": "Email",
+    "website": "Website",
+    "github": "GitHub",
+    "discord_server": "Discord Server"
+  },
+  "resources": {
+    "docs": "Setup Guides",
+    "changelog": "Changelog"
+  },
+  "sidebar": {
+    "docs": "Setup Guides"
+  },
+  "changelog": {
+    "title": "Changelog",
+    "latest": "Latest Release",
+    "version": "Version {{version}}",
+    "released": "RELEASED • {{date}}",
+    "noDate": "RELEASE",
+    "history": "HISTORY",
+    "noEntries": "No changelog entries found.",
+    "categories": {
+      "added": "Added",
+      "changed": "Changed",
+      "performance": "Performance",
+      "fixed": "Fixed"
+    }
+  },
+  "notices": {
+    "privacy": "Privacy Policy",
+    "privacyEyebrow": "PRIVACY & SECURITY",
+    "privacy_intro": "SWAYA is built with privacy in mind:",
+    "points": {
+      "local_only": "Local-First Architecture: All database records, metadata caches, user settings, and library structures are stored strictly on your local machine.",
+      "api_keys": "Secured Local Credentials: Third-party API keys and access tokens (TMDb, OMDb, StashDB, etc.) are saved locally within your app configuration and are never transmitted to any third-party intermediate servers.",
+      "network": "Direct Network Connections: Outbound network connections are strictly limited to fetching metadata directly from the official API endpoints of the active providers you configure.",
+      "logs": "Offline Local Logging: System logs, scan histories, and error reports are kept strictly offline on your disk for troubleshooting purposes, with zero automated cloud reporting.",
+      "no_telemetry": "Zero Telemetry & Tracking: The application contains absolutely no analytics, user tracking, usage reporting, or background telemetry. Your interactions with the application are entirely private.",
+      "no_sharing": "No Cloud Matching: Your media library directories, filenames, and internal catalog metadata are kept strictly local. SWAYA never uploads, indexes, or shares your media collection with any cloud server or database."
+    },
+    "license": "End User License Agreement",
+    "licenseEyebrow": "LEGAL & LICENSE",
+    "license_intro": "SWAYA Closed-Source License Terms:",
+    "license_body": {
+      "p1": "SWAYA is distributed under a proprietary Closed-Source License. The source code is private, proprietary, and confidential. You are not granted any rights to access, inspect, download, modify, compile, or redistribute the source code.",
+      "p2": "You may only download, install, and run the official pre-compiled binary versions of the Software provided by the developer.",
+      "p3": "Official installers, automatic updates, and premium services are provided exclusively by the developer and require an active subscription or a lifetime purchase.",
+      "p4": "Any unauthorized copying, modification, redistribution, reverse engineering, commercial exploitation, or bypassing of the licensing system is strictly prohibited and constitutes copyright infringement."
+    },
+    "third_party": "Third-Party Notices",
+    "thirdPartyEyebrow": "THIRD-PARTY NOTICES",
+    "third_party_intro": "SWAYA is built with gratitude using open-source libraries and APIs:",
+    "third_party_points": {
+      "ui": "UI Components & States: Electron, React, Vite, Zustand, React Router DOM, TanStack React Query, Lucide React, and other open-source NPM packages.",
+      "backend": "Backend Framework: FastAPI, Uvicorn, Python, SQLite, SQLAlchemy, Alembic, Pydantic, and GuessIt.",
+      "media": "Media & OS Integration: MPV player integration, Pillow (image processing), Watchdog (file system monitoring), PyWin32, and icoextract.",
+      "metadata": "Metadata Scrapers: TMDb, FansDB, ThePornDB, StashDB, and others."
+    },
+    "third_party_highlight": {
+      "tmdb_title": "The Movie Database (TMDb)",
+      "tmdb_body": "This product uses the TMDb API but is not endorsed or certified by TMDb."
+    },
+    "special_thanks_title": "Special Thanks",
+    "special_thanks_intro": "For their ideas, guidance, and inspiration:",
+    "third_party_thanks": "A huge thank you to all open-source developers, maintainers, and community metadata providers!"
+  },
+  "app_info": {
+    "developer": "Developer",
+    "developer_intro": "Reach out directly if you want to report bugs, collaborate, or share feedback.",
+    "developer_name": "Levi",
+    "developer_email": "levicore@proton.me"
+  },
+  "toasts": {
+    "email_copied": "Copied email to clipboard: {{email}}"
+  },
+  "back": "Back",
+  "docs_wizard": {
+    "next": "Next Step",
+    "start": "Get Started",
+    "back": "Back",
+    "save": "Save",
+    "apply_to_onboarding": "Apply & Return to Setup",
+    "quick_fill": "Quick Copy Reference",
+    "quick_fill_desc": "Click any item to copy values directly to your clipboard.",
+    "click_to_enlarge": "Click to view full image",
+    "saving": "Saving...",
+    "saved": "Saved successfully",
+    "save_failed": "Failed to save",
+    "screenshot_placeholder": "Screenshot Preview",
+    "show_nsfw_features": "Show Adult Features",
+    "tmdb": {
+      "title": "TMDb API Integration",
+      "desc": "TMDb (The Movie Database) is a free movie and TV show database. By entering your API credentials, SWAYA automatically fetches high-resolution posters, backdrops, synopses, and cast details.",
+      "step_signup": "Create an Account",
+      "step_signup_desc": "Create a free account on themoviedb.org with a unique username, password, and valid email address.",
+      "step_signup_btn": "Open TMDb Registration",
+      "step_email": "Check Verification Email",
+      "step_email_desc": "TMDb will send an activation email to your registered address. Check your inbox and click the activation link.",
+      "step_activate": "Activate Your Account",
+      "step_activate_desc": "Open the verification email and click 'Activate My Account' to complete your profile verification.",
+      "step_login": "Log In to TMDb",
+      "step_login_desc": "Once verified, log in with your credentials to access account settings and generate your API key.",
+      "step_login_btn": "Open TMDb Login",
+      "step_api": "Request an API Key",
+      "step_api_desc": "Navigate to the API settings page and select the 'Developer' option to request a personal API key.",
+      "step_api_btn": "Open API Request Page",
+      "step_terms": "Accept Terms of Service",
+      "step_terms_desc": "Accept the API terms of use for developer and personal applications.",
+      "step_details": "Fill in Application Details",
+      "step_details_desc": "Fill in the required application details form, then click 'Submit' at the bottom of the page.",
+      "step_access": "Access API Key Details",
+      "step_access_desc": "On the confirmation page, click 'Access your API key details here' to view your API Key and Read Access Token.",
+      "step_save": "Save to SWAYA",
+      "step_save_desc": "Copy both your API Read Access Token (v4) and API Key (v3), paste them into the fields below, and click Save.",
+      "label_key": "TMDb API Key",
+      "label_token": "TMDb Read Access Token",
+      "placeholder_key": "Paste API Key...",
+      "placeholder_token": "Paste bearer token..."
+    },
+    "omdb": {
+      "title": "OMDb API Integration",
+      "desc": "OMDb API allows SWAYA to enrich titles with IMDb, Rotten Tomatoes, and Metacritic ratings.",
+      "step_req": "Request an API Key",
+      "step_req_desc": "Visit the OMDb key request page. Select the FREE tier (1,000 requests/day), enter your email address, fill in your name, and submit the request.",
+      "step_req_btn": "Open OMDb API Key Request Page",
+      "step_email": "Receive Activation Email",
+      "step_email_desc": "Check your email inbox for the automated message from OMDb API.",
+      "step_save": "Activate & Save",
+      "step_save_desc": "Click the verification link inside the email to activate your key. Once activated, copy your key, paste it below, and click Save.",
+      "label_key": "OMDb API Key",
+      "placeholder_key": "Paste OMDb API Key..."
+    },
+    "stashdb": {
+      "step_intro": "StashDB Integration",
+      "step_intro_desc": "StashDB is a community metadata database for adult media. Integrating it with SWAYA enables automatic fetching of performers, studios, physical attributes, tags, and scene descriptions.",
+      "step_register": "Create an Account",
+      "step_register_desc": "Register an account at stashdb.org using an active invite key.",
+      "step_register_btn": "Open StashDB Registration",
+      "step_register_admins": "Contact StashDB Admins",
+      "step_activate": "Activate Your Profile",
+      "step_activate_desc": "Click the verification link sent to your email to choose your username and password.",
+      "step_save": "Retrieve your API Key",
+      "step_save_desc": "Log into StashDB.org, click on your username in the top-right corner to open your profile, copy your API Key, and paste it here.",
+      "label_endpoint": "StashDB API Endpoint",
+      "label_key": "StashDB API Key",
+      "placeholder_endpoint": "API Endpoint...",
+      "placeholder_key": "Paste StashDB API Key..."
+    },
+    "fansdb": {
+      "step_intro": "FansDB Integration",
+      "step_intro_desc": "FansDB is a crowdsourced metadata database focusing on independent adult creators and online productions.",
+      "step_apply": "Apply for Membership",
+      "step_apply_desc": "Submit a request to join FansDB via their application form.",
+      "step_apply_btn": "Open FansDB Application Form",
+      "step_register": "Register on FansDB",
+      "step_register_desc": "Once you receive your invite code, navigate to the registration page, fill in your details, and register.",
+      "step_register_btn": "Open FansDB Registration",
+      "step_save": "Retrieve your API Key",
+      "step_save_desc": "Log into FansDB, click your username in the top menu to view your profile, copy your API Key, and paste it here.",
+      "label_endpoint": "FansDB API Endpoint",
+      "label_key": "FansDB API Key",
+      "placeholder_endpoint": "API Endpoint...",
+      "placeholder_key": "Paste FansDB API Key..."
+    },
+    "theporndb": {
+      "step_intro": "ThePornDB Integration",
+      "step_intro_desc": "ThePornDB provides scene metadata, high-resolution covers, and performer profiles.",
+      "step_register": "Create an Account",
+      "step_register_desc": "Create a free account on theporndb.net with your username and email.",
+      "step_register_btn": "Open ThePornDB Registration",
+      "step_token": "Generate API Token",
+      "step_token_desc": "Log in and navigate to the API Tokens page under your profile. Give your token a name and click Create.",
+      "step_token_btn": "Open ThePornDB API Tokens Page",
+      "step_save": "Copy Token & Save",
+      "step_save_desc": "Copy the generated API token, paste it below, and click Save.",
+      "label_endpoint": "ThePornDB API Endpoint",
+      "label_key": "ThePornDB API Key",
+      "placeholder_endpoint": "API Endpoint...",
+      "placeholder_key": "Paste ThePornDB API Key..."
+    },
+    "offline": {
+      "step_single_title": "Offline & Local Capabilities",
+      "step_single_desc": "SWAYA works fully offline without any external API keys!\n\n• Video Snapshotting: Automatically extracts video technical details and generates snapshot thumbnails from video frames.\n• Safe Organization: Physical files remain safe. You can organize files in-place or into clean target directories without requiring online lookups.\n• Category Grouping: The organizer categorizes files into Movies, TV Shows, and Extras based on filename patterns.\n• Full Media Management: Rate titles, write notes, track watch history, create custom lists, and organize your media collection entirely offline."
+    }
+  }
+}

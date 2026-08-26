@@ -1,0 +1,35 @@
+/* Header / Hero */
+.hero {
+  text-align: center;
+  max-width: 52rem;
+  margin-inline: auto;
+  margin-bottom: var(--space-4xl);
+}
+
+.badge-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--space-md);
+}
+
+.title {
+  font-family: var(--font-display, var(--font-sans));
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: var(--font-weight-extrabold);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-md);
+}
+
+.title-accent {
+  color: var(--color-accent);
+}
+
+.subtitle {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xl);
+}
+

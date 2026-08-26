@@ -1,0 +1,443 @@
+.card {
+  border: 0.0625rem solid color-mix(in srgb, var(--color-text-primary) 7%, transparent);
+  border-radius: var(--radius-lg);
+  background: var(--ui-surface-card-gradient);
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(var(--space-2xl)) saturate(118%);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-lg);
+  padding: var(--space-xl) var(--space-xl) 0;
+  flex-shrink: 0;
+}
+
+.eyebrow {
+  color: var(--color-muted);
+  font: var(--text-caption);
+  letter-spacing: calc(2 * var(--letter-spacing-wide));
+  text-transform: uppercase;
+}
+
+.title {
+  margin: var(--space-sm) 0 0;
+  font: var(--text-title);
+}
+
+.header[data-header-variant="shaded"] {
+  position: relative;
+  padding: var(--space-sm) var(--space-md);
+  background: color-mix(in srgb, var(--color-bg-canvas) 15%, transparent);
+  border-bottom: 1px solid var(--color-border-default);
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header[data-header-variant="shaded"] .title {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-secondary);
+}
+
+.body {
+  padding: var(--space-xl);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card[data-scrollable="true"] .body {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  min-height: 0;
+  max-height: var(--card-max-height, inherit);
+}
+
+.card[data-padding="xs"] .body {
+  padding: var(--space-xs) var(--space-md);
+}
+
+.card[data-padding="sm"] .body {
+  padding: var(--space-sm) var(--space-md);
+}
+
+.card[data-padding="md"] .body {
+  padding: var(--space-md) var(--space-lg);
+}
+
+.card[data-padding="xl"] .body {
+  padding: var(--space-3xl);
+}
+
+.card[data-padding="none"] .body {
+  padding: 0;
+}
+
+
+
+
+.card[data-variant="flat-glass"] {
+  border: 1px solid color-mix(in srgb, var(--color-border-subtle) 88%, transparent);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-surface-card) 58%, transparent);
+}
+
+.card[data-variant="brand"] {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--color-accent) 12%, transparent), color-mix(in srgb, var(--color-accent) 3%, transparent));
+  border: 1px solid color-mix(in srgb, var(--color-accent) 25%, var(--color-border-subtle));
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(var(--space-2xl)) saturate(120%);
+  box-shadow: 0 0.5rem 2rem -0.5rem color-mix(in srgb, var(--color-accent) 15%, transparent);
+}
+
+.card[data-variant="soft-accent"] {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--color-accent) 6%, color-mix(in srgb, var(--color-bg-canvas) 45%, transparent)), color-mix(in srgb, var(--color-accent) 1.5%, color-mix(in srgb, var(--color-bg-canvas) 25%, transparent)));
+  border: 1px solid color-mix(in srgb, var(--color-accent) 14%, var(--color-border-subtle));
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(var(--space-xl));
+}
+
+.card[data-variant="interactive-glass"] {
+  background:
+    radial-gradient(circle at top right, color-mix(in srgb, var(--color-accent-blue-soft) 12%, transparent), transparent 42%),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-surface-glass) 72%, transparent), var(--color-surface-card));
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-2xl);
+  backdrop-filter: blur(1rem);
+  position: relative;
+  overflow: hidden;
+  transition: border-color var(--motion-duration-emphasized) var(--motion-ease-emphasized),
+    background var(--motion-duration-emphasized) var(--motion-ease-emphasized),
+    transform var(--motion-duration-emphasized) var(--motion-ease-emphasized),
+    box-shadow var(--motion-duration-emphasized) var(--motion-ease-emphasized);
+}
+
+.card[data-variant="interactive-glass"]:hover {
+  border-color: var(--color-border-heavy);
+  background:
+    radial-gradient(circle at top right, color-mix(in srgb, var(--color-accent-blue-soft) 22%, transparent), transparent 48%),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-surface-glass) 82%, transparent), var(--color-surface-card));
+  transform: translateY(-0.125rem);
+  box-shadow: var(--shadow-lg), 0 0 0.9375rem color-mix(in srgb, var(--color-accent-blue-soft) 10%, transparent);
+}
+
+.header[data-divider="true"] {
+  border-bottom: 0.0625rem solid var(--color-border-subtle);
+  padding-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.glow-blob {
+  position: absolute;
+  inset: auto -18% -42% auto;
+  width: 8.75rem;
+  height: 8.75rem;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-accent-blue) 18%, transparent) 0%, transparent 68%);
+  pointer-events: none;
+}
+
+.card[data-variant="soft"] {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-panel-soft);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.card[draggable="true"] {
+  cursor: grab;
+  user-select: none;
+}
+
+.card[draggable="true"]:active {
+  cursor: grabbing;
+}
+
+.card[data-dragging="true"] {
+  opacity: 0.45;
+}
+
+.card[data-drag-over="true"] {
+  border-color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface-card));
+  box-shadow: 0 0 var(--space-md) color-mix(in srgb, var(--color-accent-blue) 15%, transparent);
+}
+
+.card[data-variant="tmdb"] {
+  background: linear-gradient(135deg, color-mix(in srgb, color-mix(in srgb, var(--color-brand-tmdb) 25%, var(--color-bg-canvas)) 30%, transparent), color-mix(in srgb, var(--color-brand-tmdb) 8%, transparent));
+  border: 1px solid color-mix(in srgb, var(--color-brand-tmdb) 20%, var(--color-border-subtle));
+  border-radius: var(--radius-md);
+  backdrop-filter: blur(var(--space-xl));
+}
+
+.flex-1 {
+  flex: 1 1 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+
+
+.card[data-variant="glass-shaded"] {
+  background: var(--media-detail-panel-section-bg);
+  border: 1px solid var(--media-detail-panel-section-border);
+  box-shadow: var(--media-detail-panel-section-shadow);
+  backdrop-filter: none;
+  transform: none;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.card[data-variant="solid"] {
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border-default);
+  box-shadow: 0 0.5rem 1.5rem color-mix(in srgb, var(--color-bg-canvas) 45%, transparent);
+  backdrop-filter: none;
+}
+
+.card[data-variant="solid"] .header[data-header-variant="shaded"] {
+  background: color-mix(in srgb, var(--color-text-primary) 3%, transparent);
+}
+
+
+
+/* Animated Card State */
+.card[data-animated="true"] {
+  opacity: 0;
+  animation: fadeInUp var(--motion-duration-slow) var(--motion-ease-emphasized) both;
+  animation-delay: calc(var(--item-index, 0) * var(--motion-delay-step));
+}
+
+/* Tag Card Variant */
+.card[data-variant="tag"] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border-subtle);
+  background: var(--color-bg-elevated);
+  transition: transform var(--motion-fast), border-color var(--motion-fast), box-shadow var(--motion-fast);
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeInUp var(--motion-duration-slow) var(--motion-ease-emphasized) both;
+  animation-delay: calc(var(--item-index, 0) * var(--motion-delay-step));
+  backdrop-filter: none;
+}
+
+.card[data-variant="tag"] .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex: 1;
+  padding: var(--space-md);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: var(--z-index-step-2);
+}
+
+.card[data-variant="tag"]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--tag-color) 12%, transparent), transparent);
+  opacity: 0.35;
+  transition: opacity var(--motion-base);
+  pointer-events: none;
+}
+
+.tag-preview {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--border-width-thin);
+  padding: 0;
+  opacity: 0.85;
+  pointer-events: none;
+  transition: opacity var(--motion-base), transform var(--motion-slow);
+}
+
+.tag-preview-image {
+  border-radius: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.tag-preview-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.card[data-variant="tag"][data-preview="1"] .tag-preview {
+  grid-template-columns: 1fr;
+  padding: 0;
+  opacity: 1;
+}
+
+.card[data-variant="tag"][data-preview="1"] .tag-preview-image {
+  border-radius: 0;
+  background-position: center;
+}
+
+.card[data-variant="tag"][data-preview="2"] .tag-preview {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card[data-variant="tag"]:hover .tag-preview {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.tag-preview::after {
+  display: none;
+}
+
+.tag-actions {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  z-index: var(--z-index-step-3);
+  opacity: 0;
+  transform: translateY(calc(-1 * var(--radius-2xs)));
+  transition: opacity var(--motion-fast), transform var(--motion-fast);
+}
+
+.card[data-variant="tag"]:hover .tag-actions,
+.card[data-variant="tag"]:focus-within .tag-actions {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tag-actions button[data-size="xs"] {
+  width: var(--space-2xl);
+  height: var(--space-2xl);
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--color-bg-elevated) 85%, transparent);
+  backdrop-filter: blur(var(--space-md));
+  border-color: color-mix(in srgb, var(--tag-color) 24%, var(--color-border-subtle));
+  color: var(--color-text-secondary);
+}
+
+.tag-actions button[data-size="xs"]:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--tag-color) 16%, var(--color-bg-elevated));
+  color: var(--color-text-primary);
+  transform: none;
+}
+
+.card[data-variant="tag"]:hover {
+  transform: translateY(calc(-1 * var(--radius-2xs)));
+  border-color: color-mix(in srgb, var(--tag-color) 56%, transparent);
+  box-shadow:
+    var(--shadow-lg),
+    0 0 var(--space-lg) color-mix(in srgb, var(--tag-color) 16%, transparent);
+}
+
+.card[data-variant="tag"]:hover::before {
+  opacity: 1;
+}
+
+.tag-content {
+  margin-top: auto;
+  position: relative;
+  z-index: var(--z-index-step-2);
+  width: fit-content;
+  max-width: 100%;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-bg-canvas) 54%, transparent);
+  backdrop-filter: blur(var(--space-xs));
+  border: 1px solid color-mix(in srgb, var(--color-border-subtle) 25%, transparent);
+  box-shadow: 0 var(--space-2xs) var(--space-sm) color-mix(in srgb, var(--color-bg-canvas) 35%, transparent);
+}
+
+.card[data-variant="tag"][data-preview="0"] .tag-content {
+  background: transparent;
+  backdrop-filter: none;
+  border-color: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.tag-count {
+  font-size: var(--font-size-2xs);
+  opacity: 0.85;
+}
+
+.card[data-variant="tag"]:focus-visible {
+  outline: none;
+  border-color: color-mix(in srgb, var(--tag-color) 60%, transparent);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--tag-color) 45%, transparent),
+    0 0 0 var(--space-xs) color-mix(in srgb, var(--tag-color) 16%, transparent),
+    var(--shadow-lg);
+}
+
+.card[data-variant="danger"] {
+  border-color: color-mix(in srgb, var(--color-state-danger) 46%, var(--color-border-default));
+  background:
+    radial-gradient(circle at top right, color-mix(in srgb, var(--color-state-danger) 20%, transparent), transparent 34%),
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--color-state-danger) 12%, color-mix(in srgb, var(--color-text-primary) 2.8%, transparent)) 0%,
+      color-mix(in srgb, var(--color-state-danger) 8%, color-mix(in srgb, var(--color-text-primary) 1.4%, transparent)) 26%,
+      transparent 100%),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-text-inverse) 88%, transparent), color-mix(in srgb, var(--color-text-inverse) 82%, transparent));
+  box-shadow:
+    inset 0 1px 0 var(--color-border-default),
+    0 0 0 1px color-mix(in srgb, var(--color-state-danger) 26%, transparent),
+    var(--shadow-md);
+  backdrop-filter: var(--glass-blur-lg) saturate(118%);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(var(--space-md));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes slideDownFade {
+  from {
+    opacity: 0;
+    transform: translateY(calc(-1 * var(--space-sm)));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,255 @@
+:root {
+  --color-canvas: var(--color-bg-canvas);
+  --color-panel: var(--color-bg-elevated);
+  --color-ink: var(--color-text-primary);
+  --color-muted: var(--color-text-secondary);
+  --color-subtle: var(--color-text-muted);
+  --color-line: var(--color-border-default);
+  --color-line-strong: var(--color-border-strong);
+
+  --sidebar-padding-top: var(--sidebar-first-nav-y);
+  --sidebar-padding-bottom: 1.875rem;
+  --sidebar-padding-x: 1.125rem;
+  --sidebar-toggle-size: 1.75rem;
+  --sidebar-nav-link-padding-y: 0.6875rem;
+  --shell-top-band-height: calc(var(--utility-bar-top) + var(--utility-bar-min-height));
+  --sidebar-nav-offset-y: 0.375rem;
+  --sidebar-first-nav-y: var(--shell-top-band-height);
+  --sidebar-nav-icon-start-y: calc(var(--sidebar-first-nav-y) + var(--sidebar-nav-offset-y) + var(--sidebar-nav-link-padding-y));
+  --page-top-offset: var(--sidebar-nav-icon-start-y);
+  --page-bottom-offset: var(--page-top-offset);
+  --utility-bar-top: 1.125rem;
+  --utility-bar-min-height: 2.5rem;
+
+  --radius-input: var(--radius-md);
+
+  --focus-ring-width: 0.1875rem;
+  --focus-ring-color: color-mix(in srgb, var(--color-accent) 18%, transparent);
+  --focus-ring-color-danger: color-mix(in srgb, var(--color-state-danger) 26%, transparent);
+  --focus-ring: 0 0 0 var(--focus-ring-width) var(--focus-ring-color);
+  --focus-ring-danger: 0 0 0 var(--focus-ring-width) var(--focus-ring-color-danger);
+
+
+  /* Status Badge Tokens */
+  --status-badge-bottom: 0.75rem;
+  --status-badge-overlay-bg: color-mix(in srgb, var(--color-state-info) 88%, transparent);
+  --page-inline-padding: var(--space-3xl);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-base);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font: var(--text-body);
+  color: var(--color-ink);
+  background: var(--color-canvas);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+body:focus,
+#root:focus {
+  outline: none;
+}
+
+/* WebKit / Blink Custom Scrollbars */
+*::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: var(--scrollbar-radius);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: var(--scrollbar-radius);
+  border: 0.125rem solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+  border: 0.125rem solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: var(--scrollbar-thumb-active);
+  border: 0.125rem solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background: var(--scrollbar-track-hover);
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+button,
+input,
+select {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  color: var(--color-ink);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-duration-fast: 0.01ms;
+    --motion-duration-base: 0.01ms;
+    --motion-duration-slow: 0.01ms;
+    --motion-lift-distance-sm: 0;
+    --motion-lift-distance-md: 0;
+  }
+}
+
+.ui-carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: var(--z-index-step-20);
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--color-bg-canvas) 75%, transparent);
+  backdrop-filter: blur(0.5rem);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.9375rem color-mix(in srgb, var(--color-bg-canvas) 50%, transparent);
+  transition: background-color var(--motion-duration-fast) var(--motion-ease-standard), opacity var(--motion-duration-fast) var(--motion-ease-standard);
+}
+
+.ui-carousel-arrow.is-left {
+  left: 0.625rem;
+}
+
+.ui-carousel-arrow.is-right {
+  right: 0.625rem;
+}
+
+.ui-carousel-arrow:hover {
+  background: color-mix(in srgb, var(--color-text-primary) 15%, transparent);
+  transform: translateY(-50%);
+}
+
+@keyframes growWidth {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes floatDna {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-0.25rem) rotate(4deg);
+  }
+}
+
+@keyframes floatTimeline {
+
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-0.25rem) scale(1.03);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(var(--slide-in-offset, 1.875rem));
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bouncearrowscroll {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(var(--bounce-y-1, 0.3125rem));
+  }
+
+  60% {
+    transform: translateY(var(--bounce-y-2, 0.15625rem));
+  }
+}
+
+.span-full {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+.media-detail-page__side-nav-toggle {
+  background: var(--media-detail-side-nav-bg);
+  border: 1px solid var(--media-detail-side-nav-border);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--button-height-md);
+  height: var(--button-height-md);
+  border-radius: var(--radius-md);
+  --local-duration: 200ms;
+  --local-ease: ease;
+  transition: all var(--local-duration) var(--local-ease);
+  opacity: 0.6;
+  outline: none;
+  backdrop-filter: var(--media-detail-side-nav-blur);
+  box-shadow: var(--media-detail-side-nav-shadow);
+}
+
+.media-detail-page__side-nav-toggle:hover {
+  opacity: 1;
+  color: var(--color-text-primary);
+  background: var(--media-detail-side-nav-bg-hover);
+  border-color: var(--media-detail-side-nav-border-hover);
+}

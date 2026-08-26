@@ -1,0 +1,411 @@
+/* Basic Buttons */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  border: 0.0625rem solid transparent;
+  border-radius: var(--radius-input);
+  font: var(--text-caption);
+  line-height: 1;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition:
+    background-color var(--motion-fast),
+    border-color var(--motion-fast),
+    color var(--motion-fast),
+    box-shadow var(--motion-fast),
+    filter var(--motion-fast),
+    transform var(--motion-fast),
+    opacity var(--motion-fast);
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button[data-full-width="true"] {
+  width: 100%;
+}
+
+/* Inner Icon and Content layouts */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: currentcolor;
+  transition: transform var(--motion-fast), color var(--motion-fast);
+}
+
+.content {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  line-height: 1;
+  margin-top: calc(var(--space-xs) / 4);
+}
+
+/* Icon hover animations when enabled */
+.button[data-animate-icon="true"]:hover:not(:disabled) span[data-button-icon="left"] {
+  transform: translateX(calc(-1 * var(--radius-2xs)));
+}
+
+.button[data-animate-icon="true"]:hover:not(:disabled) span[data-button-icon="right"] {
+  transform: translateX(var(--radius-2xs));
+}
+
+.button[data-size="sm"] {
+  min-height: var(--button-height-sm);
+  padding: var(--button-padding-sm);
+}
+
+.button[data-size="md"] {
+  min-height: var(--button-height-md);
+  padding: var(--button-padding-md);
+}
+
+.button[data-size="lg"] {
+  min-height: var(--button-height-lg);
+  padding: var(--button-padding-lg);
+}
+
+.button[data-variant="primary"] {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-color);
+  box-shadow: var(--button-primary-shadow);
+  border: 0;
+}
+
+.button[data-variant="secondary"] {
+  background: var(--button-secondary-bg);
+  color: var(--button-secondary-color);
+  border-color: var(--button-secondary-border);
+}
+
+.button[data-variant="secondary-neutral"] {
+  background: var(--button-secondary-neutral-bg);
+  color: var(--button-secondary-neutral-color);
+  border-color: var(--button-secondary-neutral-border);
+}
+
+.button[data-variant="ghost"] {
+  background: var(--button-ghost-bg);
+  color: var(--button-ghost-color-override);
+  border-color: var(--button-ghost-border);
+}
+
+.button[data-variant="danger"] {
+  background: var(--button-danger-bg);
+  color: var(--button-danger-color);
+  border-color: var(--button-danger-border);
+}
+
+.button[data-variant="success"] {
+  color: var(--color-state-success);
+  background: var(--color-state-success-bg);
+  border-color: color-mix(in srgb, var(--color-state-success) 40%, transparent);
+}
+
+.button[data-variant="success"] .icon {
+  color: var(--color-state-success);
+}
+
+/* Sizing override for success variant when toggled as glass control */
+.button[data-variant="success"][aria-pressed="true"][data-size="sm"] {
+  padding: var(--space-xs) var(--space-md);
+  min-height: auto;
+  border-radius: var(--radius-sm);
+}
+
+/* Hover override for success in active state -> Danger state */
+.button[data-variant="success"][aria-pressed="true"]:hover:not(:disabled) {
+  background: var(--button-danger-bg);
+  border-color: var(--button-danger-border);
+  color: var(--button-danger-color);
+  box-shadow: 0 2px 0.5rem color-mix(in srgb, var(--color-state-danger) 20%, transparent);
+  transform: none;
+}
+
+
+/* Onboarding Wizard Variants (migrated from NavButton) */
+.button[data-variant="onboarding-back"] {
+  min-height: var(--ui-overlay-top);
+  padding: 0 var(--space-xl);
+  border-radius: var(--radius-lg);
+  border-color: color-mix(in srgb, var(--button-secondary-border) 42%, var(--color-border-default));
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--color-text-primary) 2.5%, transparent), color-mix(in srgb, var(--color-text-primary) 0.8%, transparent)),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-text-inverse) 92%, transparent), color-mix(in srgb, var(--color-text-inverse) 98%, transparent));
+  color: color-mix(in srgb, var(--button-secondary-color) 52%, var(--color-text-secondary) 48%);
+  box-shadow:
+    0 0.625rem 1.5rem color-mix(in srgb, var(--color-bg-canvas) 18%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--color-text-primary) 1.2%, transparent),
+    inset 0 1px 0 var(--color-surface-glass);
+}
+
+.button[data-variant="onboarding-back"] .icon {
+  color: color-mix(in srgb, var(--button-secondary-color) 48%, var(--color-muted));
+}
+
+.button[data-variant="onboarding-back"] .content {
+  font-weight: var(--font-weight-semibold);
+}
+
+.button[data-variant="onboarding-continue"] {
+  min-height: var(--ui-overlay-top);
+  padding: 0 var(--space-xl);
+  border-radius: var(--radius-lg);
+  border-color: color-mix(in srgb, var(--button-secondary-color) 22%, var(--color-border-default));
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--color-text-primary) 7%, transparent), color-mix(in srgb, var(--color-text-primary) 1.8%, transparent)),
+    linear-gradient(180deg, color-mix(in srgb, var(--button-secondary-border) 82%, transparent), color-mix(in srgb, var(--button-secondary-border) 98%, transparent));
+  color: color-mix(in srgb, var(--button-secondary-color) 78%, var(--color-text-primary) 22%);
+  box-shadow:
+    0 0.875rem 1.875rem color-mix(in srgb, var(--color-bg-canvas) 24%, transparent),
+    0 0 0 1px var(--color-surface-card),
+    inset 0 1px 0 var(--color-border-default);
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.01em;
+}
+
+.button[data-variant="onboarding-continue"] .icon {
+  color: color-mix(in srgb, var(--button-secondary-color) 82%, var(--color-text-primary) 18%);
+}
+
+.button[data-variant="onboarding-continue"] .content {
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.015em;
+}
+
+
+.button[data-variant="onboarding-back"]:hover:not(:disabled) {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--color-text-primary) 3.5%, transparent), color-mix(in srgb, var(--color-text-primary) 1.2%, transparent)),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-text-inverse) 96%, transparent), var(--text-inverse));
+  border-color: color-mix(in srgb, var(--button-secondary-color) 18%, var(--color-border-default));
+  color: color-mix(in srgb, var(--button-secondary-color) 68%, var(--color-text-primary) 8%);
+  box-shadow:
+    0 0.75rem 1.75rem color-mix(in srgb, var(--color-bg-canvas) 22%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--color-text-primary) 1.8%, transparent),
+    inset 0 1px 0 var(--var-color-border-default, var(--color-border-default));
+}
+
+.button[data-variant="onboarding-continue"]:hover:not(:disabled) {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--color-text-primary) 9%, transparent), color-mix(in srgb, var(--color-text-primary) 2.4%, transparent)),
+    linear-gradient(180deg, color-mix(in srgb, var(--button-secondary-border) 98%, transparent), color-mix(in srgb, var(--button-secondary-border) 98%, transparent));
+  border-color: color-mix(in srgb, var(--button-secondary-color) 36%, var(--color-border-default));
+  color: color-mix(in srgb, var(--button-secondary-color) 84%, var(--color-text-primary) 16%);
+  box-shadow:
+    0 1rem 2.125rem color-mix(in srgb, var(--color-bg-canvas) 28%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--color-text-primary) 2.8%, transparent),
+    inset 0 1px 0 color-mix(in srgb, var(--color-text-primary) 10%, transparent);
+}
+
+.button:disabled {
+  opacity: 0.48;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.button:focus-visible {
+  outline: none;
+  box-shadow: var(--button-focus-ring);
+}
+
+.button[data-variant="danger"]:focus-visible {
+  box-shadow: var(--button-danger-focus-ring);
+}
+
+.button:hover:not(:disabled) {
+  transform: translateY(var(--motion-lift-distance-xs));
+}
+.button[data-variant="primary"]:hover:not(:disabled) {
+  filter: var(--button-primary-hover-filter);
+}
+
+.button[data-variant="secondary"]:hover:not(:disabled) {
+  background: var(--button-secondary-hover-bg);
+}
+
+.button[data-variant="secondary-neutral"]:hover:not(:disabled) {
+  background: var(--button-secondary-neutral-hover-bg);
+}
+
+.button[data-variant="ghost"]:hover:not(:disabled) {
+  background: var(--button-ghost-hover-bg);
+  color: var(--button-ghost-hover-color-override);
+}
+
+.button[data-variant="danger"]:hover:not(:disabled) {
+  background: var(--button-danger-hover-bg);
+}
+
+.button[data-variant="success"]:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-state-success) 20%, transparent);
+  border-color: color-mix(in srgb, var(--color-state-success) 45%, transparent);
+}
+
+.button[data-variant="tag"] {
+  min-height: auto;
+  height: auto;
+  padding: 0.1875rem var(--space-sm);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-line);
+  background: var(--color-tag-button-bg);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-family-mono);
+  box-shadow: none;
+}
+
+.button[data-variant="tag"]:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-accent-glow);
+}
+
+.button[data-variant="tag"]:hover:not(:disabled) {
+  background: var(--color-tag-button-bg-hover);
+  border-color: var(--color-tag-button-border-hover);
+  color: var(--color-accent);
+  transform: none;
+}
+
+.button[data-variant="glass"] {
+  min-height: var(--space-2xl);
+  padding: 0 var(--space-sm);
+  gap: var(--space-xs);
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in srgb, var(--color-accent-blue) 48%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 88%, transparent);
+  color: var(--color-text-primary);
+  box-shadow: 0 var(--space-xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 35%, transparent);
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-semibold);
+  transition: opacity var(--motion-base), transform var(--motion-base), color var(--motion-base), border-color var(--motion-base), background-color var(--motion-base);
+  white-space: nowrap;
+}
+
+.button[data-variant="glass"] .icon {
+  color: var(--color-text-primary);
+}
+
+.button[data-variant="glass"][aria-pressed="true"] .icon {
+  color: var(--color-state-success);
+}
+
+.button[data-variant="glass"][aria-invalid="true"] .icon {
+  color: var(--color-text-primary);
+}
+
+.button[data-variant="primary"]:hover:not(:disabled) .icon {
+  color: var(--color-ink);
+}
+
+.button[data-variant="glass"]:hover:not(:disabled) .icon {
+  color: var(--color-accent-blue);
+}
+
+.button[data-variant="onboarding-back"]:hover:not(:disabled) .icon {
+  color: color-mix(in srgb, var(--button-secondary-color) 74%, var(--color-text-primary) 10%);
+}
+
+.button[data-variant="onboarding-continue"]:hover:not(:disabled) .icon {
+  color: var(--color-text-primary);
+}
+
+.button[data-variant="glass"][aria-pressed="true"]:hover:not(:disabled) .icon {
+  color: var(--color-state-danger);
+}
+
+.button[data-variant="glass"][aria-invalid="true"]:hover:not(:disabled) .icon {
+  color: var(--color-state-danger);
+}
+
+.button[data-variant="success"][aria-pressed="true"]:hover:not(:disabled) .icon {
+  color: var(--button-danger-color);
+}
+
+.button[data-variant="glass"][data-size="sm"] {
+  padding: var(--space-xs) var(--space-md);
+}
+
+.button[data-variant="glass"]:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--color-accent-blue) 80%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-accent-blue) 15%, var(--color-panel-translucent));
+  color: var(--color-accent-blue);
+}
+
+.button[data-variant="glass"][aria-pressed="true"] {
+  border-color: color-mix(in srgb, var(--color-state-success) 48%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 82%, transparent);
+  color: var(--color-state-success);
+  box-shadow: 0 var(--space-xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 35%, transparent);
+}
+
+.button[data-variant="glass"][aria-pressed="true"]:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--color-state-danger) 48%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 82%, transparent);
+  color: var(--color-state-danger);
+}
+
+.button[data-variant="glass"][aria-invalid="true"] {
+  border-color: color-mix(in srgb, var(--color-state-danger) 48%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 82%, transparent);
+  color: var(--color-text-primary);
+  box-shadow: 0 var(--space-xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 35%, transparent);
+}
+
+.button[data-variant="glass"][aria-invalid="true"]:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--color-state-danger) 80%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-state-danger) 15%, var(--color-panel-translucent));
+  color: var(--color-state-danger);
+}
+
+/* Generalized Toggle state children swap */
+.button[aria-pressed="true"] [data-state="active"] {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button[aria-pressed="true"] [data-state="hover"] {
+  display: none;
+}
+
+.button[aria-pressed="true"]:hover:not(:disabled) [data-state="active"] {
+  display: none;
+}
+
+.button[aria-pressed="true"]:hover:not(:disabled) [data-state="hover"] {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Generalized destructive hover styling */
+.button:not([data-variant="glass"])[aria-pressed="true"][data-destructive-hover="true"]:hover:not(:disabled) {
+  background: var(--button-danger-bg);
+  border-color: var(--button-danger-border);
+  color: var(--button-danger-color);
+  box-shadow: 0 2px 0.5rem color-mix(in srgb, var(--color-state-danger) 20%, transparent);
+}
+
+.button[data-variant="glass"][aria-pressed="true"][data-destructive-hover="true"]:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--color-state-danger) 64%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-state-danger) 18%, var(--color-panel-translucent));
+  color: var(--color-state-danger);
+}
+
+.button[aria-pressed="true"][data-destructive-hover="true"]:hover:not(:disabled) .icon {
+  color: var(--color-state-danger);
+}
+
+/* Border Radius Overrides */
+.button[data-radius="none"] { border-radius: 0; }
+.button[data-radius="xs"] { border-radius: var(--radius-xs); }
+.button[data-radius="sm"] { border-radius: var(--radius-sm); }
+.button[data-radius="md"] { border-radius: var(--radius-md); }
+.button[data-radius="lg"] { border-radius: var(--radius-lg); }
+.button[data-radius="xl"] { border-radius: var(--radius-xl); }
+.button[data-radius="full"] { border-radius: var(--radius-full); }
+
+

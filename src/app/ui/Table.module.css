@@ -1,0 +1,344 @@
+/* Tables */
+.wrap {
+  height: auto;
+  max-height: 100%;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-line);
+  background: var(--color-surface-card);
+  will-change: scroll-position;
+  transform: translateZ(0);
+}
+
+/* Minimal Table Variant wrapper */
+.wrap-minimal {
+  border: none;
+  background: transparent;
+  border-radius: var(--radius-none);
+  box-shadow: none;
+}
+
+.table {
+  width: 100%;
+  min-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.table th,
+.table td {
+  padding: var(--space-sm) var(--space-lg);
+  text-align: left;
+  border-bottom: 1px solid var(--color-line);
+  transition: background var(--motion-fast);
+  white-space: nowrap;
+  vertical-align: middle;
+  max-width: 0;
+}
+
+.table td {
+  border-right: var(--ui-table-cell-border-right, none);
+}
+
+.table td:last-child {
+  border-right: none;
+}
+
+.table th {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-index-sticky);
+  font: var(--text-caption);
+  color: var(--ui-table-header-color, var(--color-muted));
+  text-transform: uppercase;
+  letter-spacing: calc(2 * var(--letter-spacing-wide));
+  font-weight: var(--ui-table-header-font-weight, var(--font-weight-semibold));
+  background: var(--color-table-header-bg);
+  backdrop-filter: blur(0.75rem);
+  box-shadow: inset 0 -1px 0 0 var(--color-line);
+  border-bottom: none;
+}
+
+.table.table-minimal th,
+.table.table-minimal td {
+  padding: var(--ui-table-cell-padding);
+  font-size: var(--ui-table-cell-font-size);
+}
+
+.table.table-minimal th {
+  background: var(--ui-table-header-bg);
+  backdrop-filter: var(--ui-table-header-backdrop-filter);
+  border-bottom: var(--ui-table-header-border-bottom);
+}
+
+.table.table-minimal td {
+  border-bottom: var(--ui-table-cell-border-bottom);
+}
+
+.table.table-grid th,
+.table.table-grid td {
+  padding: var(--space-md) var(--space-lg);
+}
+
+.table.table-grid th {
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.table.table-grid td {
+  border-bottom: 1px solid var(--color-border-subtle);
+  border-right: 1px solid var(--color-border-subtle);
+}
+
+.table tr:last-child td {
+  border-bottom: var(--ui-table-last-row-cell-border-bottom, 1px solid var(--color-line));
+}
+
+.table.table-grid td:last-child {
+  border-right: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.cell-content {
+  position: relative;
+  min-height: calc(2 * var(--space-lg));
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  width: 100%;
+}
+
+.table th.align-center,
+.table td.align-center {
+  text-align: center;
+}
+
+.table th.align-center .cell-content,
+.table td.align-center .cell-content {
+  justify-content: center;
+}
+
+.table th.align-right,
+.table td.align-right {
+  text-align: right;
+}
+
+.table th.align-right .cell-content,
+.table td.align-right .cell-content {
+  justify-content: flex-end;
+}
+
+.cell-value {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  width: 100%;
+  line-height: calc(2 * var(--space-lg));
+}
+
+.cell-value-custom {
+  display: block;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.cell-value.is-hidden,
+.cell-value-custom.is-hidden {
+  visibility: hidden;
+}
+
+
+.sort-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  min-height: auto;
+  font: var(--text-caption);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: calc(2 * var(--letter-spacing-wide));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  gap: var(--space-sm);
+  cursor: pointer;
+  outline: none;
+  transition: color var(--motion-fast);
+}
+
+.sort-btn:hover,
+.sort-btn:focus-visible {
+  color: var(--color-ink);
+}
+
+.sort-btn[data-sort-active="true"] {
+  color: var(--color-ink);
+}
+
+.table th.align-center .sort-btn,
+.table td.align-center .sort-btn {
+  margin-inline: auto;
+}
+
+.table-action-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  min-height: auto;
+  font-family: var(--font-sans);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  outline: none;
+  transition: color var(--motion-fast);
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-accent);
+}
+
+.table-action-btn:hover,
+.table-action-btn:focus-visible {
+  color: color-mix(in srgb, var(--color-accent) 80%, var(--color-text-primary));
+}
+
+.table-action-btn.is-warning {
+  color: var(--color-accent-yellow-soft);
+}
+
+.table-action-btn.is-warning:hover,
+.table-action-btn.is-warning:focus-visible {
+  color: var(--color-accent-yellow);
+}
+
+.table tbody tr {
+  transition: background-color var(--motion-fast);
+}
+
+.table tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--color-line) 12%, transparent);
+}
+
+.table.table-minimal tbody tr:nth-child(even) {
+  background: transparent;
+}
+
+.table tbody tr.is-clickable {
+  cursor: pointer;
+}
+
+.table tr:hover td:last-child {
+  overflow: visible;
+}
+
+.table tbody tr.is-active {
+  background: var(--table-row-active-bg);
+}
+
+.table tbody tr.is-active td:first-child {
+  box-shadow: var(--table-row-active-shadow);
+}
+
+.table tbody tr:not(.is-empty):hover td:first-child {
+  box-shadow: var(--table-row-hover-shadow);
+}
+
+.table td.empty {
+  text-align: center;
+  color: var(--color-muted);
+  padding: var(--space-sm) var(--space-lg);
+  font-style: italic;
+}
+
+.row-actions {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-sm);
+  width: max-content;
+  padding: 0 var(--space-lg);
+  background: transparent;
+}
+
+.row-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(2 * var(--space-lg));
+  height: calc(2 * var(--space-lg));
+  border: 1px solid var(--color-control-border-subtle);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-hover);
+  color: var(--color-muted);
+  cursor: pointer;
+  transition: var(--motion-fast);
+}
+
+.row-action.is-danger {
+  border-color: color-mix(in srgb, var(--color-state-danger) 22%, transparent);
+  color: var(--color-accent-red-soft);
+  background: color-mix(in srgb, var(--color-state-danger) 6%, transparent);
+}
+
+.row-action:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-accent-blue);
+}
+
+/* Hover & Active hover states */
+.table tbody tr:not(.is-empty):hover {
+  background: var(--table-row-hover-bg);
+}
+
+.table tbody tr.is-active:hover {
+  background: var(--table-row-active-hover-bg);
+}
+
+.table tbody tr:hover .row-actions {
+  display: inline-flex;
+}
+
+.table tbody tr:hover .cell-value.hide-on-hover,
+.table tbody tr:hover .cell-value-custom.hide-on-hover {
+  visibility: hidden;
+}
+
+.row-action:hover {
+  background: var(--color-surface-hover-strong);
+  color: var(--color-ink);
+}
+
+.row-action.is-danger:hover {
+  background: color-mix(in srgb, var(--color-state-danger) 14%, transparent);
+  border-color: color-mix(in srgb, var(--color-state-danger) 36%, transparent);
+  color: var(--color-text-primary);
+}
+
+.table.table-minimal tbody tr:hover {
+  background: color-mix(in srgb, var(--color-line) 6%, transparent);
+}
+
+.cell-arrow {
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.virtual-spacer {
+  padding: 0;
+  border: none;
+}

@@ -1,0 +1,90 @@
+.global-search {
+  position: relative;
+  margin: 0 var(--space-lg);
+  -webkit-app-region: no-drag;
+}
+
+/* Suggestions Overlay */
+.overlay {
+  position: absolute;
+  top: calc(100% + var(--space-sm));
+  left: 0;
+  right: 0;
+  max-height: 25rem;
+  background: color-mix(in srgb, var(--color-panel-strong) 98%, transparent);
+  border: 0.0625rem solid var(--color-border-strong);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(0.75rem);
+  z-index: calc(var(--z-index-dropdown) - 1);
+  overflow-y: auto;
+  animation: slideDown var(--motion-duration-fast) var(--motion-ease-emphasized);
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-sm);
+}
+
+.adult-overlay {
+  inset: 0;
+  --adult-overlay-bg: transparent;
+}
+
+.arrow-icon {
+  color: var(--color-text-muted);
+  opacity: 0;
+  transition: all var(--motion-duration-fast) var(--motion-ease-standard);
+  transform: translate(-0.1875rem, 0.1875rem);
+}
+
+.card:hover .arrow-icon {
+  opacity: 1;
+  color: var(--color-text-primary);
+  transform: translate(0, 0);
+}
+
+.group-header {
+  padding: var(--space-sm) var(--space-md) var(--space-xs) var(--space-md);
+  margin-top: var(--space-xs);
+}
+
+.group-divider {
+  margin: var(--space-sm) var(--space-sm);
+}
+
+.see-all-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  margin-top: var(--space-xs);
+  background: var(--color-surface-soft);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: var(--motion-fast);
+}
+
+.see-all-btn:hover {
+  background: var(--color-surface-card);
+  color: var(--color-accent);
+  border-color: var(--color-line-strong);
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(calc(-1 * var(--space-sm)));
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

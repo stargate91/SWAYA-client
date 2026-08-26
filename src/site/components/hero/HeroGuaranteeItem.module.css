@@ -1,0 +1,9 @@
+.guarantee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-2xs);
+}
+
+.guarantee-icon {
+  color: var(--accent-blue);
+}

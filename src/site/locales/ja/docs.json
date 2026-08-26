@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "ホーム",
+    "breadcrumbDocs": "ドキュメント",
+    "defaultCategory": "ドキュメント",
+    "minRead": "読了目安: {{count}}分",
+    "prevGuide": "前のガイド",
+    "nextGuide": "次のガイド",
+    "searchPlaceholder": "ガイドを検索...",
+    "searchAriaLabel": "ドキュメント検索",
+    "clearSearchAriaLabel": "検索をクリア",
+    "noGuidesFound": "「{{query}}」に一致するガイドは見つかりませんでした",
+    "onThisPage": "目次",
+    "tableOfContents": "コンテンツ一覧",
+    "navigationAriaLabel": "ドキュメントナビゲーション",
+    "relatedGuides": "関連ガイド",
+    "error404": "エラー 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "ページが見つかりません",
+    "pageNotFoundDesc": "お探しのドキュメントガイドまたはページは存在しないか、移動された可能性があります。",
+    "goBack": "戻る",
+    "returnHome": "ホームに戻る",
+    "skipToContent": "メインコンテンツへスキップ",
+    "errorBoundaryTitle": "問題が発生しました",
+    "errorBoundaryDesc": "ページの読み込み中に予期しないエラーが発生しました。再読み込みするか、ホームページに戻ってください。",
+    "reloadPage": "ページを再読み込み",
+    "browseDocs": "ドキュメントを見る",
+    "allGuides": "すべてのガイド",
+    "home": "ホーム",
+    "popularGuides": "人気のガイド",
+    "documentationHub": "ワークステーション ガイド",
+    "hubTitle": "SWAYA ドキュメント & ガイド",
+    "hubSubtitle": "自動ファイルリネーム、マルチソースメタデータ取得、4Kコレクション管理、MPV再生に必要なすべての情報。"
+  },
+  "categories": {
+    "gettingStarted": "はじめに",
+    "coreWorkflows": "コアワークフロー",
+    "libraryCuration": "ライブラリ & コレクション",
+    "systemAutomation": "システム & 自動化"
+  },
+  "items": {
+    "getting-started": {
+      "title": "概要と導入",
+      "description": "SWAYAの基本アーキテクチャ、機能、設計思想を理解する。"
+    },
+    "organizer": {
+      "title": "スマートファイルオーガナイザー",
+      "description": "自動マッチング、一括リネーム、名前の衝突解決。"
+    },
+    "dashboard": {
+      "title": "ダッシュボード & 発見",
+      "description": "スポットライトバナー、続きから再生、ディスカバリーフィード。"
+    },
+    "library": {
+      "title": "ライブラリ & メディアカタログ",
+      "description": "グリッド表示、デュアルモード、高度なフィルタ、タグ管理。"
+    },
+    "details": {
+      "title": "詳細ページ & プロフィール",
+      "description": "アートワーク選択、アクションボタン、TVシーズン別表示、出演作一覧。"
+    },
+    "player": {
+      "title": "再生エンジン",
+      "description": "MPV統合、GPUアクセラレーション、外部プレイヤー連携。"
+    },
+    "search": {
+      "title": "統合検索 & フィルター",
+      "description": "マルチソース一括検索とリアルタイムフィルタリング。"
+    },
+    "lists": {
+      "title": "カスタムリスト & コレクション",
+      "description": "テーマ別コレクション、4枚ポスターコラージュ、JSON入出力。"
+    },
+    "ratings": {
+      "title": "評価 & レビュー",
+      "description": "10段階評価、マークダウン形式のプライベートレビュー、お気に入り。"
+    },
+    "history": {
+      "title": "視聴履歴 & ログ",
+      "description": "再生進捗の記録と詳細な視聴ログ。"
+    },
+    "statistics": {
+      "title": "ライブラリDNA & 統計",
+      "description": "ストレージ使用量グラフ、ジャンル別分析、タイムライン。"
+    },
+    "settings": {
+      "title": "設定 & カスタマイズ",
+      "description": "フォルダ命名テンプレート、重複ポリシー、テーマ、APIキー。"
+    },
+    "torrent": {
+      "title": "トレント統合",
+      "description": "qBittorrent監視と完了時の自動インポート。"
+    }
+  }
+}

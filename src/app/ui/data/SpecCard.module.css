@@ -1,0 +1,32 @@
+.card {
+  composes: card from './dataCommon.module.css';
+  flex-direction: column;
+  justify-content: center;
+}
+
+.has-icon {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-md);
+}
+
+.icon-wrapper {
+  composes: icon-wrapper from './dataCommon.module.css';
+  background: color-mix(in srgb, var(--color-accent) 6%, transparent);
+  color: var(--color-accent);
+}
+
+.content {
+  composes: content from './dataCommon.module.css';
+}
+
+.full-width {
+  width: 100%;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+

@@ -1,0 +1,26 @@
+.virtual-list-wrapper {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.virtual-list-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: var(--space-lg);
+  will-change: transform;
+  contain: layout style;
+}
+
+.virtual-list-item[data-gap="none"] { padding-bottom: 0; }
+.virtual-list-item[data-gap="2xs"] { padding-bottom: var(--space-2xs); }
+.virtual-list-item[data-gap="xs"] { padding-bottom: var(--space-xs); }
+.virtual-list-item[data-gap="sm"] { padding-bottom: var(--space-sm); }
+.virtual-list-item[data-gap="md"] { padding-bottom: var(--space-md); }
+.virtual-list-item[data-gap="lg"] { padding-bottom: var(--space-lg); }
+.virtual-list-item[data-gap="xl"] { padding-bottom: var(--space-xl); }
+.virtual-list-item[data-gap="2xl"] { padding-bottom: var(--space-2xl); }
+.virtual-list-item[data-gap="3xl"] { padding-bottom: var(--space-3xl); }

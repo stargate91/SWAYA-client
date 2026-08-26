@@ -1,0 +1,41 @@
+.hero {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: var(--z-index-zero);
+}
+
+.backdrop {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity var(--motion-duration-slow-expressive) var(--motion-ease-in-out);
+}
+
+.backdrop--hidden {
+  opacity: 0;
+}
+
+.backdrop--blurred {
+  filter: blur(3.125rem) brightness(0.45);
+  transform: scale(1.25) translate3d(0, 0, 0);
+  will-change: filter, transform;
+  backface-visibility: hidden;
+}
+
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  z-index: var(--z-index-zero);
+  transition: opacity var(--motion-duration-slow-expressive) var(--motion-ease-in-out);
+}
+
+.video--visible {
+  opacity: 1;
+}

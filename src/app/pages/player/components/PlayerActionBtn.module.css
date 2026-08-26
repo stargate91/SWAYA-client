@@ -1,0 +1,75 @@
+.button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--player-space-sm);
+  background: var(--player-bg-glass-light);
+  border: var(--player-border-glass-thin);
+  color: var(--player-color-ink);
+  padding: var(--player-space-2xl);
+  border-radius: var(--player-radius-xl);
+  font-size: var(--player-font-size-xs);
+  font-weight: var(--player-weight-semibold);
+  cursor: pointer;
+  transition: all var(--motion-duration-base) var(--motion-ease-standard);
+}
+
+.button--md {
+  padding: var(--player-space-lg) var(--player-space-3xl);
+  border-radius: var(--player-radius-md);
+}
+
+.button--lg {
+  padding: var(--player-space-2xl);
+  border-radius: var(--player-radius-xl);
+}
+
+.button:hover {
+  background: var(--player-bg-glass-medium);
+  border-color: var(--player-border-glass-strong);
+}
+
+.button--danger {
+  color: var(--player-color-state-danger);
+  background: color-mix(in srgb, var(--player-color-state-danger) 12%, transparent);
+  border-color: color-mix(in srgb, var(--player-color-state-danger) 15%, transparent);
+}
+
+.button--danger:hover {
+  background: color-mix(in srgb, var(--player-color-state-danger) 20%, transparent);
+  border-color: var(--player-color-state-danger);
+}
+
+.button--primary {
+  background: var(--player-accent);
+  border-color: transparent;
+  color: var(--player-color-canvas);
+}
+
+.button--primary:hover {
+  background: var(--player-accent-hover);
+  border-color: transparent;
+}
+
+.button--discover {
+  flex: none;
+  background: var(--player-accent);
+  border: none;
+  color: var(--player-color-canvas);
+  padding: var(--player-space-lg) var(--player-space-4xl);
+  border-radius: var(--player-radius-md);
+  font-weight: var(--player-weight-bold);
+  box-shadow: 0 var(--player-space-2xs) var(--player-space-lg) color-mix(in srgb, var(--player-accent) 30%, transparent);
+}
+
+.button--discover:hover {
+  background: var(--player-accent-hover);
+  transform: translateY(calc(-1 * var(--player-radius-xs)));
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,52 @@
+{
+  "subtitle": "Your media collection, organized and ready to play.",
+  "watchlist": {
+    "add": "Watchlist",
+    "add_short": "Watchlist",
+    "added": "In Watchlist"
+  },
+  "recommendations": {
+    "discover_movies": "Discover Movies",
+    "discover_series": "Discover TV Shows",
+    "discover_adult": "Discover Adult Movies",
+    "discover_stashdb": "StashDB Discovery",
+    "discover_fansdb": "FansDB Discovery",
+    "discovery_title": "Top Discoveries",
+    "discovery_no_results": "No matches found. Try adjusting your filters.",
+    "recently_added": "Recently Added",
+    "recently_activated_people": "Recently Followed Stars",
+    "recently_activated_people_adult": "Recently Followed Adult Stars",
+    "recently_followed_studios": "Recently Followed Studios",
+    "recently_followed_studios_adult": "Recently Followed Studios",
+    "genres_all": "All Genres",
+    "years_all": "All Years",
+    "sort_trending": "Trending",
+    "sort_popularity": "Popular"
+  },
+  "customize": "Customize Dashboard",
+  "customize_desc": "Choose which sections appear on your home dashboard.",
+  "widget_continue_watching": "Continue Watching",
+  "widget_spotlight": "Spotlight",
+  "widget_recently_added": "Recently Added",
+  "widget_recently_added_movies": "Recently Added Movies",
+  "widget_recently_added_tv": "Recently Added TV Shows",
+  "widget_recently_added_scenes": "Recently Added Scenes",
+  "widget_recently_added_videos": "Recently Added Videos",
+  "widget_recently_activated_people": "Recently Followed Stars",
+  "widget_recently_activated_people_adult": "Recently Followed Adult Stars",
+  "widget_recently_followed_studios": "Recently Followed Studios",
+  "widget_recently_followed_studios_adult": "Recently Followed Studios",
+  "widget_movies_discovery": "Discover Movies",
+  "widget_tv_discovery": "Discover TV Shows",
+  "widget_top_20": "Top Discoveries",
+  "widget_adult": "Adult Movies",
+  "widget_stashdb_discovery": "StashDB Discovery",
+  "widget_fansdb_discovery": "FansDB Discovery",
+  "continue_watching": {
+    "title": "Pick up where you left off",
+    "remove": "Remove from Continue Watching",
+    "minutes_left": "{minutes}m remaining"
+  },
+  "focus": "Focusing on",
+  "search_tag_placeholder": "Search categories..."
+}

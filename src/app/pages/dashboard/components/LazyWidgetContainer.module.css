@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 16rem;
+}
+
+.placeholder {
+  width: 100%;
+}
+
+.container:empty,
+.placeholder:empty {
+  display: none;
+}
+

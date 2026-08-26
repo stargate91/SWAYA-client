@@ -1,0 +1,43 @@
+{
+  "name": "SWAYA — Personal Offline Media Center & Video Player",
+  "short_name": "SWAYA",
+  "description": "Personal offline media center and video player for Windows. Organize movies, TV shows, and adult video collections with rich metadata, custom curation, and complete privacy.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0f17",
+  "theme_color": "#0c0f17",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon/32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/swaya-s-mark-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/swaya-s-mark-circle.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/swaya-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/swaya-logo-icon.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpeg"
+    }
+  ]
+}

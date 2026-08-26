@@ -1,0 +1,16 @@
+.media-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  border-bottom: 0.0625rem solid color-mix(in srgb, var(--color-border-default) 20%, transparent);
+  padding-bottom: var(--space-sm);
+  flex-shrink: 0;
+  min-height: var(--ui-control-height-sm);
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}

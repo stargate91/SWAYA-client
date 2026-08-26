@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Início",
+    "breadcrumbDocs": "Documentação",
+    "defaultCategory": "Documentação",
+    "minRead": "{{count}} min de leitura",
+    "prevGuide": "Guia Anterior",
+    "nextGuide": "Próximo Guia",
+    "searchPlaceholder": "Pesquisar guias...",
+    "searchAriaLabel": "Pesquisar documentação",
+    "clearSearchAriaLabel": "Limpar pesquisa",
+    "noGuidesFound": "Nenhum guia encontrado para \"{{query}}\"",
+    "onThisPage": "Nesta página",
+    "tableOfContents": "Índice",
+    "navigationAriaLabel": "Navegação da Documentação",
+    "relatedGuides": "Guias Relacionados",
+    "error404": "Erro 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Página Não Encontrada",
+    "pageNotFoundDesc": "O guia de documentação ou página que você procura foi movido ou não existe.",
+    "goBack": "Voltar",
+    "returnHome": "Voltar ao Início",
+    "skipToContent": "Pular para o conteúdo principal",
+    "errorBoundaryTitle": "Algo deu errado",
+    "errorBoundaryDesc": "Ocorreu um erro inesperado ao carregar esta página. Você pode recarregar ou voltar à página inicial.",
+    "reloadPage": "Recarregar página",
+    "browseDocs": "Ver Documentação",
+    "allGuides": "Todos os Guias",
+    "home": "Início",
+    "popularGuides": "Guias Populares",
+    "documentationHub": "Guias do Usuário",
+    "hubTitle": "Documentação & Guias SWAYA",
+    "hubSubtitle": "Tudo o que você precisa para configurar renomeação em lote, busca de metadados, organização de coleções e reprodução 4K com MPV."
+  },
+  "categories": {
+    "gettingStarted": "Primeiros Passos",
+    "coreWorkflows": "Fluxos de Trabalho",
+    "libraryCuration": "Biblioteca & Curadoria",
+    "systemAutomation": "Sistema & Automação"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Introdução & Visão Geral",
+      "description": "Entenda a arquitetura do SWAYA, recursos e pilares centrais."
+    },
+    "organizer": {
+      "title": "Organizador Inteligente de Arquivos",
+      "description": "Identificação automática, renomeação em lote e resolução de colisões."
+    },
+    "dashboard": {
+      "title": "Painel de Controle & Descoberta",
+      "description": "Destaques, continuar assistindo e feeds de recomendação."
+    },
+    "library": {
+      "title": "Biblioteca & Catálogo de Mídia",
+      "description": "Visualização em grade, modo duplo, filtros avançados e status de rastreamento."
+    },
+    "details": {
+      "title": "Páginas de Detalhes & Perfis",
+      "description": "Seleção de pôsteres, temporadas de séries e filmografia de artistas."
+    },
+    "player": {
+      "title": "Motor de Reprodução",
+      "description": "Integração nativa com MPV, aceleração por GPU e suporte a áudio/legendas."
+    },
+    "search": {
+      "title": "Busca Universal & Filtros",
+      "description": "Pesquisa global em múltiplas fontes e filtros em tempo real."
+    },
+    "lists": {
+      "title": "Listas Personalizadas & Coleções",
+      "description": "Coleções temáticas, capas em colagem de 4 pôsteres e importação/exportação."
+    },
+    "ratings": {
+      "title": "Avaliações & Análises",
+      "description": "Escala de 10 estrelas, análises em markdown e favoritos."
+    },
+    "history": {
+      "title": "Histórico de Reprodução & Registros",
+      "description": "Retomada exata de reprodução e histórico detalhado."
+    },
+    "statistics": {
+      "title": "Estatísticas da Biblioteca (DNA)",
+      "description": "Gráficos de armazenamento, DNA de gêneros e linhas do tempo."
+    },
+    "settings": {
+      "title": "Configurações & Preferências",
+      "description": "Modelos de pastas, regras de colisão, temas e chaves de API."
+    },
+    "torrent": {
+      "title": "Integração com Torrents",
+      "description": "Monitoramento de downloads e importação via qBittorrent."
+    }
+  }
+}

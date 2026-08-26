@@ -1,0 +1,15 @@
+.card {
+  composes: card from './dataCommon.module.css';
+}
+
+.card.card {
+  align-items: flex-start;
+}
+
+.icon-wrapper {
+  composes: icon-wrapper from './dataCommon.module.css';
+}
+
+.content {
+  composes: content from './dataCommon.module.css';
+}

@@ -1,0 +1,112 @@
+import { Fragment } from 'react';
+import Card from '@/ui/Card';
+import Stack from '@/ui/Stack';
+import SettingsTextField from './fields/SettingsTextField.jsx';
+import SettingsSwitchField from './fields/SettingsSwitchField.jsx';
+import SettingsSelectField from './fields/SettingsSelectField.jsx';
+import SettingsPathField from './fields/SettingsPathField.jsx';
+
+function renderItem(item, context) {
+  if (item.visible && !item.visible(context)) {
+    return null;
+  }
+
+  const disabled = item.disabled !== undefined ? item.disabled : context.disabled;
+
+  if (item.type === 'text') {
+    return (
+      <SettingsTextField
+        key={item.key || item.field}
+        field={item.field}
+        label={item.label}
+        hint={item.hint}
+        placeholder={item.placeholder}
+        type={item.inputType}
+        min={item.min}
+        step={item.step}
+        disabled={disabled}
+        className={item.className}
+        inputRef={item.inputRef}
+      />
+    );
+  }
+
+  if (item.type === 'path') {
+    return (
+      <SettingsPathField
+        key={item.key || item.field}
+        field={item.field}
+        label={item.label}
+        hint={item.hint}
+        placeholder={item.placeholder}
+        picker={item.picker}
+        buttonLabel={item.buttonLabel}
+        disabled={disabled}
+        className={item.className}
+        t={item.t || context.t}
+      />
+    );
+  }
+
+  if (item.type === 'select') {
+    return (
+      <SettingsSelectField
+        key={item.key || item.field}
+        field={item.field}
+        label={item.label}
+        hint={item.hint}
+        options={item.options}
+        disabled={disabled}
+        className={item.className}
+      />
+    );
+  }
+
+  if (item.type === 'switch') {
+    return (
+      <Fragment key={item.key || item.field}>
+        <SettingsSwitchField
+          field={item.field}
+          id={item.id || item.field}
+          disabled={disabled}
+          className={item.className}
+        >
+          {item.children}
+        </SettingsSwitchField>
+        {item.hint ? (
+          <span className={item.hintClassName || 'settings-field-hint'}>
+            {item.hint}
+          </span>
+        ) : null}
+      </Fragment>
+    );
+  }
+
+  if (item.type === 'custom') {
+    return (
+      <Fragment key={item.key}>
+        {item.render(context)}
+      </Fragment>
+    );
+  }
+
+  return null;
+}
+
+export default function SettingsSectionRenderer({ section, context = {} }) {
+  if (section.className === 'settings-section-cardless') {
+    return (
+      <Stack gap={section.gap}>
+        {section.items.map((item) => renderItem(item, context))}
+      </Stack>
+    );
+  }
+
+  return (
+    <Card title={section.title} eyebrow={section.eyebrow} className={section.className}>
+      <Stack gap={section.gap}>
+        {section.items.map((item) => renderItem(item, context))}
+      </Stack>
+    </Card>
+  );
+}

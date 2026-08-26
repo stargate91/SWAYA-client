@@ -1,0 +1,102 @@
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(85vh - var(--spacing-4xl));
+  padding-top: var(--spacing-4xl);
+  padding-bottom: var(--spacing-4xl);
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+  text-align: center;
+  overflow: hidden;
+  background-color: var(--bg-primary);
+}
+
+.content {
+  position: relative;
+  max-width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  z-index: var(--z-index-step-3, 3);
+  padding: var(--spacing-md);
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.brand-title {
+  font-family: var(--font-display, 'Inter', sans-serif);
+  font-size: clamp(var(--font-size-6xl), 8vw, calc(2 * var(--font-size-6xl)));
+  font-weight: var(--font-weight-extrabold, bold);
+  letter-spacing: 0.35em;
+  text-indent: 0.35em;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  filter: drop-shadow(0 var(--space-xs) var(--space-3xl) color-mix(in srgb, var(--accent-blue) 35%, transparent));
+}
+
+.tagline {
+  font-size: clamp(var(--font-size-xl), 3vw, var(--font-size-3xl));
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  line-height: 1.25;
+  margin: var(--spacing-xs) 0 0 0;
+}
+
+.tagline-accent {
+  color: var(--text-primary);
+}
+
+.subtitle {
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+  line-height: 1.6;
+  max-width: 42rem;
+  margin: var(--spacing-2xs) 0 var(--spacing-md) 0;
+  text-shadow: 0 var(--radius-2xs) var(--space-sm) color-mix(in srgb, var(--bg-primary) 60%, transparent);
+}
+
+.pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.price-old {
+  font-size: var(--font-size-xl);
+  color: color-mix(in srgb, var(--text-primary) 50%, transparent);
+  text-decoration: line-through;
+  font-weight: var(--font-weight-medium);
+}
+
+.price-new {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-extrabold, bold);
+  color: var(--text-primary);
+}
+
+.price-tag {
+  font-size: var(--font-size-xs);
+  padding: var(--spacing-2xs) var(--spacing-sm);
+  background-color: color-mix(in srgb, var(--accent-blue) 15%, var(--bg-tertiary) 85%);
+  color: var(--accent-blue);
+  border-radius: var(--radius-full);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-wide);
+  border: var(--border-width-default) solid color-mix(in srgb, var(--accent-blue) 30%, transparent);
+  white-space: nowrap;
+}

@@ -1,0 +1,87 @@
+.user-rating-badge {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+  min-height: var(--space-xl);
+  padding: 0 var(--space-sm);
+  gap: var(--space-xs);
+  border: 1px solid var(--button-secondary-border);
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 88%, transparent);
+  background-image: var(--button-secondary-bg);
+  color: var(--button-secondary-color);
+  box-shadow: 0 var(--space-xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 22%, transparent);
+  letter-spacing: 0;
+  text-transform: none;
+  z-index: var(--z-index-step-5);
+  opacity: var(--poster-badge-opacity, 1);
+  transform: var(--poster-badge-transform, translateY(0));
+  transition: opacity var(--motion-fast), transform var(--motion-fast);
+  pointer-events: var(--poster-badge-pointer-events, auto);
+}
+
+.watched-badge {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  width: calc(2 * var(--space-lg));
+  height: calc(2 * var(--space-lg));
+  border-radius: var(--radius-full);
+  border: 1px solid color-mix(in srgb, var(--color-state-success) 48%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 88%, transparent);
+  background-image: var(--button-secondary-bg);
+  color: var(--color-state-success);
+  box-shadow: 0 var(--space-xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 22%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-index-step-5);
+  opacity: var(--poster-badge-opacity, 1);
+  transform: var(--poster-badge-transform, translateY(0));
+  transition: opacity var(--motion-fast), transform var(--motion-fast);
+  pointer-events: var(--poster-badge-pointer-events, auto);
+}
+
+.favorite-badge {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  width: calc(2 * var(--space-lg));
+  height: calc(2 * var(--space-lg));
+  border-radius: var(--radius-full);
+  border: 1px solid color-mix(in srgb, var(--color-accent-pink) 48%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 88%, transparent);
+  background-image: var(--button-secondary-bg);
+  color: var(--color-accent-pink);
+  box-shadow: 0 var(--space-xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 22%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-index-step-5);
+  opacity: var(--poster-badge-opacity, 1);
+  transform: var(--poster-badge-transform, translateY(0));
+  transition: opacity var(--motion-fast), transform var(--motion-fast);
+  pointer-events: var(--poster-badge-pointer-events, auto);
+}
+
+.favorite-badge svg {
+  display: block;
+  flex-shrink: 0;
+  transform: translate(0.03125rem, 0);
+  transform-origin: center;
+}
+
+.progress-track {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--space-xs);
+  background: color-mix(in srgb, var(--color-text-primary) 20%, transparent);
+  z-index: var(--z-index-step-3);
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--color-accent-blue-soft);
+  filter: drop-shadow(0 0 var(--space-md) color-mix(in srgb, var(--color-accent-blue-soft) 80%, transparent));
+}

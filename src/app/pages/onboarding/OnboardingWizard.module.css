@@ -1,0 +1,193 @@
+.onboarding-wizard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--color-bg-canvas);
+  background-image:
+    radial-gradient(circle at 15% 15%, color-mix(in srgb, var(--color-accent-blue) 4%, transparent) 0%, transparent 60%),
+    radial-gradient(circle at 85% 85%, color-mix(in srgb, var(--color-accent-blue) 3%, transparent) 0%, transparent 60%);
+  color: var(--color-text-primary);
+  font-family: var(--font-base);
+  overflow: hidden;
+  position: relative;
+}
+
+.onboarding-container {
+  --container-trans-dur: 0.3s;
+  --container-trans-ease: ease;
+  width: 100%;
+  max-width: 62.5rem;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: var(--z-index-base);
+  transition: all var(--container-trans-dur) var(--container-trans-ease);
+  margin: 0 auto;
+  padding: var(--space-2xl) 0;
+  box-sizing: border-box;
+}
+
+.onboarding-header {
+  padding: var(--space-xl) 0 var(--space-2xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.onboarding-title-group {
+  --title-trans-dur: 0.24s;
+  --title-trans-ease: ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  transition: opacity var(--title-trans-dur) var(--title-trans-ease), transform var(--title-trans-dur) var(--title-trans-ease);
+}
+
+.onboarding-title-group.is-hidden {
+  opacity: 0;
+  transform: translateY(-0.5rem);
+  pointer-events: none;
+}
+
+.onboarding-title-group h1 {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  background: var(--color-accent-gradient);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.onboarding-title-group p {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.onboarding-content {
+  flex: 1;
+  padding: var(--space-xl) 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 0;
+  position: relative;
+  z-index: var(--z-index-base);
+}
+
+.onboarding-footer {
+  padding: var(--space-xl) 0 var(--space-sm);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: var(--z-index-step-2);
+}
+
+.onboarding-footer--guided-actions {
+  justify-content: space-between;
+}
+
+.onboarding-footer-actions-cluster {
+  --footer-enter-dur: 0.28s;
+  --footer-enter-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  margin-left: auto;
+  animation: onboardingFooterClusterEnter var(--footer-enter-dur) var(--footer-enter-ease);
+}
+
+@keyframes onboardingFooterClusterEnter {
+  from {
+    opacity: 0;
+    transform: translateX(var(--font-size-lg));
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes onboardingTimelinePulse {
+  0%,
+  100% {
+    transform: scale(1.25);
+    box-shadow: 0 0 var(--space-lg) var(--color-accent-blue);
+  }
+
+  50% {
+    transform: scale(1.48);
+    box-shadow: 0 0 var(--space-2xl) color-mix(in srgb, var(--color-accent-blue) 82%, var(--color-text-primary) 18%);
+  }
+}
+
+@keyframes onboardingTimelinePulseRing {
+  0% {
+    opacity: 0.7;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2.8);
+  }
+}
+
+/* Animations */
+@keyframes stepEnterForward {
+  from {
+    opacity: 0;
+    transform: translate3d(2.25rem, 0, 0) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+@keyframes stepEnterBackward {
+  from {
+    opacity: 0;
+    transform: translate3d(-2.25rem, 0, 0) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+
+.step-transition {
+  width: 100%;
+  will-change: transform, opacity;
+}
+
+.step-transition--forward {
+  --step-enter-dur: 0.42s;
+  --step-enter-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  animation: stepEnterForward var(--step-enter-dur) var(--step-enter-ease) forwards;
+}
+
+.step-transition--backward {
+  --step-enter-dur: 0.42s;
+  --step-enter-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  animation: stepEnterBackward var(--step-enter-dur) var(--step-enter-ease) forwards;
+}
+
+/* --- Docs Modal Overlay --- */
+.onboarding-docs-modal {
+  width: 94vw;
+  max-width: 66rem;
+  max-height: 88vh;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}

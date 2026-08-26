@@ -1,0 +1,91 @@
+# SWAYA — Complete Product Manual & Architecture Specification
+
+> SWAYA is an offline-first desktop media center and batch file organizer engineered exclusively for Windows 10 and 11 x64 systems.
+
+---
+
+## 1. System Architecture & Privacy Model
+
+- **Platform**: Native Windows 10/11 desktop application packaged with Electron, React, and embedded MPV.
+- **Database Engine**: Local embedded SQLite database stored on disk at `data/swaya.db`.
+- **Zero Cloud & Zero Telemetry**: SWAYA does not require user accounts, cloud syncing, remote servers, or background telemetry. All personal collections, watch states, ratings, and tags remain strictly on the user's local disk.
+- **Licensing**: Perpetual offline license with one-time payment (€39 introductory price). Supports activation on up to 3 personal Windows devices. Cryptographic validation uses HMAC-SHA256 offline tokens.
+
+---
+
+## 2. Core Functional Modules
+
+### A. Smart Batch File Organizer (`/docs/organizer`)
+- Automatically parses disorganized filenames using advanced regex pattern matchers.
+- Scrapes metadata directly from online APIs (TMDb, OMDb, StashDB, FansDB, ThePornDB).
+- Renames physical video files and moves them into standardized folder hierarchies (`{Title} ({Year})/{Title} ({Year}) - {Resolution}.{ext}`).
+- Provides safe, non-destructive "Dry Run" simulations with duplicate/collision prevention before applying changes to disk.
+
+### B. Unified Media Library & Catalog (`/docs/library`)
+- Consolidated browsing interface for Movies, TV Shows, Episodes, Scenes, Performers/Actors, and Studios.
+- Full offline capability: External USB hard drives and network NAS folders remain indexed and searchable even when unplugged.
+- Granular 10-star rating system, personal markdown review notes, and custom tagging.
+
+### C. Embedded High-Performance 4K MPV Player (`/docs/player`)
+- GPU-accelerated video rendering powered by libmpv.
+- Native support for HDR10, Dolby Vision tonemapping, ASS/SSA complex stylized subtitles, and multi-track audio switching.
+- Instant resume timestamps, chapter navigation, and automatic playback history logging.
+
+### D. Custom Themed Lists & Smart Collections (`/docs/lists`)
+- Create curated lists with custom descriptions and manual ordering.
+- Dynamic auto-generated 4-poster collage cover art for all user-created collections.
+
+### E. 1-Click Stealth Vault & Privacy Controls (`/docs/settings`)
+- Global hotkey (`Ctrl+Alt+H` or `Esc`) instantly hides sensitive media libraries and restores a neutral workspace.
+- Vault collections can be PIN/password-protected with zero trace left in recent files.
+
+### F. Integrated Torrent Client Dashboards (`/docs/torrent`)
+- Remote web API control for qBittorrent, Transmission, and Deluge.
+- Unified search and real-time download monitoring directly within the media center.
+
+---
+
+## 3. Product Comparisons & Competitive Landscape
+
+- **vs FileBot**: SWAYA combines physical disk batch renaming with a full 4K playback engine and offline visual media library.
+- **vs Plex / Jellyfin**: SWAYA requires zero server setup, zero transcoding CPU/GPU load, and zero network configuration; it plays files directly from local storage.
+- **vs tinyMediaManager**: Modern high-DPI GPU-rendered user interface with built-in video player.
+- **vs StashApp**: Standalone lightweight desktop app with native MPV integration rather than local web server architecture.
+
+---
+
+## 4. Internationalization & Multi-Language Support
+
+All SWAYA documentation guides and landing pages are fully localized across 10 languages:
+- **English**: https://swaya.xyz/docs
+- **German (Deutsch)**: https://swaya.xyz/de/docs
+- **Japanese (日本語)**: https://swaya.xyz/ja/docs
+- **Hungarian (Magyar)**: https://swaya.xyz/hu/docs
+- **French (Français)**: https://swaya.xyz/fr/docs
+- **Spanish (Español)**: https://swaya.xyz/es/docs
+- **Chinese (简体中文)**: https://swaya.xyz/zh/docs
+- **Italian (Italiano)**: https://swaya.xyz/it/docs
+- **Russian (Русский)**: https://swaya.xyz/ru/docs
+- **Portuguese (Português)**: https://swaya.xyz/pt/docs
+- **Korean (한국어)**: https://swaya.xyz/ko/docs
+- **Dutch (Nederlands)**: https://swaya.xyz/nl/docs
+- **Polish (Polski)**: https://swaya.xyz/pl/docs
+- **Traditional Chinese (繁體中文)**: https://swaya.xyz/zh-tw/docs
+- **Swedish (Svenska)**: https://swaya.xyz/sv/docs
+- **Turkish (Türkçe)**: https://swaya.xyz/tr/docs
+- **Czech (Čeština)**: https://swaya.xyz/cs/docs
+
+---
+
+## 5. Key Links & Endpoints
+
+- Website: https://swaya.xyz/
+- Documentation: https://swaya.xyz/docs
+- Comparisons: https://swaya.xyz/compare
+- Changelog: https://swaya.xyz/changelog
+- RSS Feed: https://swaya.xyz/feed.xml
+- Help & Support: https://swaya.xyz/help
+- Privacy Policy: https://swaya.xyz/privacy
+- Terms of Service: https://swaya.xyz/terms
+- Security Policy: https://swaya.xyz/.well-known/security.txt
+- Sitemap: https://swaya.xyz/sitemap.xml

@@ -1,0 +1,147 @@
+.toast-viewport {
+  position: fixed;
+  right: var(--space-2xl);
+  bottom: var(--space-2xl);
+  z-index: var(--z-index-toast);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  width: min(25rem, 100vw);
+  max-width: 100%;
+}
+
+.toast {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  background: var(--toast-bg);
+  border: 1px solid var(--toast-border);
+  box-shadow: var(--toast-shadow);
+  backdrop-filter: var(--toast-blur);
+  animation: toast-in var(--motion-duration-slow) var(--motion-ease-expressive);
+}
+
+@keyframes toast-in {
+  from {
+    transform: translateY(1.5rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+  font: var(--text-section);
+  color: var(--color-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
+}
+
+.close {
+  border: 0;
+  background: transparent;
+  color: var(--color-subtle);
+  cursor: pointer;
+  transition: color var(--motion-fast);
+}
+
+.close:hover {
+  color: var(--color-state-danger);
+}
+
+.description {
+  margin: 0;
+  color: var(--color-muted);
+  font: var(--text-caption);
+  line-height: 1.4;
+}
+
+.toast--success {
+  background: var(--toast-success-bg);
+  border-color: var(--toast-success-border);
+}
+
+.toast--success .title {
+  color: color-mix(in srgb, var(--color-state-success) 72%, var(--color-text-primary) 18%);
+}
+
+.toast--danger,
+.toast--error {
+  background: var(--toast-danger-bg);
+  border-color: var(--toast-danger-border);
+}
+
+.toast--danger .title,
+.toast--error .title {
+  color: color-mix(in srgb, var(--color-state-danger) 76%, var(--color-text-primary) 18%);
+}
+
+.toast--warning {
+  background: var(--toast-warning-bg);
+  border-color: var(--toast-warning-border);
+}
+
+.toast--warning .title {
+  color: color-mix(in srgb, var(--color-state-warning) 82%, var(--color-text-primary) 18%);
+}
+
+.toast--info {
+  background: var(--toast-info-bg);
+  border-color: var(--toast-info-border);
+}
+
+.toast--info .title {
+  color: color-mix(in srgb, var(--color-state-info) 82%, var(--color-text-primary) 18%);
+}
+
+.toast--default {
+  background: var(--toast-bg);
+  border-color: var(--toast-border);
+}
+
+.enrichment-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: var(--ui-overlay-sidebar-width);
+}
+
+.enrichment-count {
+  font: var(--text-caption);
+  color: var(--color-muted);
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: var(--space-sm);
+}
+
+.enrichment-track {
+  margin-top: var(--space-xs);
+  height: var(--space-xs);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-raised);
+  overflow: hidden;
+}
+
+.enrichment-bar {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent);
+  transition: width var(--motion-duration-normal) var(--motion-ease-expressive);
+}

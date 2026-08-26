@@ -1,0 +1,22 @@
+.sidebar {
+  width: 17.5rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+  border-right: 1px solid var(--border-color);
+  position: sticky;
+  top: calc(var(--spacing-4xl) + var(--spacing-lg));
+  max-height: calc(100vh - var(--spacing-4xl) - var(--spacing-2xl));
+  overflow-y: auto;
+}
+
+.empty-state {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  padding: var(--spacing-md) var(--spacing-sm);
+  text-align: center;
+}
+
+

@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - Offline Media Center & Video Player for Windows",
+    "description": "Offline Plex & FileBot alternative for Windows. Automatically rename downloads, organize movie collections on hard drives, and play 4K HDR without servers."
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "Home",
+    "docs": "Documentation",
+    "changelog": "Changelog",
+    "compare": "Compare",
+    "help": "Help",
+    "download": "Download & Pricing",
+    "title": "SWAYA Site Navigation",
+    "discord": "Discord",
+    "buy": "Buy SWAYA (€39)",
+    "openMenu": "Open Menu",
+    "closeMenu": "Close Menu"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "Your Entire Offline Media Universe,",
+    "taglineAccent": "Under Total Control.",
+    "subtitle": "Your drives are full of great videos and chaotic filenames. SWAYA cleans up the mess, makes it gorgeous, and gives you back full control.",
+    "priceOld": "€79",
+    "priceNew": "€39",
+    "priceTag": "Launch Special (50% Off)",
+    "buyCta": "Get Lifetime Access for €39",
+    "demoCta": "Launch Live Web Demo",
+    "guarantees": {
+      "payment": "One-time payment",
+      "updates": "Lifetime updates",
+      "devices": "Up to 3 personal devices"
+    }
+  },
+  "video": {
+    "tag": "Product Overview",
+    "title": "What is SWAYA?",
+    "titleAccent": "See It in Action.",
+    "subtitle": "SWAYA is a Windows desktop app that cleans up messy files on your drive, organizes your library, and plays your entire collection offline with a built-in MPV player.",
+    "badge": "2:48 Walkthrough",
+    "placeholderTitle": "Product Walkthrough Video",
+    "placeholderSubtitle": "Full walkthrough showing batch file organizing, library curation, and built-in MPV playback.",
+    "transcriptTitle": "Video Walkthrough Highlights & Feature Summary",
+    "transcriptOrganizer": "00:00 - Smart Batch File Renaming & Folder Routing",
+    "transcriptCuration": "01:00 - Library Browsing, Detail Pages & Navigation Walkthrough",
+    "transcriptPrivacy": "02:25 - Built-in MPV Player, Continue Watching & Playback Logs",
+    "comingSoon": "Walkthrough Video Coming Soon",
+    "play": "Play demo video",
+    "pause": "Pause demo video"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "Automatic File Renaming",
+      "title": "Turn Messy Download Folders into a Clean Library.",
+      "titleAccent": "On Your Actual Disk.",
+      "description": "Automatically identify movies, shows, and scenes from TMDb and StashDB. Batch-rename and organize thousands of physical files on your hard drive with custom Plex/Jellyfin-ready templates and collision-safe previews.",
+      "benefits": [
+        "Automatic Metadata Scraping across Mainstream and Adult Databases",
+        "Physical File Renaming and Custom Plex/Jellyfin Folder Templates",
+        "Safe Dry-Run Preview with Collision Protection"
+      ],
+      "supportedApisLabel": "Supported Metadata Providers",
+      "mockupTitle": "Smart Batch Organizer",
+      "mockupBadge": "142 Files Matched • Ready to Rename",
+      "mockupPlaceholder": "Organizer View Screenshot"
+    },
+    "curation": {
+      "tag": "Everything in One Place",
+      "title": "Movies, Shows, Scenes & Actors.",
+      "titleAccent": "All in One Place.",
+      "description": "Enrich your local hard drive collection with 4K posters, backdrops, biographies, and studio portfolios. Design custom themed lists with auto-generated 4-poster collage covers and write private markdown reviews.",
+      "benefits": [
+        "Unified Library for Movies, TV, Scenes, Actors and Studios",
+        "Instant Browsing for Local & External Hard Drive Collections",
+        "10-Star Granular Ratings and Private Markdown Notes"
+      ],
+      "mockupTitle": "Universal Media Catalog & Curation",
+      "mockupBadge": "4K Artwork • Unified Database",
+      "mockupPlaceholder": "Media Detail & Library Screenshot"
+    },
+    "privacy": {
+      "tag": "Zero Cloud, Zero Accounts",
+      "title": "100% Offline & Private.",
+      "titleAccent": "Zero Cloud, Zero Tracking.",
+      "description": "No Plex servers, no cloud accounts, and no recurring subscriptions. Your media stays on your PC, with an instant hotkey stealth vault to protect private collections.",
+      "benefits": [
+        "100% Local Processing with Zero Cloud Accounts or Telemetry",
+        "Instant Hotkey Stealth Vault to Hide Private Collections",
+        "One-Time €39 Purchase with Lifetime Offline Access"
+      ],
+      "mockupTitle": "Stealth Vault & Privacy Switch",
+      "mockupBadge": "Local Database • Zero Cloud Telemetry",
+      "mockupPlaceholder": "Privacy & Stealth Vault Screenshot"
+    }
+  },
+  "faq": {
+    "tag": "Got Questions?",
+    "title": "Frequently Asked",
+    "titleAccent": "Questions.",
+    "subtitle": "Everything you need to know about SWAYA, licensing, offline privacy, and playback performance.",
+    "items": [
+      {
+        "question": "How does SWAYA compare to Plex, Jellyfin, or Kodi?",
+        "answer": "Unlike Plex, Jellyfin, or Kodi, SWAYA requires zero server setup, zero transcoding overhead, and zero user accounts. It is a lightweight desktop app built specifically to organize and play movies and videos stored directly on your local hard drives using an embedded high-performance MPV player."
+      },
+      {
+        "question": "Can SWAYA replace FileBot for batch renaming movies and shows?",
+        "answer": "Yes. SWAYA includes an automated regex batch organizer that identifies movies, TV episodes, and adult scenes via TMDb, StashDB, and ThePornDB. It renames and sorts messy download folders into standard Plex/Jellyfin-ready structures with collision-safe previews."
+      },
+      {
+        "question": "Does SWAYA work with external hard drives and USB storage?",
+        "answer": "Yes, perfectly. SWAYA is designed for external hard drives, USB disks, and local NAS folders. Your catalog, posters, and watch history remain instantly browsable and searchable even when external drives are temporarily disconnected."
+      },
+      {
+        "question": "Is SWAYA completely offline and private?",
+        "answer": "Yes. SWAYA stores all metadata, local databases, and custom collections 100% locally on your machine. There are no tracking scripts, no telemetry, and no account requirements. A dedicated stealth hotkey lets you instantly hide sensitive collections."
+      },
+      {
+        "question": "What video playback engine does SWAYA use?",
+        "answer": "SWAYA is powered by a high-performance, embedded MPV player engine. It delivers GPU-accelerated 4K HDR playback, seamless multi-audio and subtitle track switching, custom shaders, and instant playback resume."
+      },
+      {
+        "question": "Which metadata scrapers and APIs are supported?",
+        "answer": "SWAYA integrates directly with mainstream and niche providers including TMDb, OMDb, StashDB, FansDB, and ThePornDB for automated multi-source metadata matching, poster downloads, actor filmographies, and studio logos."
+      },
+      {
+        "question": "How does the license work?",
+        "answer": "SWAYA is a one-time €39 purchase for lifetime access. It includes all future updates and can be activated on up to 3 personal Windows PCs without recurring subscription fees."
+      }
+    ]
+  },
+  "download": {
+    "title": "Take Control of Your Collection Today",
+    "subtitle": "Get lifetime access to Swaya for Windows desktop. One-time €39 purchase, yours forever. No recurring subscriptions.",
+    "button": "Buy Lifetime License (€39)",
+    "disclaimer": "Instant download and license key post-checkout. Works 100% offline."
+  },
+  "footer": {
+    "tagline": "Privacy-first desktop media center and intelligent batch organizer for personal collections.",
+    "badge": "Offline-First • v1.0 Windows",
+    "columns": {
+      "navigation": "Navigation",
+      "comparisons": "Comparisons",
+      "documentation": "Documentation",
+      "getSwaya": "Get SWAYA"
+    },
+    "links": {
+      "home": "Home",
+      "docs": "Documentation",
+      "changelog": "Changelog",
+      "help": "Help & Support",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Refund Policy",
+      "discord": "Discord Community",
+      "contact": "Developer Contact",
+      "liveDemo": "Live Demo",
+      "allGuides": "All Guides →",
+      "allComparisons": "All Alternatives →"
+    },
+    "licenseDescription": "One-time purchase, lifetime access on up to 3 personal Windows PCs.",
+    "buyLicense": "Buy License (€39)",
+    "copyright": "© {{year}} SWAYA. All rights reserved.",
+    "madeWithLove": "Made with",
+    "forCollectors": "for media collectors",
+    "languages": "Languages:"
+  },
+  "changelog": {
+    "badge": "Release History",
+    "title": "Release Notes & Changelog",
+    "subtitle": "Track new features, performance optimizations, and updates across every release of SWAYA.",
+    "latest": "Latest Release",
+    "highlights": "Key Highlights"
+  },
+  "help": {
+    "badge": "Help & Community",
+    "title": "How Can We Help You?",
+    "subtitle": "Get in touch with the developer, join our Discord community for live chat, or browse our documentation guides.",
+    "cards": {
+      "discord": {
+        "tag": "Live Community & Chat",
+        "title": "Discord Server",
+        "description": "Join our active community of media collectors. Ask questions, share tips, get fast assistance, and follow product announcements.",
+        "button": "Join Discord Server",
+        "badge": "Online Community"
+      },
+      "email": {
+        "tag": "Developer Contact",
+        "title": "Direct Email Support",
+        "description": "Have questions about licensing, feature requests, private feedback, or encountered a bug? Reach out to the developer directly.",
+        "button": "Send Email",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "Looking for Documentation?",
+      "subtitle": "Explore step-by-step feature guides, batch renaming workflows, and technical details.",
+      "allGuides": "Explore All 13 Guides →"
+    },
+    "faq": {
+      "title": "Frequently Asked Support Questions",
+      "subtitle": "Quick answers to common questions about licensing, privacy, and support."
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA Comparisons & Software Alternatives",
+    "metaDescription": "Compare SWAYA against FileBot, Plex, tinyMediaManager, StashApp, Jellyfin, and Kodi. Find the best offline media center, disk renamer, and MPV video player for Windows.",
+    "tag": "Software Alternatives",
+    "title": "Why SWAYA?",
+    "titleAccent": "See How We Compare.",
+    "subtitle": "Discover how SWAYA delivers an offline, serverless media workstation with automated batch file renaming and built-in 4K MPV playback.",
+    "viewAll": "Explore All Alternatives & Full Matrix →",
+    "badge": "Software Comparisons",
+    "hubTitle": "SWAYA vs",
+    "hubTitleAccent": "The Alternatives",
+    "hubSubtitle": "Compare SWAYA with popular media servers, physical file renamers, and media managers to see why collectors choose our 100% offline desktop app.",
+    "viewComparison": "View Comparison",
+    "relatedDocsTitle": "Explore Relevant SWAYA Features & Workflows",
+    "relatedDocsSubtitle": "In-depth documentation guides covering core features compared above.",
+    "honestComparison": "Honest Comparison: Which is Right for You?",
+    "honestSubtitle": "Every tool has its strengths. Here is an honest breakdown to help you decide.",
+    "chooseCompetitor": "Choose {{name}} if...",
+    "chooseSwaya": "Choose SWAYA if...",
+    "featureBreakdown": "Detailed Feature Breakdown",
+    "featureSubtitle": "Side-by-side technical and workflow comparison between SWAYA and {{name}}.",
+    "featureHeader": "Feature / Capability",
+    "whySwitch": "Why Users Switch to SWAYA",
+    "whySwitchSubtitle": "Key architectural differences designed for media collectors and desktop power users.",
+    "faqSubtitle": "Common questions about migrating to or using SWAYA alongside {{name}}.",
+    "ctaTitle": "Ready to Take Control of Your Media?",
+    "ctaSubtitle": "Experience the ultimate offline media center on Windows. Organize physical files, browse your library with rich metadata, and enjoy native 4K HDR MPV playback.",
+    "buyCta": "Get Lifetime Access for €39",
+    "demoCta": "Launch Live Demo",
+    "yes": "Yes",
+    "no": "No",
+    "partial": "Partial"
+  },
+  "cookies": {
+    "ariaLabel": "Privacy & Cookie Consent",
+    "title": "Privacy & Anonymous Analytics",
+    "description": "We use privacy-friendly anonymous analytics to monitor Core Web Vitals and crash diagnostics to improve SWAYA.",
+    "essentialOnly": "Essential Only",
+    "acceptAll": "Accept Analytics"
+  },
+  "privacy": {
+    "badge": "Privacy & Security",
+    "title": "Privacy Policy",
+    "subtitle": "SWAYA is engineered as an offline-first desktop application. We prioritize your privacy with zero telemetry, complete local data storage, and strict cryptographic protections.",
+    "lastUpdated": "Last updated: August 20, 2026",
+    "scope": "Applies to SWAYA Desktop & swaya.xyz",
+    "section1Title": "1. Zero-Telemetry & Local Media Storage",
+    "section1Text": "SWAYA is an offline-first desktop media center and video player. Your media files, filenames, folder structures, playback history, ratings, tags, and personal notes are stored strictly on your local computer in a local SQLite database (data/swaya.db).",
+    "section1Point1": "We do not transmit, index, or inspect your video files, downloads, or disk contents.",
+    "section1Point2": "We do not record playback time, viewing sessions, or application usage habits.",
+    "section1Point3": "All metadata scraping queries (TMDb, OMDb, StashDB, etc.) are executed directly from your local machine to the chosen API provider without proxying through our servers.",
+    "section2Title": "2. Purchase Information & License Delivery",
+    "section2Text": "When you purchase a SWAYA license, your payment is securely processed by Stripe Inc. We never receive or store your raw payment details (such as credit card numbers, CVV, or banking credentials).",
+    "section2Point1": "Data Collected: Customer email address, customer name (optional), Stripe transaction ID, and timestamp.",
+    "section2Point2": "Purpose: Solely to generate your cryptographically signed license key, dispatch your confirmation email, and provide customer support.",
+    "section2Point3": "Retention: Billing records are maintained for licensing verification and accounting compliance as required by applicable tax law.",
+    "section3Title": "3. Device Activation & Offline Validation",
+    "section3Text": "When you activate a license key on a desktop device, a one-time cryptographic request is sent to our activation server to issue an HMAC-SHA256 offline license token:",
+    "section3Point1": "The activation request contains an irreversible, hashed hardware identifier to ensure compliance with the 3-device seat limit.",
+    "section3Point2": "Once activated, the license token is stored locally on your machine. SWAYA functions 100% offline without requiring a persistent internet connection.",
+    "section3Point3": "You may deactivate a device at any time directly from the Settings panel to release the seat.",
+    "section4Title": "4. Website Analytics & Cookie Consent",
+    "section4Text": "On our marketing website (swaya.xyz), we utilize privacy-focused, zero-PII analytics to measure page load performance, Core Web Vitals, and aggregate traffic:",
+    "section4Point1": "We do not track cross-site browsing, fingerprint your device, or sell marketing data to third-party advertising networks.",
+    "section4Point2": "Performance analytics are strictly opt-in via our GDPR cookie consent banner.",
+    "section5Title": "5. Your Rights & Contact Information",
+    "section5Text": "Under GDPR, CCPA, and applicable global data privacy regulations, you have the right to request access to, rectification of, or deletion of your billing email and licensing records from our activation server.",
+    "section5Contact": "For any inquiries, data deletion requests, or licensing support, contact us directly at"
+  },
+  "terms": {
+    "badge": "License Agreement",
+    "title": "Terms of Service & Refund Policy",
+    "subtitle": "Please read these terms carefully before purchasing or using SWAYA. By downloading, installing, or purchasing a license, you agree to be bound by this agreement.",
+    "lastUpdated": "Last updated: August 20, 2026",
+    "scope": "SWAYA v1.x Desktop Software",
+    "section1Title": "1. Software License Grant & Usage",
+    "section1Text": "Subject to payment of the applicable one-time license fee (introductory €39, regular €79), SWAYA grants you a non-exclusive, perpetual, non-transferable personal license to install and execute the SWAYA desktop software on up to 3 personal devices owned or controlled by you.",
+    "section1Point1": "You may deactivate a device at any time directly in the application to transfer your license seat to a new machine.",
+    "section1Point2": "You may not resell, rent, lease, sub-license, distribute, or publicly share your license key or cryptographic activation tokens.",
+    "section1Point3": "Commercial redistribution, bundling into third-party commercial software, or reverse-engineering the licensing validation algorithms is strictly prohibited.",
+    "section2Title": "2. Refund & Cancellation Policy",
+    "section2Text": "We want you to be completely satisfied with SWAYA. Because SWAYA is digital software delivered immediately upon payment, the following refund terms apply:",
+    "section2Point1": "Unactivated Licenses (14-Day Money-Back Guarantee): If you have not activated your license key in the SWAYA software, you are eligible for a 100% unconditional refund within 14 days of purchase upon email request.",
+    "section2Point2": "Activated Licenses (7-Day Technical Support Guarantee): Under EU Consumer Rights Directive regulations, downloading and activating digital software with immediate performance constitutes execution of the digital delivery. However, if you experience an unresolved technical incompatibility or defect on your supported Windows system that our support team cannot rectify, we will grant a 100% refund within 7 days of purchase.",
+    "section2Point3": "Automatic Key Revocation: When a refund or payment reversal is issued, the associated license key and its cryptographic tokens are permanently revoked on our activation server. The software on your devices will return to setup mode.",
+    "section3Title": "3. Permitted Use & User Content Responsibility",
+    "section3Text": "SWAYA is a local media organization and video playback tool. You are solely responsible for all video files, audio tracks, images, and text imported or processed through the application.",
+    "section3Point1": "You retain 100% ownership and copyright over your media files. SWAYA never transmits your media or claims ownership over any content in your library.",
+    "section3Point2": "You agree to use SWAYA in compliance with all applicable local, national, and international laws, including copyright and intellectual property rights.",
+    "section4Title": "4. Lifetime Updates & Maintenance",
+    "section4Text": "Your lifetime license entitles you to download and apply all version 1.x software updates, feature enhancements, metadata scraping provider fixes, and security patches free of charge for the lifecycle of the product.",
+    "section5Title": "5. Disclaimer of Warranties & Limitation of Liability",
+    "section5Text1": "SWAYA is provided on an \"as is\" and \"as available\" basis without warranties of any kind, whether express or implied. SWAYA provides simulated preview capabilities for file organization and renaming operations; you are responsible for reviewing file move previews prior to applying destructive disk operations.",
+    "section5Text2": "To the maximum extent permitted by applicable law, SWAYA and its developers shall not be liable for any indirect, incidental, or consequential damages, including loss of data or storage media failure.",
+    "section6Title": "6. Customer Support & Refund Requests",
+    "section6Text": "To request a refund, report a technical issue, or ask questions regarding these terms, please contact us at levicore@proton.me. Please include your Stripe purchase email and license key for expedited assistance."
+  }
+}

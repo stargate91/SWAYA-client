@@ -1,0 +1,54 @@
+.card {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--color-accent) 15%, var(--color-bg-elevated)) 0%,
+    var(--color-bg-elevated) 100%
+  );
+  border: 1px solid color-mix(in srgb, var(--color-accent) 30%, var(--color-border-subtle));
+  border-radius: var(--radius-2xl);
+  padding: var(--space-3xl) var(--space-xl);
+  text-align: center;
+  box-shadow: 0 0 2rem -0.5rem var(--color-accent-glow);
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.text {
+  font-size: var(--font-size-md);
+  color: var(--color-text-secondary);
+  max-width: 36rem;
+  margin-inline: auto;
+  margin-bottom: var(--space-xl);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.guarantees {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.guarantee-divider::before {
+  content: '•';
+}
+
+.guarantee-icon {
+  display: inline;
+  vertical-align: middle;
+}

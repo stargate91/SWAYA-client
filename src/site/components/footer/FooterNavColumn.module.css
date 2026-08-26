@@ -1,0 +1,25 @@
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.col-title {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.link-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: 0;
+  margin: 0;
+}
+
+

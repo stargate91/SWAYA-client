@@ -1,0 +1,129 @@
+/* Drawer Primitive Styles */
+.backdrop {
+  position: fixed;
+  top: var(--layout-window-titlebar-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--color-surface-overlay);
+  backdrop-filter: blur(var(--space-xs));
+  z-index: var(--z-index-backdrop);
+  animation: uiDrawerFadeIn var(--motion-duration-slow) var(--motion-ease-standard);
+}
+
+.drawer {
+  position: fixed;
+  top: var(--layout-window-titlebar-height);
+  right: 0;
+  height: calc(100vh - var(--layout-window-titlebar-height));
+  background: var(--color-bg-elevated);
+  border-left: 0.0625rem solid var(--color-border-strong);
+  box-shadow: calc(-1 * var(--space-md)) 0 2.1875rem color-mix(in srgb, var(--color-bg-canvas) 60%, transparent);
+  z-index: var(--z-index-modal);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  animation: uiDrawerSlideIn var(--motion-duration-slow) var(--motion-ease-emphasized);
+  transition: transform var(--motion-fast), width var(--motion-duration-slow) var(--motion-ease-standard);
+}
+
+.drawer:focus {
+  outline: none;
+}
+
+.drawer--glass {
+  background: color-mix(in srgb, var(--color-bg-elevated) 70%, transparent);
+  backdrop-filter: blur(var(--space-xl));
+}
+
+.drawer--contrast {
+  background: var(--color-surface-overlay);
+  backdrop-filter: none;
+}
+
+/* Sizes */
+.drawer--sm {
+  width: 20rem;
+}
+
+.drawer--md {
+  width: 30rem;
+}
+
+.drawer--lg {
+  width: 40rem;
+}
+
+.drawer--720 {
+  width: 45rem;
+}
+
+@keyframes uiDrawerFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes uiDrawerSlideIn {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg) var(--space-2xl);
+  border-bottom: 0.0625rem solid var(--color-border-default);
+  background: var(--color-bg-elevated);
+  position: relative;
+  z-index: var(--z-index-step-10);
+}
+
+/* Let the glassmorphic blur show through for the glass variant headers */
+.drawer--glass .header {
+  background: transparent;
+}
+
+.title {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  will-change: scroll-position;
+  transform: translateZ(0);
+}
+
+.content[data-padded="true"] {
+  padding: var(--space-2xl);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--space-lg) var(--space-2xl);
+  border-top: 0.0625rem solid var(--color-border-default);
+  background: var(--color-bg-elevated);
+  position: relative;
+  z-index: var(--z-index-step-10);
+}
+
+.drawer--glass .footer {
+  background: transparent;
+}

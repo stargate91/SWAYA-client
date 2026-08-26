@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Strona główna",
+    "breadcrumbDocs": "Dokumentacja",
+    "defaultCategory": "Dokumentacja",
+    "minRead": "{{count}} min czytania",
+    "prevGuide": "Poprzedni przewodnik",
+    "nextGuide": "Następny przewodnik",
+    "searchPlaceholder": "Szukaj w przewodnikach...",
+    "searchAriaLabel": "Przeszukaj dokumentację",
+    "clearSearchAriaLabel": "Wyczyść wyszukiwanie",
+    "noGuidesFound": "Nie znaleziono przewodników dla \"{{query}}\"",
+    "onThisPage": "Na tej stronie",
+    "tableOfContents": "Spis treści",
+    "navigationAriaLabel": "Nawigacja po dokumentacji",
+    "relatedGuides": "Powiązane przewodniki",
+    "error404": "Błąd 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Nie znaleziono strony",
+    "pageNotFoundDesc": "Żądany przewodnik lub strona nie istnieje albo została przeniesiona.",
+    "goBack": "Wróć",
+    "returnHome": "Wróć do strony głównej",
+    "skipToContent": "Przejdź do treści",
+    "errorBoundaryTitle": "Coś poszło nie tak",
+    "errorBoundaryDesc": "Wystąpił nieoczekiwany błąd podczas ładowania tej strony. Odśwież stronę lub wróć do strony głównej.",
+    "reloadPage": "Odśwież stronę",
+    "browseDocs": "Przeglądaj dokumentację",
+    "allGuides": "Wszystkie przewodniki",
+    "home": "Strona główna",
+    "popularGuides": "Popularne przewodniki",
+    "documentationHub": "Przewodniki po aplikacji",
+    "hubTitle": "Dokumentacja & Przewodniki SWAYA",
+    "hubSubtitle": "Wszystko o automatycznej zmianie nazw plików, pobieraniu metadanych z wielu źródeł, zarządzaniu kolekcją 4K i odtwarzaniu MPV."
+  },
+  "categories": {
+    "gettingStarted": "Pierwsze kroki",
+    "coreWorkflows": "Główne funkcje",
+    "libraryCuration": "Biblioteka & Kolekcja",
+    "systemAutomation": "System & Automatyzacja"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Przegląd & Szybki start",
+      "description": "Poznaj architekturę, możliwości i filozofię projektowania SWAYA."
+    },
+    "organizer": {
+      "title": "Inteligentny Organizer Plików",
+      "description": "Automatyczne dopasowywanie, masowa zmiana nazw i obsługa konfliktów."
+    },
+    "dashboard": {
+      "title": "Panel główny & Odkrywanie",
+      "description": "Wyróżniony baner, kontynuacja oglądania i kanały odkryć."
+    },
+    "library": {
+      "title": "Biblioteka & Katalog Mediów",
+      "description": "Widok siatki, tryb podwójny, zaawansowane filtry i zarządzanie tagami."
+    },
+    "details": {
+      "title": "Strony szczegółów & Profile",
+      "description": "Wybór grafik, przyciski akcji, sezony TV i filmografia."
+    },
+    "player": {
+      "title": "Zintegrowany Odtwarzacz",
+      "description": "Silnik MPV, akceleracja sprzętowa GPU i obsługa zewnętrznych odtwarzaczy."
+    },
+    "search": {
+      "title": "Wyszukiwanie Uniwersalne & Filtry",
+      "description": "Wyszukiwanie w wielu źródłach i filtrowanie w czasie rzeczywistym."
+    },
+    "lists": {
+      "title": "Listy Niestandardowe & Kolekcje",
+      "description": "Kolekcje tematyczne, automatyczne kolaże z 4 plakatów i eksport JSON."
+    },
+    "ratings": {
+      "title": "Oceny & Prywatne Recenzje",
+      "description": "Skala 10-gwiazdkowa, prywatne notatki markdown i ulubione."
+    },
+    "history": {
+      "title": "Historia Oglądania & Logi",
+      "description": "Śledzenie postępu odtwarzania i szczegółowa historia oglądania."
+    },
+    "statistics": {
+      "title": "DNA Biblioteki & Statystyki",
+      "description": "Analiza pamięci masowej, wykresy gatunków i osie czasu."
+    },
+    "settings": {
+      "title": "Ustawienia & Konfiguracja",
+      "description": "Szablony nazw folderów, polityka duplikatów, motywy i klucze API."
+    },
+    "torrent": {
+      "title": "Integracja z Torrentami",
+      "description": "Panel qBittorrent i automatyczne przetwarzanie po pobraniu."
+    }
+  }
+}

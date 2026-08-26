@@ -1,0 +1,165 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.fill {
+  flex: 1 1 auto;
+  height: 100%;
+  min-height: 0;
+  min-width: 0;
+}
+
+.gap-2xs {
+  gap: var(--space-xs);
+}
+
+.gap-xs {
+  gap: var(--space-sm);
+}
+
+.gap-sm {
+  gap: var(--space-sm);
+}
+
+.gap-md {
+  gap: var(--space-md);
+}
+
+.gap-lg {
+  gap: var(--space-md);
+}
+
+.gap-xl {
+  gap: var(--space-lg);
+}
+
+.gap-2xl {
+  gap: var(--space-lg);
+}
+
+.gap-3xl {
+  gap: var(--space-xl);
+}
+
+.gap-4xl {
+  gap: var(--space-2xl);
+}
+
+.gap-5xl {
+  gap: var(--space-3xl);
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.padding-xs {
+  padding: var(--space-xs);
+}
+
+.padding-sm {
+  padding: var(--space-sm);
+}
+
+.padding-md {
+  padding: var(--space-md);
+}
+
+.padding-lg {
+  padding: var(--space-lg);
+}
+
+.padding-xl {
+  padding: var(--space-xl);
+}
+
+.padding-2xl {
+  padding: var(--space-2xl);
+}
+
+.padding-3xl {
+  padding: var(--space-3xl);
+}
+
+.indent-xs {
+  margin-left: var(--space-xs);
+}
+
+.indent-sm {
+  margin-left: var(--space-sm);
+}
+
+.indent-md {
+  margin-left: var(--space-md);
+}
+
+.indent-lg {
+  margin-left: var(--space-lg);
+}
+
+.indent-xl {
+  margin-left: var(--space-xl);
+}
+
+.indent-2xl {
+  margin-left: var(--space-2xl);
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.flex-1 {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.full-width {
+  width: 100%;
+  min-width: 0;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.scrollable {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  min-height: 0;
+  flex: 1 1 auto;
+}

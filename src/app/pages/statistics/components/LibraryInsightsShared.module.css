@@ -1,0 +1,108 @@
+.stage-base {
+  position: relative;
+  min-height: 13.75rem;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background: radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--color-accent-blue-soft) 14%, transparent), color-mix(in srgb, var(--color-accent-blue) 4%, transparent) 35%, color-mix(in srgb, var(--color-bg-elevated) 8%, transparent) 70%, transparent 100%);
+}
+
+.ghost {
+  opacity: 0.15;
+  filter: grayscale(1) blur(0.03125rem);
+  pointer-events: none;
+  transition: opacity var(--motion-duration-emphasized) var(--motion-ease-ease),
+              filter var(--motion-duration-emphasized) var(--motion-ease-ease);
+}
+
+.panel-header {
+  padding: var(--space-xl) var(--space-xl) 0;
+  margin-bottom: var(--space-md);
+}
+
+.dna-stage {
+  padding: var(--space-xs) var(--space-xl) var(--space-xl);
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.85fr);
+  gap: var(--space-xl);
+  align-items: center;
+  min-width: 0;
+}
+
+.genre-item {
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--space-xs) var(--space-md);
+  border: 1px solid color-mix(in srgb, var(--color-border-subtle) 88%, transparent);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--color-surface-card) 58%, transparent);
+}
+
+.timeline-top-decade {
+  padding: 0 var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
+.timeline-stage {
+  padding: var(--space-xs) var(--space-xl) var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.overlay-card {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl) var(--space-xl);
+  border-radius: var(--radius-xl);
+  background: radial-gradient(circle at center, color-mix(in srgb, var(--color-bg-elevated) 72%, transparent) 0%, var(--color-surface-overlay-heavy) 100%);
+  backdrop-filter: var(--glass-blur-md);
+  z-index: var(--z-index-step-2);
+  text-align: center;
+}
+
+.overlay-icon-svg {
+  width: var(--space-2xl);
+  height: var(--space-2xl);
+}
+
+.insights-panel {
+  min-width: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border-default);
+  box-shadow: var(--shadow-md);
+}
+
+.overlay-icon-wrapper--dna {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--color-accent-blue) 18%, transparent), color-mix(in srgb, var(--color-accent-purple) 18%, transparent));
+  color: var(--color-accent-blue-soft);
+}
+
+.overlay-icon-wrapper--timeline {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--color-accent-blue) 18%, transparent), color-mix(in srgb, var(--color-brand-fansdb) 18%, transparent));
+  color: var(--color-brand-fansdb);
+}
+
+.overlay-copy {
+  max-width: 16.25rem;
+  line-height: 1.5;
+}
+
+.overlay-progress {
+  width: 100%;
+  max-width: 11.25rem;
+}

@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Domů",
+    "breadcrumbDocs": "Dokumentace",
+    "defaultCategory": "Dokumentace",
+    "minRead": "{{count}} min čtení",
+    "prevGuide": "Předchozí příručka",
+    "nextGuide": "Další příručka",
+    "searchPlaceholder": "Hledat v příručkách...",
+    "searchAriaLabel": "Hledat v dokumentaci",
+    "clearSearchAriaLabel": "Vymazat hledání",
+    "noGuidesFound": "Nebyly nalezeny žádné příručky pro \"{{query}}\"",
+    "onThisPage": "Na této stránce",
+    "tableOfContents": "Obsah",
+    "navigationAriaLabel": "Navigace dokumentace",
+    "relatedGuides": "Související příručky",
+    "error404": "Chyba 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Stránka nenalezena",
+    "pageNotFoundDesc": "Hledaná příručka nebo stránka neexistuje nebo byla přesunuta.",
+    "goBack": "Zpět",
+    "returnHome": "Návrat na domovskou stránku",
+    "skipToContent": "Přejít k hlavnímu obsahu",
+    "errorBoundaryTitle": "Něco se pokazilo",
+    "errorBoundaryDesc": "Při načítání této stránky došlo k neočekávané chybě. Obnovte stránku nebo se vraťte domů.",
+    "reloadPage": "Obnovit stránku",
+    "browseDocs": "Procházet dokumentaci",
+    "allGuides": "Všechny příručky",
+    "home": "Domů",
+    "popularGuides": "Populární příručky",
+    "documentationHub": "Pracovní příručky",
+    "hubTitle": "SWAYA Dokumentace & Uživatelské Příručky",
+    "hubSubtitle": "Naučte se vše o automatickém hromadném přejmenování, vyhledávání metadat z více zdrojů, správě 4K médií a přehrávání videa v MPV."
+  },
+  "categories": {
+    "gettingStarted": "Začínáme",
+    "coreWorkflows": "Hlavní Funkce",
+    "libraryCuration": "Knihovna & Správa",
+    "systemAutomation": "Systém & Automatizace"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Přehled & Rychlý Start",
+      "description": "Seznamte se s architekturou, funkcemi a filozofií SWAYA."
+    },
+    "organizer": {
+      "title": "Správce Souborů & Přejmenování",
+      "description": "Automatické párování, hromadné přejmenování a řešení konfliktů souborů."
+    },
+    "dashboard": {
+      "title": "Ovládací Panel & Objevování",
+      "description": "Hlavní banner, pokračovat ve sledování a doporučení."
+    },
+    "library": {
+      "title": "Knihovna & Katalog Médií",
+      "description": "Mřížka plakátů, duální režim, pokročilé filtry a štítky."
+    },
+    "details": {
+      "title": "Detailní Stránky & Profily",
+      "description": "Výběr pozadí, akce, TV sezóny a filmografie herců."
+    },
+    "player": {
+      "title": "Integrovaný Přehrávač",
+      "description": "Jádro MPV, hardwarová akcelerace a integrace externích přehrávačů."
+    },
+    "search": {
+      "title": "Univerzální Vyhledávání",
+      "description": "Vyhledávání napříč zdroji a okamžité filtrování."
+    },
+    "lists": {
+      "title": "Vlastní Seznamy & Sbírky",
+      "description": "Tematické sbírky, automatické koláže ze 4 plakátů a export do JSON."
+    },
+    "ratings": {
+      "title": "Hodnocení & Soukromé Recenze",
+      "description": "10hvězdičkový systém hodnocení, soukromé poznámky v Markdownu a oblíbené."
+    },
+    "history": {
+      "title": "Historie Sledování & Záznamy",
+      "description": "Sledování průběhu přehrávání a podrobná časová osa."
+    },
+    "statistics": {
+      "title": "DNA Knihovny & Statistika",
+      "description": "Analýza úložiště, grafy žánrů a časová osa roků vydání."
+    },
+    "settings": {
+      "title": "Nastavení & Konfigurace",
+      "description": "Šablony složek, pravidla duplicit, motivy a API klíče."
+    },
+    "torrent": {
+      "title": "Integrace Torrent Klienta",
+      "description": "Přehled pro qBittorrent a automatické zpracování po dokončení stahování."
+    }
+  }
+}

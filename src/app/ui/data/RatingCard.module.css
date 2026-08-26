@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 3.75rem;
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  box-sizing: border-box;
+  background: color-mix(in srgb, var(--color-text-primary) 2%, transparent);
+  border: 1px solid var(--color-border-default);
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.logo {
+  object-fit: contain;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.logo[data-size="sm"] { max-height: 1.25rem; max-width: 4.5rem; }
+.logo[data-size="md"] { max-height: 1.75rem; max-width: 6.5rem; }

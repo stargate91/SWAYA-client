@@ -1,0 +1,220 @@
+.skeleton {
+  display: block;
+  background: var(--color-surface-card);
+  border-radius: var(--radius-md);
+}
+
+.circle {
+  border-radius: var(--radius-full);
+}
+
+.text {
+  height: 1em;
+  border-radius: var(--radius-sm);
+}
+
+.shimmer {
+  background: linear-gradient(90deg, var(--color-surface-card), color-mix(in srgb, var(--color-text-primary) 6%, transparent), var(--color-surface-card));
+  background-size: 200% 100%;
+  animation: shimmer-animation var(--motion-duration-pulse-slow) var(--motion-ease-linear) infinite;
+}
+
+.row {
+  display: flex;
+  gap: var(--space-xl);
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  width: 100%;
+  min-width: 0;
+  border-radius: var(--radius-lg);
+  box-sizing: border-box;
+}
+
+.card--aspect-scene,
+.card--aspect-landscape,
+.card--aspect-logo {
+  width: 100%;
+  min-width: 0;
+}
+
+.card--aspect-poster {
+  width: 100%;
+  min-width: 0;
+}
+
+.card-media {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-card);
+}
+
+.card--aspect-scene .card-media,
+.card--aspect-landscape .card-media,
+.card--aspect-logo .card-media {
+  aspect-ratio: 16 / 9;
+}
+
+.card--aspect-poster .card-media {
+  aspect-ratio: 2 / 3;
+}
+
+.row .card {
+  flex-shrink: 0;
+  width: 9rem;
+  min-width: 9rem;
+}
+
+.row .card--aspect-scene,
+.row .card--aspect-landscape,
+.row .card--aspect-logo {
+  width: 17.5rem;
+  min-width: 17.5rem;
+}
+
+.card-metadata {
+  padding: calc(var(--space-xs) / 2) var(--space-xs) 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--space-xs) / 2);
+}
+
+.card-title {
+  height: 0.875rem;
+  width: 75%;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-card);
+}
+
+.card-subtitle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 1.05rem;
+}
+
+.card-subtitle {
+  height: 0.75rem;
+  width: 45%;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-card);
+}
+
+.banner {
+  min-height: var(--ui-spotlight-height, 25rem);
+  margin-bottom: var(--space-4xl);
+  border-radius: var(--radius-xl);
+}
+
+.title {
+  width: 15rem;
+  height: 2rem;
+  margin-bottom: var(--space-xl);
+  border-radius: var(--radius-sm);
+}
+
+.title-sm {
+  height: 1.25rem;
+  width: 7.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.dist-title {
+  height: 1.5rem;
+  width: 12.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.dist-bar {
+  height: 0.875rem;
+  margin-bottom: var(--space-sm);
+}
+
+.compact-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  width: 100%;
+  padding: var(--space-md);
+  background: var(--ui-control-bg-subtle);
+  border: 0.0625rem solid var(--ui-control-border);
+  border-radius: var(--radius-md);
+  box-sizing: border-box;
+}
+
+.compact-card-media {
+  flex-shrink: 0;
+  background: var(--color-surface-card);
+  border: 0.0625rem solid var(--ui-control-border);
+}
+
+.compact-card--aspect-circle .compact-card-media {
+  width: var(--space-6xl);
+  height: var(--space-6xl);
+  border-radius: var(--radius-full);
+}
+
+.compact-card--aspect-landscape .compact-card-media {
+  width: 6.5rem;
+  height: 3.625rem;
+  border-radius: var(--radius-sm);
+}
+
+.compact-card--aspect-poster .compact-card-media {
+  width: var(--button-height-lg);
+  height: 4.875rem;
+  border-radius: var(--radius-sm);
+}
+
+.compact-card--aspect-square .compact-card-media {
+  width: calc(4 * var(--space-lg));
+  height: calc(4 * var(--space-lg));
+  border-radius: var(--radius-sm);
+}
+
+.compact-card-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.compact-card-title {
+  height: 0.875rem;
+  width: 40%;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-card);
+}
+
+.compact-card-subtitle {
+  height: 0.75rem;
+  width: 25%;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-card);
+}
+
+.compact-card-button {
+  width: 3.5rem;
+  height: 1.75rem;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+  background: var(--color-surface-card);
+}
+
+
+@keyframes shimmer-animation {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}

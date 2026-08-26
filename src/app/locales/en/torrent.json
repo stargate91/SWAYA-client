@@ -1,0 +1,96 @@
+{
+  "title": "Downloads",
+  "description": "Monitor and manage your active and completed downloads",
+  "noTorrents": "No downloads found",
+  "empty": {
+    "title": "No downloads yet",
+    "description": "Active downloads will appear here. Search or add torrents to get started."
+  },
+  "searchPlaceholder": "Search downloads...",
+  "disabledMessage": "Download integration is disabled. You can enable it in Settings > Downloads.",
+  "cols": {
+    "name": "Name",
+    "size": "Size",
+    "progress": "Progress",
+    "status": "Status",
+    "speed": "Speed",
+    "boldSpeed": "Speed",
+    "eta": "ETA",
+    "actions": "Actions"
+  },
+  "states": {
+    "downloading": "Downloading",
+    "paused": "Paused",
+    "seeding": "Seeding",
+    "completed": "Completed",
+    "checking": "Checking"
+  },
+  "stats": {
+    "downloadSpeed": "Download Speed",
+    "activeDownloads": "Active Downloads",
+    "seeding": "Seeding",
+    "seedingDesc": "Completed and seeding"
+  },
+  "deleteConfirmTitle": "Remove Download?",
+  "deleteOptions": {
+    "torrentOnly": {
+      "label": "Remove from client only",
+      "description": "Removes the download task. Files already downloaded remain on your disk."
+    },
+    "torrentAndFiles": {
+      "label": "Remove task and delete files",
+      "description": "Permanently deletes downloaded files and removes the task."
+    }
+  },
+  "actions": {
+    "pause": "Pause",
+    "resume": "Resume",
+    "startSeeding": "Start Seeding",
+    "stopSeeding": "Stop Seeding",
+    "delete": "Remove",
+    "refresh": "Refresh"
+  },
+  "toasts": {
+    "paused": "Download paused",
+    "resumed": "Download resumed",
+    "seedingStarted": "Seeding started",
+    "seedingStopped": "Seeding stopped",
+    "deleted": "Download removed",
+    "pauseFailed": "Couldn't pause download",
+    "resumeFailed": "Couldn't resume download",
+    "startSeedingFailed": "Couldn't start seeding",
+    "stopSeedingFailed": "Couldn't stop seeding",
+    "deleteFailed": "Couldn't remove download"
+  },
+  "searchModal": {
+    "title": "Search & Download",
+    "search": "Search",
+    "searchPlaceholder": "Search releases...",
+    "searching": "Searching indexers...",
+    "noTorrents": "Search for titles above to find releases.",
+    "noResults": "No releases found. Try adjusting your query or keywords.",
+    "netError": "Network error searching indexers.",
+    "noLink": "No valid magnet link or torrent file found.",
+    "downloadStarted": "Download added to client.",
+    "downloaded": "Downloaded / Seeding",
+    "downloading": "Downloading",
+    "statusInClientDone": "Downloaded",
+    "btnGet": "Download",
+    "colTitle": "Title",
+    "colSize": "Size",
+    "colSeeders": "Seeders",
+    "colLeechers": "Peers",
+    "colSource": "Source",
+    "colProvider": "Provider",
+    "colAction": "Action",
+    "filterAll": "All",
+    "filterSource": "Source:",
+    "filterResolution": "Resolution:",
+    "filterCodec": "Codec:",
+    "filterCategory": "Category:",
+    "categoryAll": "All",
+    "categoryAdult": "Adult",
+    "categoryMovies": "Movies",
+    "categoryTv": "TV Shows"
+  }
+}

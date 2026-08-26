@@ -1,0 +1,64 @@
+.top-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-display);
+  line-height: var(--line-height-tight);
+}
+
+.logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: color-mix(in srgb, var(--color-bg-canvas) 50%, transparent);
+  border: 0.0625rem solid color-mix(in srgb, var(--color-border-default) 20%, transparent);
+  transition: border-color var(--transition-base);
+}
+
+.logo-container:hover {
+  border-color: color-mix(in srgb, var(--color-border-default) 80%, transparent);
+}
+
+.studio-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo-edit-btn {
+  position: absolute;
+  top: var(--space-xs);
+  right: var(--space-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--color-panel-translucent) 80%, transparent);
+  border: 0.0625rem solid color-mix(in srgb, var(--color-border-default) 30%, transparent);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition-base), background-color var(--transition-base);
+}
+
+.logo-edit-btn:hover {
+  background: var(--color-panel-translucent);
+}
+
+.logo-container:hover .logo-edit-btn {
+  opacity: 1;
+}

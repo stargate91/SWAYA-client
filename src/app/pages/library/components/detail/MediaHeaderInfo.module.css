@@ -1,0 +1,60 @@
+.layout {
+  display: block;
+  margin-top: var(--media-detail-content-start-y);
+}
+
+.logo-container {
+  display: flex;
+  align-items: flex-start;
+  width: fit-content;
+  max-width: min(45rem, 100%);
+  min-width: 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: transform var(--motion-base);
+}
+
+.logo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 13.75rem;
+  max-height: 13.75rem;
+  object-fit: contain;
+  filter:
+    drop-shadow(0 0.625rem 2.125rem color-mix(in srgb, var(--color-bg-canvas) 56%, transparent))
+    drop-shadow(0 0 1.5rem var(--color-border-default));
+  transition: transform var(--motion-base), filter var(--motion-base);
+}
+
+.fallback-title {
+  max-width: min(50rem, 100%);
+  overflow-wrap: break-word;
+  transition: color var(--motion-base);
+}
+
+.logo-container:hover .logo {
+  transform: scale(1.015);
+}
+
+.logo-container:hover .fallback-title {
+  color: var(--color-accent);
+}
+
+.scene-title-below-logo {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-display);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.15;
+  max-width: min(50rem, 100%);
+  overflow-wrap: break-word;
+  transition: color var(--motion-base);
+}
+
+.logo-tooltip {
+  align-self: flex-start;
+}
+
+.details-group {
+  max-width: min(56.25rem, calc(100% - 2rem));
+}

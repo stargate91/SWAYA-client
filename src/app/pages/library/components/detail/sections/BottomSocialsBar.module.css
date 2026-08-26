@@ -1,0 +1,45 @@
+.hover-reveal {
+  opacity: 0.35;
+  transition: opacity var(--motion-base);
+}
+
+.hover-reveal:hover,
+.hover-reveal[data-active="true"] {
+  opacity: 1;
+}
+
+.pill-panel {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: nowrap;
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 65%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-border-default) 35%, transparent);
+  border-radius: var(--radius-full);
+  padding: var(--space-2xs);
+  box-shadow: 0 var(--space-xs) var(--space-lg) color-mix(in srgb, var(--color-bg-canvas) 25%, transparent);
+  backdrop-filter: blur(0.75rem);
+  transition: border-color var(--motion-base), background-color var(--motion-base);
+}
+
+.pill-panel:hover {
+  border-color: color-mix(in srgb, var(--color-border-default) 70%, transparent);
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 85%, transparent);
+}
+
+.collapse-horizontal {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  max-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-width var(--motion-duration-slow) var(--motion-ease-emphasized), opacity var(--motion-duration-base) var(--motion-ease-ease);
+  pointer-events: none;
+}
+
+.collapse-horizontal[data-expanded="true"] {
+  max-width: 75rem;
+  opacity: 1;
+  pointer-events: auto;
+}

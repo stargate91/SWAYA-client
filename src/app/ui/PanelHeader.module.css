@@ -1,0 +1,95 @@
+.panel-header {
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  position: relative;
+  isolation: isolate;
+  background: var(--ui-surface-card-gradient);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.panel-header__row {
+  display: flex;
+  align-items: center;
+  height: var(--layout-window-titlebar-height);
+  padding: 0 var(--space-lg);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.panel-header__row:first-child {
+  height: 3.75rem;
+  padding: 0 var(--space-xl);
+}
+
+.panel-header__row:last-child {
+  border-bottom: 0;
+}
+
+.panel-header__row:nth-child(even) {
+  background: color-mix(in srgb, var(--color-line) 25%, transparent);
+}
+
+.panel-header__row--filters {
+  height: auto;
+  min-height: var(--layout-window-titlebar-height);
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  background: color-mix(in srgb, var(--color-line) 10%, transparent);
+}
+
+.panel-header__row--filters > *:last-child {
+  flex: 0 0 auto;
+}
+
+.panel-header__row--advanced-filters {
+  height: auto;
+  min-height: var(--layout-window-titlebar-height);
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+  border-top: 0;
+  background: color-mix(in srgb, var(--color-line) 5%, transparent);
+}
+
+.panel-header__title {
+  font-family: var(--font-display);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: calc(2 * var(--letter-spacing-wide));
+  color: var(--color-ink);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.panel-header__row:first-child .panel-header__title {
+  font-size: var(--font-size-lg);
+  letter-spacing: calc(2.5 * var(--letter-spacing-wide));
+}
+
+.panel-header__actions {
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+
+.panel-tabs {
+  margin-left: calc(-1 * var(--space-lg));
+}
+
+.panel-tab {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.panel-header-search {
+  margin-left: auto;
+  --input-width: 13.75rem;
+  --input-focus-width: 17.5rem;
+  --ui-input-bg: var(--ui-control-bg-subtle);
+  --ui-input-border: var(--ui-control-border);
+  --ui-input-focus-bg: var(--ui-control-bg);
+  --ui-input-focus-border: var(--color-accent-blue);
+}
+

@@ -1,0 +1,353 @@
+{
+  "title": "Media Organizer",
+  "pagination": {
+    "rowsPerPage": "Rows per page",
+    "first": "First",
+    "prev": "Prev",
+    "next": "Next",
+    "last": "Last",
+    "modePages": "Pages",
+    "modeInfinite": "Infinite"
+  },
+  "scanModes": {
+    "movies": "Movies",
+    "tv": "TV Shows",
+    "scenes": "Scenes",
+    "offline": "Videos"
+  },
+  "tabs": {
+    "manual": "Review Needed",
+    "movies": "Movies",
+    "episodes": "Episodes",
+    "scenes": "Scenes",
+    "videos": "Videos",
+    "extras": "Extras"
+  },
+  "extrasTabs": {
+    "bonus": "Bonus Videos",
+    "audio": "Audio Tracks",
+    "images": "Images",
+    "metadata": "Metadata"
+  },
+  "buttons": {
+    "loadAll": "Load All",
+    "loadTheRest": "Load the Rest",
+    "browseAndScan": "Browse & Scan",
+    "opening": "Opening...",
+    "scanning": "Scanning...",
+    "rename": "Rename",
+    "organizing": "Organizing...",
+    "restoreDismissed": "Restore hidden",
+    "removeAll": "Remove All",
+    "retryMatch": "Retry Match",
+    "retrying": "Retrying..."
+  },
+  "emptyStates": {
+    "notLoaded": {
+      "title": "No files loaded yet",
+      "description": "Drop files or select a folder to start scanning and organizing your media."
+    },
+    "emptyDatabase": {
+      "title": "All caught up",
+      "description": "Scan a folder to detect files. Any items that need review or matching will appear here."
+    }
+  },
+  "loadingStates": {
+    "scan": {
+      "label": "Scanning files",
+      "description": "Reading filenames and looking up metadata."
+    },
+    "rename": {
+      "label": "Renaming files",
+      "description": "Moving and renaming files to their organized locations."
+    },
+    "loadAll": {
+      "label": "Loading files",
+      "description": "Loading items from the database..."
+    }
+  },
+  "dropzone": {
+    "label": "Drop files or folders here",
+    "description": "Drag and drop your media files right here to start scanning."
+  },
+  "searchPlaceholder": "Search organizer...",
+  "searchPlaceholderManual": "Search review needed...",
+  "searchPlaceholderMovies": "Search movies...",
+  "searchPlaceholderEpisodes": "Search episodes...",
+  "searchPlaceholderExtras": "Search extras...",
+  "actions": {
+    "match": "Match",
+    "fixMatch": "Fix match",
+    "fixSeasonAndEpisode": "Fix S & E",
+    "fixSeason": "Fix Season",
+    "fixEpisode": "Fix Episode",
+    "preview": "Preview",
+    "showInFolder": "Show in Folder",
+    "dismiss": "Hide from list",
+    "override": "Override",
+    "rename": "Rename"
+  },
+  "renameModal": {
+    "title": "Confirm Rename",
+    "description": "Review the proposed filenames before renaming.",
+    "showing": "Showing {count} of {total} files to rename",
+    "noMatching": "No matching files found.",
+    "currentFilename": "Current Filename",
+    "newFilename": "New Filename",
+    "organizeInPlaceCheckbox": "Add to Library as-is (Keep original filenames)",
+    "organizeInPlace": "Add to Library as-is"
+  },
+  "overrideModal": {
+    "title": "Edit settings for this {type}",
+    "titleBulk": "Bulk Override {type}s",
+    "description": "Adjust metadata attributes or naming options for this item.",
+    "descriptionBulk": "Apply shared settings or episode numbering across all selected items.",
+    "apply": "Apply Overrides",
+    "applyBulk": "Apply Bulk Overrides",
+    "hints": {
+      "mainType": "Change whether this file is a Movie, an Episode, a Scene, or an Extra.",
+      "parentId": "Choose the main title or episode that this extra file belongs to.",
+      "parentIdMovie": "Choose the main movie that this extra file belongs to.",
+      "parentIdEpisode": "Choose the main episode that this extra file belongs to.",
+      "parentIdScene": "Choose the main scene that this extra file belongs to.",
+      "subcategory": "Select what kind of extra this is (trailer, poster, featurette, etc.).",
+      "language": "Set the language for this subtitle or audio track.",
+      "targetLanguage": "Set the primary language for title metadata.",
+      "source": "Set the media source (e.g. Blu-ray, DVD, WEB-DL) for filename formatting.",
+      "edition": "Specify the release edition (Director's Cut, Extended, Unrated, etc.).",
+      "audioType": "Set the audio format (Stereo, 5.1 Surround, etc.).",
+      "seasonNum": "Season number for this episode.",
+      "episodeNum": "Episode number. Use '3' for single, '3,4' for multiple, or '3-5' for a range."
+    },
+    "labels": {
+      "mainCategory": "Main Category",
+      "targetLanguage": "Metadata Language",
+      "source": "Media Source",
+      "edition": "Release Edition",
+      "audioType": "Audio Format",
+      "seasonNumber": "Season Number",
+      "episodeNumber": "Episode Number",
+      "extraSubcategory": "Extra Subcategory",
+      "parentMovieOrEpisode": "Parent Title",
+      "parentMovie": "Parent Movie",
+      "parentEpisode": "Parent Episode",
+      "parentScene": "Parent Scene",
+      "language": "Language",
+      "autoNumberCheck": "Number episodes automatically",
+      "startNumbering": "Start numbering at:",
+      "dragAndDropHint": "Drag and drop items to arrange them in sequence."
+    },
+    "placeholders": {
+      "seasonNumber": "e.g. 1",
+      "episodeNumber": "e.g. 3 or 3-4"
+    },
+    "matchAction": {
+      "title": "Match Action",
+      "description": "Choose how to handle the current TV match after changing season or episode numbers:",
+      "keep": "Keep current show match",
+      "keepDesc": "Update season and episode numbers under this existing show.",
+      "reset": "Reset match",
+      "resetDesc": "Clear match and return item to Review Needed."
+    }
+  },
+  "table": {
+    "originalFilename": "Original Filename",
+    "proposedFilename": "Proposed Filename",
+    "targetNotes": {
+      "skip": "Skipped by extras rule",
+      "delete": "Will be removed by extras rule",
+      "fixParentFirst": "Fix the parent file match first."
+    },
+    "subcategory": "Subcategory",
+    "language": "Language",
+    "extension": "Extension",
+    "type": "Type",
+    "status": "Status",
+    "emptyLoading": "Loading files...",
+    "emptySearch": "No items match your search in {context}.",
+    "emptyCategory": "No items in {context}."
+  },
+  "details": {
+    "delete": {
+      "title": "What would you like to do with this file?",
+      "descriptionMedia": "Choose how to remove this item. Linked extras will follow the same action.",
+      "descriptionExtra": "Choose how to remove this extra file.",
+      "ignore": {
+        "label": "Hide from List",
+        "description": "Temporarily hide this file from the organizer. You can restore it anytime."
+      },
+      "dbOnly": {
+        "label": "Remove from SWAYA",
+        "descriptionMedia": "Removes the item from SWAYA only. Your actual files on disk remain untouched.",
+        "descriptionExtra": "Removes this extra from SWAYA only. The file on disk remains untouched."
+      },
+      "trash": {
+        "label": "Move to Trash",
+        "descriptionMedia": "Sends the media file to your system trash and removes it from SWAYA. Linked extras will also be deleted.",
+        "descriptionExtra": "Sends this extra file to your system trash and removes it from SWAYA."
+      }
+    },
+    "bulkDelete": {
+      "title": "Remove selected files",
+      "description": "Choose an action to apply to all {count} selected items.",
+      "dbOnly": {
+        "descriptionMedia": "Removes the selected media from SWAYA only. Your files on disk remain untouched.",
+        "descriptionExtra": "Removes the selected extras from SWAYA only. Your files on disk remain untouched.",
+        "descriptionMixed": "Removes selected media and extras from SWAYA only. Your files on disk remain untouched."
+      },
+      "trash": {
+        "descriptionMedia": "Sends the selected media files to your system trash and removes them from SWAYA.",
+        "descriptionExtra": "Sends the selected extra files to your system trash and removes them from SWAYA.",
+        "descriptionMixed": "Sends the selected media and extra files to your system trash and removes them from SWAYA."
+      }
+    },
+    "inspect": {
+      "open": "Inspect Data",
+      "title": "Raw Item Data",
+      "description": "Combined organizer attributes, extracted parser details, and metadata.",
+      "copy": "Copy JSON",
+      "download": "Download JSON"
+    },
+    "matchModal": {
+      "title": "Find Match",
+      "titleBulk": "Match Selected Items",
+      "description": "Search and apply metadata from online databases.",
+      "descriptionBulk": "Search and apply a shared match for all selected items.",
+      "query": "Title",
+      "queryPlaceholderMovie": "Search movie title...",
+      "queryPlaceholderTv": "Search TV show title...",
+      "queryPlaceholderScene": "Search scene title...",
+      "type": "Type",
+      "movie": "Movie",
+      "tv": "TV Show",
+      "scene": "Scene",
+      "year": "Year",
+      "seasonShort": "S",
+      "episodeShort": "E",
+      "searching": "Searching...",
+      "bulkSearchIntroTitle": "Search for TV Show",
+      "bulkSearchIntroDesc": "Search for a show above to select seasons and episodes for the selected files.",
+      "detectedMatches": "Suggested matches",
+      "detectedMatchesHint": "Automatic match candidates found for this title:",
+      "noDetectedMatchesTitle": "No automatic matches",
+      "noDetectedMatchesMovieDesc": "Couldn't find an automatic movie match. Search above to find the right title.",
+      "noDetectedMatchesTvDesc": "Couldn't find an automatic TV show match. Search above to find the right show.",
+      "noDetectedMatchesSceneDesc": "Couldn't find an automatic scene match. Search above to find the right scene.",
+      "errorDetectedMatchesTitle": "Automatic match lookup failed",
+      "errorDetectedMatchesMovieDesc": "Couldn't reach the metadata provider. Search above to match manually.",
+      "errorDetectedMatchesTvDesc": "Couldn't reach the metadata provider. Search above to match manually.",
+      "errorDetectedMatchesSceneDesc": "Couldn't reach the metadata provider. Search above to match manually.",
+      "searchResults": "Search results",
+      "searchResultsHint": "Select a title below to apply:",
+      "seasons": "Seasons",
+      "seasonsHint": "Select a season to view episodes or match the entire show.",
+      "episodes": "Episodes",
+      "episodesHint": "Select an episode to match directly.",
+      "noResultsTvTitle": "No TV shows found",
+      "noResultsMovieTitle": "No movies found",
+      "noResultsSceneTitle": "No scenes found",
+      "noResultsTvDesc": "No TV shows matched your search. Try adjusting the title or release year.",
+      "noResultsMovieDesc": "No movies matched your search. Try adjusting the title or release year.",
+      "noResultsSceneDesc": "No scenes matched your search. Try adjusting the title or release date.",
+      "noSeasons": "No seasons found for this TV show.",
+      "noEpisodes": "No episodes found for this season.",
+      "useTv": "Match TV Show",
+      "useSeason": "Match Season",
+      "useBucket": "Apply Selected Episodes",
+      "bucketTitle": "Episode Selection",
+      "applying": "Applying match...",
+      "current": "Current",
+      "unknownTv": "Unknown TV Show",
+      "unknownMovie": "Unknown Movie",
+      "unknownScene": "Unknown Scene",
+      "seasonNum": "Season {number}",
+      "episodeNum": "Episode {number}",
+      "confirm": {
+        "dontShowAgain": "Don't ask again",
+        "confirmBtn": "Apply Match"
+      }
+    }
+  },
+  "bulkBar": {
+    "title": "{count} selected",
+    "clear": "Clear"
+  },
+  "status": {
+    "ready": "Ready",
+    "collision": "Collision",
+    "noMatch": "No Match",
+    "uncertain": "Uncertain",
+    "multiple": "Multiple",
+    "error": "Error",
+    "pending": "Pending",
+    "missingSeason": "?S",
+    "missingEpisode": "?E",
+    "missingSeasonTooltip": "Missing Season",
+    "missingEpisodeTooltip": "Missing Episode"
+  },
+  "collisionStrategy": {
+    "skip": "Skip",
+    "keepBoth": "Keep both",
+    "replaceIfBetter": "Replace if higher quality",
+    "replace": "Replace"
+  },
+  "typeLabels": {
+    "episode": "Episode",
+    "movie": "Movie",
+    "tv": "TV Show",
+    "scene": "Scene",
+    "media": "Media",
+    "extra": "Extra",
+    "video": "Video"
+  },
+  "toasts": {
+    "failedToFetchMatchedItems": "Couldn't fetch items for renaming.",
+    "bulkOverrideParentRequired": "A parent title is required to apply bulk overrides.",
+    "overrideSaveFailed": "Couldn't save item overrides.",
+    "inspectCopyFailed": "Couldn't copy text to clipboard.",
+    "inspectCopySuccess": "Copied to clipboard.",
+    "inspectLoadFailed": "Couldn't load file details.",
+    "bulkOverrideSeasonRequired": "Please enter a season number for bulk overrides.",
+    "bulkOverrideAutoNumberRequired": "A starting episode number is required for auto-numbering.",
+    "selfParentError": "An item cannot be set as its own parent.",
+    "bulkOverrideStartEpisodeInvalid": "Please enter a valid starting episode number.",
+    "bulkOverrideSuccess": "Bulk overrides applied successfully.",
+    "bulkOverrideSaveFailed": "Couldn't apply bulk overrides.",
+    "overrideSeasonEpisodeRequired": "Both season and episode numbers are required.",
+    "overrideSuccess": "Overrides applied successfully.",
+    "matchResolveSuccess": "Match resolved successfully.",
+    "matchResolveFailed": "Couldn't resolve match.",
+    "matchSearchMissingQuery": "Please enter a search query.",
+    "matchSearchFailed": "Search failed or returned no results.",
+    "matchAlreadyActive": "This match is already selected.",
+    "noMatchedItems": "No matched items ready to rename.",
+    "renameStartFailed": "Couldn't start the renaming process.",
+    "pausingBackgroundTask": "Pausing background tasks...",
+    "failedToPauseTask": "Couldn't pause background task.",
+    "renameAborted": "Renaming cancelled.",
+    "renameComplete": "Files renamed successfully.",
+    "scanComplete": "Scan finished.",
+    "scanCompleteFallback": "Scan finished.",
+    "scanStartFailed": "Couldn't start the folder scan.",
+    "retryStarted": "Retrying match lookups...",
+    "retryFailed": "Couldn't retry failed actions.",
+    "loadAllSuccess": "All files loaded.",
+    "noMediaPlayerConfigured": "No media player configured.",
+    "deleteActionFailed": "Couldn't delete file.",
+    "deleteIgnoreSuccess": "File hidden from list.",
+    "deleteIgnoreSuccessPlural": "{count} files hidden from list.",
+    "deleteTrashSuccess": "Moved to trash.",
+    "deleteTrashSuccessPlural": "{count} files moved to trash.",
+    "deleteDbOnlySuccess": "Removed from SWAYA.",
+    "deleteDbOnlySuccessPlural": "{count} files removed from SWAYA.",
+    "previewFailed": "Couldn't preview this file.",
+    "showInFolderFailed": "Couldn't locate this file in the file manager.",
+    "abortTaskFailed": "Couldn't stop the current task."
+  },
+  "scanSettings": {
+    "title": "Scan Settings",
+    "subtitle": "Configure scan mode and metadata lookup source.",
+    "scanMode": "Scan Mode",
+    "provider": "Metadata Provider"
+  }
+}

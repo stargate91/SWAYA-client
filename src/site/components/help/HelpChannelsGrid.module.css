@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: var(--space-2xl);
+  max-width: 58rem;
+  margin-inline: auto;
+  width: 100%;
+}
+
+

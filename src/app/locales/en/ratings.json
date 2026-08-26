@@ -1,0 +1,22 @@
+{
+  "title": "Ratings & Reviews",
+  "description": "Manage your personal ratings, reviews, and favorites in one place.",
+  "tabs": {
+    "unrated": "Unrated",
+    "rated": "Rated"
+  },
+  "table": {
+    "name": "Name",
+    "title": "Title",
+    "type": "Type",
+    "rating": "My Rating",
+    "favorite": "Favorite",
+    "comment": "Review",
+    "empty": "No items found in this section."
+  },
+  "dialog": {
+    "editReview": "Edit Review",
+    "placeholder": "Write your thoughts or personal notes about this title...",
+    "save": "Save Review"
+  }
+}

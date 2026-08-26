@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "首頁",
+    "breadcrumbDocs": "說明文件",
+    "defaultCategory": "說明文件",
+    "minRead": "{{count}} 分鐘閱讀",
+    "prevGuide": "上一篇指南",
+    "nextGuide": "下一篇指南",
+    "searchPlaceholder": "搜尋指南...",
+    "searchAriaLabel": "搜尋說明文件",
+    "clearSearchAriaLabel": "清除搜尋",
+    "noGuidesFound": "找不到與「{{query}}」相關的指南",
+    "onThisPage": "本頁內容",
+    "tableOfContents": "目錄",
+    "navigationAriaLabel": "文件導覽",
+    "relatedGuides": "相關指南",
+    "error404": "錯誤 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "找不到頁面",
+    "pageNotFoundDesc": "請求的指南或頁面不存在或已被移動。",
+    "goBack": "返回",
+    "returnHome": "返回首頁",
+    "skipToContent": "跳至主要內容",
+    "errorBoundaryTitle": "發生錯誤",
+    "errorBoundaryDesc": "載入此頁面時發生未預期的錯誤。請重新整理頁面或返回首頁。",
+    "reloadPage": "重新整理頁面",
+    "browseDocs": "瀏覽說明文件",
+    "allGuides": "所有指南",
+    "home": "首頁",
+    "popularGuides": "熱門指南",
+    "documentationHub": "工作站指南",
+    "hubTitle": "SWAYA 說明文件 & 使用指南",
+    "hubSubtitle": "全面了解自動批次重新命名、多來源元資料抓取、4K 影音收藏管理與 MPV 高效能播放。"
+  },
+  "categories": {
+    "gettingStarted": "新手入門",
+    "coreWorkflows": "核心功能",
+    "libraryCuration": "媒體庫與收藏管理",
+    "systemAutomation": "系統與自動化"
+  },
+  "items": {
+    "getting-started": {
+      "title": "概覽與快速入門",
+      "description": "了解 SWAYA 的架構、功能特性與設計理念。"
+    },
+    "organizer": {
+      "title": "智慧檔案整理器",
+      "description": "自動比對、批次重新命名與檔案衝突處理。"
+    },
+    "dashboard": {
+      "title": "控制面板與探索",
+      "description": "焦點橫幅、繼續觀看與探索資訊流。"
+    },
+    "library": {
+      "title": "媒體庫與目錄管理",
+      "description": "海報網格、雙重模式、進階篩選與標籤管理。"
+    },
+    "details": {
+      "title": "詳細資訊頁與個人檔案",
+      "description": "封面圖選擇、操作按鈕、影集季數與演職員作品年表。"
+    },
+    "player": {
+      "title": "內建高效能播放器",
+      "description": "MPV 核心、GPU 硬體加速與外部播放器連動。"
+    },
+    "search": {
+      "title": "全域搜尋與進階篩選",
+      "description": "跨來源搜尋與即時多維度篩選。"
+    },
+    "lists": {
+      "title": "自訂清單與收藏",
+      "description": "主題收藏、自動產生 4 海報拼貼封面與 JSON 匯出匯入。"
+    },
+    "ratings": {
+      "title": "評分與私密影評",
+      "description": "10 分制評分系統、Markdown 私密備忘錄與喜愛標記。"
+    },
+    "history": {
+      "title": "觀看歷史與紀錄",
+      "description": "播放進度追蹤與詳細觀看時間軸。"
+    },
+    "statistics": {
+      "title": "媒體庫 DNA 與統計",
+      "description": "儲存空間分析、類型圖表與發行年份時間軸。"
+    },
+    "settings": {
+      "title": "設定與偏好設定",
+      "description": "資料夾命名範本、重複項目政策、主題外觀與 API 金鑰。"
+    },
+    "torrent": {
+      "title": "Torrent 用戶端整合",
+      "description": "qBittorrent 控制面板與下載完成自動入庫整理。"
+    }
+  }
+}

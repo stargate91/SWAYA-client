@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - 100% 離線個人影音中心 & Windows 播放器",
+    "description": "無需伺服器的 Windows 離線 Plex 與 FileBot 替代方案。自動批次重新命名下載檔案、整理硬碟影音收藏並流暢播放 4K HDR。"
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "首頁",
+    "docs": "說明文件",
+    "changelog": "更新日誌",
+    "compare": "軟體比較",
+    "help": "支援與協助",
+    "download": "下載與價格",
+    "title": "SWAYA 網站導覽",
+    "discord": "Discord",
+    "buy": "購買 SWAYA (€39)",
+    "openMenu": "開啟選單",
+    "closeMenu": "關閉選單"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "掌控你的整個離線影音宇宙，",
+    "taglineAccent": "享受前所未有的純粹掌控。",
+    "subtitle": "你的硬碟堆滿了精彩影片但檔名卻一片混亂？SWAYA 為你徹底整理混亂，打造極致美觀的 4K 離線目錄，且完全無需搭建伺服器。",
+    "priceOld": "€79",
+    "priceNew": "€39",
+    "priceTag": "首發早鳥特惠（50% 折扣）",
+    "buyCta": "以 €39 獲取終身授權",
+    "demoCta": "啟動線上即時展示",
+    "guarantees": {
+      "payment": "一次買斷，終身使用",
+      "updates": "終身免費更新",
+      "devices": "最多支援 3 台個人 Windows 電腦"
+    }
+  },
+  "video": {
+    "tag": "產品展示",
+    "title": "什麼是 SWAYA？",
+    "titleAccent": "觀看實際運作展示。",
+    "subtitle": "SWAYA 是一款專為 Windows 打造的現代化桌面應用程式，能為混亂的下載檔案重新命名、建立精美的視覺化媒體庫，並提供極致流暢的 4K MPV 播放體驗。",
+    "badge": "2:48 產品導覽",
+    "placeholderTitle": "產品展示影片",
+    "placeholderSubtitle": "快速導覽批次命名、多來源媒體目錄與內建 MPV 播放器。",
+    "transcriptTitle": "展示影片精華摘要與核心功能",
+    "transcriptOrganizer": "00:00 - 智慧批次重新命名與自動化資料夾結構",
+    "transcriptCuration": "01:00 - 媒體庫、詳細資訊頁面與目錄管理",
+    "transcriptPrivacy": "02:25 - 內建 MPV 播放器、斷點續播與歷史紀錄",
+    "comingSoon": "展示影片即將推出",
+    "play": "播放展示影片",
+    "pause": "暫停展示影片"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "自動化檔案批次命名",
+      "title": "告別混亂的下載資料夾，一鍵生成完美媒體庫。",
+      "titleAccent": "直接整理硬碟中的真實檔案。",
+      "description": "自動將電影、影集與影片與 TMDb 及 StashDB 進行精確比對。自訂命名範本與衝突防護機制，安全地將數千個檔案整理為符合 Plex/Jellyfin 標準的結構。",
+      "benefits": [
+        "透過主流權威資料庫自動抓取多來源元資料",
+        "直接重新命名硬碟實體檔案並建立標準資料夾結構",
+        "安全的演練預覽 (Dry-Run) 與檔案衝突保護"
+      ],
+      "supportedApisLabel": "支援的元資料提供商",
+      "mockupTitle": "智慧檔案批次整理器",
+      "mockupBadge": "142 個檔案已配對 • 準備重新命名",
+      "mockupPlaceholder": "整理器畫面截圖"
+    },
+    "curation": {
+      "tag": "萬象歸一",
+      "title": "電影、影集、場景與演職員。",
+      "titleAccent": "盡在統一的美觀目錄中。",
+      "description": "為硬碟收藏自動配備 4K 高畫質海報、背景劇照、演職員檔案與發行商資訊。建立具有動態 4 海報拼貼封面的自訂清單，並撰寫 Markdown 私密影評。",
+      "benefits": [
+        "整合電影、影集、場景與片廠的統一媒體庫",
+        "即時極速瀏覽本機與外接 USB 硬碟",
+        "10 分制評分系統與 Markdown 私密備忘錄"
+      ],
+      "mockupTitle": "全能影音媒體目錄",
+      "mockupBadge": "4K 藝術圖 • 本機 SQLite 資料庫",
+      "mockupPlaceholder": "媒體詳細資訊截圖"
+    },
+    "privacy": {
+      "tag": "無雲端 • 無帳號",
+      "title": "100% 離線 & 絕對隱私保護。",
+      "titleAccent": "零雲端依賴，零遙測追蹤。",
+      "description": "無需常駐 Plex 伺服器，無需註冊雲端帳號，更無惱人的月費訂閱。所有資料百分之百存放在你自己的電腦上，並可透過全域快捷鍵一鍵進入隱形保險庫。",
+      "benefits": [
+        "100% 本地資料處理（零遠端遙測，零資料外傳）",
+        "快捷鍵一鍵隱藏敏感收藏的隱形保險庫",
+        "一次性 €39 買斷，終身離線安心使用"
+      ],
+      "mockupTitle": "隱形保險庫 & 隱私防護",
+      "mockupBadge": "本機 SQLite • 零雲端依賴",
+      "mockupPlaceholder": "隱私保險庫截圖"
+    }
+  },
+  "faq": {
+    "tag": "常見問題",
+    "title": "常見問題解答",
+    "titleAccent": "(FAQ)",
+    "subtitle": "了解關於 SWAYA 功能、授權、離線隱私與極致效能的一切。",
+    "items": [
+      {
+        "question": "SWAYA 與 Plex、Jellyfin 或 Kodi 有何不同？",
+        "answer": "與 Plex 或 Jellyfin 不同，SWAYA 不需要搭建後端伺服器、無需區域網路串流或帳號註冊。它是一款極速 Windows 桌面軟體，能直接在硬碟上整理檔案，並透過內建 MPV 引擎提供最高畫質的直出播放。"
+      },
+      {
+        "question": "SWAYA 可以取代 FileBot 進行檔案批次重新命名嗎？",
+        "answer": "可以。SWAYA 內建進階批次整理器，透過 TMDb、StashDB 與 ThePornDB 智慧識別混亂的檔案名稱，並安全地整理至 Plex/Jellyfin 規範目錄。"
+      },
+      {
+        "question": "SWAYA 支援外接 USB 硬碟嗎？",
+        "answer": "完全支援。即使外接硬碟已拔除，你的媒體目錄、海報牆與觀看歷史紀錄依然保存在本機，隨時可供快速檢索。"
+      },
+      {
+        "question": "SWAYA 是否為 100% 離線且保護隱私？",
+        "answer": "是的。所有元資料、SQLite 資料庫與設定皆 100% 儲存在你的電腦本機。絕無任何第三方追蹤或未經授權的連線。"
+      },
+      {
+        "question": "SWAYA 使用哪種影音播放核心？",
+        "answer": "SWAYA 內建經過深度最佳化的 MPV 播放引擎，支援完整 GPU 硬體加速，完美相容 4K HDR、Dolby Vision、複雜字幕樣式與多音軌切換。"
+      },
+      {
+        "question": "SWAYA 支援哪些元資料提供商？",
+        "answer": "SWAYA 支援直連 TMDb、OMDb、StashDB、FansDB 與 ThePornDB，快速抓取海報、背景圖、片廠與演職員資訊。"
+      },
+      {
+        "question": "授權方式是如何運作的？",
+        "answer": "SWAYA 採 €39 一次性買斷制終身授權。無訂閱費用，包含未來所有 v1.x 系列更新，最多可在 3 台個人 Windows 電腦上啟用。"
+      }
+    ]
+  },
+  "download": {
+    "title": "立即開始打造專屬的完美影音收藏庫",
+    "subtitle": "購買 Windows 終身授權。一次性支付 €39，無需任何月費。",
+    "button": "購買終身授權 (€39)",
+    "disclaimer": "付款完成後將立即收到授權金鑰與下載連結。100% 離線相容。"
+  },
+  "footer": {
+    "tagline": "為影音收藏家打造的隱私優先離線媒體中心與智慧檔案批次整理工作站。",
+    "badge": "離線優先 • v1.0 Windows",
+    "columns": {
+      "navigation": "網站導覽",
+      "comparisons": "軟體比較",
+      "documentation": "說明文件",
+      "getSwaya": "購買 SWAYA"
+    },
+    "links": {
+      "home": "首頁",
+      "docs": "說明文件",
+      "changelog": "更新日誌",
+      "help": "支援與協助",
+      "privacy": "隱私權政策",
+      "terms": "服務條款與退款政策",
+      "discord": "Discord 社群",
+      "contact": "聯絡開發者",
+      "liveDemo": "線上即時展示",
+      "allGuides": "所有指南 →",
+      "allComparisons": "所有軟體比較 →"
+    },
+    "licenseDescription": "一次購買，可在最多 3 台個人 Windows 電腦上永久使用。",
+    "buyLicense": "購買授權 (€39)",
+    "copyright": "© {{year}} SWAYA. 版權所有。",
+    "madeWithLove": "精心打造",
+    "forCollectors": "獻給所有硬派影音收藏家",
+    "languages": "語言："
+  },
+  "changelog": {
+    "badge": "版本歷史",
+    "title": "版本發行紀錄 & 更新日誌",
+    "subtitle": "探索 SWAYA 的最新功能、效能最佳化與修復內容。",
+    "latest": "最新版本",
+    "highlights": "主要更新亮點"
+  },
+  "help": {
+    "badge": "支援與社群",
+    "title": "我們能為你提供什麼協助？",
+    "subtitle": "直接聯絡開發者、加入官方 Discord 社群即時交流，或瀏覽詳細的使用指南。",
+    "cards": {
+      "discord": {
+        "tag": "即時社群交流",
+        "title": "官方 Discord 伺服器",
+        "description": "加入熱情的影音收藏家社群，交流整理技巧、獲取快速協助並掌握最新功能動態。",
+        "button": "加入 Discord",
+        "badge": "線上社群"
+      },
+      "email": {
+        "tag": "直接聯絡",
+        "title": "電子郵件支援",
+        "description": "關於授權問題、功能建議、私人反饋或錯誤回報，歡迎直接寄信給開發者。",
+        "button": "傳送電子郵件",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "正在尋找說明文件？",
+      "subtitle": "瀏覽關於檔案批次命名、偏好設定與進階功能的詳細教學。",
+      "allGuides": "瀏覽全部 13 篇指南 →"
+    },
+    "faq": {
+      "title": "支援常見問題",
+      "subtitle": "關於授權、隱私與軟體功能的快速解答。"
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA 軟體比較與替代方案",
+    "metaDescription": "將 SWAYA 與 FileBot、Plex、tinyMediaManager、StashApp、Jellyfin 及 Kodi 進行深度比較。探索最適合 Windows 的 100% 離線媒體中心。",
+    "tag": "軟體比較",
+    "title": "為什麼選擇 SWAYA？",
+    "titleAccent": "全面橫向評測",
+    "subtitle": "了解為何硬派收藏家選擇這款整合批次檔案命名、離線目錄與 4K MPV 播放器的無伺服器工作站。",
+    "viewAll": "探索所有替代方案與完整功能矩陣 →",
+    "badge": "軟體對比分析",
+    "hubTitle": "SWAYA vs",
+    "hubTitleAccent": "替代方案全面解析",
+    "hubSubtitle": "將 SWAYA 與主流媒體伺服器、實體檔案命名工具進行對比，體驗 100% 離線桌面軟體的極致優勢。",
+    "viewComparison": "查看比較詳情",
+    "relatedDocsTitle": "相關 SWAYA 功能與指南",
+    "relatedDocsSubtitle": "閱讀有關上述比較之核心功能的深入技術指南。",
+    "honestComparison": "客觀評測：哪款工具最適合你的需求？",
+    "honestSubtitle": "每款工具皆有其專屬優勢。以下提供客觀分析助你精準選擇。",
+    "chooseCompetitor": "在以下情況選擇 {{name}}：",
+    "chooseSwaya": "在以下情況選擇 SWAYA：",
+    "featureBreakdown": "詳細功能規格對比",
+    "featureSubtitle": "SWAYA 與 {{name}} 的直接技術指標比較。",
+    "featureHeader": "功能 / 規格",
+    "whySwitch": "為什麼 SWAYA 更勝一籌",
+    "whySwitchSubtitle": "專為硬派影音收藏家的極致需求量身打造。",
+    "faqSubtitle": "關於自 {{name}} 遷移或搭配使用的常見問題。",
+    "ctaTitle": "準備好完全掌控你的影音收藏了嗎？",
+    "ctaSubtitle": "專為 Windows 打造的極致離線影音工作站。整理實體檔案，享受無拘無束的 4K HDR 播放體驗。",
+    "buyCta": "購買終身授權 (€39)",
+    "demoCta": "啟動線上即時展示",
+    "yes": "支援",
+    "no": "不支援",
+    "partial": "部分支援"
+  },
+  "cookies": {
+    "ariaLabel": "隱私權與 Cookie 設定",
+    "title": "隱私與匿名診斷分析",
+    "description": "我們使用匿名診斷數據來持續最佳化網站載入效能與穩定度。",
+    "essentialOnly": "僅必要項目",
+    "acceptAll": "接受全部"
+  },
+  "privacy": {
+    "badge": "隱私與安全",
+    "title": "隱私權政策",
+    "subtitle": "SWAYA 被設計為 100% 離線桌面應用程式。零遙測追蹤、本機全儲存、強大的本機密碼保護。",
+    "lastUpdated": "最後更新日期：2026 年 8 月 20 日",
+    "scope": "適用於 SWAYA Windows 桌面軟體及 swaya.xyz",
+    "section1Title": "1. 零遙測追蹤 & 本機資料儲存",
+    "section1Text": "SWAYA 是完全離線優先的影音中心。影音檔案、目錄結構、觀看歷史、評分與筆記均僅儲存於本機 SQLite 資料庫 (data/swaya.db)。",
+    "section1Point1": "絕不上傳、索引或遠端分析使用者的任何影音檔案或硬碟內容。",
+    "section1Point2": "絕不在遠端伺服器記錄使用者的觀看時間或使用習慣。",
+    "section1Point3": "元資料抓取請求（TMDb、StashDB）由本機直接向 API 發送，絕不經過我們的伺服器轉發。",
+    "section2Title": "2. 付款資訊與授權發放",
+    "section2Text": "付款由國際金流 Stripe Inc. 安全處理。我們不會儲存任何信用卡或銀行帳戶資訊。",
+    "section2Point1": "收集項目：電子郵件地址、姓名（選填）、Stripe 交易 ID 與時間戳記。",
+    "section2Point2": "用途：生成經加密簽章的授權金鑰及訂單確認發票。",
+    "section2Point3": "保留期限：財務與授權紀錄將依法定稅務規定安全封存。",
+    "section3Title": "3. 裝置啟用與離線驗證",
+    "section3Text": "輸入授權碼時，軟體會與驗證伺服器進行單次握手以產生本機憑證：",
+    "section3Point1": "啟用過程僅傳輸不可逆的硬體特徵雜湊值，以管理最多 3 台裝置的啟用限制。",
+    "section3Point2": "啟用完成後，SWAYA 即可永久在 100% 無網路環境下運作。",
+    "section3Point3": "使用者隨時可以在設定面板中自主解除裝置繫結。",
+    "section4Title": "4. 網站分析與 Cookie 政策",
+    "section4Text": "在官方網站 (swaya.xyz) 上，我們僅使用匿名化技術監控載入效能與除錯：",
+    "section4Point1": "絕不進行跨網站追蹤，絕不出售資料給任何廣告商。",
+    "section4Point2": "分析性 Cookie 僅在使用者主動同意後才會啟用。",
+    "section5Title": "5. 使用者權利 (GDPR) 與聯絡管道",
+    "section5Text": "根據 GDPR 法規，你有權隨時查詢、更正或請求刪除你的授權註冊紀錄。",
+    "section5Contact": "如有任何疑問或請求，歡迎直接聯絡開發者："
+  },
+  "terms": {
+    "badge": "服務條款",
+    "title": "服務條款與退款政策",
+    "subtitle": "請仔細閱讀以下條款。購買或下載本軟體即代表你同意本協議。",
+    "lastUpdated": "最後更新日期：2026 年 8 月 20 日",
+    "scope": "SWAYA v1.x Windows 桌面軟體",
+    "section1Title": "1. 軟體授權與使用範圍",
+    "section1Text": "購買授權（早鳥價 €39，標準價 €79）後，SWAYA 授予你非排他性、永久性的個人使用授權，最多可在 3 台個人 Windows 裝置上使用。",
+    "section1Point1": "你可以隨時解除舊電腦的授權並將其轉移至新電腦。",
+    "section1Point2": "嚴禁轉售、出租或公開散布授權金鑰。",
+    "section1Point3": "明確禁止任何商業二次分發或對軟體進行逆向工程。",
+    "section2Title": "2. 退款政策保障",
+    "section2Text": "SWAYA 提供清晰透明的退款保障條款：",
+    "section2Point1": "未啟用之金鑰（14 天猶豫期）：自購買起 14 天內且未進行裝置啟用，可申請 100% 全額退款。",
+    "section2Point2": "已啟用之金鑰（7 天技術保障）：若軟體在受支援的 Windows 系統上遭遇無法排除的嚴重技術問題，7 天內可申請 100% 全額退款。",
+    "section2Point3": "退款後處置：一旦退款完成，該授權金鑰將被永久註銷。",
+    "section3Title": "3. 內容責任與合規使用",
+    "section3Text": "SWAYA 僅為檔案管理與本機影音播放工具。使用者須對自己管理的媒體內容負全部法律責任。",
+    "section3Point1": "你對自己的影音檔案保留全部智慧財產權。",
+    "section3Point2": "你同意在遵守所有適用法律法規的前提下使用本軟體。",
+    "section4Title": "4. 終身更新保證",
+    "section4Text": "授權持有者享有所有 v1.x 系列的免費功能更新與安全性維護。",
+    "section5Title": "5. 免責聲明與責任限制",
+    "section5Text1": "SWAYA 依「現狀」提供。軟體提供演練預覽功能，以便使用者在檔案重新命名之前先行確認。",
+    "section5Text2": "在法律允許的最大範圍內，開發者不對任何間接損害或資料遺失承擔責任。",
+    "section6Title": "6. 客戶服務與聯繫方式",
+    "section6Text": "如有退款申請或技術支援需求，請來信 levicore@proton.me 或至官方 Discord 諮詢。"
+  }
+}

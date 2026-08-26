@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - Offline Médiaközpont & Videórendszerező Windowshoz",
+    "description": "Offline Plex és FileBot alternatíva Windowshoz. Automatikus fájlátnevezés, merevlemezes filmrendszerezés és 4K HDR lejátszás 100% privát adatvédelemmel."
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "Főoldal",
+    "docs": "Dokumentáció",
+    "changelog": "Változások",
+    "compare": "Összehasonlítás",
+    "help": "Súgó",
+    "download": "Letöltés & Árak",
+    "title": "SWAYA Webhely Navigáció",
+    "discord": "Discord",
+    "buy": "SWAYA Vásárlása (39 €)",
+    "openMenu": "Menü megnyitása",
+    "closeMenu": "Menü bezárása"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "A teljes offline médiauniverzumod,",
+    "taglineAccent": "teljes kontroll alatt.",
+    "subtitle": "A merevlemezeid tele vannak nagyszerű videókkal és kaotikus fájlnevekkel. A SWAYA rendet tesz a káoszban, gyönyörűvé varázsolja a gyűjteményed, és visszaadja a teljes irányítást.",
+    "priceOld": "79 €",
+    "priceNew": "39 €",
+    "priceTag": "Bevezetési akció (50% kedvezmény)",
+    "buyCta": "Örökös hozzáférés 39 €-ért",
+    "demoCta": "Élő Web Demo indítása",
+    "guarantees": {
+      "payment": "Egyszeri fizetés",
+      "updates": "Örökös frissítések",
+      "devices": "Akár 3 saját eszközön"
+    }
+  },
+  "video": {
+    "tag": "Termék áttekintés",
+    "title": "Mi az a SWAYA?",
+    "titleAccent": "Nézd meg működés közben.",
+    "subtitle": "A SWAYA egy Windows asztali alkalmazás, amely rendezi a merevlemezen lévő fájlokat, rendszerezi a médiatáradat, és a beépített MPV lejátszóval 100%-ban offline játssza le a teljes gyűjteményt.",
+    "badge": "2:48 bemutató",
+    "placeholderTitle": "Termékbemutató videó",
+    "placeholderSubtitle": "Teljes bemutató a kötegelt fájlátnevezésről, médiakurálásról és a beépített MPV lejátszásról.",
+    "transcriptTitle": "Videóbemutató összefoglaló & fő funkciók",
+    "transcriptOrganizer": "00:00 - Okos kötegelt fájlátnevezés és mapparendezés",
+    "transcriptCuration": "01:00 - Médiatár, részletes profiloldalak és felületek bemutatása",
+    "transcriptPrivacy": "02:25 - Beépített MPV lejátszó, Folytatás és megtekintési előzmények",
+    "comingSoon": "A bemutató videó hamarosan elérhető",
+    "play": "Demo videó lejátszása",
+    "pause": "Demo videó szüneteltetése"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "Automatikus fájlátnevezés",
+      "title": "Varázsolj a letöltési mappákból rendezett médiatárat.",
+      "titleAccent": "Közvetlenül a merevlemezeden.",
+      "description": "Filmek, sorozatok és jelenetek automatikus felismerése TMDb és StashDB adatbázisokból. Több ezer fizikai fájl kötegelt átnevezése és mappákba rendezése Plex/Jellyfin-kompatibilis sablonokkal és ütközésvédett előnézettel.",
+      "benefits": [
+        "Automatikus metaadat-letöltés mainstream és tematikus adatbázisokból",
+        "Fizikai fájlátnevezés és egyéni Plex/Jellyfin mappasablonok",
+        "Biztonságos próbafuttatás (Dry-Run) ütközésvédelemmel"
+      ],
+      "supportedApisLabel": "Támogatott metaadat-szolgáltatók",
+      "mockupTitle": "Okos kötegelt fájlrendező",
+      "mockupBadge": "142 fájl párosítva • Készen áll az átnevezésre",
+      "mockupPlaceholder": "Fájlrendező nézet képernyőkép"
+    },
+    "curation": {
+      "tag": "Minden egy helyen",
+      "title": "Filmek, sorozatok, videók & színészek.",
+      "titleAccent": "Egyetlen központi felületen.",
+      "description": "Gazdagítsd helyi merevlemezes gyűjteményedet 4K poszterekkel, háttérképekkel, életrajzokkal és stúdióportfóliókkal. Készíts tematikus listákat automatikusan generált 4 poszteres kollázs borítókkal és írj privát markdown értékeléseket.",
+      "benefits": [
+        "Egységes médiatár filmekhez, sorozatokhoz, színészekhez és stúdiókhoz",
+        "Azonnali böngészés helyi és külső merevlemezes gyűjteményekhez",
+        "10 csillagos értékelési rendszer és privát markdown jegyzetek"
+      ],
+      "mockupTitle": "Univerzális médiakatalógus és kurálás",
+      "mockupBadge": "4K grafikák • Egységes adatbázis",
+      "mockupPlaceholder": "Médiarészletek és katalógus képernyőkép"
+    },
+    "privacy": {
+      "tag": "Nulla felhő, nulla fiók",
+      "title": "100% offline és privát.",
+      "titleAccent": "Nincs felhő, nincs adatkövetés.",
+      "description": "Nincs Plex szerver, nincsenek felhőfiókok és nincsenek havidíjak. A médiafájljaid a saját gépeden maradnak, az érzékeny gyűjteményeket pedig azonnali gyorsbillentyűs lopakodó páncélterem védi.",
+      "benefits": [
+        "100% helyi adatfeldolgozás felhőfiókok és telemetria nélkül",
+        "Azonnali gyorsbillentyűs lopakodó páncélterem privát gyűjteményekhez",
+        "Egyszeri 39 €-s vásárlás örökös offline hozzáféréssel"
+      ],
+      "mockupTitle": "Lopakodó páncélterem és adatvédelem",
+      "mockupBadge": "Helyi adatbázis • Nulla felhő telemetria",
+      "mockupPlaceholder": "Adatvédelem és lopakodó mód képernyőkép"
+    }
+  },
+  "faq": {
+    "tag": "Kérdésed van?",
+    "title": "Gyakran Ismételt",
+    "titleAccent": "Kérdések (GYIK).",
+    "subtitle": "Minden fontos tudnivaló a SWAYA-ról, a licencelésről, az offline adatvédelemről és a lejátszási teljesítményről.",
+    "items": [
+      {
+        "question": "Miben különbözik a SWAYA a Plextől, Jellyfintől vagy Koditól?",
+        "answer": "A Plextől, Jellyfintől vagy Koditól eltérően a SWAYA nem igényel szervertelepítést, hálózati streamelést vagy felhasználói fiókokat. Egy pehelykönnyű asztali alkalmazás, amely közvetlenül a merevlemezeden lévő filmeket és videókat rendszerezi és játssza le a beépített, nagy teljesítményű MPV lejátszóval."
+      },
+      {
+        "question": "Helyettesítheti a SWAYA a FileBotot filmek és sorozatok átnevezésére?",
+        "answer": "Igen. A SWAYA beépített intelligens kötegelt fájlrendezője a TMDb, StashDB és ThePornDB segítségével automatikusan felismeri a filmeket, sorozatepizódokat és jeleneteket, majd ütközésmentes előnézet mellett rendezi őket szabványos Plex/Jellyfin-kompatibilis mappákba."
+      },
+      {
+        "question": "Működik a SWAYA külső merevlemezekkel és USB meghajtókkal?",
+        "answer": "Igen, tökéletesen. A SWAYA kifejezetten a külső merevlemezek, USB meghajtók és helyi mappák kezelésére lett tervezve. A katalógusod, posztereid és megtekintési előzményeid akkor is azonnal böngészhetők maradnak, ha a külső meghajtó épp nincs csatlakoztatva."
+      },
+      {
+        "question": "A SWAYA teljesen offline és privát?",
+        "answer": "Igen. A SWAYA minden metaadatot, helyi adatbázist és egyéni gyűjteményt 100%-ban a saját gépeden tárol. Nincsenek követőkódok, nincs telemetria és nincs szükség fiókra. Egy dedikált gyorsbillentyűvel pedig azonnal elrejtheted az érzékeny gyűjteményeket."
+      },
+      {
+        "question": "Milyen videólejátszó motort használ a SWAYA?",
+        "answer": "A SWAYA egy beépített, nagy teljesítményű MPV lejátszómotort használ GPU-gyorsított 4K HDR lejátszással, zökkenőmentes hangsáv- és feliratváltással, valamint automatikus lejátszás-folytatással."
+      },
+      {
+        "question": "Milyen metaadat-adatbázisokat támogat a szoftver?",
+        "answer": "A SWAYA közvetlenül integrálja a TMDb, OMDb, StashDB, FansDB és ThePornDB adatbázisokat az automatikus metaadat-párosításhoz, poszterletöltéshez, színész-filmográfiákhoz és stúdiólogókhoz."
+      },
+      {
+        "question": "Hogyan működik a licencelés?",
+        "answer": "A SWAYA egyszeri 39 €-s vásárlással örökös hozzáférést biztosít. Tartalmazza az összes jövőbeli frissítést, és akár 3 saját Windows PC-n aktiválható előfizetési díjak nélkül."
+      }
+    ]
+  },
+  "download": {
+    "title": "Vedd át az irányítást a gyűjteményed felett még ma",
+    "subtitle": "Szerezz örökös hozzáférést a Windowsos SWAYA-hoz. Egyszeri 39 €-s vásárlás, örökre a tiéd. Nincsenek előfizetések.",
+    "button": "Örökös licenc vásárlása (39 €)",
+    "disclaimer": "Azonnali letöltés és licenckulcs a fizetést követően. 100%-ban offline működik."
+  },
+  "footer": {
+    "tagline": "Adatvédelem-központú asztali médiaközpont és intelligens kötegelt fájlrendező személyes gyűjteményekhez.",
+    "badge": "Offline-First • v1.0 Windows",
+    "columns": {
+      "navigation": "Navigáció",
+      "comparisons": "Összehasonlítások",
+      "documentation": "Dokumentáció",
+      "getSwaya": "SWAYA Megvásárlása"
+    },
+    "links": {
+      "home": "Főoldal",
+      "docs": "Dokumentáció",
+      "changelog": "Változásnapló",
+      "help": "Súgó & Kapcsolat",
+      "privacy": "Adatvédelmi nyilatkozat",
+      "terms": "Általános Szerződési Feltételek",
+      "discord": "Discord közösség",
+      "contact": "Kapcsolat a fejlesztővel",
+      "liveDemo": "Élő Demo",
+      "allGuides": "Összes útmutató →",
+      "allComparisons": "Összes alternatíva →"
+    },
+    "licenseDescription": "Egyszeri vásárlás, örökös hozzáférés legfeljebb 3 saját Windows számítógépen.",
+    "buyLicense": "Licenc vásárlása (€39)",
+    "copyright": "© {{year}} SWAYA. Minden jog fenntartva.",
+    "madeWithLove": "Készült",
+    "forCollectors": "médiaszelektálóknak és gyűjtőknek",
+    "languages": "Nyelvek:"
+  },
+  "changelog": {
+    "badge": "Kiadási előzmények",
+    "title": "Kiadási megjegyzések & Változásnapló",
+    "subtitle": "Kövesd nyomon az új funkciókat, teljesítmény-optimalizálásokat és frissítéseket minden SWAYA kiadásban.",
+    "latest": "Legújabb kiadás",
+    "highlights": "Főbb újdonságok"
+  },
+  "help": {
+    "badge": "Súgó & Közösség",
+    "title": "Hogyan segíthetünk?",
+    "subtitle": "Vedd fel a kapcsolatot a fejlesztővel, csatlakozz Discord közösségünkhöz vagy böngészd a dokumentációt.",
+    "cards": {
+      "discord": {
+        "tag": "Élő Közösség & Csevegés",
+        "title": "Discord Szerver",
+        "description": "Csatlakozz aktív gyűjtői közösségünkhöz! Tegyél fel kérdéseket, ossz meg tippeket, kérj gyors segítséget és értesülj azonnal a legújabb kiadásokról.",
+        "button": "Csatlakozás a Discordhoz",
+        "badge": "Online Közösség"
+      },
+      "email": {
+        "tag": "Közvetlen Kapcsolat",
+        "title": "Közvetlen Email Támogatás",
+        "description": "Kérdésed van a licencelésről, új funkciót javasolnál, visszajelzést küldenél vagy hibát találtál? Írj közvetlenül a fejlesztőnek.",
+        "button": "Email küldése",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "Dokumentációt keresel?",
+      "subtitle": "Ismerd meg a lépésről-lépésre bemutató útmutatókat, a csoportos fájlátnevezést és a technikai részleteket.",
+      "allGuides": "Összes 13 útmutató megtekintése →"
+    },
+    "faq": {
+      "title": "Gyakori Támogatási Kérdések",
+      "subtitle": "Gyors válaszok a licencekkel, adatvédelemmel és funkciókkal kapcsolatban."
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA Összehasonlítások & Szoftver Alternatívák",
+    "metaDescription": "Hasonlítsd össze a SWAYA-t a FileBot, Plex, tinyMediaManager, StashApp, Jellyfin és Kodi rendszerekkel. Találd meg a legjobb offline médiaközpontot Windowsra.",
+    "tag": "Szoftver Alternatívák",
+    "title": "Miért a SWAYA?",
+    "titleAccent": "Így viszonyulunk a többiekhez.",
+    "subtitle": "Ismerd meg, miért választják a gyűjtők a 100%-ban offline, szerver nélküli SWAYA-t kötegelt lemezfájl-átnevezéssel és beépített 4K MPV lejátszóval.",
+    "viewAll": "Összes alternatíva és részletes táblázat →",
+    "badge": "Szoftver Összehasonlítások",
+    "hubTitle": "SWAYA vs",
+    "hubTitleAccent": "Az Alternatívák",
+    "hubSubtitle": "Hasonlítsd össze a SWAYA-t a népszerű médiaszerverekkel, fizikai fájlátnevezőkkel és médiakezelőkkel, és tudd meg, miért választják a gyűjtők a 100%-ban offline alkalmazásunkat.",
+    "viewComparison": "Összehasonlítás megtekintése",
+    "relatedDocsTitle": "Kapcsolódó SWAYA funkciók és útmutatók",
+    "relatedDocsSubtitle": "Részletes dokumentációs útmutatók a fenti kulcsfunkciókhoz.",
+    "honestComparison": "Őszinte Összehasonlítás: Melyik a megfelelő számodra?",
+    "honestSubtitle": "Minden eszköznek megvannak a maga erősségei. Íme egy őszinte áttekintés a döntés megkönnyítésére.",
+    "chooseCompetitor": "Válaszd a(z) {{name}} szoftvert, ha...",
+    "chooseSwaya": "Válaszd a SWAYA-t, ha...",
+    "featureBreakdown": "Részletes Funkció-Összehasonlítás",
+    "featureSubtitle": "Közvetlen technikai és munkafolyamat-összehasonlítás a SWAYA és a(z) {{name}} között.",
+    "featureHeader": "Funkció / Képesség",
+    "whySwitch": "Miért váltanak a felhasználók SWAYA-ra?",
+    "whySwitchSubtitle": "Főbb architekturális előnyök médiaszelektálóknak és power usereknek.",
+    "faqSubtitle": "Gyakori kérdések a SWAYA-ra való áttérésről vagy a(z) {{name}} melletti használatról.",
+    "ctaTitle": "Készen állsz átvenni az irányítást a gyűjteményed felett?",
+    "ctaSubtitle": "Tapasztald meg a prémium offline médiaközpontot Windows-on. Rendszerezz merevlemezen lévő fájlokat, böngéssz 4K metaadatokkal és élvezd a natív MPV lejátszót.",
+    "buyCta": "Örökös licenc vásárlása (€39)",
+    "demoCta": "Élő Demo indítása",
+    "yes": "Igen",
+    "no": "Nem",
+    "partial": "Részleges"
+  },
+  "cookies": {
+    "ariaLabel": "Adatvédelem és sütikezelés",
+    "title": "Adatvédelem és anonim analitika",
+    "description": "Adatvédelmet tiszteletben tartó anonim analitikát használunk a teljesítmény és összeomlási diagnosztika monitorozására.",
+    "essentialOnly": "Csak szükségesek",
+    "acceptAll": "Analitika elfogadása"
+  },
+  "privacy": {
+    "badge": "Adatvédelem & Biztonság",
+    "title": "Adatvédelmi Nyilatkozat",
+    "subtitle": "A SWAYA egy 100%-ban offline működésre tervezett asztali alkalmazás. Garantáljuk a nulla telemetriát, a teljes helyi adattárolást és a szigorú kriptográfiai védelmet.",
+    "lastUpdated": "Utoljára frissítve: 2026. augusztus 20.",
+    "scope": "Érvényes a SWAYA Desktop alkalmazásra & swaya.xyz weboldalra",
+    "section1Title": "1. Nulla Telemetria & Helyi Médiatárolás",
+    "section1Text": "A SWAYA egy offline-first asztali médiaközpont és videólejátszó. Médiafájljaid, fájlneveid, mappastruktúráid, lejátszási előzményeid, értékeléseid, címkéid és jegyzeteid kizárólag a saját számítógépeden tárolódnak egy helyi SQLite adatbázisban (data/swaya.db).",
+    "section1Point1": "Nem továbbítjuk, nem indexeljük és nem vizsgáljuk a merevlemezeden lévő videókat és letöltéseket.",
+    "section1Point2": "Nem rögzítünk lejátszási időt, nézési szokásokat és használati statisztikákat.",
+    "section1Point3": "Minden metaadat-letöltési kérés (TMDb, OMDb, StashDB stb.) közvetlenül a gépedről indul a szolgáltatóhoz, anélkül hogy a szervereinken haladna át.",
+    "section2Title": "2. Vásárlási Információk & Licenc Kézbesítés",
+    "section2Text": "A SWAYA licenc megvásárlásakor a fizetés a Stripe Inc. biztonságos rendszerén keresztül történik. Soha nem látjuk és nem tároljuk a bankkártyaadataidat vagy bankszámlaszámodat.",
+    "section2Point1": "Kezelt adatok: Vásárló email címe, neve (opcionális), Stripe tranzakció azonosító és időbélyeg.",
+    "section2Point2": "Cél: Kizárólag a kriptográfiailag aláírt licenckulcs generálása, megerősítő email kiküldése és ügyféltámogatás nyújtása.",
+    "section2Point3": "Megőrzés: A számlázási rekordokat kizárólag a licencérvényesítés és a számviteli kötelezettségek miatt őrizzük meg.",
+    "section3Title": "3. Eszközaktiválás & Offline Érvényesítés",
+    "section3Text": "A licenckulcs aktiválásakor a szoftver egyetlen egyszeri kérést küld az aktivációs szerverünknek egy HMAC-SHA256 offline licenctoken létrehozásához:",
+    "section3Point1": "A kérés egy visszafordíthatatlanul hashelt hardverazonosítót tartalmaz a 3 eszközös limit betartásához.",
+    "section3Point2": "Az aktiválást követően a licenctoken helyben tárolódik. A SWAYA 100%-ban működik internetkapcsolat nélkül.",
+    "section3Point3": "Bármikor deaktiválhatsz egy eszközt a Beállítások menüben a foglalás felszabadításához.",
+    "section4Title": "4. Weboldal Analitika & Sütik",
+    "section4Text": "A marketing weboldalunkon (swaya.xyz) adatvédelem-barát, személyes adatokat nem gyűjtő analitikát használunk a betöltési sebesség és a látogatottság mérésére:",
+    "section4Point1": "Nem követünk weboldalak között, nem ujjlenyomatozunk és nem adunk el adatokat hirdetőknek.",
+    "section4Point2": "A webes analitika csak a GDPR süti-hozzájárulás elfogadása esetén fut le.",
+    "section5Title": "5. Jogaid & Kapcsolat",
+    "section5Text": "A GDPR és az adatvédelmi jogszabályok értelmében bármikor kérheted a számlázási email címed és licencrekordod törlését az aktivációs szerverünkről.",
+    "section5Contact": "Bármilyen kérdés, adattörlési kérelem vagy támogatás esetén írj közvetlenül a fejlesztőnek:"
+  },
+  "terms": {
+    "badge": "Felhasználási Feltételek",
+    "title": "Általános Szerződési Feltételek & Visszatérítési Szabályzat",
+    "subtitle": "Kérjük, olvasd el figyelmesen a feltételeket a vásárlás előtt. A licenc megvásárlásával vagy a szoftver letöltésével elfogadod jelen szerződési feltételeket.",
+    "lastUpdated": "Utoljára frissítve: 2026. augusztus 20.",
+    "scope": "SWAYA v1.x Asztali Szoftver",
+    "section1Title": "1. Szoftverlicenc & Használati Jog",
+    "section1Text": "Az egyszeri licencdíj megfizetésével (bevezető ár 39 €, normál ár 79 €) a SWAYA nem kizárólagos, örökös, nem átruházható személyes licencet biztosít a szoftver telepítésére és futtatására legfeljebb 3 saját Windows eszközödön.",
+    "section1Point1": "Bármikor deaktiválhatsz egy eszközt közvetlenül az alkalmazásból, hogy a licencet egy új gépre helyezd át.",
+    "section1Point2": "Tilos a licenckulcs vagy a kriptográfiai tokenek viszonteladása, bérbeadása, nyilvános megosztása.",
+    "section1Point3": "A szoftver kereskedelmi újraterjesztése, harmadik féltől származó csomagokba építése vagy a védelmi algoritmusok visszafejtése szigorúan tilos.",
+    "section2Title": "2. Visszatérítési & Elállási Garancia",
+    "section2Text": "Célunk, hogy 100%-ban elégedett legyél a SWAYA-val. Mivel azonnal letölthető digitális szoftverről van szó, az alábbi garanciális feltételek érvényesek:",
+    "section2Point1": "Nem aktivált licencek (14 napos pénzvisszafizetési garancia): Ha még nem aktiváltad a licenckulcsot az appban, a vásárlástól számított 14 napon belül kérdés nélkül 100%-os visszatérítést kapsz emailben.",
+    "section2Point2": "Aktivált licencek (7 napos kompatibilitási garancia): Ha aktiváltad a kulcsot, de a támogatott Windows rendszereden olyan technikai hiba lép fel, amit nem tudunk elhárítani, a vásárlástól számított 7 napon belül 100%-os visszatérítést biztosítunk.",
+    "section2Point3": "Automatikus kulcsvisszavonás: Visszatérítés esetén a licenckulcs és a hozzá tartozó eszközök azonnal és véglegesen törlésre kerülnek a szerverről.",
+    "section3Title": "3. Megengedett Használat & Felhasználói Felelősség",
+    "section3Text": "A SWAYA egy helyi fájlrendező és videólejátszó eszköz. Kizárólag te felelsz az alkalmazásba betöltött összes videóért, hanganyagért, képért és szövegért.",
+    "section3Point1": "100%-ban megtartod a médiafájljaid tulajdonjogát és szerzői jogait. A SWAYA soha nem tölti fel a fájljaidat sehova.",
+    "section3Point2": "Vállalod, hogy a SWAYA-t a helyi és nemzetközi jogszabályoknak, valamint a szerzői jogoknak megfelelően használod.",
+    "section4Title": "4. Örökös Frissítések & Karbantartás",
+    "section4Text": "Az örökös licenc feljogosít az összes v1.x verziójú szoftverfrissítés, új funkció, metaadat-javítás és biztonsági javítócsomag ingyenes letöltésére a termék életciklusa alatt.",
+    "section5Title": "5. Jogi Felelősségkizárás",
+    "section5Text1": "A SWAYA \"ahogy van\" (as-is) alapon kerül átadásra. A szoftver szimulált előnézetet biztosít a fájlátnevezésekről és mozgatásokról; a felhasználó felelőssége a lemezműveletek jóváhagyása.",
+    "section5Text2": "A jogszabályok által megengedett legteljesebb mértékben a fejlesztő nem vállal felelősséget közvetett vagy következményi károkért, beleértve az adatvesztést vagy adattároló hibákat.",
+    "section6Title": "6. Ügyfélszolgálat & Kapcsolat",
+    "section6Text": "Visszatérítési igény, technikai kérdés vagy javaslat esetén fordulj közvetlenül a fejlesztőhöz a levicore@proton.me címen vagy Discord közösségünkben."
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - 100% Offline Mediacenter & Videospeler voor Windows",
+    "description": "Serverloos offline alternatief voor Plex en FileBot op Windows. Automatisch downloads hernoemen, filmcollecties op harde schijven organiseren en 4K HDR afspelen."
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "Home",
+    "docs": "Documentatie",
+    "changelog": "Changelog",
+    "compare": "Vergelijkingen",
+    "help": "Help & Support",
+    "download": "Download & Prijzen",
+    "title": "SWAYA Navigatie",
+    "discord": "Discord",
+    "buy": "Koop SWAYA (€39)",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "Uw Volledige Offline Media-universum,",
+    "taglineAccent": "Onder Totale Controle.",
+    "subtitle": "Georganiseerde films, series en video's rechtstreeks op uw harde schijven. Automatische metadata, Plex & Jellyfin mappenstructuren en 4K HDR-weergave zonder serververeisten.",
+    "priceOld": "€79",
+    "priceNew": "€39",
+    "priceTag": "Introductieaanbieding (50% Korting)",
+    "buyCta": "Krijg Levenslange Toegang voor €39",
+    "demoCta": "Start Live Webdemo",
+    "guarantees": {
+      "payment": "Eenmalige aankoop",
+      "updates": "Levenslange gratis updates",
+      "devices": "Tot 3 persoonlijke Windows-pc's"
+    }
+  },
+  "video": {
+    "tag": "Productoverzicht",
+    "title": "Wat is SWAYA?",
+    "titleAccent": "Bekijk het in Actie.",
+    "subtitle": "SWAYA is een moderne Windows-desktopapplicatie die uw ongeorganiseerde bestanden structureert, een visuele mediacatalogus creëert en soepele 4K MPV-weergave biedt.",
+    "badge": "2:48 Rondleiding",
+    "placeholderTitle": "Product Demovideo",
+    "placeholderSubtitle": "Rondleiding door batch hernoemen, mediacatalogus en de ingebouwde MPV-speler.",
+    "transcriptTitle": "Videorondleiding Hoogtepunten & Functieoverzicht",
+    "transcriptOrganizer": "00:00 - Slimme batch hernoeming en geautomatiseerde mappenstructuren",
+    "transcriptCuration": "01:00 - Mediabibliotheek, detailpagina's en catalogusbeheer",
+    "transcriptPrivacy": "02:25 - Ingebouwde MPV-speler, hervatten en geschiedenislogboeken",
+    "comingSoon": "Demovideo binnenkort beschikbaar",
+    "play": "Demovideo afspelen",
+    "pause": "Demovideo pauzeren"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "Geautomatiseerde Bestandshernoeming",
+      "title": "Van een chaotische downloadmap naar een perfecte bibliotheek.",
+      "titleAccent": "Direct op uw harde schijf.",
+      "description": "Koppel films, series en video's automatisch aan TMDb en StashDB. Aangepaste naamsjablonen en conflictbeveiliging hernoemen en verplaatsen duizenden bestanden veilig naar Plex/Jellyfin-standaarden.",
+      "benefits": [
+        "Automatische metadata-scraping via toonaangevende databases",
+        "Fysieke bestanden batch hernoemen en automatisch in mappen structureren",
+        "Veilige droogloop-preview en bescherming tegen bestandsoverschrijving"
+      ],
+      "supportedApisLabel": "Ondersteunde Metadata Providers",
+      "mockupTitle": "Slimme Batch Bestandsorganizer",
+      "mockupBadge": "142 overeenkomsten • Klaar voor hernoemen",
+      "mockupPlaceholder": "Organizer screenshot"
+    },
+    "curation": {
+      "tag": "Alles op één plek",
+      "title": "Films, series, video's en acteurs.",
+      "titleAccent": "In één centrale catalogus.",
+      "description": "Verrijk uw lokale harde schijfcollecties met 4K-posters, achtergrondafbeeldingen, acteursprofielen en studiogegevens. Maak aangepaste lijsten met automatische 4-poster collages en schrijf markdown privénote's.",
+      "benefits": [
+        "Geconsolideerde bibliotheek voor films, series, scènes en studio's",
+        "Direct browsen door lokale en externe USB-harde schijven",
+        "10-punts beoordelingssysteem en privé markdown recensies"
+      ],
+      "mockupTitle": "Universele Mediacatalogus",
+      "mockupBadge": "4K Artwork • Lokale Database",
+      "mockupPlaceholder": "Mediadetails screenshot"
+    },
+    "privacy": {
+      "tag": "Geen Cloud • Geen Accounts",
+      "title": "100% Offline & Volledig Privé.",
+      "titleAccent": "Nul cloud-afhankelijkheid, nul tracking.",
+      "description": "Geen Plex-servers, geen cloudaccounts en geen maandelijkse abonnementskosten. Al uw media blijft veilig op uw eigen pc, met een directe stealth-kluis via sneltoetsen.",
+      "benefits": [
+        "100% lokale gegevensverwerking (geen telemetrie of externe overdracht)",
+        "Discrete stealth-kluis om gevoelige collecties direct te verbergen",
+        "Eenmalige aankoop van €39 voor levenslang offline gebruik"
+      ],
+      "mockupTitle": "Stealth Kluis & Privacybeveiliging",
+      "mockupBadge": "Lokale SQLite DB • Geen Cloud",
+      "mockupPlaceholder": "Privacy kluis screenshot"
+    }
+  },
+  "faq": {
+    "tag": "Veelgestelde Vragen",
+    "title": "Veelgestelde Vragen",
+    "titleAccent": "(FAQ)",
+    "subtitle": "Alles over functies, licenties, offline privacy en prestaties van SWAYA.",
+    "items": [
+      {
+        "question": "Waarin verschilt SWAYA van Plex, Jellyfin of Kodi?",
+        "answer": "In tegenstelling tot Plex of Jellyfin vereist SWAYA geen serverinstallatie, netwerkstreaming of accountregistratie. Het is een snelle desktop-app die bestanden rechtstreeks op uw harde schijven organiseert en afspeelt met een geïntegreerde MPV-engine."
+      },
+      {
+        "question": "Kan SWAYA FileBot vervangen voor het hernoemen van bestanden?",
+        "answer": "Ja. SWAYA bevat een geavanceerde batch-organizer die TMDb, StashDB en ThePornDB gebruikt om rommelige bestandsnamen te herkennen en ze veilig naar Plex/Jellyfin-mapstructuren te hernoemen."
+      },
+      {
+        "question": "Werkt SWAYA met externe harde schijven en USB-sticks?",
+        "answer": "Ja, uitstekend. SWAYA is ontworpen voor externe schijven. Zelfs als een schijf is losgekoppeld, blijven uw catalogus, posters en kijkgeschiedenis lokaal doorzoekbaar."
+      },
+      {
+        "question": "Is SWAYA volledig offline en privacy-vriendelijk?",
+        "answer": "Ja. Alle metadata, SQLite-databases en instellingen worden 100% lokaal op uw pc opgeslagen. Er is geen externe tracking of cloudkoppeling."
+      },
+      {
+        "question": "Welke videospeler-engine gebruikt SWAYA?",
+        "answer": "SWAYA bevat een geoptimaliseerde ingebouwde MPV-speler met volledige GPU-hardwareversnelling voor 4K HDR, Dolby Vision, audio/ondertitelwissels en automatische hervatting."
+      },
+      {
+        "question": "Welke metadataproviders worden ondersteund?",
+        "answer": "SWAYA koppelt rechtstreeks met TMDb, OMDb, StashDB, FansDB en ThePornDB voor posters, studio's en cast-informatie."
+      },
+      {
+        "question": "Hoe werkt het licentiemodel?",
+        "answer": "SWAYA is een eenmalige aankoop van €39 voor een permanente licentie. Geen abonnementen, inclusief alle toekomstige v1.x updates, bruikbaar op maximaal 3 persoonlijke Windows-pc's."
+      }
+    ]
+  },
+  "download": {
+    "title": "Start Vandaag Met Het Organiseren Van Uw Collectie",
+    "subtitle": "Koop de permanente licentie voor Windows. Eenmalige betaling van €39. Geen maandelijkse kosten.",
+    "button": "Koop Permanente Licentie (€39)",
+    "disclaimer": "Direct na aankoop ontvangt u uw licentiesleutel en downloadlink. 100% offline compatibel."
+  },
+  "footer": {
+    "tagline": "Privacy-eerst offline mediacenter en slimme batch-organizer voor persoonlijke collecties.",
+    "badge": "Offline-First • v1.0 Windows",
+    "columns": {
+      "navigation": "Navigatie",
+      "comparisons": "Vergelijkingen",
+      "documentation": "Documentatie",
+      "getSwaya": "SWAYA Kopen"
+    },
+    "links": {
+      "home": "Home",
+      "docs": "Documentatie",
+      "changelog": "Changelog",
+      "help": "Help & Support",
+      "privacy": "Privacybeleid",
+      "terms": "Algemene Voorwaarden & Terugbetaling",
+      "discord": "Discord Community",
+      "contact": "Contact met Ontwikkelaar",
+      "liveDemo": "Live Webdemo",
+      "allGuides": "Alle gidsen →",
+      "allComparisons": "Alle vergelijkingen →"
+    },
+    "licenseDescription": "Eenmalige aankoop voor permanente toegang op maximaal 3 persoonlijke Windows-pc's.",
+    "buyLicense": "Licentie Kopen (€39)",
+    "copyright": "© {{year}} SWAYA. Alle rechten voorbehouden.",
+    "madeWithLove": "Gemaakt met",
+    "forCollectors": "voor mediacollectors",
+    "languages": "Talen:"
+  },
+  "changelog": {
+    "badge": "Versiegeschiedenis",
+    "title": "Release-opmerkingen & Changelog",
+    "subtitle": "Ontdek nieuwe functies, prestatieverbeteringen en updates in SWAYA.",
+    "latest": "Nieuwste release",
+    "highlights": "Belangrijkste hoogtepunten"
+  },
+  "help": {
+    "badge": "Ondersteuning & Community",
+    "title": "Hoe kunnen we u helpen?",
+    "subtitle": "Neem rechtstreeks contact op met de ontwikkelaar, sluit u aan bij onze Discord of raadpleeg onze handleidingen.",
+    "cards": {
+      "discord": {
+        "tag": "Live Community & Chat",
+        "title": "Officiële Discord Server",
+        "description": "Praat mee met andere mediacollectors, deel tips en blijf op de hoogte van de nieuwste functies.",
+        "button": "Word lid van Discord",
+        "badge": "Online Community"
+      },
+      "email": {
+        "tag": "Direct Contact",
+        "title": "E-mail Ondersteuning",
+        "description": "Vragen over licenties, functieverzoeken, feedback of bugrapporten kunt u rechtstreeks sturen.",
+        "button": "Stuur een E-mail",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "Op zoek naar handleidingen?",
+      "subtitle": "Bekijk stapsgewijze gidsen over bestandshernoeming, instellingen en geavanceerde functies.",
+      "allGuides": "Bekijk alle 13 gidsen →"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen over Support",
+      "subtitle": "Snelle antwoorden over licenties, privacy en functionaliteit."
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA Vergelijkingen & Software-alternatieven",
+    "metaDescription": "Vergelijk SWAYA met FileBot, Plex, tinyMediaManager, StashApp, Jellyfin en Kodi. Vind het beste offline mediacenter en bestandshernoemer voor Windows.",
+    "tag": "Softwarevergelijkingen",
+    "title": "Waarom kiezen voor SWAYA?",
+    "titleAccent": "Vergeleken met Alternatieven",
+    "subtitle": "Ontdek waarom verzamelaars kiezen voor ons serverloze, 100% offline mediacenter met ingebouwde 4K MPV-speler.",
+    "viewAll": "Bekijk alle softwarevergelijkingen →",
+    "badge": "Softwarevergelijkingen",
+    "hubTitle": "SWAYA vs",
+    "hubTitleAccent": "De Alternatieven",
+    "hubSubtitle": "Vergelijk SWAYA met populaire mediaservers en bestandshernoemers en ontdek de voordelen van een 100% offline desktopapplicatie.",
+    "viewComparison": "Vergelijking bekijken",
+    "relatedDocsTitle": "Gerelateerde SWAYA Functies & Gidsen",
+    "relatedDocsSubtitle": "Lees de uitgebreide documentatie over de vergeleken kernfuncties.",
+    "honestComparison": "Eerlijke vergelijking: Welke tool past bij u?",
+    "honestSubtitle": "Elke tool heeft sterke punten. Een objectieve analyse om u te helpen kiezen.",
+    "chooseCompetitor": "Kies {{name}} wanneer...",
+    "chooseSwaya": "Kies SWAYA wanneer...",
+    "featureBreakdown": "Gedetailleerde Functievergelijking",
+    "featureSubtitle": "Directe technische vergelijking tussen SWAYA en {{name}}.",
+    "featureHeader": "Functie / Specificatie",
+    "whySwitch": "Waarom SWAYA het verschil maakt",
+    "whySwitchSubtitle": "Ontworpen vanuit de behoeften van serieuze mediacollectors.",
+    "faqSubtitle": "Veelgestelde vragen over overstappen vanaf of combineren met {{name}}.",
+    "ctaTitle": "Klaar voor volledige controle over uw collectie?",
+    "ctaSubtitle": "Het ultieme offline mediacenter voor Windows. Organiseer uw bestanden en geniet van 4K HDR MPV-weergave.",
+    "buyCta": "Koop Permanente Licentie (€39)",
+    "demoCta": "Start Live Webdemo",
+    "yes": "Ja",
+    "no": "Nee",
+    "partial": "Gedeeltelijk"
+  },
+  "cookies": {
+    "ariaLabel": "Privacy & Cookie-instellingen",
+    "title": "Privacy & Anonieme Analyse",
+    "description": "We gebruiken anonieme diagnostische gegevens om prestaties en stabiliteit te verbeteren.",
+    "essentialOnly": "Alleen noodzakelijk",
+    "acceptAll": "Alles accepteren"
+  },
+  "privacy": {
+    "badge": "Privacy & Beveiliging",
+    "title": "Privacybeleid",
+    "subtitle": "SWAYA is ontworpen als een 100% offline desktop-app. Nul telemetrie, volledige lokale gegevensopslag en sterke cryptografische beveiliging.",
+    "lastUpdated": "Laatst bijgewerkt: 20 augustus 2026",
+    "scope": "Van toepassing op de SWAYA Desktop App en swaya.xyz",
+    "section1Title": "1. Nul Telemetrie & Lokale Gegevensopslag",
+    "section1Text": "SWAYA is een offline-first mediacenter. Mediabestanden, mapstructuren, kijkgeschiedenis, beoordelingen en notities worden uitsluitend opgeslagen in een lokale SQLite-database (data/swaya.db).",
+    "section1Point1": "Er worden nooit mediabestanden of schijfinhouden verzonden, geïndexeerd of geanalyseerd.",
+    "section1Point2": "Er worden geen kijkstatistieken of gebruiksgewoonten op afstand geregistreerd.",
+    "section1Point3": "Metadata-zoekopdrachten (TMDb, StashDB) gaan rechtstreeks vanaf uw eigen computer naar de betreffende API zonder tussenkomst van onze servers.",
+    "section2Title": "2. Betalingsinformatie & Licentie-uitgifte",
+    "section2Text": "Betalingen worden veilig verwerkt via Stripe Inc. Wij slaan geen creditcard- of bankgegevens op.",
+    "section2Point1": "Verzamelde gegevens: E-mailadres, naam (optioneel), Stripe transactie-ID en tijdstempel.",
+    "section2Point2": "Doel: Het genereren van een cryptografisch ondertekende licentiesleutel en orderbevestiging.",
+    "section2Point3": "Bewaartermijn: Administratieve gegevens worden bewaard conform fiscale wetgeving.",
+    "section3Title": "3. Apparaatactivatie & Offline Verificatie",
+    "section3Text": "Bij licentie-invoer communiceert de app eenmalig met de licentieserver om een lokaal verificatietoken te genereren:",
+    "section3Point1": "De activatie bevat enkel een onomkeerbare hardware-hash om de limiet van 3 apparaten te beheren.",
+    "section3Point2": "Na activatie werkt SWAYA permanent 100% offline zonder internetverbinding.",
+    "section3Point3": "Apparaten kunnen op elk gewenst moment via de instellingen worden gedeactiveerd.",
+    "section4Title": "4. Website Analyse & Cookies",
+    "section4Text": "Op de website (swaya.xyz) gebruiken we geanonimiseerde analyse om laadtijden en fouten te monitoren:",
+    "section4Point1": "Geen cross-site tracking of verkoop van gegevens aan advertentienetwerken.",
+    "section4Point2": "Analytische cookies worden alleen geplaatst na expliciete toestemming.",
+    "section5Title": "5. Uw Rechten (AVG/GDPR) & Contact",
+    "section5Text": "Onder de AVG heeft u het recht op inzage, correctie of verwijdering van uw licentieregistratiegegevens.",
+    "section5Contact": "Voor vragen of verzoeken kunt u rechtstreeks contact opnemen met de ontwikkelaar:"
+  },
+  "terms": {
+    "badge": "Voorwaarden",
+    "title": "Algemene Voorwaarden & Terugbetalingsbeleid",
+    "subtitle": "Lees deze voorwaarden zorgvuldig door. Door aanschaf of download stemt u in met deze overeenkomst.",
+    "lastUpdated": "Laatst bijgewerkt: 20 augustus 2026",
+    "scope": "SWAYA v1.x Desktop Software",
+    "section1Title": "1. Licentieverlening & Gebruik",
+    "section1Text": "Bij aankoop van een licentie (€39 introductieprijs, €79 regulier) verleent SWAYA u een niet-exclusieve, permanente licentie voor maximaal 3 persoonlijke Windows-apparaten.",
+    "section1Point1": "U kunt apparaten op elk moment deactiveren en licenties overdragen naar een nieuwe pc.",
+    "section1Point2": "Het doorverkopen, verhuren of openbaar delen van licentiesleutels is niet toegestaan.",
+    "section1Point3": "Commerciële herdistributie of reverse engineering is uitdrukkelijk verboden.",
+    "section2Title": "2. Terugbetalingsbeleid",
+    "section2Text": "SWAYA hanteert een duidelijk en transparant terugbetalingsbeleid:",
+    "section2Point1": "Niet-geactiveerde licentie (14 dagen bedenktijd): Indien niet geactiveerd, ontvangt u binnen 14 dagen na aankoop 100% terugbetaling.",
+    "section2Point2": "Geactiveerde licentie (7 dagen technische garantie): Indien de software technisch niet werkt op een ondersteund Windows-systeem en ondersteuning dit niet kan verhelpen, ontvangt u binnen 7 dagen 100% terugbetaling.",
+    "section2Point3": "Deactivatie: Bij terugbetaling wordt de betreffende licentiesleutel permanent ingetrokken.",
+    "section3Title": "3. Gebruik & Verantwoordelijkheid voor Content",
+    "section3Text": "SWAYA is een hulpmiddel voor bestandsbeheer en videoweergave. U blijft volledig verantwoordelijk voor de media die u beheert.",
+    "section3Point1": "U behoudt alle intellectuele eigendomsrechten op uw eigen mediabestanden.",
+    "section3Point2": "U stemt ermee in de software te gebruiken conform alle geldende wet- en regelgeving.",
+    "section4Title": "4. Levenslange Updates",
+    "section4Text": "Licentiehouders hebben recht op alle gratis versie 1.x updates, nieuwe functies en beveiligingspatches.",
+    "section5Title": "5. Uitsluiting van Garantie & Aansprakelijkheid",
+    "section5Text1": "SWAYA wordt geleverd 'as is'. Er is een previewfunctie beschikbaar om wijzigingen te controleren voordat bestanden op schijf worden hernoemd.",
+    "section5Text2": "Voor zover wettelijk toegestaan is de ontwikkelaar niet aansprakelijk voor indirecte schade of gegevensverlies.",
+    "section6Title": "6. Klantenservice & Vragen",
+    "section6Text": "Voor vragen over terugbetalingen of technische ondersteuning kunt u terecht op levicore@proton.me of onze Discord community."
+  }
+}

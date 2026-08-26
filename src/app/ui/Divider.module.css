@@ -1,0 +1,14 @@
+.root {
+  border: none;
+  height: 0.0625rem;
+  background: color-mix(in srgb, var(--color-text-primary) 8%, transparent);
+  margin: 0;
+  width: 100%;
+}
+
+.root--vertical {
+  width: 0.0625rem;
+  height: 1.125rem;
+  margin: 0 var(--space-xs);
+  flex-shrink: 0;
+}

@@ -1,0 +1,110 @@
+.root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: var(--ui-overlay-bg);
+  color: var(--color-text-primary);
+  overflow: hidden;
+  animation: fadeIn var(--motion-base);
+}
+
+.root[data-centered="true"],
+.is-centered {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-index-fullscreen-overlay);
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(1.01);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.sidebar {
+  width: var(--ui-overlay-sidebar-width, 16.25rem);
+  flex-shrink: 0;
+  height: 100%;
+  border-right: 1px solid var(--color-border-subtle);
+  background: var(--color-surface-subtle);
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+/* ── Content Presets ── */
+.content {
+  width: 100%;
+  margin: 0 auto;
+  padding: var(--ui-overlay-content-padding, var(--space-4xl) var(--space-2xl) var(--space-3xl) var(--space-2xl));
+  max-width: 52rem;
+}
+
+/* Width Variants */
+.content[data-width="narrow"],
+.root[data-width="narrow"] .content {
+  max-width: 36rem;
+}
+
+.content[data-width="compact"],
+.content[data-width="medium"],
+.root[data-width="compact"] .content,
+.root[data-width="medium"] .content {
+  max-width: 52rem;
+}
+
+.content[data-width="wide"],
+.root[data-width="wide"] .content {
+  max-width: 72rem;
+}
+
+.content[data-width="fluid"],
+.content[data-width="full"],
+.root[data-width="fluid"] .content,
+.root[data-width="full"] .content {
+  max-width: 100%;
+}
+
+/* Padding Density Variants */
+.root[data-padding="compact"] .content {
+  padding: var(--space-3xl) var(--space-3xl) var(--space-2xl) var(--space-3xl);
+}
+
+.root[data-padding="flush"] .content {
+  padding: 0;
+}
+
+.close-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: var(--ui-overlay-close-top);
+  right: var(--ui-overlay-close-right);
+  z-index: var(--ui-overlay-close-z);
+}
+
+.esc-hint {
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-muted);
+  margin-top: var(--space-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  user-select: none;
+}

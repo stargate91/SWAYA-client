@@ -1,0 +1,72 @@
+.menu {
+  position: absolute;
+  bottom: var(--layout-window-titlebar-height, 2.5rem);
+  right: 0;
+  min-width: 11.25rem;
+  max-width: 17.5rem;
+  max-height: 15rem;
+  overflow-y: auto;
+  background: color-mix(in srgb, var(--player-color-canvas) 90%, transparent);
+  backdrop-filter: blur(0.75rem);
+  border: 1px solid var(--player-color-border-strong);
+  border-radius: var(--player-radius-sm);
+  padding: var(--player-space-xs);
+  box-shadow: var(--shadow-lg);
+  z-index: var(--z-index-fullscreen-overlay);
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--player-space-2xs) / 2);
+}
+
+.title {
+  color: color-mix(in srgb, var(--player-color-ink) 40%, transparent);
+  font-size: var(--player-font-size-2xs);
+  font-weight: var(--player-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  padding: var(--player-space-xs) var(--player-space-sm) var(--player-space-2xs) var(--player-space-sm);
+  border-bottom: 1px solid var(--player-color-border-default);
+  margin-bottom: var(--player-space-2xs);
+}
+
+.item {
+  background: transparent;
+  border: none;
+  color: color-mix(in srgb, var(--player-color-ink) 85%, transparent);
+  text-align: left;
+  padding: var(--player-space-sm) var(--player-space-lg);
+  font-size: var(--player-font-size-sm);
+  font-weight: var(--player-weight-medium);
+  border-radius: var(--player-radius-sm);
+  cursor: pointer;
+  width: 100%;
+  transition: background var(--motion-duration-fast) var(--motion-ease-standard), color var(--motion-duration-fast) var(--motion-ease-standard);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item:hover {
+  background: color-mix(in srgb, var(--player-color-ink) 10%, transparent);
+  color: var(--player-color-ink);
+}
+
+.active {
+  color: var(--player-accent);
+  background: color-mix(in srgb, var(--player-accent) 12%, transparent);
+  font-weight: var(--player-weight-semibold);
+}
+
+.empty {
+  color: color-mix(in srgb, var(--player-color-ink) 40%, transparent);
+  font-size: var(--player-font-size-sm);
+  padding: var(--player-space-lg);
+  text-align: center;
+}
+
+.divider {
+  height: 0.0625rem;
+  background: var(--player-color-border-default);
+  margin: var(--player-space-2xs) 0;
+  width: 100%;
+}

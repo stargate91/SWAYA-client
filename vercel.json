@@ -1,0 +1,96 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "trailingSlash": false,
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.swaya.xyz"
+        }
+      ],
+      "destination": "https://swaya.xyz/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/compare/stashapp",
+      "destination": "/compare/stash",
+      "permanent": true
+    },
+    {
+      "source": "/:lang/compare/stashapp",
+      "destination": "/:lang/compare/stash",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:page(dashboard|library|organizer|player|settings|onboarding|search|history|ratings|my-ratings|lists|statistics|torrent|tags|about)/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:page(dashboard|library|organizer|player|settings|onboarding|search|history|ratings|my-ratings|lists|statistics|torrent|tags|about)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:lang(de|ja|hu|fr|es|zh|it|ru|pt|ko|nl|pl|zh-tw|sv|tr|cs)/:page(dashboard|library|organizer|player|settings|onboarding|search|history|ratings|my-ratings|lists|statistics|torrent|tags|about)/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/:lang(de|ja|hu|fr|es|zh|it|ru|pt|ko|nl|pl|zh-tw|sv|tr|cs)/:page(dashboard|library|organizer|player|settings|onboarding|search|history|ratings|my-ratings|lists|statistics|torrent|tags|about)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://swaya.xyz https://image.tmdb.org https://images.unsplash.com https://*.google-analytics.com https://*.googletagmanager.com https://*.stripe.com; media-src 'self' blob: data: https://swaya.xyz; font-src 'self' data:; connect-src 'self' https://buy.stripe.com https://api.stripe.com https://image.tmdb.org https://api.themoviedb.org https://api.github.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' https://buy.stripe.com;"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*\\.html|docs(?:/.*)?|(?:de|ja|hu|fr|es|zh|it|ru|pt|ko|nl|pl|zh-tw|sv|tr|cs)(?:/.*)?|changelog(?:/.*)?|help(?:/.*)?|compare(?:/.*)?|index.html)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}

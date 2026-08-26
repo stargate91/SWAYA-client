@@ -1,0 +1,68 @@
+/* Card Header with Pills */
+.pills-header {
+  position: relative;
+  padding: 0 var(--space-md);
+  background: color-mix(in srgb, var(--color-bg-canvas) 15%, transparent);
+  border-bottom: 1px solid var(--color-border-default);
+}
+
+.scroll-track {
+  flex: 1;
+  padding-top: var(--space-xs);
+  padding-bottom: var(--space-xs);
+}
+
+/* Pills styling */
+.pill {
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  cursor: pointer;
+  background: var(--color-surface-glass);
+  border: 1px solid var(--color-border-default);
+  color: var(--color-text-secondary);
+  transition: all var(--motion-fast);
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  position: relative;
+}
+
+.pill:hover {
+  background: var(--color-border-default);
+  border-color: var(--color-border-heavy);
+  color: var(--color-text-primary);
+}
+
+.pill.is-active {
+  background: color-mix(in srgb, var(--color-accent) 15%, transparent);
+  --local-color: color-mix(in srgb, var(--color-accent) 88%, var(--color-text-primary));
+  color: var(--local-color);
+  border-color: var(--local-color);
+  box-shadow: 0 0 var(--space-xs) color-mix(in srgb, var(--color-accent) 25%, transparent);
+  font-weight: var(--font-weight-bold);
+}
+
+.pill.is-watched:not(.is-active) {
+  border-color: color-mix(in srgb, var(--color-state-success) 24%, transparent);
+  color: var(--color-state-success);
+}
+
+.pill.is-unowned {
+  opacity: 0.45;
+}
+
+.pill.is-next-up {
+  border-color: var(--color-accent);
+}
+
+.next-dot {
+  width: var(--space-3xs);
+  height: var(--space-3xs);
+  border-radius: 50%;
+  background: var(--color-accent);
+  display: inline-block;
+  box-shadow: 0 0 var(--space-3xs) color-mix(in srgb, var(--color-accent) 50%, transparent);
+}

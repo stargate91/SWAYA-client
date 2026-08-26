@@ -1,0 +1,87 @@
+.button {
+  background: transparent;
+  border: none;
+  color: var(--player-color-ink);
+  cursor: pointer;
+  border-radius: var(--player-radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--motion-duration-base) var(--motion-ease-standard), transform var(--motion-duration-fast) var(--motion-ease-standard), color var(--motion-duration-base) var(--motion-ease-standard);
+  backdrop-filter: blur(var(--player-blur-md));
+  background-color: color-mix(in srgb, var(--player-color-ink) 5%, transparent);
+}
+
+.button--md {
+  width: var(--player-control-size-md);
+  height: var(--player-control-size-md);
+}
+
+.button--sm {
+  width: var(--player-control-size-sm);
+  height: var(--player-control-size-sm);
+  backdrop-filter: blur(var(--player-blur-sm));
+  background-color: color-mix(in srgb, var(--color-bg-canvas) 60%, transparent);
+}
+
+.button--lg {
+  width: var(--player-control-size-lg);
+  height: var(--player-control-size-lg);
+}
+
+.button:hover {
+  background-color: color-mix(in srgb, var(--player-color-ink) 15%, transparent);
+  transform: scale(1.05);
+}
+
+.button--sm:hover {
+  background-color: color-mix(in srgb, var(--color-bg-canvas) 80%, transparent);
+  transform: scale(1.1);
+}
+
+.button--primary {
+  background-color: var(--player-accent);
+  box-shadow: 0 var(--player-space-2xs) var(--player-space-lg) color-mix(in srgb, var(--player-accent) 40%, transparent);
+}
+
+.button--primary:hover {
+  background-color: var(--player-accent-hover);
+}
+
+.button--danger:hover {
+  background-color: var(--player-color-state-danger);
+}
+
+.active {
+  background-color: color-mix(in srgb, var(--player-color-ink) 25%, transparent);
+}
+
+@keyframes peak-pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  75% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.button--peak {
+  color: var(--player-color-state-danger);
+}
+
+.button--peak:hover {
+  color: var(--player-color-state-danger);
+  transform: scale(1.1);
+}
+
+.button--peak-success {
+  --peak-pop-anim: peak-pop var(--motion-duration-slow) cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  color: var(--player-color-state-success);
+  animation: var(--peak-pop-anim);
+}

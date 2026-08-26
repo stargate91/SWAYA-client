@@ -1,0 +1,100 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.root--full-height {
+  flex: 1 1 auto;
+  min-height: 0;
+  height: 100%;
+}
+
+.root--gap-sm {
+  gap: var(--space-sm);
+}
+
+.root--gap-md {
+  gap: var(--space-md);
+}
+
+.root--gap-lg {
+  gap: var(--space-lg);
+}
+
+.root--gap-xl {
+  gap: var(--space-xl);
+}
+
+.root--gap-2xl {
+  gap: var(--space-2xl);
+}
+
+.root--gap-3xl {
+  gap: var(--space-3xl);
+}
+
+.root--gap-4xl {
+  gap: var(--space-4xl);
+}
+
+.main {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.main--scrollable {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.panel {
+  width: var(--side-panel-width, 25rem);
+  flex-shrink: 0;
+  animation-duration: var(--motion-slow);
+  animation-fill-mode: forwards;
+}
+
+.panel--modal.panel--right {
+  border-left: 1px solid var(--color-line);
+  padding-left: var(--space-2xl);
+  animation-name: slideInRight;
+}
+
+.panel--modal.panel--left {
+  border-right: 1px solid var(--color-line);
+  padding-right: var(--space-2xl);
+  animation-name: slideInLeft;
+}
+
+.panel--plain {
+  border: 0;
+  padding: 0;
+  animation: none;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(var(--space-xl));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(calc(-1 * var(--space-xl)));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

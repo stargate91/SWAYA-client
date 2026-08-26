@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Főoldal",
+    "breadcrumbDocs": "Dokumentáció",
+    "defaultCategory": "Dokumentáció",
+    "minRead": "{{count}} perc olvasás",
+    "prevGuide": "Előző útmutató",
+    "nextGuide": "Következő útmutató",
+    "searchPlaceholder": "Keresés az útmutatókban...",
+    "searchAriaLabel": "Dokumentáció keresése",
+    "clearSearchAriaLabel": "Keresés törlése",
+    "noGuidesFound": "Nem található útmutató a következőre: \"{{query}}\"",
+    "onThisPage": "Ezen az oldalon",
+    "tableOfContents": "Tartalomjegyzék",
+    "navigationAriaLabel": "Dokumentációs navigáció",
+    "relatedGuides": "Kapcsolódó útmutatók",
+    "error404": "404-es hiba",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Az oldal nem található",
+    "pageNotFoundDesc": "A keresett dokumentációs útmutató vagy oldal nem létezik, vagy áthelyezésre került.",
+    "goBack": "Vissza",
+    "returnHome": "Vissza a Főoldalra",
+    "skipToContent": "Ugrás a fő tartalomra",
+    "errorBoundaryTitle": "Hiba történt",
+    "errorBoundaryDesc": "Váratlan hiba történt az oldal betöltése közben. Próbáld meg újratölteni az oldalt, vagy térj vissza a főoldalra.",
+    "reloadPage": "Oldal újratöltése",
+    "browseDocs": "Dokumentáció böngészése",
+    "allGuides": "Összes útmutató",
+    "home": "Főoldal",
+    "popularGuides": "Népszerű útmutatók",
+    "documentationHub": "Munkaállomás Útmutatók",
+    "hubTitle": "SWAYA Dokumentáció & Útmutatók",
+    "hubSubtitle": "Minden információ a kötegelt fájlátnevezés, többforrásos metaadat-lekérés, 4K katalóguskezelés és MPV lejátszás beállításához."
+  },
+  "categories": {
+    "gettingStarted": "Első Lépések",
+    "coreWorkflows": "Alapvető Munkafolyamatok",
+    "libraryCuration": "Médiatár & Kurálás",
+    "systemAutomation": "Rendszer & Automatizálás"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Bevezetés és Áttekintés",
+      "description": "Ismerd meg a SWAYA architektúráját, funkcióit és alapelveit."
+    },
+    "organizer": {
+      "title": "Okos Fájlrendező",
+      "description": "Automatikus párosítás, kötegelt átnevezés és ütközésfeloldás."
+    },
+    "dashboard": {
+      "title": "Kezdőlap & Felfedezés",
+      "description": "Kiemelt sáv, lejátszás folytatása és felfedezési hírfolyamok."
+    },
+    "library": {
+      "title": "Médiatár & Katalógus",
+      "description": "Rácsnézet, kettős mód, részletes szűrők, címkék és helyi állapot."
+    },
+    "details": {
+      "title": "Részletes Oldalak & Profilok",
+      "description": "Grafikaválasztó, akciógombok, TV évad-bontás és filmográfiák."
+    },
+    "player": {
+      "title": "Lejátszó Motor",
+      "description": "MPV integráció, GPU gyorsítás és külső lejátszók támogatása."
+    },
+    "search": {
+      "title": "Univerzális Keresés & Szűrés",
+      "description": "Globális többforrásos keresés és valós idejű szűrők."
+    },
+    "lists": {
+      "title": "Egyéni Listák & Gyűjtemények",
+      "description": "Tematikus listák, 4 poszteres kollázsok és JSON import/export."
+    },
+    "ratings": {
+      "title": "Értékelések & Vélemények",
+      "description": "10 csillagos skála, privát markdown értékelések és kedvencek."
+    },
+    "history": {
+      "title": "Lejátszási Előzmények & Naplók",
+      "description": "Folytatási pontok követése és részletes lejátszási napló."
+    },
+    "statistics": {
+      "title": "Médiatár DNA & Statisztikák",
+      "description": "Tárhelydiagramok, műfaji bontás és idővonalak."
+    },
+    "settings": {
+      "title": "Beállítások & Konfiguráció",
+      "description": "Mappasablonok, ütközési szabályzatok, témák és API kulcsok."
+    },
+    "torrent": {
+      "title": "Torrent Integráció",
+      "description": "qBittorrent letöltésfigyelés és automatikus importálás."
+    }
+  }
+}

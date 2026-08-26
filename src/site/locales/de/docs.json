@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Startseite",
+    "breadcrumbDocs": "Dokumentation",
+    "defaultCategory": "Dokumentation",
+    "minRead": "{{count}} Min. Lesezeit",
+    "prevGuide": "Vorherige Anleitung",
+    "nextGuide": "Nächste Anleitung",
+    "searchPlaceholder": "Anleitungen durchsuchen...",
+    "searchAriaLabel": "Dokumentation durchsuchen",
+    "clearSearchAriaLabel": "Suche leeren",
+    "noGuidesFound": "Keine Anleitungen für \"{{query}}\" gefunden",
+    "onThisPage": "Auf dieser Seite",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "navigationAriaLabel": "Dokumentationsnavigation",
+    "relatedGuides": "Verwandte Anleitungen",
+    "error404": "Fehler 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Seite nicht gefunden",
+    "pageNotFoundDesc": "Die gesuchte Seite oder Anleitung existiert nicht oder wurde verschoben.",
+    "goBack": "Zurück",
+    "returnHome": "Zur Startseite",
+    "skipToContent": "Zum Hauptinhalt springen",
+    "errorBoundaryTitle": "Ein Fehler ist aufgetreten",
+    "errorBoundaryDesc": "Beim Laden dieser Seite ist ein unerwarteter Fehler aufgetreten. Bitte laden Sie die Seite neu oder kehren Sie zur Startseite zurück.",
+    "reloadPage": "Seite neu laden",
+    "browseDocs": "Dokumentation durchsuchen",
+    "allGuides": "Alle Anleitungen",
+    "home": "Startseite",
+    "popularGuides": "Beliebte Anleitungen",
+    "documentationHub": "Benutzer-Anleitungen",
+    "hubTitle": "SWAYA Dokumentation & Anleitungen",
+    "hubSubtitle": "Alles zur Konfiguration von automatischem Batch-Renaming, Multi-Source-Metadaten-Scraping, 4K Mediatheken und MPV-Wiedergabe."
+  },
+  "categories": {
+    "gettingStarted": "Erste Schritte",
+    "coreWorkflows": "Kern-Workflows",
+    "libraryCuration": "Bibliothek & Kuration",
+    "systemAutomation": "System & Automatisierung"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Einführung & Überblick",
+      "description": "Verstehen Sie die SWAYA-Architektur, Funktionen und Kernprinzipien."
+    },
+    "organizer": {
+      "title": "Intelligenter Dateiorganizer",
+      "description": "Automatischer Abgleich, Batch-Umbenennung und Kollisionsauflösung."
+    },
+    "dashboard": {
+      "title": "Dashboard & Entdeckung",
+      "description": "Spotlight-Banner, Weiterschauen und Entdeckungs-Feeds."
+    },
+    "library": {
+      "title": "Bibliothek & Medienkatalog",
+      "description": "Rasteransicht, Dual-Modus, erweiterte Filter, Tags und lokaler Status."
+    },
+    "details": {
+      "title": "Detailseiten & Profile",
+      "description": "Artwork-Auswahl, Aktionsleisten, TV-Staffelansichten und Filmografien."
+    },
+    "player": {
+      "title": "Wiedergabe-Engine",
+      "description": "MPV-Integration, GPU-Beschleunigung und Unterstützung externer Player."
+    },
+    "search": {
+      "title": "Universelle Suche & Filter",
+      "description": "Globale Multi-Source-Suche und Echtzeitfilter."
+    },
+    "lists": {
+      "title": "Benutzerdefinierte Listen & Sammlungen",
+      "description": "Themensammlungen, 4-Poster-Collagen und JSON-Import/Export."
+    },
+    "ratings": {
+      "title": "Bewertungen & Reviews",
+      "description": "10-Sterne-Skala, private Markdown-Reviews und Favoriten."
+    },
+    "history": {
+      "title": "Wiedergabeverlauf & Logs",
+      "description": "Fortschrittsverfolgung und detaillierte Historie."
+    },
+    "statistics": {
+      "title": "Bibliotheks-DNA & Analysen",
+      "description": "Speicherdiagramme, Genre-Analysen und Zeitachsen."
+    },
+    "settings": {
+      "title": "Einstellungen & Konfiguration",
+      "description": "Ordnervorlagen, Kollisionsregeln, Farbschemata und API-Schlüssel."
+    },
+    "torrent": {
+      "title": "Torrent-Integration",
+      "description": "qBittorrent-Überwachung und automatischer Import-Workflow."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.spotlight {
+  position: relative;
+  width: 100%;
+  height: var(--ui-spotlight-height);
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background: var(--color-bg-elevated);
+  box-shadow: 0 var(--space-xl) 2.5rem color-mix(in srgb, var(--color-bg-canvas) 40%, transparent);
+}
+
+.spotlight img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--ui-spotlight-image-position, center 15%);
+  opacity: 0.8;
+}
+
+.gradient-side {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, color-mix(in srgb, var(--color-bg-canvas) 95%, transparent) 0%, color-mix(in srgb, var(--color-bg-canvas) 60%, transparent) 35%, transparent 65%);
+}
+
+.gradient-bottom {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, color-mix(in srgb, var(--color-bg-canvas) 96%, transparent) 0%, transparent 50%);
+}
+
+.copy {
+  position: absolute;
+  bottom: var(--space-4xl);
+  left: var(--space-4xl);
+  z-index: var(--z-index-base);
+  max-width: var(--ui-spotlight-max-width);
+}
+
+.controls {
+  position: absolute;
+  bottom: var(--space-4xl);
+  right: var(--space-4xl);
+  z-index: var(--z-index-sticky);
+}
+
+.glass-pill {
+  background: color-mix(in srgb, var(--color-bg-canvas) 80%, transparent);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(0.625rem);
+  border: 0.0625rem solid color-mix(in srgb, var(--color-border) 20%, transparent);
+}
+
+.text-shadow {
+  text-shadow: 0 0.25rem 0.5rem color-mix(in srgb, var(--color-bg-canvas) 80%, transparent);
+}
+
+.title-link {
+  cursor: pointer;
+  text-shadow: 0 0.25rem 0.5rem color-mix(in srgb, var(--color-bg-canvas) 80%, transparent);
+  transition: color var(--motion-fast);
+}
+
+.title-link:hover {
+  color: var(--color-accent);
+}

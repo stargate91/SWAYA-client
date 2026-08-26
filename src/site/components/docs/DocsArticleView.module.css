@@ -1,0 +1,6 @@
+.article-body {
+  font-size: var(--font-size-base);
+  min-width: 0;
+  max-width: 100%;
+}
+

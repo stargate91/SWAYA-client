@@ -1,0 +1,53 @@
+# SWAYA
+
+> SWAYA is a next-generation, privacy-first offline media center and intelligent batch video organizer for Windows 10/11 desktop PCs.
+
+SWAYA combines automatic metadata scraping (TMDb, OMDb, StashDB, FansDB, ThePornDB), physical file renaming on hard drives with Plex/Jellyfin-compatible folder templates, a GPU-accelerated 4K HDR MPV video player, custom themed lists, and a 1-click stealth vault mode. It runs 100% locally with zero cloud subscriptions and zero telemetry.
+
+## Core Features & Concepts
+
+- [Smart File Organizer](https://swaya.xyz/docs/organizer): Intelligent regex-based physical file renamer, auto TMDb/StashDB matching, collision-safe dry-run preview, and Plex/Jellyfin folder structure organization.
+- [Offline Media Library](https://swaya.xyz/docs/library): Unified catalog for movies, TV series, episodes, scenes, performers, and studios with 4K artwork and offline SQLite database.
+- [Embedded MPV Player](https://swaya.xyz/docs/player): Hardware-accelerated 4K HDR playback, multi-track audio & subtitle switching, custom shaders, and resume tracking.
+- [Custom Collections & Lists](https://swaya.xyz/docs/lists): Dynamic and static themed collections with automatic 4-poster collage cover art generation.
+- [Stealth Vault & Privacy](https://swaya.xyz/docs/settings): Instant global hotkey (Ctrl+Alt+H / Esc) stealth vault to obscure sensitive media libraries.
+- [Torrents & External Client Dashboards](https://swaya.xyz/docs/torrent): Direct qBittorrent, Transmission, and Deluge integration inside the desktop app.
+- [Scrapers & Metadata Providers](https://swaya.xyz/docs/organizer): Automated multi-provider metadata scrapers for mainstream and niche media.
+
+## Comparisons & Alternatives
+
+- [SWAYA vs FileBot](https://swaya.xyz/compare/filebot): Comparison of automated file renaming, preview safety, and licensing models.
+- [SWAYA vs Plex](https://swaya.xyz/compare/plex): Offline desktop app vs server-client streaming architecture.
+- [SWAYA vs tinyMediaManager](https://swaya.xyz/compare/tinymediamanager): Modern GPU-accelerated React/Electron interface vs Java tool.
+- [SWAYA vs StashApp](https://swaya.xyz/compare/stash): Dedicated desktop experience vs local web server.
+- [SWAYA vs Jellyfin](https://swaya.xyz/compare/jellyfin): Zero-transcoding direct disk playback vs network streaming.
+- [SWAYA vs Kodi](https://swaya.xyz/compare/kodi): Modern desktop catalog curation vs home theater TV interface.
+
+## Multi-Language Documentation Hubs
+
+SWAYA documentation and product pages are fully localized across 17 languages:
+- [English (Default)](https://swaya.xyz/docs)
+- [German (Deutsch)](https://swaya.xyz/de/docs)
+- [Japanese (日本語)](https://swaya.xyz/ja/docs)
+- [Korean (한국어)](https://swaya.xyz/ko/docs)
+- [Dutch (Nederlands)](https://swaya.xyz/nl/docs)
+- [Polish (Polski)](https://swaya.xyz/pl/docs)
+- [Traditional Chinese (繁體中文)](https://swaya.xyz/zh-tw/docs)
+- [Swedish (Svenska)](https://swaya.xyz/sv/docs)
+- [Turkish (Türkçe)](https://swaya.xyz/tr/docs)
+- [Czech (Čeština)](https://swaya.xyz/cs/docs)
+- [Hungarian (Magyar)](https://swaya.xyz/hu/docs)
+- [French (Français)](https://swaya.xyz/fr/docs)
+- [Spanish (Español)](https://swaya.xyz/es/docs)
+- [Chinese (简体中文)](https://swaya.xyz/zh/docs)
+- [Italian (Italiano)](https://swaya.xyz/it/docs)
+- [Russian (Русский)](https://swaya.xyz/ru/docs)
+- [Portuguese (Português)](https://swaya.xyz/pt/docs)
+
+## Licensing & Architecture
+
+- [Pricing & License](https://swaya.xyz/): One-time perpetual license (€39 introductory / €79 standard) for up to 3 personal Windows devices.
+- [Terms & Refund Policy](https://swaya.xyz/terms): 14-day unactivated money-back guarantee and 7-day activated technical support guarantee.
+- [Privacy Policy](https://swaya.xyz/privacy): 100% offline data processing with zero telemetry and local SQLite database (`data/swaya.db`).
+- [Release Notes & RSS Feed](https://swaya.xyz/changelog): Version release notes and [RSS Feed](https://swaya.xyz/feed.xml).
+- [Documentation Index](https://swaya.xyz/docs): Comprehensive 13-guide user manual and configuration handbook.

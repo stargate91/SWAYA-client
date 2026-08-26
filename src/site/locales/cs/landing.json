@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - 100% Offline Mediální Centrum & MPV Přehrávač pro Windows",
+    "description": "Bezzserverová offline alternativa k Plexu a FileBotu pro Windows. Automaticky přejmenovávejte stažené soubory, organizujte sbírku a přehrávejte 4K HDR v MPV."
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "Domů",
+    "docs": "Dokumentace",
+    "changelog": "Změny",
+    "compare": "Srovnání",
+    "help": "Podpora & Nápověda",
+    "download": "Ke stažení & Ceny",
+    "title": "Navigace SWAYA",
+    "discord": "Discord",
+    "buy": "Koupit SWAYA (€39)",
+    "openMenu": "Otevřít nabídku",
+    "closeMenu": "Zavřít nabídku"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "Převezměte kontrolu nad svým offline mediálním světem,",
+    "taglineAccent": "s absolutním soukromím a špičkovým výkonem.",
+    "subtitle": "Máte plné disky skvělých filmů s nepřehlednými názvy souborů? SWAYA vyřeší chaos, vytvoří 4K vizuální katalog a nevyžaduje vůbec žádný server.",
+    "priceOld": "€79",
+    "priceNew": "€39",
+    "priceTag": "Zaváděcí sleva (50% sleva)",
+    "buyCta": "Získat doživotní licenci za €39",
+    "demoCta": "Spustit interaktivní demo",
+    "guarantees": {
+      "payment": "Jednorázová platba, vlastněte navždy",
+      "updates": "Doživotní bezplatné aktualizace",
+      "devices": "Až 3 osobní počítače s Windows"
+    }
+  },
+  "video": {
+    "tag": "Ukázka Produktu",
+    "title": "Co je SWAYA?",
+    "titleAccent": "Podívejte se, jak funguje v praxi.",
+    "subtitle": "SWAYA je moderní desktopová aplikace pro Windows, která přejmenuje chaoticky stažené soubory, vytvoří vizuální knihovnu a nabídne plynulé 4K MPV přehrávání.",
+    "badge": "2:48 Prohlídka Produktu",
+    "placeholderTitle": "Prezentační video produktu",
+    "placeholderSubtitle": "Rychlá ukázka hromadného přejmenování, multizdrojového katalogu a MPV přehrávače.",
+    "transcriptTitle": "Přehled videa a klíčové funkce",
+    "transcriptOrganizer": "00:00 - Chytré hromadné přejmenování a automatická struktura složek",
+    "transcriptCuration": "01:00 - Knihovna, detaily médií a správa katalogu",
+    "transcriptPrivacy": "02:25 - Vestavěný MPV přehrávač, pokračování ve sledování a historie",
+    "comingSoon": "Videoukázka již brzy",
+    "play": "Přehrát demo",
+    "pause": "Pozastavit demo"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "Automatizované Přejmenování Souborů",
+      "title": "Proměňte chaotické složky stahování v dokonalou knihovnu.",
+      "titleAccent": "Uspořádejte skutečné soubory na svém pevném disku.",
+      "description": "Automaticky spárujte filmy, seriály a scény s databázemi TMDb a StashDB. Přizpůsobte šablony pojmenování a uspořádejte tisíce souborů podle standardů Plex/Jellyfin.",
+      "benefits": [
+        "Automatické načítání metadat z předních databází",
+        "Přejmenovává fyzické soubory a vytváří čisté struktury složek",
+        "Bezpečný zkušební náhled (dry-run) a ochrana před konflikty souborů"
+      ],
+      "supportedApisLabel": "Podporovaní poskytovatelé metadat",
+      "mockupTitle": "Chytrý správce souborů",
+      "mockupBadge": "142 souborů spárováno • Připraveno k přejmenování",
+      "mockupPlaceholder": "Snímek obrazovky správce souborů"
+    },
+    "curation": {
+      "tag": "Vše na Jednom Místě",
+      "title": "Filmy, seriály, scény a herci.",
+      "titleAccent": "V přehledném a elegantním katalogu.",
+      "description": "Obohaťte svou sbírku o 4K plakáty, pozadí, profily herců a informace o studiích. Vytvářejte vlastní seznamy s kolážemi ze 4 plakátů a pište Markdown recenze.",
+      "benefits": [
+        "Jednotná knihovna pro filmy, seriály, scény i studia",
+        "Bleskové procházení lokálních i externích USB disků",
+        "10hvězdičkový systém hodnocení a soukromé Markdown poznámky"
+      ],
+      "mockupTitle": "Kompletní Mediální Katalog",
+      "mockupBadge": "4K Artwork • Lokální databáze SQLite",
+      "mockupPlaceholder": "Snímek obrazovky detailu média"
+    },
+    "privacy": {
+      "tag": "Žádný Cloud • Žádné Účty",
+      "title": "100% offline & absolutní soukromí.",
+      "titleAccent": "Nulová závislost na cloudu, nulová telemetrie.",
+      "description": "Žádné trvale běžící Plex servery, žádné cloudové účty a žádné měsíční poplatky. Všechna data zůstávají na vašem počítači s možností okamžitého skrytí citlivých knihoven do trezoru.",
+      "benefits": [
+        "100% lokální zpracování dat (žádná telemetrie, žádné sledování)",
+        "Diskrétní trezor, který okamžitě skryje citlivé knihovny klávesovou zkratkou",
+        "Jednorázový nákup za €39 pro trvalé a bezpečné offline použití"
+      ],
+      "mockupTitle": "Diskrétní Trezor & Soukromí",
+      "mockupBadge": "Lokální SQLite • Žádný cloud",
+      "mockupPlaceholder": "Snímek obrazovky diskrétního trezoru"
+    }
+  },
+  "faq": {
+    "tag": "Často Kladené Dotazy",
+    "title": "Často Kladené Dotazy",
+    "titleAccent": "(FAQ)",
+    "subtitle": "Vše, co potřebujete vědět o funkcích, licencování, soukromí a výkonu aplikace SWAYA.",
+    "items": [
+      {
+        "question": "Jak se SWAYA liší od Plexu, Jellyfinu nebo Kodi?",
+        "answer": "Na rozdíl od Plexu nebo Jellyfinu nevyžaduje SWAYA žádnou instalaci serveru, síťovou konfiguraci ani uživatelský účet. Je to rychlá desktopová aplikace pro Windows, která organizuje soubory přímo na disku a přehrává je v maximální kvalitě přes MPV."
+      },
+      {
+        "question": "Může SWAYA nahradit FileBot při přejmenování souborů?",
+        "answer": "Ano. SWAYA obsahuje pokročilý hromadný organizér, který rozpozná nepřehledné názvy souborů přes TMDb, StashDB a ThePornDB a přejmenuje je podle standardů Plex/Jellyfin."
+      },
+      {
+        "question": "Funguje SWAYA s externími USB disky?",
+        "answer": "Rozhodně. I když externí disk odpojíte, celý váš katalog s plakáty, hodnoceními a historií zůstává uložen lokálně a lze v něm kdykoli vyhledávat."
+      },
+      {
+        "question": "Je SWAYA skutečně 100% offline a soukromá?",
+        "answer": "Ano. Veškerá metadata, nastavení a vaše databáze SQLite jsou uloženy 100% lokálně na vašem počítači. Žádná data se neodesílají na externí servery."
+      },
+      {
+        "question": "Jaký video přehrávač SWAYA používá?",
+        "answer": "SWAYA má integrovaný přehrávač MPV s hardwarovou akcelerací GPU pro plynulé 4K HDR, Dolby Vision, pokročilé titulky a přepínání více zvukových stop."
+      },
+      {
+        "question": "Kteří poskytovatelé metadat jsou podporováni?",
+        "answer": "SWAYA podporuje TMDb, OMDb, StashDB, FansDB a ThePornDB pro stahování plakátů, pozadí, herců a informací o studiích."
+      },
+      {
+        "question": "Jak funguje licence?",
+        "answer": "SWAYA se prodává za jednorázovou platbu €39 s doživotní licencí. Žádné předplatné, bezplatné aktualizace pro všechny budoucí verze v1.x a aktivace až na 3 osobních počítačích s Windows."
+      }
+    ]
+  },
+  "download": {
+    "title": "Začněte organizovat svou sbírku médií ještě dnes",
+    "subtitle": "Kupte si doživotní licenci pro Windows. Jednorázová platba €39, žádné další poplatky.",
+    "button": "Koupit doživotní licenci (€39)",
+    "disclaimer": "Okamžité doručení licenčního klíče a odkazu ke stažení. 100% offline kompatibilní."
+  },
+  "footer": {
+    "tagline": "Offline mediální centrum a organizér souborů se zaměřením na soukromí pro opravdové sběratele.",
+    "badge": "Offline-first • v1.0 Windows",
+    "columns": {
+      "navigation": "Navigace",
+      "comparisons": "Srovnání",
+      "documentation": "Dokumentace",
+      "getSwaya": "Koupit SWAYA"
+    },
+    "links": {
+      "home": "Domů",
+      "docs": "Dokumentace",
+      "changelog": "Změny",
+      "help": "Podpora & Nápověda",
+      "privacy": "Zásady ochrany soukromí",
+      "terms": "Podmínky & Vrácení peněz",
+      "discord": "Discord Komunita",
+      "contact": "Kontaktovat vývojáře",
+      "liveDemo": "Interaktivní demo",
+      "allGuides": "Všechny příručky →",
+      "allComparisons": "Všechna srovnání →"
+    },
+    "licenseDescription": "Kupte jednou, používejte navždy až na 3 osobních počítačích s Windows.",
+    "buyLicense": "Koupit licenci (€39)",
+    "copyright": "© {{year}} SWAYA. Všechna práva vyhrazena.",
+    "madeWithLove": "Vytvořeno s péčí",
+    "forCollectors": "pro nadšené sběratele médií",
+    "languages": "Jazyky:"
+  },
+  "changelog": {
+    "badge": "Historie Verzí",
+    "title": "Historie Verzí & Přehled Změn",
+    "subtitle": "Objevte nejnovější funkce, vylepšení výkonu a opravy v aplikaci SWAYA.",
+    "latest": "Nejnovější verze",
+    "highlights": "Hlavní novinky"
+  },
+  "help": {
+    "badge": "Podpora & Komunita",
+    "title": "Jak vám můžeme pomoci?",
+    "subtitle": "Kontaktujte přímo vývojáře, připojte se k naší komunitě na Discordu nebo si přečtěte podrobné příručky.",
+    "cards": {
+      "discord": {
+        "tag": "Komunita",
+        "title": "Oficiální Discord Server",
+        "description": "Připojte se ke komunitě sběratelů pro rychlou pomoc, tipy k organizaci a diskuze o nových funkcích.",
+        "button": "Připojit se k Discordu",
+        "badge": "Online Komunita"
+      },
+      "email": {
+        "tag": "Přímý Kontakt",
+        "title": "E-mailová Podpora",
+        "description": "Pro dotazy k licenci, návrhy funkcí, soukromou zpětnou vazbu nebo hlášení chyb.",
+        "button": "Odeslat E-mail",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "Hledáte dokumentaci?",
+      "subtitle": "Přečtěte si komplexní příručky o přejmenování souborů, nastavení a pokročilých funkcích.",
+      "allGuides": "Zobrazit všech 13 příruček →"
+    },
+    "faq": {
+      "title": "Časté Dotazy k Podpoře",
+      "subtitle": "Rychlé odpovědi k licencování, soukromí a funkcím."
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA Srovnání & Alternativy Softwaru",
+    "metaDescription": "Porovnejte SWAYA s FileBot, Plex, tinyMediaManager, StashApp, Jellyfin a Kodi. Objevte špičkové 100% offline mediální centrum pro Windows.",
+    "tag": "Srovnání",
+    "title": "Proč zvolit SWAYA?",
+    "titleAccent": "Podrobné Porovnání",
+    "subtitle": "Zjistěte, proč sběratelé volí tuto bezserverovou stanici s organizérem souborů a 4K MPV přehrávačem.",
+    "viewAll": "Zobrazit všechny alternativy a matici funkcí →",
+    "badge": "Analýza Softwaru",
+    "hubTitle": "SWAYA a",
+    "hubTitleAccent": "Populární Alternativy",
+    "hubSubtitle": "Porovnejte SWAYA s populárními mediálními servery a přejmenovávacími nástroji a objevte výhody 100% offline řešení pro Windows.",
+    "viewComparison": "Zobrazit srovnání",
+    "relatedDocsTitle": "Související Funkce SWAYA",
+    "relatedDocsSubtitle": "Přečtěte si technické příručky k funkcím zmíněným ve srovnání.",
+    "honestComparison": "Upřímné srovnání: Který nástroj je pro vás nejlepší?",
+    "honestSubtitle": "Každý program má své silné stránky. Zde je objektivní přehled pro správný výběr.",
+    "chooseCompetitor": "Zvolte {{name}}, pokud:",
+    "chooseSwaya": "Zvolte SWAYA, pokud:",
+    "featureBreakdown": "Podrobné Porovnání Funkcí",
+    "featureSubtitle": "Přímé technické srovnání mezi SWAYA a {{name}}.",
+    "featureHeader": "Funkce / Vlastnost",
+    "whySwitch": "Proč je SWAYA lepší volbou",
+    "whySwitchSubtitle": "Vyvinuto na míru pro náročné potřeby sběratelů médií.",
+    "faqSubtitle": "Časté dotazy k přechodu z {{name}} nebo společnému používání.",
+    "ctaTitle": "Jste připraveni převzít kontrolu nad svou sbírkou?",
+    "ctaSubtitle": "Špičkové offline mediální centrum pro Windows. Uspořádejte soubory a užijte si dokonalé 4K HDR přehrávání.",
+    "buyCta": "Koupit doživotní licenci (€39)",
+    "demoCta": "Spustit interaktivní demo",
+    "yes": "Ano",
+    "no": "Ne",
+    "partial": "Částečně"
+  },
+  "cookies": {
+    "ariaLabel": "Nastavení Soukromí a Cookies",
+    "title": "Soukromí & Anonymní Diagnostika",
+    "description": "K udržení rychlosti a stability webu používáme anonymní diagnostická data o výkonu.",
+    "essentialOnly": "Pouze nezbytné",
+    "acceptAll": "Přijmout vše"
+  },
+  "privacy": {
+    "badge": "Soukromí & Zabezpečení",
+    "title": "Zásady Ochrany Soukromí",
+    "subtitle": "SWAYA je navržena jako 100% offline aplikace pro Windows. Nulová telemetrie, všechna data jsou uložena lokálně.",
+    "lastUpdated": "Poslední aktualizace: 20. srpna 2026",
+    "scope": "Platí pro aplikaci SWAYA pro Windows a web swaya.xyz",
+    "section1Title": "1. Nulová telemetrie & 100% lokální úložiště",
+    "section1Text": "SWAYA je postavena na principu offline-first. Vaše soubory, katalogy, historie sledování, hodnocení a poznámky jsou uloženy výhradně v lokální databázi SQLite (data/swaya.db).",
+    "section1Point1": "Obsah vašich pevných disků se nikdy nenahrává ani neanalyzuje na našich serverech.",
+    "section1Point2": "Žádné informace o sledovaných titulech ani zvyklostech se neukládají na externích serverech.",
+    "section1Point3": "Požadavky na metadata (TMDb, StashDB) se odesílají přímo z vašeho počítače bez prostředníků.",
+    "section2Title": "2. Platební údaje a vystavení licence",
+    "section2Text": "Platby bezpečně zpracovává Stripe Inc. Údaje o kreditních kartách ani bankovních účtech nikdy neukládáme.",
+    "section2Point1": "Shromažďované údaje: E-mailová adresa, jméno (volitelné), Stripe ID transakce a časové razítko.",
+    "section2Point2": "Účel: Vytvoření šifrovaného licenčního klíče a zaslání nákupní faktury.",
+    "section2Point3": "Doba uchování: Údaje se archivují v souladu s daňovými a účetními předpisy.",
+    "section3Title": "3. Aktivace zařízení a offline ověření",
+    "section3Text": "Při aktivaci provede aplikace jednorázové ověření s licenčním serverem:",
+    "section3Point1": "Pro správu limitu 3 zařízení se přenáší pouze nevratný hardwarový hash.",
+    "section3Point2": "Po aktivaci funguje SWAYA trvale a zcela bez připojení k internetu.",
+    "section3Point3": "Zařízení můžete kdykoli deaktivovat přímo v panelu nastavení.",
+    "section4Title": "4. Webová analytika a cookies",
+    "section4Text": "Na našem webu (swaya.xyz) používáme pouze anonymizovanou diagnostiku pro sledování výkonu:",
+    "section4Point1": "Žádné sledování napříč weby, žádný prodej dat inzerentům.",
+    "section4Point2": "Analytické cookies se aktivují pouze s vaším výslovným souhlasem.",
+    "section5Title": "5. Vaše práva (GDPR) a kontakt",
+    "section5Text": "Podle GDPR máte právo požadovat výpis, opravu nebo výmaz svých uložených licenčních údajů.",
+    "section5Contact": "V případě dotazů nebo požadavků kontaktujte přímo vývojáře:"
+  },
+  "terms": {
+    "badge": "Obchodní Podmínky",
+    "title": "Obchodní Podmínky & Pravidla Vrácení Peněz",
+    "subtitle": "Před nákupem nebo stažením programu si prosím pečlivě přečtěte tyto podmínky.",
+    "lastUpdated": "Poslední aktualizace: 20. srpna 2026",
+    "scope": "Desktopová aplikace SWAYA v1.x pro Windows",
+    "section1Title": "1. Rozsah licence",
+    "section1Text": "Zakoupením licence (€39 zaváděcí cena, €79 standardní) získáváte nevýhradní, doživotní licenci pro osobní použití až na 3 počítačích s Windows.",
+    "section1Point1": "Licenci můžete převést na nový počítač deaktivací starého zařízení.",
+    "section1Point2": "Přeprodej, pronájem nebo veřejné sdílení licenčního klíče je zakázáno.",
+    "section1Point3": "Komerční redistribuce nebo zpětné inženýrství softwaru je zakázáno.",
+    "section2Title": "2. Pravidla pro vrácení peněz",
+    "section2Text": "SWAYA nabízí jasné a transparentní podmínky pro vrácení peněz:",
+    "section2Point1": "Neaktivované klíče (14denní lhůta na odstoupení): 100% plné vrácení peněz do 14 dnů od nákupu, pokud klíč nebyl aktivován.",
+    "section2Point2": "Aktivované klíče (7denní technická záruka): 100% plné vrácení peněz do 7 dnů v případě neřešitelných technických potíží na podporovaných systémech.",
+    "section2Point3": "Postup po vrácení: Vrácený licenční klíč je trvale zneplatněn.",
+    "section3Title": "3. Odpovědnost za obsah a legální použití",
+    "section3Text": "SWAYA je nástroj pro lokální správu souborů a přehrávání. Za spravovaný obsah nese plnou odpovědnost uživatel.",
+    "section3Point1": "K vlastním mediálním souborům si ponecháváte veškerá autorská práva.",
+    "section3Point2": "Zavazujete se používat software v souladu se všemi platnými zákony.",
+    "section4Title": "4. Doživotní aktualizace",
+    "section4Text": "Držitelé licence mají nárok na všechny budoucí aktualizace funkcí a zabezpečení v rámci řady v1.x zdarma.",
+    "section5Title": "5. Vyloučení odpovědnosti",
+    "section5Text1": "SWAYA se poskytuje \"tak jak je\". Aplikace nabízí zkušební náhled, abyste mohli zkontrolovat přejmenování před jeho provedením.",
+    "section5Text2": "V maximálním rozsahu povoleném zákonem vývojář neodpovídá za nepřímé škody nebo ztrátu dat.",
+    "section6Title": "6. Zákaznická podpora & kontakt",
+    "section6Text": "Pro žádosti o vrácení peněz nebo technické dotazy napište na levicore@proton.me nebo navštivte náš Discord."
+  }
+}

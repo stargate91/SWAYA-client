@@ -1,0 +1,103 @@
+/* ─── Static Premium Crisp Poster Wall Composition ───────────────────── */
+
+.poster-wall-container {
+  position: absolute;
+  top: -15%;
+  left: -10%;
+  right: -10%;
+  bottom: -15%;
+  width: 120%;
+  height: 130%;
+  overflow: hidden;
+  z-index: var(--z-index-step-1, 1);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 62.5rem;
+  contain: layout paint;
+}
+
+.poster-grid {
+  display: flex;
+  gap: var(--spacing-md);
+  width: 115%;
+  min-width: 75rem;
+  max-width: 110rem;
+  transform: rotateX(8deg) rotateY(-4deg) rotateZ(2deg);
+  transform-style: flat;
+  transform-origin: center center;
+  justify-content: center;
+  opacity: 0.70;
+}
+
+.poster-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  flex: 1;
+  min-width: 11rem;
+  max-width: 16rem;
+}
+
+.poster-col:nth-child(1) {
+  transform: translateY(1.5rem);
+}
+
+.poster-col:nth-child(2) {
+  transform: translateY(-1rem);
+}
+
+.poster-col:nth-child(3) {
+  transform: translateY(2rem);
+}
+
+.poster-col:nth-child(4) {
+  transform: translateY(-0.75rem);
+}
+
+.poster-col:nth-child(5) {
+  transform: translateY(1.75rem);
+}
+
+.poster-card {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background-color: var(--bg-secondary);
+  box-shadow: 0 0.75rem 2.5rem color-mix(in srgb, var(--bg-primary) 85%, transparent);
+  border: 1px solid color-mix(in srgb, var(--border-color) 80%, transparent);
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}
+
+.poster-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ─── Multi-Stop Dark Vignette Overlay ───────────────────────────────── */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-index-step-2, 2);
+  background:
+    radial-gradient(ellipse at 50% 45%, color-mix(in srgb, var(--color-bg-base) 28%, transparent) 0%, color-mix(in srgb, var(--color-bg-base) 72%, transparent) 55%, var(--color-bg-base) 98%),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-bg-base) 62%, transparent) 0%, color-mix(in srgb, var(--color-bg-base) 22%, transparent) 35%, color-mix(in srgb, var(--color-bg-base) 88%, transparent) 80%, var(--color-bg-base) 100%);
+}
+
+@media (max-width: 48rem) {
+  .poster-wall-container {
+    display: none;
+  }
+}

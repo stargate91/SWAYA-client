@@ -1,0 +1,10 @@
+.poster-row {
+  padding: var(--space-md);
+}
+
+.results-list {
+  max-height: 22.5rem;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding: var(--space-md);
+}

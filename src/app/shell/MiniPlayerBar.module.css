@@ -1,0 +1,45 @@
+.player-control-bar {
+  position: fixed;
+  bottom: var(--space-2xl);
+  right: var(--space-2xl);
+  width: 20rem;
+  background: color-mix(in srgb, var(--color-canvas) 75%, transparent);
+  backdrop-filter: blur(0.75rem) saturate(180%);
+  border: 0.0625rem solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  padding: var(--space-md) var(--space-lg);
+  box-shadow: var(--shadow-lg);
+  /* GPU layer isolation to prevent backdrop-filter repaint rendering artifacts on parent container when updating */
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
+  z-index: var(--z-index-fullscreen-overlay);
+  font-family: var(--font-sans);
+  transition: transform var(--motion-duration-base) var(--motion-ease-standard), opacity var(--motion-duration-base) var(--motion-ease-standard);
+  animation: slide-in-bar var(--motion-duration-slow) var(--motion-ease-emphasized) forwards;
+}
+
+@keyframes slide-in-bar {
+  from {
+    transform: translateY(var(--space-xl));
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.time {
+  color: color-mix(in srgb, var(--color-ink) 60%, transparent);
+}
+
+.btn-close:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-state-danger) 20%, transparent);
+  border-color: color-mix(in srgb, var(--color-state-danger) 40%, transparent);
+  color: var(--color-state-danger);
+}

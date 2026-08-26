@@ -1,0 +1,14 @@
+.media-grid-wrapper {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding-top: var(--space-sm);
+  padding-right: var(--space-xs);
+  padding-bottom: var(--space-2xl);
+}
+
+.sentinel-height {
+  height: 0.625rem;
+}

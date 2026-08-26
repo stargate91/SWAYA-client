@@ -1,0 +1,38 @@
+.tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-index-toast);
+  pointer-events: none;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border-strong);
+  box-shadow: var(--shadow-lg);
+  animation: fade-in var(--motion-fast);
+  will-change: transform;
+}
+
+.image {
+  display: block;
+  object-fit: cover;
+}
+
+.tooltip[data-aspect="poster"] .image {
+  width: 10rem;
+  height: 15rem;
+}
+
+.tooltip[data-aspect="landscape"] .image {
+  width: 16rem;
+  height: 9rem;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

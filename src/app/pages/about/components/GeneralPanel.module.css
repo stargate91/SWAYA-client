@@ -1,0 +1,15 @@
+.version-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--space-xs) / 2) var(--space-sm);
+  background: color-mix(in srgb, var(--color-accent) 14%, color-mix(in srgb, var(--color-text-primary) 1%, transparent));
+  border: 1px solid color-mix(in srgb, var(--color-accent) 28%, transparent);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-accent);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  line-height: 1;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SWAYA Changelog &amp; Release Notes</title>
+    <link>https://swaya.xyz/changelog</link>
+    <description>Track updates, new features, performance improvements, and bug fixes for the SWAYA desktop media center &amp; video player.</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://swaya.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://swaya.xyz/og-image.jpg</url>
+      <title>SWAYA Changelog &amp; Release Notes</title>
+      <link>https://swaya.xyz/changelog</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <item>
+      <title>SWAYA v1.0.0 - Torrent Client Integration, Granular Reviews &amp; Bespoke Series Architecture</title>
+      <link>https://swaya.xyz/changelog#v1_0_0</link>
+      <guid isPermaLink="true">https://swaya.xyz/changelog#v1_0_0</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Major workstation release introducing full external torrent client dashboards, global torrent search, ratings drawer, bespoke TV season navigation, and optimized batch SQL logs.</p><h3>Key Highlights</h3><ul><li>External torrent client dashboard (qBittorrent & Transmission) with bandwidth counters</li><li>Automated background torrent completion watcher with scan triggers</li><li>Bespoke TV series episode breakdown and playback progression</li><li>Unified media and adult discovery widgets across TMDb, StashDB, and FansDB</li><li>Master-detail rename history with on-demand lazy log loading</li></ul><h4>New Features</h4><ul><li>Torrent Management Dashboard: Real-time download monitoring, rate limiting, and pause/resume controls.</li><li>In-App Torrent Search: Jackett tracker search modal with magnet parsing and 1-click dispatch.</li><li>Automated Completion Watcher: Background service automatically scanning completed downloads.</li><li>Ratings & Review Drawer: Sliding review editor with 10-star rating scale and private markdown notes.</li><li>Bespoke TV Architecture: Multi-season hierarchy, episode progress tracking, and next episode playback.</li><li>Global Toast & Modal Stores: Centralized Zustand stores supporting multi-level stacked dialogs.</li></ul><h4>Performance & Architecture</h4><ul><li>Master-Detail Separation: Grouped SQL queries eliminate DOM freezes during batch expansion.</li><li>TMDb Search Acceleration: Removed redundant HTTP roundtrips, reducing search latency from 4000ms to ~150ms.</li><li>N+1 Query Elimination: Selective selectinload joins across library and history hierarchies.</li><li>Company Metadata Seed Cache: Pre-seeds local company cache during multi-source search resolution.</li></ul><h4>Bug Fixes & Polish</h4><ul><li>Fixed UI freeze when viewing large rename history batches via virtualized rendering.</li><li>Fixed file restoration confirmation in history panel with accurate affected file rollback counters.</li><li>Fixed optimistic cache transitions for torrent pause, resume, and deletion actions.</li></ul>]]></description>
+    </item>
+    <item>
+      <title>SWAYA v0.7.0 - Hardware Video Acceleration &amp; SQLite Filmography Caching</title>
+      <link>https://swaya.xyz/changelog#v0_7_0</link>
+      <guid isPermaLink="true">https://swaya.xyz/changelog#v0_7_0</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Performance and stability update featuring automatic NVENC/QSV GPU video previews, remote filmography caching, and dynamic backend port allocation.</p><h3>Key Highlights</h3><ul><li>Hardware-accelerated FFmpeg video previews with NVENC/QSV/AMF detection</li><li>Remote filmography caching for instant actor portfolio loading</li><li>Dynamic TCP port allocation on backend startup eliminating port collisions</li></ul><h4>New Features</h4><ul><li>GPU Hardware Acceleration: Automatic FFmpeg encoder detection for NVENC, QSV, and AMF.</li><li>Remote Filmography Cache: Local SQLite cache for remote TMDb performer credits.</li><li>Dynamic Port Allocation: Automatic TCP port discovery on backend boot.</li><li>Recently Followed Studios Widget: Dashboard carousel tracking favorite studio releases.</li></ul><h4>Improvements</h4><ul><li>Unified Known For credit cards on performer profiles with PosterCard component.</li><li>Streamlined video playback end overlay with simplified rating and analytics dashboard.</li><li>Replaced Unicode country flags with high-quality SVG flag badges.</li></ul><h4>Bug Fixes</h4><ul><li>Resolved React state lifecycle warning in metadata override modals.</li><li>Fixed library monitoring cleanups to deactivate watch hooks for missing paths.</li><li>Fixed play button triggers in studio grids for in-progress TV episodes.</li></ul>]]></description>
+    </item>
+    <item>
+      <title>SWAYA v0.6.0 - Universal Multi-Source Search &amp; Process Lifecycle Watcher</title>
+      <link>https://swaya.xyz/changelog#v0_6_0</link>
+      <guid isPermaLink="true">https://swaya.xyz/changelog#v0_6_0</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Expanded search capabilities across global databases and hardened backend process management.</p><h3>Key Highlights</h3><ul><li>Unified global search across movies, scenes, performers, and studios</li><li>Parent process monitor preventing orphaned background tasks</li></ul><h4>New Features</h4><ul><li>Global Multi-Source Search: Search across all media types on mainstream and niche providers.</li><li>Parent Process Monitor: Background watchdog ensuring clean backend exit on application close.</li></ul><h4>Bug Fixes</h4><ul><li>Resolved sandbox context-isolation API token verification issue in production.</li><li>Fixed double-proxying of remote HTTPS images.</li><li>Added automatic fallback import when navigating to unlinked external studios.</li></ul>]]></description>
+    </item>
+  </channel>
+</rss>

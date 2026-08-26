@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - %100 Çevrimdışı Medya Merkezi & Windows MPV Oynatıcı",
+    "description": "Windows için sunucusuz, çevrimdışı Plex ve FileBot alternatifi. İndirilen dosyaları otomatik yeniden adlandırın, arşivinizi düzenleyin ve 4K HDR oynatın."
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "Ana Sayfa",
+    "docs": "Dokümantasyon",
+    "changelog": "Günlük",
+    "compare": "Karşılaştırmalar",
+    "help": "Yardım & Destek",
+    "download": "İndir & Fiyatlar",
+    "title": "SWAYA Gezintisi",
+    "discord": "Discord",
+    "buy": "SWAYA Satın Al (€39)",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "Çevrimdışı medya evreninizin kontrolünü elinize alın,",
+    "taglineAccent": "tamamen gizli ve kusursuz bir deneyimle.",
+    "subtitle": "Sabit diskleriniz harika filmlerle dolu ama dosya isimleri karmakarışık mı? SWAYA karmaşayı düzenler, 4K görsel katalog oluşturur ve kesinlikle hiçbir sunucu gerektirmez.",
+    "priceOld": "€79",
+    "priceNew": "€39",
+    "priceTag": "Lansman İndirimi (%50 İndirim)",
+    "buyCta": "€39 Karşılığında Ömür Boyu Lisans Al",
+    "demoCta": "İnteraktif Demoyu Başlat",
+    "guarantees": {
+      "payment": "Tek seferlik ödeme, sonsuza dek sahip olun",
+      "updates": "Ömür boyu ücretsiz güncellemeler",
+      "devices": "3 adede kadar kişisel Windows bilgisayar"
+    }
+  },
+  "video": {
+    "tag": "Ürün Tanıtımı",
+    "title": "SWAYA Nedir?",
+    "titleAccent": "Nasıl çalıştığını canlı izleyin.",
+    "subtitle": "SWAYA, karmaşık indirmeleri yeniden adlandıran, görsel bir kütüphane oluşturan ve 4K MPV video oynatımı sunan modern bir Windows masaüstü uygulamasıdır.",
+    "badge": "2:48 Ürün Turu",
+    "placeholderTitle": "Ürün Tanıtım Videosu",
+    "placeholderSubtitle": "Toplu yeniden adlandırma, çok kaynaklı katalog ve dahili MPV oynatıcıya hızlı bir bakış.",
+    "transcriptTitle": "Video Özeti ve Temel Özellikler",
+    "transcriptOrganizer": "00:00 - Akıllı toplu yeniden adlandırma ve otomatik klasör yapısı",
+    "transcriptCuration": "01:00 - Kütüphane, detay sayfaları ve katalog yönetimi",
+    "transcriptPrivacy": "02:25 - Dahili MPV oynatıcı, kaldığı yerden devam etme ve geçmiş",
+    "comingSoon": "Video demosu yakında",
+    "play": "Demoyu oynat",
+    "pause": "Demoyu duraklat"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "Otomatik Dosya Yeniden Adlandırma",
+      "title": "Karmaşık indirme klasörlerini kusursuz bir kütüphaneye dönüştürün.",
+      "titleAccent": "Doğrudan sabit diskinizdeki dosyaları düzenleyin.",
+      "description": "Filmleri, dizileri ve sahneleri TMDb ve StashDB ile otomatik eşleştirin. İsimlendirme şablonlarını özelleştirin ve binlerce dosyayı Plex/Jellyfin standartlarında düzenleyin.",
+      "benefits": [
+        "Lider veri tabanlarından otomatik meta veri taraması",
+        "Fiziksel dosyaları yeniden adlandırır ve standart klasörler oluşturur",
+        "Güvenli prova önizlemesi (dry-run) ve dosya çakışması koruması"
+      ],
+      "supportedApisLabel": "Desteklenen meta veri sağlayıcıları",
+      "mockupTitle": "Akıllı dosya düzenleyici",
+      "mockupBadge": "142 dosya eşleşti • Yeniden adlandırmaya hazır",
+      "mockupPlaceholder": "Dosya düzenleyici ekran görüntüsü"
+    },
+    "curation": {
+      "tag": "Hepsi Bir Arada",
+      "title": "Filmler, diziler, sahneler ve oyuncular.",
+      "titleAccent": "Bütünleşik, şık bir katalogda.",
+      "description": "Yerel arşivinizi 4K afişler, arka planlar, oyuncu profilleri ve stüdyo bilgileriyle zenginleştirin. 4 afişli kolaj kapaklı özel listeler oluşturun ve Markdown incelemeleri yazın.",
+      "benefits": [
+        "Filmler, diziler ve stüdyolar için tek kütüphane",
+        "Yerel ve harici USB disklerde yıldırım hızında gezinme",
+        "10 yıldızlı puanlama sistemi ve özel Markdown notları"
+      ],
+      "mockupTitle": "Kapsamlı Medya Kataloğu",
+      "mockupBadge": "4K Görseller • Yerel SQLite Veritabanı",
+      "mockupPlaceholder": "Medya detayları ekran görüntüsü"
+    },
+    "privacy": {
+      "tag": "Bulut Yok • Hesap Yok",
+      "title": "%100 çevrimdışı & tam gizlilik.",
+      "titleAccent": "Sıfır bulut bağımlılığı, sıfır telemetri.",
+      "description": "Arka planda çalışan Plex sunucuları, bulut hesapları veya abonelik ücretleri yok. Tüm veriler bilgisayarınızda kalır ve klavye kısayoluyla gizli kasaya anında erişebilirsiniz.",
+      "benefits": [
+        "%100 yerel veri işleme (telemetri yok, takip yok)",
+        "Kısayol tuşuyla hassas kütüphaneleri anında gizleyen kasa",
+        "Tek seferlik €39 ödeme ile ömür boyu güvenli çevrimdışı kullanım"
+      ],
+      "mockupTitle": "Gizli Kasa & Güvenlik",
+      "mockupBadge": "Yerel SQLite • Bulut Yok",
+      "mockupPlaceholder": "Gizli kasa ekran görüntüsü"
+    }
+  },
+  "faq": {
+    "tag": "Sıkça Sorulan Sorular",
+    "title": "Sıkça Sorulan Sorular",
+    "titleAccent": "(SSS)",
+    "subtitle": "SWAYA özellikleri, lisanslama, gizlilik ve performans hakkında bilmeniz gereken her şey.",
+    "items": [
+      {
+        "question": "SWAYA'nın Plex, Jellyfin veya Kodi'den farkı nedir?",
+        "answer": "Plex veya Jellyfin'in aksine, SWAYA sunucu kurulumu, ağ yapılandırması veya hesap kaydı gerektirmez. Dosyalarınızı doğrudan sabit diskinizde düzenleyen ve MPV motoruyla doğrudan en yüksek kalitede oynatan hızlı bir Windows masaüstü yazılımıdır."
+      },
+      {
+        "question": "SWAYA dosya yeniden adlandırmada FileBot'un yerini alabilir mi?",
+        "answer": "Evet. SWAYA, TMDb, StashDB ve ThePornDB aracılığıyla karmaşık dosya adlarını tanıyan ve Plex/Jellyfin standartlarına göre yeniden adlandıran gelişmiş bir toplu düzenleyiciye sahiptir."
+      },
+      {
+        "question": "SWAYA harici USB sabit disklerle çalışır mı?",
+        "answer": "Kesinlikle. Harici disk çıkarıldığında bile afişler, puanlar ve geçmişi içeren tüm kataloğunuz yerel olarak saklanır ve dilediğiniz zaman aranabilir."
+      },
+      {
+        "question": "SWAYA gerçekten %100 çevrimdışı ve gizli mi?",
+        "answer": "Evet. Tüm meta veriler, ayarlar ve SQLite veri tabanınız %100 yerel olarak bilgisayarınızda tutulur. Hiçbir harici sunucuya veri iletilmez."
+      },
+      {
+        "question": "SWAYA hangi video oynatıcı motorunu kullanır?",
+        "answer": "SWAYA, 4K HDR, Dolby Vision, gelişmiş altyazılar ve çoklu ses parçaları için GPU donanım hızlandırmalı optimize edilmiş MPV motorunu kullanır."
+      },
+      {
+        "question": "Hangi meta veri sağlayıcıları destekleniyor?",
+        "answer": "SWAYA; TMDb, OMDb, StashDB, FansDB ve ThePornDB üzerinden afiş, arka plan ve oyuncu bilgilerini doğrudan getirebilir."
+      },
+      {
+        "question": "Lisans sistemi nasıl çalışıyor?",
+        "answer": "SWAYA €39 tek seferlik ödeme ile ömür boyu lisanslanır. Aylık ücret yoktur, tüm v1.x güncellemelerini içerir ve 3 adede kadar kişisel Windows bilgisayarda etkinleştirilebilir."
+      }
+    ]
+  },
+  "download": {
+    "title": "Medya arşivinizi bugün düzenlemeye başlayın",
+    "subtitle": "Windows için ömür boyu lisans satın alın. Tek seferlik €39 ödeme, abonelik yok.",
+    "button": "Ömür Boyu Lisans Satın Al (€39)",
+    "disclaimer": "Ödeme sonrası lisans anahtarı ve indirme bağlantısı anında iletilir. %100 çevrimdışı uyumlu."
+  },
+  "footer": {
+    "tagline": "Tutkulu koleksiyoncular için gizlilik odaklı çevrimdışı medya merkezi ve dosya düzenleyici.",
+    "badge": "Çevrimdışı Öncelikli • v1.0 Windows",
+    "columns": {
+      "navigation": "Gezinti",
+      "comparisons": "Karşılaştırmalar",
+      "documentation": "Dokümantasyon",
+      "getSwaya": "SWAYA Satın Al"
+    },
+    "links": {
+      "home": "Ana Sayfa",
+      "docs": "Dokümantasyon",
+      "changelog": "Günlük",
+      "help": "Yardım & Destek",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Şartlar & İade",
+      "discord": "Discord Topluluğu",
+      "contact": "Geliştiriciyle İletişim",
+      "liveDemo": "İnteraktif Demo",
+      "allGuides": "Tüm Rehberler →",
+      "allComparisons": "Tüm Karşılaştırmalar →"
+    },
+    "licenseDescription": "Bir kez satın alın, 3 adede kadar kişisel Windows bilgisayarda ömür boyu kullanın.",
+    "buyLicense": "Lisans Satın Al (€39)",
+    "copyright": "© {{year}} SWAYA. Tüm hakları saklıdır.",
+    "madeWithLove": "Özenle geliştirildi",
+    "forCollectors": "tutkulu medya koleksiyoncuları için",
+    "languages": "Diller:"
+  },
+  "changelog": {
+    "badge": "Sürüm Geçmişi",
+    "title": "Sürüm Geçmişi & Değişiklik Günlüğü",
+    "subtitle": "SWAYA'daki en son özellikleri, performans iyileştirmelerini ve hata düzeltmelerini keşfedin.",
+    "latest": "Son Sürüm",
+    "highlights": "Öne Çıkanlar"
+  },
+  "help": {
+    "badge": "Destek & Topluluk",
+    "title": "Size nasıl yardımcı olabiliriz?",
+    "subtitle": "Geliştiriciyle doğrudan iletişime geçin, resmi Discord topluluğumuza katılın veya kullanım rehberlerimizi okuyun.",
+    "cards": {
+      "discord": {
+        "tag": "Topluluk",
+        "title": "Resmi Discord Sunucusu",
+        "description": "Medya koleksiyoncuları topluluğuna katılarak ipuçları paylaşın, hızlı yardım alın ve güncellemelerden haberdar olun.",
+        "button": "Discord'a Katıl",
+        "badge": "Çevrimiçi Topluluk"
+      },
+      "email": {
+        "tag": "Doğrudan İletişim",
+        "title": "E-posta Desteği",
+        "description": "Lisans soruları, özellik önerileri, geri bildirimler veya hata bildirimleri için doğrudan yazın.",
+        "button": "E-posta Gönder",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "Dokümantasyon mu arıyorsunuz?",
+      "subtitle": "Yeniden adlandırma, ayarlar ve gelişmiş özellikler hakkındaki kapsamlı rehberlerimizi inceleyin.",
+      "allGuides": "Tüm 13 Rehberi İnceleyin →"
+    },
+    "faq": {
+      "title": "Destek SSS",
+      "subtitle": "Lisanslama, gizlilik ve özellikler hakkında hızlı yanıtlar."
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA Karşılaştırmaları & Yazılım Alternatifleri",
+    "metaDescription": "SWAYA'yı FileBot, Plex, tinyMediaManager, StashApp, Jellyfin ve Kodi ile karşılaştırın. Windows için %100 çevrimdışı medya merkezini keşfedin.",
+    "tag": "Karşılaştırma",
+    "title": "Neden SWAYA'yı Seçmelisiniz?",
+    "titleAccent": "Kapsamlı Bir İnceleme",
+    "subtitle": "Koleksiyoncuların dosya düzenleyici ve 4K MPV oynatıcı içeren bu sunucusuz istasyonu neden tercih ettiğini öğrenin.",
+    "viewAll": "Tüm alternatifleri ve özellik matrisini inceleyin →",
+    "badge": "Yazılım Analizi",
+    "hubTitle": "SWAYA ve",
+    "hubTitleAccent": "Popüler Alternatifler",
+    "hubSubtitle": "SWAYA'yı popüler medya sunucuları ve dosya adlandırma araçlarıyla karşılaştırarak %100 çevrimdışı bir masaüstü uygulamasının avantajlarını keşfedin.",
+    "viewComparison": "Karşılaştırmayı İncele",
+    "relatedDocsTitle": "İlgili SWAYA Özellikleri",
+    "relatedDocsSubtitle": "Karşılaştırmada bahsedilen temel özellikler hakkında teknik kılavuzları okuyun.",
+    "honestComparison": "Dürüst Karşılaştırma: Hangi araç size uygun?",
+    "honestSubtitle": "Her programın güçlü yönleri vardır. İşte doğru seçimi yapmanıza yardımcı olacak objektif bir özet.",
+    "chooseCompetitor": "Şu durumlarda {{name}} tercih edin:",
+    "chooseSwaya": "Şu durumlarda SWAYA tercih edin:",
+    "featureBreakdown": "Ayrıntılı Özellik Karşılaştırması",
+    "featureSubtitle": "SWAYA ve {{name}} arasındaki doğrudan teknik özellikler.",
+    "featureHeader": "Özellik / Nitelik",
+    "whySwitch": "SWAYA Neden Daha İyi Bir Seçim",
+    "whySwitchSubtitle": "Medya koleksiyoncularının özel ihtiyaçları için geliştirildi.",
+    "faqSubtitle": "{{name}} uygulamasından geçiş veya birlikte kullanım hakkında sık sorulanlar.",
+    "ctaTitle": "Medya arşivinizin kontrolünü almaya hazır mısınız?",
+    "ctaSubtitle": "Windows için üstün çevrimdışı medya merkezi. Dosyalarınızı düzenleyin ve 4K HDR oynatımın tadını çıkarın.",
+    "buyCta": "Ömür Boyu Lisans Satın Al (€39)",
+    "demoCta": "İnteraktif Demoyu Başlat",
+    "yes": "Evet",
+    "no": "Hayır",
+    "partial": "Kısmen"
+  },
+  "cookies": {
+    "ariaLabel": "Gizlilik ve Çerez Ayarları",
+    "title": "Gizlilik & Anonim Tanılama",
+    "description": "Web sitesi performansını ve kararlılığını korumak için anonim tanılama verileri kullanıyoruz.",
+    "essentialOnly": "Yalnızca Gerekli Olanlar",
+    "acceptAll": "Tümünü Kabul Et"
+  },
+  "privacy": {
+    "badge": "Gizlilik & Güvenlik",
+    "title": "Gizlilik Politikası",
+    "subtitle": "SWAYA, Windows için %100 çevrimdışı tasarlanmıştır. Sıfır telemetri, tüm veriler kendi bilgisayarınızda saklanır.",
+    "lastUpdated": "Son Güncelleme: 20 Ağustos 2026",
+    "scope": "SWAYA Windows masaüstü uygulaması ve swaya.xyz için geçerlidir",
+    "section1Title": "1. Sıfır Telemetri & %100 Yerel Depolama",
+    "section1Text": "SWAYA, çevrimdışı öncelikli prensiple inşa edilmiştir. Medya dosyalarınız, kataloglarınız, izleme geçmişiniz ve notlarınız yalnızca yerel SQLite veri tabanınızda (data/swaya.db) tutulur.",
+    "section1Point1": "Sabit disklerinizin içeriği asla sunucularımıza yüklenmez veya taranmaz.",
+    "section1Point2": "İzlediğiniz içerikler veya alışkanlıklarınız harici sunucularda kaydedilmez.",
+    "section1Point3": "Meta veri sorguları (TMDb, StashDB) aracısız olarak doğrudan bilgisayarınızdan API kaynaklarına iletilir.",
+    "section2Title": "2. Ödeme Bilgileri ve Lisanslama",
+    "section2Text": "Ödemeler uluslararası Stripe Inc. altyapısıyla güvenli şekilde işlenir. Kredi kartı veya banka bilgilerinizi asla saklamayız.",
+    "section2Point1": "Toplanan bilgiler: E-posta adresi, isim (isteğe bağlı), Stripe işlem kimliği ve zaman damgası.",
+    "section2Point2": "Kullanım amacı: Şifrelenmiş lisans anahtarınızı oluşturmak ve satın alma faturası göndermek.",
+    "section2Point3": "Saklama süresi: Yasal vergi mevzuatına uygun olarak güvenli şekilde arşivlenir.",
+    "section3Title": "3. Cihaz Etkinleştirme ve Çevrimdışı Doğrulama",
+    "section3Text": "Etkinleştirme sırasında uygulama lisans sunucumuzla tek seferlik bir doğrulama gerçekleştirir:",
+    "section3Point1": "3 cihaz sınırını yönetmek için yalnızca geri döndürülemez bir donanım özeti iletilir.",
+    "section3Point2": "Etkinleştirmeden sonra SWAYA kalıcı olarak tamamen internetsiz çalışır.",
+    "section3Point3": "Cihazları dilediğiniz zaman ayarlar panelinden devre dışı bırakabilirsiniz.",
+    "section4Title": "4. Web Sitesi Analitiği ve Çerezler",
+    "section4Text": "Web sitemizde (swaya.xyz) yalnızca yükleme performansını izlemek için anonimleştirilmiş ölçümler kullanılır:",
+    "section4Point1": "Siteler arası takip yapılmaz, veriler reklamverenlere satılmaz.",
+    "section4Point2": "Analitik çerezler yalnızca açık onayınızla etkinleştirilir.",
+    "section5Title": "5. Haklarınız (GDPR) ve İletişim",
+    "section5Text": "GDPR uyarınca kayıtlı lisans bilgilerinizi talep etme, düzeltme veya silme hakkına sahipsiniz.",
+    "section5Contact": "Sorularınız veya talepleriniz için doğrudan geliştiriciyle iletişime geçebilirsiniz:"
+  },
+  "terms": {
+    "badge": "Kullanım Şartları",
+    "title": "Kullanım Şartları & İade Politikası",
+    "subtitle": "Programı satın almadan veya indirmeden önce lütfen bu şartları dikkatlice okuyun.",
+    "lastUpdated": "Son Güncelleme: 20 Ağustos 2026",
+    "scope": "SWAYA v1.x Windows masaüstü uygulaması",
+    "section1Title": "1. Lisans Kapsamı",
+    "section1Text": "Lisans satın aldığınızda (€39 lansman, €79 standart), 3 adede kadar Windows cihazda kişisel kullanım için ömür boyu münhasır olmayan lisans hakkı kazanırsınız.",
+    "section1Point1": "Eski cihazınızı devre dışı bırakarak lisansı yeni bir bilgisayara dilediğiniz zaman taşıyabilirsiniz.",
+    "section1Point2": "Lisans anahtarının yeniden satılması, kiralanması veya paylaşılması yasaktır.",
+    "section1Point3": "Yazılımın ticari olarak dağıtılması veya tersine mühendislik uygulanması yasaktır.",
+    "section2Title": "2. İade Politikası",
+    "section2Text": "SWAYA net ve şeffaf iade koşulları sunar:",
+    "section2Point1": "Etkinleştirilmemiş anahtarlar (14 gün cayma hakkı): Satın alımdan itibaren 14 gün içinde anahtar kullanılmadıysa %100 tam iade.",
+    "section2Point2": "Etkinleştirilmiş anahtarlar (7 gün teknik garanti): Uyumlu sistemlerde çözülemeyen teknik sorunlar yaşanması halinde 7 gün içinde %100 tam iade.",
+    "section2Point3": "İade sonrası işlem: İadesi yapılan lisans anahtarı kalıcı olarak iptal edilir.",
+    "section3Title": "3. İçerik Sorumluluğu ve Yasal Kullanım",
+    "section3Text": "SWAYA yerel bir dosya yönetimi ve oynatma aracıdır. Yönetilen medya içeriklerinden tamamen kullanıcı sorumludur.",
+    "section3Point1": "Kendi medya dosyalarınızın tüm telif hakları size aittir.",
+    "section3Point2": "Yazılımı geçerli tüm yasalara uygun olarak kullanmayı kabul edersiniz.",
+    "section4Title": "4. Ömür Boyu Güncellemeler",
+    "section4Text": "Lisans sahipleri, v1.x serisindeki tüm gelecek özellik ve güvenlik güncellemelerinden ücretsiz yararlanır.",
+    "section5Title": "5. Sorumluluk Reddi ve Sınırlandırmalar",
+    "section5Text1": "SWAYA \"olduğu gibi\" sunulmaktadır. Yazılım, dosya adlarını değiştirmeden önce kontrol edebilmeniz için prova önizleme özelliği sağlar.",
+    "section5Text2": "Yasaların izin verdiği azami ölçüde, geliştirici dolaylı zararlardan veya veri kayıplarından sorumlu tutulamaz.",
+    "section6Title": "6. Müşteri Desteği & İletişim",
+    "section6Text": "İade talepleri veya teknik sorularınız için levicore@proton.me adresine yazabilir veya Discord sunucumuzu ziyaret edebilirsiniz."
+  }
+}

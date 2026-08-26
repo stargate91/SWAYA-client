@@ -1,0 +1,40 @@
+# Global Security Headers
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://swaya.xyz https://image.tmdb.org https://images.unsplash.com https://*.google-analytics.com https://*.googletagmanager.com https://*.stripe.com; media-src 'self' blob: data: https://swaya.xyz; font-src 'self' data:; connect-src 'self' https://buy.stripe.com https://api.stripe.com https://image.tmdb.org https://api.themoviedb.org https://api.github.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' https://buy.stripe.com;
+
+# Immutable Cache for Hashed Vite Assets
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fresh HTML for Instant Deployments & Crawlers
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/docs/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Static Public Metadata & Assets
+/manifest.json
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Access-Control-Allow-Origin: *
+
+/sitemap.xml
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/feed.xml
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Access-Control-Allow-Origin: *
+
+/robots.txt
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
+/swaya-logo.svg
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000
+
+/og-image.jpg
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000

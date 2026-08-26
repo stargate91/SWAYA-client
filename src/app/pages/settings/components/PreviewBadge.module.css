@@ -1,0 +1,7 @@
+.container {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-surface-soft);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border-subtle);
+  min-height: 2.5rem;
+}

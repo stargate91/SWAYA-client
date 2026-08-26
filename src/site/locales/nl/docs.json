@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Home",
+    "breadcrumbDocs": "Documentatie",
+    "defaultCategory": "Documentatie",
+    "minRead": "{{count}} min leestijd",
+    "prevGuide": "Vorige gids",
+    "nextGuide": "Volgende gids",
+    "searchPlaceholder": "Zoek gidsen...",
+    "searchAriaLabel": "Documentatie doorzoeken",
+    "clearSearchAriaLabel": "Zoekopdracht wissen",
+    "noGuidesFound": "Geen gidsen gevonden voor \"{{query}}\"",
+    "onThisPage": "Op deze pagina",
+    "tableOfContents": "Inhoudsopgave",
+    "navigationAriaLabel": "Documentatienavigatie",
+    "relatedGuides": "Gerelateerde gidsen",
+    "error404": "Fout 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Pagina niet gevonden",
+    "pageNotFoundDesc": "De opgevraagde gids of pagina bestaat niet of is verplaatst.",
+    "goBack": "Terug",
+    "returnHome": "Terug naar home",
+    "skipToContent": "Direct naar inhoud",
+    "errorBoundaryTitle": "Er is iets misgegaan",
+    "errorBoundaryDesc": "Er is een onverwachte fout opgetreden bij het laden van deze pagina. Vernieuw de pagina of ga terug naar home.",
+    "reloadPage": "Pagina vernieuwen",
+    "browseDocs": "Documentatie bekijken",
+    "allGuides": "Alle gidsen",
+    "home": "Home",
+    "popularGuides": "Populaire gidsen",
+    "documentationHub": "Werkstation Gidsen",
+    "hubTitle": "SWAYA Documentatie & Gidsen",
+    "hubSubtitle": "Alles wat u moet weten over automatische bestandshernoeming, multi-source metadata scraping, 4K collectiebeheer en MPV-weergave."
+  },
+  "categories": {
+    "gettingStarted": "Aan de slag",
+    "coreWorkflows": "Kernfuncties",
+    "libraryCuration": "Bibliotheek & Collectiebeheer",
+    "systemAutomation": "Systeem & Automatisering"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Overzicht & Snelle Start",
+      "description": "Begrijp de architectuur, mogelijkheden en ontwerpfilosofie van SWAYA."
+    },
+    "organizer": {
+      "title": "Slimme Bestandsorganizer",
+      "description": "Automatische matching, batch hernoemen en conflictbehandeling."
+    },
+    "dashboard": {
+      "title": "Dashboard & Ontdekken",
+      "description": "Spotlight banner, verder kijken en discovery feeds."
+    },
+    "library": {
+      "title": "Bibliotheek & Mediacatalogus",
+      "description": "Rasterweergave, duale modus, geavanceerde filters en tagbeheer."
+    },
+    "details": {
+      "title": "Detailpagina's & Profielen",
+      "description": "Artwork selectie, actieknoppen, TV-seizoenen en filmografie."
+    },
+    "player": {
+      "title": "Geïntegreerde Speler",
+      "description": "MPV-engine, GPU-hardwareversnelling en externe spelerkoppeling."
+    },
+    "search": {
+      "title": "Universele Zoekfunctie & Filters",
+      "description": "Multi-source zoeken en realtime filteren."
+    },
+    "lists": {
+      "title": "Aangepaste Lijsten & Collecties",
+      "description": "Themacollecties, automatische 4-poster collages en JSON-beheer."
+    },
+    "ratings": {
+      "title": "Beoordelingen & Privérecensies",
+      "description": "10-punts beoordelingsschaal, markdown privénotities en favorieten."
+    },
+    "history": {
+      "title": "Kijkgeschiedenis & Logboeken",
+      "description": "Afspelen voortgangstracking en gedetailleerde kijkgeschiedenis."
+    },
+    "statistics": {
+      "title": "Bibliotheek DNA & Statistieken",
+      "description": "Opslaganalyse, genrediagrammen en tijdslijnen."
+    },
+    "settings": {
+      "title": "Instellingen & Configuratie",
+      "description": "Mapnaam-sjablonen, duplicaatbeleid, thema's en API-sleutels."
+    },
+    "torrent": {
+      "title": "Torrent-integratie",
+      "description": "qBittorrent-dashboard en automatische verwerking na downloaden."
+    }
+  }
+}

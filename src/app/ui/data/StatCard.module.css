@@ -1,0 +1,26 @@
+.card {
+  composes: card from './dataCommon.module.css';
+}
+
+.icon-wrapper {
+  composes: icon-wrapper from './dataCommon.module.css';
+}
+
+.content {
+  composes: content from './dataCommon.module.css';
+}
+
+.card[data-state="profit"] .icon-wrapper {
+  background: color-mix(in srgb, var(--color-state-success) 10%, transparent);
+  color: var(--color-state-success);
+}
+
+.card[data-state="loss"] .icon-wrapper {
+  background: color-mix(in srgb, var(--color-state-danger) 10%, transparent);
+  color: var(--color-state-danger);
+}
+
+.card[data-state="info"] .icon-wrapper {
+  background: color-mix(in srgb, var(--color-state-info) 10%, transparent);
+  color: var(--color-state-info);
+}

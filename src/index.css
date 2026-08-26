@@ -1,0 +1,182 @@
+@import '@fontsource/outfit/400.css';
+@import '@fontsource/outfit/500.css';
+@import '@fontsource/outfit/600.css';
+@import '@fontsource/outfit/700.css';
+@import '@fontsource/sora/700.css';
+@import '@fontsource/sora/800.css';
+@import './app/styles.css';
+
+:root {
+  /* Concrete Variable Definitions aligned with desktop app variables */
+  --color-bg-base: var(--color-bg-canvas);
+  --bg-primary: var(--color-bg-canvas);
+  --bg-secondary: var(--color-bg-elevated);
+  --bg-tertiary: color-mix(in srgb, var(--color-bg-elevated) 82%, var(--color-bg-canvas) 18%);
+  --bg-card: var(--color-surface-card);
+  
+  --accent-purple: var(--color-accent);
+  --accent-blue: var(--color-accent);
+  --accent-pink: var(--color-accent);
+
+  --accent-purple-hover: var(--color-accent-hover, color-mix(in srgb, var(--color-accent) 85%, var(--text-primary)));
+  --accent-blue-hover: var(--color-accent-hover, color-mix(in srgb, var(--color-accent) 85%, var(--text-primary)));
+  --accent-pink-hover: var(--color-accent-hover, color-mix(in srgb, var(--color-accent) 85%, var(--text-primary)));
+  
+  --accent-purple-glow: var(--color-accent-glow);
+  --accent-blue-glow: var(--color-accent-glow);
+  --accent-pink-glow: var(--color-accent-glow);
+
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-muted: var(--color-text-muted);
+  
+  --border-color: var(--color-border-subtle);
+  --border-color-hover: var(--color-border-default);
+  --border-color-glow: var(--color-accent);
+
+  --glass-bg: var(--color-surface-glass);
+  --glass-bg-hover: var(--color-surface-glass-strong);
+  --glass-border: var(--color-border-subtle);
+  --glass-blur: var(--glass-blur-md);
+
+  --shadow-glow: 0 0 var(--space-3xl) calc(-1 * var(--radius-2xs)) var(--color-accent-glow);
+
+  /* Typography */
+  --font-sans: var(--font-base);
+  --font-mono: var(--font-sans);
+
+  --font-size-base: var(--font-size-md);
+  --font-size-6xl: var(--space-6xl);
+
+  --font-weight-light: 300;
+
+  /* Borders */
+  --border-width-thin: 0.0625rem;
+  --border-width-default: 0.0625rem;
+  --border-width-thick: 0.125rem;
+
+  /* Spacing */
+  --spacing-none: 0;
+  --spacing-2xs: var(--space-2xs, var(--space-xs));
+  --spacing-xs: var(--space-xs);
+  --spacing-sm: var(--space-sm);
+  --spacing-md: var(--space-md);
+  --spacing-lg: var(--space-lg);
+  --spacing-xl: var(--space-xl);
+  --spacing-2xl: var(--space-2xl);
+  --spacing-3xl: var(--space-3xl);
+  --spacing-4xl: var(--space-4xl);
+  --spacing-5xl: var(--space-5xl);
+
+  /* Transitions mapped to design system motion tokens */
+  --transition-fast: var(--motion-fast);
+  --transition-normal: var(--motion-base);
+  --transition-slow: var(--motion-slow);
+
+  /* Focus Ring */
+  --focus-ring-width: var(--border-width-thick);
+  --focus-ring-color: var(--color-accent);
+  --focus-ring-halo: color-mix(in srgb, var(--color-accent) 25%, transparent);
+
+  /* Scroll Anchor Offset for Sticky Navbar */
+  --scroll-offset: 5.5rem;
+}
+
+html {
+  scroll-padding-top: var(--scroll-offset);
+}
+
+[id] {
+  scroll-margin-top: var(--scroll-offset);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+button, input, select, textarea {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+  background: none;
+  border: none;
+}
+
+/* ─── Standardized Unified SWAYA Focus Ring ──────────────────────────── */
+
+:focus {
+  outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[role="button"]:focus-visible,
+[role="tab"]:focus-visible,
+[role="link"]:focus-visible,
+[tabindex]:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: 0.125rem;
+  box-shadow: 0 0 0 0.1875rem var(--focus-ring-halo);
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: var(--font-size-sm);
+}
+
+/* Custom Scrollbars (Firefox & Standard) */
+html, body, * {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--accent-blue) 40%, var(--bg-tertiary)) var(--bg-primary);
+}
+
+/* Custom Scrollbars (WebKit / Blink) */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--accent-blue) 35%, var(--bg-tertiary));
+  border-radius: var(--radius-full);
+  border: 0.0625rem solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-blue);
+  border: 0.0625rem solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: color-mix(in srgb, var(--accent-blue) 80%, var(--text-primary));
+  border: 0.0625rem solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+body.landing-page-body {
+  overflow-y: auto;
+}

@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.bar {
+  display: flex;
+  width: 10.25rem;
+  height: var(--space-xl);
+  --local-gap: var(--radius-2xs);
+  gap: var(--local-gap);
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+}
+
+.segment {
+  flex: 1;
+  height: 100%;
+  --local-bg: color-mix(in srgb, var(--color-ink) 8%, transparent);
+  background: var(--local-bg);
+  border-radius: var(--radius-xs);
+  overflow: hidden;
+  --local-border: 0.0625rem solid var(--color-border-subtle);
+  border: var(--local-border);
+  --local-transition: all var(--motion-duration-base) var(--motion-ease-standard);
+  transition: var(--local-transition);
+}
+
+.bar:hover .segment {
+  --local-bg: color-mix(in srgb, var(--color-ink) 12%, transparent);
+  background: var(--local-bg);
+  --local-border-color: var(--color-border-default);
+  border-color: var(--local-border-color);
+}
+
+.fill {
+  height: 100%;
+  background: var(--color-accent-blue);
+  opacity: 0.85;
+  --local-transition: opacity var(--motion-duration-base) var(--motion-ease-standard), box-shadow var(--motion-duration-base) var(--motion-ease-standard), width var(--motion-duration-fast) var(--motion-ease-standard);
+  transition: var(--local-transition);
+}
+
+.bar:hover .fill {
+  opacity: 1;
+  box-shadow: 0 0 var(--space-sm) var(--color-accent-blue);
+}
+
+.label {
+  margin-left: var(--space-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  transition: color var(--motion-fast), font-weight var(--motion-fast);
+  color: color-mix(in srgb, var(--color-text-primary) 58%, var(--color-text-muted));
+  min-width: 4.5ch;
+  width: 4.5ch;
+  text-align: left;
+  white-space: nowrap;
+  flex: 0 0 4.5ch;
+}
+
+.label.has-value {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.container:hover .label.has-value {
+  color: var(--color-accent-blue);
+}
+
+.container.layout-column {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+.label-under {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.value-bold {
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin-left: var(--space-sm);
+}
+
+.bar[data-readonly] {
+  cursor: default;
+}
+
+.bar[data-readonly]:hover .segment {
+  --local-bg: color-mix(in srgb, var(--color-ink) 8%, transparent);
+  background: var(--local-bg);
+  border-color: var(--color-border-subtle);
+}
+
+.bar[data-readonly]:hover .fill {
+  opacity: 0.85;
+  box-shadow: none;
+}

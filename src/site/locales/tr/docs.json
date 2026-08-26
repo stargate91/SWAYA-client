@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Ana Sayfa",
+    "breadcrumbDocs": "Dokümantasyon",
+    "defaultCategory": "Dokümantasyon",
+    "minRead": "{{count}} dk okuma",
+    "prevGuide": "Önceki Rehber",
+    "nextGuide": "Sonraki Rehber",
+    "searchPlaceholder": "Rehberlerde ara...",
+    "searchAriaLabel": "Dokümantasyonda ara",
+    "clearSearchAriaLabel": "Aramayı temizle",
+    "noGuidesFound": "\"{{query}}\" için rehber bulunamadı",
+    "onThisPage": "Bu Sayfada",
+    "tableOfContents": "İçindekiler",
+    "navigationAriaLabel": "Dokümantasyon gezintisi",
+    "relatedGuides": "İlgili Rehberler",
+    "error404": "Hata 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Sayfa Bulunamadı",
+    "pageNotFoundDesc": "Aradığınız rehber veya sayfa mevcut değil veya taşınmış olabilir.",
+    "goBack": "Geri Dön",
+    "returnHome": "Ana Sayfaya Dön",
+    "skipToContent": "Ana içeriğe atla",
+    "errorBoundaryTitle": "Bir şeyler ters gitti",
+    "errorBoundaryDesc": "Bu sayfa yüklenirken beklenmeyen bir hata oluştu. Lütfen yenileyin veya ana sayfaya dönün.",
+    "reloadPage": "Sayfayı Yenile",
+    "browseDocs": "Dokümantasyona Göz At",
+    "allGuides": "Tüm Rehberler",
+    "home": "Ana Sayfa",
+    "popularGuides": "Popüler Rehberler",
+    "documentationHub": "İstasyon Rehberleri",
+    "hubTitle": "SWAYA Dokümantasyon & Kullanım Kılavuzları",
+    "hubSubtitle": "Otomatik toplu yeniden adlandırma, çoklu kaynak meta veri taraması, 4K medya düzenleme ve MPV video oynatma hakkında her şeyi öğrenin."
+  },
+  "categories": {
+    "gettingStarted": "Başlangıç",
+    "coreWorkflows": "Temel Özellikler",
+    "libraryCuration": "Kütüphane & Düzenleme",
+    "systemAutomation": "Sistem & Otomasyon"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Genel Bakış & Hızlı Başlangıç",
+      "description": "SWAYA mimarisi, özellikleri ve tasarım felsefesi hakkında bilgi edinin."
+    },
+    "organizer": {
+      "title": "Dosya Düzenleyici & Yeniden Adlandırma",
+      "description": "Otomatik eşleştirme, toplu yeniden adlandırma ve dosya çakışması yönetimi."
+    },
+    "dashboard": {
+      "title": "Kontrol Paneli & Keşfet",
+      "description": "Öne çıkan başlıklar, izlemeye devam et ve keşif akışları."
+    },
+    "library": {
+      "title": "Kütüphane & Medya Kataloğu",
+      "description": "Afiş ızgarası, çift mod, gelişmiş filtreler ve etiketler."
+    },
+    "details": {
+      "title": "Detay Sayfaları & Profiller",
+      "description": "Görsel seçimi, eylemler, TV sezonları ve oyuncu filmografileri."
+    },
+    "player": {
+      "title": "Dahili Oynatıcı Motoru",
+      "description": "MPV çekirdeği, donanım hızlandırma ve harici oynatıcı entegrasyonu."
+    },
+    "search": {
+      "title": "Evrensel Arama & Filtreleme",
+      "description": "Çoklu kaynakta eşzamanlı arama ve anlık filtreleme."
+    },
+    "lists": {
+      "title": "Özel Listeler & Koleksiyonlar",
+      "description": "Tematik koleksiyonlar, otomatik 4 afişli kolaj kapaklar ve JSON dışa aktarma."
+    },
+    "ratings": {
+      "title": "Puanlama & Özel İncelemeler",
+      "description": "10 yıldızlı puanlama sistemi, özel Markdown notları ve favoriler."
+    },
+    "history": {
+      "title": "İzleme Geçmişi & Günlükler",
+      "description": "İlerleme takibi ve ayrıntılı izleme zaman çizelgesi."
+    },
+    "statistics": {
+      "title": "Kütüphane DNA'sı & İstatistikler",
+      "description": "Depolama analizi, tür grafikleri ve çıkış yılı zaman çizelgesi."
+    },
+    "settings": {
+      "title": "Ayarlar & Yapılandırma",
+      "description": "Klasör şablonları, mükerrer dosya kuralları, temalar ve API anahtarları."
+    },
+    "torrent": {
+      "title": "Torrent İstemci Entegrasyonu",
+      "description": "qBittorrent kontrol paneli ve indirme tamamlandığında otomatik düzenleme."
+    }
+  }
+}

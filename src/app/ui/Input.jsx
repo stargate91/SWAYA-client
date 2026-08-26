@@ -1,0 +1,135 @@
+import PropTypes from 'prop-types';
+import { useId, useState } from 'react';
+import { Eye, EyeOff } from '@/ui/icons';
+import { useTranslation } from '@/providers/LanguageContext';
+import Field from './Field';
+import styles from './Input.module.css';
+
+export default function Input({
+  label,
+  hint,
+  error,
+  required,
+  type,
+  className = '',
+  size = 'md',
+  width,
+  inputRef,
+  leftElement,
+  rightElement,
+  expandOnFocus = false,
+  flex,
+  multiline = false,
+  resizable = 'vertical',
+  invalid,
+  ...props
+}) {
+  const [showPassword, setShowPassword] = useState(false);
+  const generatedId = useId();
+  const inputId = props.id || generatedId;
+  const hintId = `${inputId}-hint`;
+  const errorId = `${inputId}-error`;
+
+  const isPassword = type === 'password';
+  const inputType = isPassword ? (showPassword ? 'text' : 'password') : type;
+
+  const { t } = useTranslation();
+
+  const hasError = invalid !== undefined ? invalid : !!error;
+
+  const wrapperClass = `${styles['input-wrapper']} ${styles[`input-wrapper--${size}`]} ${
+    hasError ? styles['input-wrapper--error'] : ''
+  } ${multiline ? styles['input-wrapper--multiline'] : ''}`.trim();
+
+  const fieldClass = `${styles['input-field']} ${
+    expandOnFocus ? styles['input-field--expand-on-focus'] : ''
+  } ${flex === 1 ? styles['flex-1'] : ''} ${className}`.trim();
+
+  const inputClass = `${styles['input']} ${styles[`input--${size}`]} ${multiline ? styles['textarea'] : ''}`.trim();
+
+  return (
+    <Field
+      label={label}
+      hint={hint}
+      error={error}
+      required={required}
+      htmlFor={inputId}
+      className={fieldClass}
+    >
+      <div
+        className={wrapperClass}
+        // eslint-disable-next-line react/forbid-dom-props
+        style={width ? { width, maxWidth: width } : undefined}
+      >
+        {leftElement && (
+          <div className={styles['left-element']}>
+            {leftElement}
+          </div>
+        )}
+        {multiline ? (
+          <textarea
+            id={inputId}
+            ref={inputRef}
+            className={inputClass}
+            data-resize={resizable}
+            aria-invalid={error ? 'true' : undefined}
+            aria-describedby={[
+              hint ? hintId : null,
+              error ? errorId : null,
+            ].filter(Boolean).join(' ') || undefined}
+            {...props}
+          />
+        ) : (
+          <input
+            id={inputId}
+            ref={inputRef}
+            className={inputClass}
+            type={inputType}
+            aria-invalid={error ? 'true' : undefined}
+            aria-describedby={[
+              hint ? hintId : null,
+              error ? errorId : null,
+            ].filter(Boolean).join(' ') || undefined}
+            {...props}
+          />
+        )}
+        {isPassword && (
+          <button
+            type="button"
+            onClick={() => setShowPassword(!showPassword)}
+            className={styles['input-toggle']}
+            tabIndex={-1}
+            aria-label={showPassword ? t('input.hidePassword') : t('input.showPassword')}
+          >
+            {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+          </button>
+        )}
+        {!isPassword && rightElement && (
+          <div className={styles['right-element']}>
+            {rightElement}
+          </div>
+        )}
+      </div>
+      {hint ? <span id={hintId} className={styles['sr-only']}>{hint}</span> : null}
+    </Field>
+  );
+}
+
+Input.propTypes = {
+  label: PropTypes.string,
+  hint: PropTypes.string,
+  error: PropTypes.string,
+  required: PropTypes.bool,
+  type: PropTypes.string,
+  className: PropTypes.string,
+  size: PropTypes.oneOf(['xs', 'sm', 'md', 'lg']),
+  width: PropTypes.string,
+  inputRef: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.shape({ current: PropTypes.any }),
+  ]),
+  leftElement: PropTypes.node,
+  rightElement: PropTypes.node,
+  expandOnFocus: PropTypes.bool,
+  flex: PropTypes.number,
+};

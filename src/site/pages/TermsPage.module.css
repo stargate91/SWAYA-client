@@ -1,0 +1,109 @@
+.container {
+  max-width: 56.25rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--space-3xl) var(--space-xl);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xl);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding-bottom: var(--space-xl);
+  border-bottom: 1px solid var(--color-border-subtle);
+}
+
+.badge-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.title {
+  font-family: var(--font-display, 'Inter', sans-serif);
+  font-size: clamp(var(--font-size-2xl), 3vw, var(--font-size-3xl));
+  font-weight: var(--font-weight-extrabold, bold);
+  color: var(--color-text-primary);
+  line-height: 1.2;
+  margin: var(--space-2xs) 0 0 0;
+}
+
+.description {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  max-width: 48rem;
+}
+
+.meta-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: var(--space-2xs);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xl);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  background: var(--color-surface-field, rgba(255, 255, 255, 0.02));
+  border: 1px solid var(--color-border-default);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+}
+
+.section-highlight {
+  border-color: var(--color-accent-primary);
+  background: rgba(var(--color-accent-primary-rgb, 100, 100, 255), 0.03);
+}
+
+.section-danger {
+  border-color: var(--color-state-danger);
+  background: var(--color-state-danger-bg);
+  box-shadow: 0 0 var(--space-md) var(--color-danger-glow, rgba(239, 68, 68, 0.15));
+}
+
+.section-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: 0;
+}
+
+.section-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin: var(--space-2xs) 0 0 var(--space-lg);
+  padding: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.list li {
+  margin: 0;
+}

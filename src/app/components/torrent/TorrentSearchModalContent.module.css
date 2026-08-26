@@ -1,0 +1,13 @@
+.title-stack {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.meta-inline {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.source-badge {
+  max-width: 8rem;
+}

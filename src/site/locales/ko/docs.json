@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "홈",
+    "breadcrumbDocs": "문서",
+    "defaultCategory": "문서",
+    "minRead": "예상 읽기 시간: {{count}}분",
+    "prevGuide": "이전 가이드",
+    "nextGuide": "다음 가이드",
+    "searchPlaceholder": "가이드 검색...",
+    "searchAriaLabel": "문서 가이드 검색",
+    "clearSearchAriaLabel": "검색어 지우기",
+    "noGuidesFound": "\"{{query}}\"에 대한 가이드를 찾을 수 없습니다",
+    "onThisPage": "목차",
+    "tableOfContents": "문서 목차",
+    "navigationAriaLabel": "문서 탐색",
+    "relatedGuides": "관련 가이드",
+    "error404": "오류 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "페이지를 찾을 수 없습니다",
+    "pageNotFoundDesc": "찾으시는 가이드 또는 페이지가 존재하지 않거나 이동되었습니다.",
+    "goBack": "뒤로 가기",
+    "returnHome": "홈으로 돌아가기",
+    "skipToContent": "본문으로 건너뛰기",
+    "errorBoundaryTitle": "문제가 발생했습니다",
+    "errorBoundaryDesc": "문서를 불러오는 도중 예기치 않은 오류가 발생했습니다. 페이지를 새로고침하거나 홈으로 돌아가세요.",
+    "reloadPage": "페이지 새로고침",
+    "browseDocs": "문서 둘러보기",
+    "allGuides": "모든 가이드",
+    "home": "홈",
+    "popularGuides": "인기 가이드",
+    "documentationHub": "워크스테이션 가이드",
+    "hubTitle": "SWAYA 공식 문서 및 가이드",
+    "hubSubtitle": "자동 파일 이름 일괄 정리, 멀티 소스 메타데이터 수집, 4K 컬렉션 큐레이션 및 MPV 재생에 필요한 모든 것."
+  },
+  "categories": {
+    "gettingStarted": "시작하기",
+    "coreWorkflows": "핵심 워크플로우",
+    "libraryCuration": "라이브러리 및 큐레이션",
+    "systemAutomation": "시스템 및 자동화"
+  },
+  "items": {
+    "getting-started": {
+      "title": "개요 및 빠른 시작",
+      "description": "SWAYA의 아키텍처, 기능 및 설계 철학을 이해합니다."
+    },
+    "organizer": {
+      "title": "스마트 파일 정리기 (오거나이저)",
+      "description": "자동 메타데이터 매칭, 일괄 파일 이름 변경 및 충돌 방지."
+    },
+    "dashboard": {
+      "title": "대시보드 및 탐색",
+      "description": "스포트라이트 배너, 이어보기 및 미디어 피드."
+    },
+    "library": {
+      "title": "라이브러리 및 미디어 카탈로그",
+      "description": "그리드 보기, 듀얼 모드, 고급 필터 및 태그 관리."
+    },
+    "details": {
+      "title": "상세 페이지 및 프로필",
+      "description": "포스터 아트워크 선택, TV 시즌 계층 구조 및 출연작 목록."
+    },
+    "player": {
+      "title": "내장 재생 엔진",
+      "description": "MPV 하드웨어 가속, 4K HDR 재생 및 외부 플레이어 연동."
+    },
+    "search": {
+      "title": "통합 검색 및 필터",
+      "description": "글로벌 멀티 소스 검색 및 실시간 인라인 필터링."
+    },
+    "lists": {
+      "title": "커스텀 리스트 및 컬렉션",
+      "description": "테마별 컬렉션, 자동 4-포스터 콜라주 및 JSON 백업."
+    },
+    "ratings": {
+      "title": "평점 및 개인 리뷰",
+      "description": "10점 척도 평점, 마크다운 개인 리뷰 및 즐겨찾기."
+    },
+    "history": {
+      "title": "시청 기록 및 로그",
+      "description": "재생 진행률 자동 추적 및 상세 시청 기록."
+    },
+    "statistics": {
+      "title": "라이브러리 통계 및 인사이트",
+      "description": "저장공간 분석, 장르 분포 차트 및 타임라인."
+    },
+    "settings": {
+      "title": "환경설정 및 사용자 정의",
+      "description": "폴더 명명 템플릿, 중복 처리 정책, 테마 및 스크레이퍼 API 키."
+    },
+    "torrent": {
+      "title": "토렌트 클라이언트 연동",
+      "description": "qBittorrent 대시보드 연동 및 다운로드 완료 자동 인제스트."
+    }
+  }
+}

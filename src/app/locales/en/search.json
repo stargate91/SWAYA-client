@@ -1,0 +1,39 @@
+{
+  "resultsFor": "Search Results for \"{{query}}\"",
+  "title": "Global Search",
+  "inputPlaceholder": "Type to search and press Enter...",
+  "noProvidersConfigured": "Configure API keys in Settings to search...",
+  "sourceLabel": "Source",
+  "typeLabel": "Type",
+  "empty": {
+    "title": "Search your collection & metadata",
+    "desc": "Search titles across TMDb, StashDB, FansDB, or ThePornDB"
+  },
+  "noResults": {
+    "title": "No results found",
+    "desc": "Try searching with different keywords or changing your filter source."
+  },
+  "moreMatches": "More matches (+{{count}})",
+  "seeAllResults": "See all results for \"{{query}}\"",
+  "source": "Source",
+  "type": "Type",
+  "placeholderTmdb": "Search {{type}}...",
+  "placeholderPattern": "Search {{type}} on {{source}}...",
+  "types": {
+    "all": "All",
+    "movie": "Movies",
+    "tv": "TV Shows",
+    "person": "Stars",
+    "adult_person": "Adult Stars",
+    "collection": "Collections",
+    "company": "Studios",
+    "studio": "Studios",
+    "scene": "Scenes"
+  },
+  "sources": {
+    "tmdb": "TMDb",
+    "stashdb": "StashDB",
+    "fansdb": "FansDB",
+    "theporndb": "ThePornDB"
+  }
+}

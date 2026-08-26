@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbDocs": "Documentation",
+    "defaultCategory": "Documentation",
+    "minRead": "{{count}} min de lecture",
+    "prevGuide": "Guide Précédent",
+    "nextGuide": "Guide Suivant",
+    "searchPlaceholder": "Rechercher dans les guides...",
+    "searchAriaLabel": "Rechercher dans la documentation",
+    "clearSearchAriaLabel": "Effacer la recherche",
+    "noGuidesFound": "Aucun guide trouvé pour « {{query}} »",
+    "onThisPage": "Sur cette page",
+    "tableOfContents": "Table des matières",
+    "navigationAriaLabel": "Navigation dans la documentation",
+    "relatedGuides": "Guides Connexes",
+    "error404": "Erreur 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Page Non Trouvée",
+    "pageNotFoundDesc": "Le guide de documentation ou la page que vous recherchez n'existe pas ou a été déplacé.",
+    "goBack": "Retour",
+    "returnHome": "Retour à l'Accueil",
+    "skipToContent": "Aller au contenu principal",
+    "errorBoundaryTitle": "Une erreur est survenue",
+    "errorBoundaryDesc": "Une erreur inattendue est survenue lors du chargement de la page. Vous pouvez actualiser ou retourner à l'accueil.",
+    "reloadPage": "Recharger la page",
+    "browseDocs": "Parcourir la Documentation",
+    "allGuides": "Tous les Guides",
+    "home": "Accueil",
+    "popularGuides": "Guides Populaires",
+    "documentationHub": "Guides de la Station de Travail",
+    "hubTitle": "Documentation & Guides SWAYA",
+    "hubSubtitle": "Tout ce dont vous avez besoin pour configurer le renommage automatique par lots, le scraping multi-sources, la gestion de collection personnalisée et la lecture accélérée par le matériel."
+  },
+  "categories": {
+    "gettingStarted": "Prise en Main",
+    "coreWorkflows": "Flux Principaux",
+    "libraryCuration": "Médiathèque & Gestion",
+    "systemAutomation": "Système & Automatisation"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Introduction & Vue d'Ensemble",
+      "description": "Comprendre l'architecture de SWAYA, le stockage hors ligne, les fonctionnalités et les piliers clés."
+    },
+    "organizer": {
+      "title": "Organiseur de Fichiers Intelligent",
+      "description": "Association TMDb & StashDB automatisée, renommage par lots et routage sécurisé sans collision."
+    },
+    "dashboard": {
+      "title": "Tableau de Bord & Découverte",
+      "description": "Bannière à l'affiche, reprise de lecture, flux de recommandations et navigation rapide."
+    },
+    "library": {
+      "title": "Catalogue & Médiathèque",
+      "description": "Navigation en grille, mode double, filtres avancés, tags et statut local vs suivi."
+    },
+    "details": {
+      "title": "Pages de Détails & Profils",
+      "description": "Sélecteurs d'affiches, boutons d'action, découpage des saisons TV et filmographies des artistes."
+    },
+    "player": {
+      "title": "Moteur de Lecture",
+      "description": "Moteur MPV 4K HDR avec accélération matérielle, audio/sous-titres multipistes et reprise instantanée."
+    },
+    "search": {
+      "title": "Recherche Universelle & Filtres",
+      "description": "Recherche globale multi-sources, filtres en temps réel pour films, séries, artistes et scènes."
+    },
+    "lists": {
+      "title": "Listes & Collections Personnalisées",
+      "description": "Collections thématiques, collages automatiques de 4 affiches et import/export JSON."
+    },
+    "ratings": {
+      "title": "Notes & Critiques",
+      "description": "Échelle de notation à 10 étoiles, critiques privées en markdown et gestion des favoris."
+    },
+    "history": {
+      "title": "Historique de Visionnage & Journaux",
+      "description": "Suivi de reprise, historique de lecture détaillé et machine à remonter le temps pour renommages."
+    },
+    "statistics": {
+      "title": "Statistiques de Médiathèque (DNA)",
+      "description": "Graphiques de stockage, répartition des genres (Library DNA), résolutions et chronologie."
+    },
+    "settings": {
+      "title": "Paramètres & Configuration",
+      "description": "Modèles de dossiers, gestion des doublons, thèmes, clés API et raccourcis de discrétion."
+    },
+    "torrent": {
+      "title": "Intégration Torrent",
+      "description": "Surveillance des téléchargements, association intelligente, import automatique et intégration qBittorrent."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+/* ==========================================================================
+   APPLICATION SHELL
+   ========================================================================== */
+.shell {
+  display: grid;
+  grid-template-columns: 14.75rem minmax(0, 1fr);
+  height: 100vh;
+  padding-top: var(--layout-window-titlebar-height);
+  contain: layout;
+}
+
+.shell.is-sidebar-collapsed {
+  grid-template-columns: 5.25rem minmax(0, 1fr);
+}
+
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  contain: layout paint;
+  transition: opacity var(--motion-slow), filter var(--motion-slow);
+}
+
+.main:global(.is-transitioning) {
+  opacity: 0.85;
+  filter: blur(var(--space-2xs, 2px));
+  will-change: opacity, filter;
+}
+
+/* ==========================================================================
+   SCROLL AND CONTENT AREA
+   ========================================================================== */
+.content {
+  position: relative;
+  display: block;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--color-canvas);
+  overscroll-behavior-y: none;
+  contain: layout paint;
+  transform: translateZ(0);
+  isolation: isolate;
+}

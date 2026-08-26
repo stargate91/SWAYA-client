@@ -1,0 +1,180 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  width: 100%;
+  padding: var(--space-md);
+  background: var(--ui-control-bg-subtle);
+  border: 0.0625rem solid var(--ui-control-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text-primary);
+  text-align: left;
+  transition: all var(--motion-fast);
+  box-sizing: border-box;
+}
+
+button.card:not([data-disabled="true"]) {
+  cursor: pointer;
+}
+
+button.card:not([data-disabled="true"]):hover {
+  background: var(--ui-control-bg-hover);
+  border-color: var(--color-border-heavy);
+}
+
+button.card:not([data-disabled="true"]):focus-visible {
+  outline: none;
+  border-color: var(--color-accent-blue);
+  box-shadow: 0 0 0 0.125rem var(--color-accent-blue);
+}
+
+.card[data-active="true"] {
+  background: var(--ui-control-bg);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 0.0625rem var(--color-accent);
+}
+
+/* Poster container */
+.poster-wrapper {
+  position: relative;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: var(--color-surface-overlay-heavy);
+  border: 0.0625rem solid var(--ui-control-border);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image[data-object-fit="contain"] {
+  object-fit: contain;
+}
+
+.placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--color-text-muted);
+}
+
+/* Aspect ratios with separate rounded corners and sizes */
+.card[data-aspect="poster"] .poster-wrapper {
+  width: var(--button-height-lg);
+  height: 4.875rem;
+  border-radius: var(--radius-sm);
+}
+
+.card[data-aspect="landscape"] .poster-wrapper {
+  width: 6.5rem;
+  height: 3.625rem;
+  border-radius: var(--radius-sm);
+}
+
+.card[data-aspect="square"] .poster-wrapper {
+  width: calc(4 * var(--space-lg));
+  height: calc(4 * var(--space-lg));
+  border-radius: var(--radius-sm);
+}
+
+.card[data-aspect="circle"] .poster-wrapper {
+  width: var(--space-6xl);
+  height: var(--space-6xl);
+  border-radius: var(--radius-full);
+}
+
+/* Body and Typography */
+.body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  width: 100%;
+}
+
+.title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.35;
+  color: var(--color-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badge {
+  flex-shrink: 0;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  line-height: 1.4;
+  flex-wrap: wrap;
+}
+
+.description {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+/* Compact sm variant overrides */
+.card[data-size="sm"] {
+  padding: var(--space-sm);
+  gap: var(--space-sm);
+}
+
+.card[data-size="sm"][data-aspect="poster"] .poster-wrapper {
+  width: 2.25rem;
+  height: 3.375rem;
+}
+
+.card[data-size="sm"][data-aspect="landscape"] .poster-wrapper {
+  width: 4rem;
+  height: 2.25rem;
+}
+
+.card[data-size="sm"][data-aspect="square"] .poster-wrapper {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card[data-size="sm"][data-aspect="circle"] .poster-wrapper {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card[data-size="sm"] .title {
+  font-size: var(--font-size-xs);
+}
+
+.card[data-size="sm"] .meta,
+.card[data-size="sm"] .description {
+  font-size: var(--font-size-2xs);
+}
+

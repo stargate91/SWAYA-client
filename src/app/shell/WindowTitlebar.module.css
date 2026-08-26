@@ -1,0 +1,257 @@
+/* ==========================================================================
+   WINDOW TITLEBAR
+   ========================================================================== */
+.titlebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-index-fullscreen);
+  display: flex;
+  align-items: stretch;
+  height: var(--layout-window-titlebar-height);
+  border-bottom: 0.0625rem solid var(--color-border-subtle);
+  background: linear-gradient(180deg, var(--color-panel), var(--color-panel-strong));
+  backdrop-filter: var(--glass-blur-lg) saturate(120%);
+  box-shadow: var(--titlebar-shadow);
+  -webkit-app-region: drag;
+}
+
+.drag-region {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  flex: 0 0 5.625rem;
+  min-width: 5.625rem;
+  padding: 0 0 0 var(--space-md);
+  -webkit-app-region: drag;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+  padding: 0 var(--space-lg);
+  -webkit-app-region: drag;
+}
+
+.center-container.has-progress {
+  justify-content: center;
+}
+
+.search-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  max-width: 30rem;
+  min-width: 11.25rem;
+  transition: max-width var(--motion-base), flex-basis var(--motion-base);
+  -webkit-app-region: no-drag;
+}
+
+.search-wrapper.has-progress {
+  position: static;
+  transform: none;
+  max-width: 18rem;
+  flex-basis: 18rem;
+}
+
+.progress-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  z-index: var(--z-index-step-10);
+  flex: 1 1 auto;
+  max-width: 32rem;
+  min-width: 0;
+  -webkit-app-region: no-drag;
+}
+
+.progress-wrapper.is-single {
+  position: static;
+  transform: none;
+  flex: 1 1 auto;
+  max-width: 32rem;
+}
+
+.progress-wrapper :global(.ui-progress-bar-container) {
+  flex: 1 1 auto;
+  max-width: 32rem;
+  min-width: 10rem;
+  width: 100%;
+}
+
+.brand-text {
+  font-family: var(--font-display);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: calc(4.5 * var(--letter-spacing-wide));
+  color: var(--color-accent-blue);
+  user-select: none;
+  line-height: 1;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--border-width-thin);
+  -webkit-app-region: no-drag;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--layout-window-titlebar-height);
+  height: var(--layout-window-titlebar-height);
+  border: none;
+  background: transparent;
+  color: var(--color-muted);
+  transition: background var(--motion-fast), color var(--motion-fast);
+}
+
+.button:focus,
+.button:focus-visible {
+  outline: none;
+  box-shadow: var(--ui-utility-button-titlebar-divider);
+}
+
+.button:hover {
+  --btn-hover-bg: color-mix(in srgb, var(--color-text-primary) 5%, transparent);
+  background: var(--btn-hover-bg);
+  color: var(--color-ink);
+}
+
+.button.close-btn:hover {
+  --close-hover-bg: var(--color-state-danger);
+  background: var(--close-hover-bg);
+  color: var(--color-text-primary);
+}
+
+.button:active {
+  --btn-active-bg: color-mix(in srgb, var(--color-text-primary) 8%, transparent);
+  background: var(--btn-active-bg);
+}
+
+.button.close-btn:active {
+  --close-active-bg: color-mix(in srgb, var(--color-state-danger) 60%, var(--color-text-primary));
+  background: var(--close-active-bg);
+  color: var(--color-text-primary);
+}
+
+.button.adult-toggle {
+  margin-right: var(--space-2xl);
+  color: var(--color-muted);
+  width: var(--ui-control-height-xs);
+  height: var(--ui-control-height-xs);
+  border-radius: var(--radius-sm);
+  box-shadow: none;
+  background: transparent;
+  align-self: center;
+}
+
+.exit-demo-btn {
+  margin-right: var(--space-md);
+  height: 1.85rem;
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  white-space: nowrap;
+  box-shadow: 0 0 14px color-mix(in srgb, var(--color-accent-blue) 35%, transparent);
+}
+
+.button.adult-toggle:hover {
+  background: var(--ui-utility-button-bg-hover);
+  color: var(--color-text-primary);
+}
+
+.button.adult-toggle.is-nsfw {
+  color: var(--color-state-danger);
+}
+
+.button.adult-toggle.is-nsfw:hover {
+  background: var(--ui-utility-button-bg-hover);
+}
+
+.actions .tooltip-trigger {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  -webkit-app-region: no-drag;
+}
+
+/* Titlebar Navigation Buttons */
+.nav-buttons {
+  padding: 0 var(--space-md);
+  -webkit-app-region: no-drag;
+}
+
+.nav-btn {
+  width: var(--ui-control-height-xs);
+  height: var(--ui-control-height-xs);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background var(--motion-fast), color var(--motion-fast);
+}
+
+.nav-btn:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 0.125rem var(--color-accent);
+}
+
+.nav-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-ink) 5%, transparent);
+  color: var(--color-ink);
+}
+
+.torrent-tooltip {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-xs);
+  max-width: 25rem;
+  font-size: var(--font-size-xs);
+}
+
+.torrent-tooltip-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-lg);
+  line-height: var(--line-height-base);
+}
+
+.torrent-name {
+  color: var(--color-text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.torrent-stats {
+  font-family: var(--font-mono);
+  color: var(--color-accent-blue);
+  flex-shrink: 0;
+  white-space: nowrap;
+}

@@ -1,0 +1,36 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swayaMarkBg" x1="36" y1="24" x2="220" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0E1628"/>
+      <stop offset="1" stop-color="#182742"/>
+    </linearGradient>
+    <linearGradient id="swayaMarkAccent" x1="83" y1="53" x2="176" y2="202" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#77C4FF"/>
+      <stop offset="0.52" stop-color="#4FA8FF"/>
+      <stop offset="1" stop-color="#2383F6"/>
+    </linearGradient>
+    <filter id="swayaMarkGlow" x="33" y="28" width="188" height="200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="10" result="effect1_foregroundBlur_1_1"/>
+    </filter>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Sora:wght@800&amp;display=swap');
+      .swaya-mark__glyph {
+        font-family: 'Sora', sans-serif;
+        font-size: 154px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: -0.08em;
+      }
+    </style>
+  </defs>
+
+  <!-- Circle fills the entire 256x256 space so there is no transparent padding -->
+  <circle cx="128" cy="128" r="128" fill="url(#swayaMarkBg)"/>
+  <circle cx="128" cy="128" r="127.25" stroke="#314764" stroke-opacity="0.72" stroke-width="1.5"/>
+  <g filter="url(#swayaMarkGlow)">
+    <text x="128" y="181" text-anchor="middle" class="swaya-mark__glyph" fill="url(#swayaMarkAccent)">S</text>
+  </g>
+  <text x="128" y="181" text-anchor="middle" class="swaya-mark__glyph" fill="url(#swayaMarkAccent)">S</text>
+</svg>

@@ -1,0 +1,23 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-index-fullscreen-overlay);
+}
+
+.lightbox-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.image {
+  max-width: min(92vw, 87.5rem);
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 var(--space-xl) 3.75rem color-mix(in srgb, var(--color-bg-canvas) 55%, transparent);
+  cursor: default;
+}

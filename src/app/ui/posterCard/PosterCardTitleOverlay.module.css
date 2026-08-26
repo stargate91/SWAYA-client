@@ -1,0 +1,93 @@
+.title-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: var(--z-index-step-2);
+}
+
+.title-overlay-gradient {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  background: var(
+    --title-overlay-gradient-bg,
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-bg-canvas) 50%, transparent) 0%,
+      color-mix(in srgb, var(--color-bg-canvas) 60%, transparent) 40%,
+      color-mix(in srgb, var(--color-bg-canvas) 92%, transparent) 100%
+    )
+  );
+  transition: background var(--motion-duration-base) var(--motion-ease-standard),
+    opacity var(--motion-duration-base) var(--motion-ease-standard);
+  pointer-events: none;
+}
+
+.title-overlay-label {
+  position: absolute;
+  left: var(--space-md);
+  right: var(--space-md);
+  bottom: var(--space-md);
+  font-family: var(--font-display);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.35;
+  color: var(--color-ink);
+  text-shadow: 0 var(--radius-2xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 40%, transparent);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  pointer-events: auto;
+}
+
+.title-overlay-content {
+  position: absolute;
+  left: var(--space-md);
+  right: var(--space-md);
+  bottom: var(--space-md);
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.title-overlay-content .title-overlay-label {
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin-bottom: 0;
+}
+
+.title-overlay-subtitle {
+  position: relative;
+  min-height: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xs);
+  text-shadow: 0 var(--radius-2xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 40%, transparent);
+}
+
+.title-overlay-subtitle-default {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: var(--title-overlay-subtitle-default-opacity, 1);
+  transition: opacity var(--motion-duration-fast) var(--motion-ease-standard);
+}
+
+.title-overlay-subtitle-hover {
+  position: absolute;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: var(--title-overlay-subtitle-hover-opacity, 0);
+  transition: opacity var(--motion-duration-fast) var(--motion-ease-standard);
+}
+
+.tooltip-trigger {
+  display: block;
+}

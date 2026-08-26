@@ -1,0 +1,6 @@
+.top-right-action {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  z-index: var(--z-index-step-2);
+}

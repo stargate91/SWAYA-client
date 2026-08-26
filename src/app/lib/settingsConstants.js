@@ -1,0 +1,69 @@
+export const SETTINGS_TAB_IDS = {
+  GENERAL: 'general',
+  THEME: 'theme',
+  PLAYER: 'player',
+  ORGANIZATION: 'organization',
+  PRESETS: 'presets',
+  ORG_GENERAL: 'orgGeneral',
+  MOVIES: 'movies',
+  TV_SHOWS: 'tvShows',
+  EXTRAS: 'extras',
+  SCENES: 'scenes',
+  API_KEYS: 'apiKeys',
+  ADVANCED: 'advanced',
+  MAINTENANCE: 'maintenance',
+  ADULT: 'adult',
+  ADULT_GENERAL: 'adultGeneral',
+  ADULT_MOVIES: 'adultMovies',
+  ADULT_TV_SHOWS: 'adultTvShows',
+  ADULT_API: 'adultApi',
+  TORRENT: 'torrent',
+};
+
+export const SETTINGS_TAB_GROUP_IDS = {
+  GENERAL: SETTINGS_TAB_IDS.GENERAL,
+  THEME: SETTINGS_TAB_IDS.THEME,
+  PLAYER: SETTINGS_TAB_IDS.PLAYER,
+  ORGANIZATION: SETTINGS_TAB_IDS.ORGANIZATION,
+  API_KEYS: SETTINGS_TAB_IDS.API_KEYS,
+  ADVANCED: SETTINGS_TAB_IDS.ADVANCED,
+  MAINTENANCE: SETTINGS_TAB_IDS.MAINTENANCE,
+  ADULT: SETTINGS_TAB_IDS.ADULT,
+  TORRENT: SETTINGS_TAB_IDS.TORRENT,
+};
+
+export const ADULT_TAB_IDS = [
+  SETTINGS_TAB_IDS.ADULT_GENERAL,
+  SETTINGS_TAB_IDS.ADULT_MOVIES,
+  SETTINGS_TAB_IDS.ADULT_TV_SHOWS,
+  SETTINGS_TAB_IDS.SCENES,
+];
+
+export const ORGANIZATION_TAB_IDS = [
+  SETTINGS_TAB_IDS.PRESETS,
+  SETTINGS_TAB_IDS.ORG_GENERAL,
+  SETTINGS_TAB_IDS.MOVIES,
+  SETTINGS_TAB_IDS.TV_SHOWS,
+  SETTINGS_TAB_IDS.EXTRAS,
+];
+
+export const SETTINGS_PRESET_IDS = {
+  PLEX: 'plex',
+  JELLYFIN: 'jellyfin',
+  KODI: 'kodi',
+  MINIMAL: 'minimal',
+};
+
+export const FOLDER_COLLECTION_MODES = {
+  ALWAYS: 'always',
+  THRESHOLD: 'threshold',
+  COMPLETE_ONLY: 'complete_only',
+  NEVER: 'never',
+};
+
+export const EXTRAS_FOLDER_MODES = {
+  SUBFOLDER: 'subfolder',
+  FLAT: 'flat',
+};
+
+export { PROVIDER_ENDPOINTS, PROVIDER_URLS } from './providerAvailability';

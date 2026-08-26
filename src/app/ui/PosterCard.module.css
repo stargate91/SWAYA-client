@@ -1,0 +1,333 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  width: var(--ui-poster-card-width);
+  min-width: var(--ui-poster-card-min-width);
+  height: var(--ui-poster-card-height, auto);
+  transition: transform var(--motion-duration-fast) var(--motion-ease-emphasized),
+    box-shadow var(--motion-duration-slow) var(--motion-ease-standard);
+}
+
+.card[data-fluid="true"] {
+  width: 100%;
+  min-width: 0;
+}
+
+.card[data-clickable="true"] {
+  cursor: pointer;
+}
+
+.card:focus,
+.card:focus-visible {
+  outline: none;
+}
+
+.card:hover {
+  --adult-overlay-opacity: 0;
+  --adult-overlay-blur: 0;
+  --poster-image-scale: scale(1.06);
+  --poster-missing-opacity: 1;
+  --poster-missing-filter: grayscale(0%);
+  --poster-logo-filter: drop-shadow(0 0 0.0625rem color-mix(in srgb, var(--color-text-primary) 95%, transparent))
+    drop-shadow(0 0 0.1875rem color-mix(in srgb, var(--color-text-primary) 50%, transparent));
+  --poster-logo-scale: scale(1.02);
+  --title-overlay-gradient-bg: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--color-bg-canvas) 18%, transparent) 0%,
+    color-mix(in srgb, var(--color-bg-canvas) 30%, transparent) 40%,
+    color-mix(in srgb, var(--color-bg-canvas) 85%, transparent) 100%
+  );
+  --title-overlay-subtitle-hover-opacity: 1;
+  --title-overlay-subtitle-default-opacity: 0;
+  --poster-badge-opacity: 0;
+  --poster-badge-transform: translateY(calc(-1 * var(--space-xs)));
+  --poster-badge-pointer-events: none;
+  transform: var(
+    --ui-poster-card-hover-transform,
+    translateY(calc(-1 * var(--space-xs))) scale(1.02)
+  );
+}
+
+.media-shell {
+  position: relative;
+}
+
+.image-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  text-align: left;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: box-shadow var(--motion-duration-slow) var(--motion-ease-standard);
+}
+
+.card:hover .image-wrapper {
+  box-shadow: var(--ui-poster-card-hover-shadow, var(--shadow-sm));
+}
+
+button.image-wrapper,
+div.image-wrapper[role="button"] {
+  cursor: pointer;
+}
+
+button.image-wrapper:focus-visible,
+div.image-wrapper:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem var(--color-accent-blue);
+}
+
+.media-shell:hover {
+  --image-edit-badge-opacity: 1;
+  --image-edit-badge-translate-y: 0;
+  --play-overlay-opacity: 1;
+  --play-overlay-pointer-events: auto;
+  --poster-badge-opacity: 0;
+  --poster-badge-transform: translateY(calc(-1 * var(--space-xs)));
+  --poster-badge-pointer-events: none;
+}
+
+.media-shell:has(:focus-visible) {
+  --image-edit-badge-opacity: 1;
+  --image-edit-badge-translate-y: 0;
+  --poster-badge-opacity: 0;
+  --poster-badge-transform: translateY(calc(-1 * var(--space-xs)));
+  --poster-badge-pointer-events: none;
+}
+
+.card:has(:focus-visible) {
+  --poster-badge-opacity: 0;
+  --poster-badge-transform: translateY(calc(-1 * var(--space-xs)));
+  --poster-badge-pointer-events: none;
+}
+
+/* Watch Toggle Button (Top-Left on Hover) */
+.watch-toggle {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+  width: calc(2 * var(--space-lg));
+  height: calc(2 * var(--space-lg));
+  border-radius: var(--radius-full);
+  border: 1px solid color-mix(in srgb, var(--color-accent-blue) 48%, var(--button-secondary-border));
+  background-color: color-mix(in srgb, var(--color-panel-translucent) 88%, transparent);
+  background-image: var(--button-secondary-bg);
+  color: var(--color-text-primary);
+  box-shadow: 0 var(--space-xs) var(--space-md) color-mix(in srgb, var(--color-bg-canvas) 22%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: var(--z-index-step-6);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(calc(-1 * var(--space-xs)));
+  transition: opacity var(--motion-fast), transform var(--motion-fast),
+    color var(--motion-fast), border-color var(--motion-fast);
+}
+
+.watch-toggle:hover,
+.watch-toggle:focus-visible {
+  color: var(--button-secondary-color);
+  border-color: color-mix(in srgb, var(--color-accent-blue) 72%, var(--button-secondary-border));
+  outline: none;
+}
+
+.media-shell:hover .watch-toggle,
+.media-shell:has(:focus-visible) .watch-toggle {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Card Action Button (e.g. Added / Remove / Unfollow) */
+.bottom-action,
+.action-btn,
+.media-shell .bottom-action,
+.media-shell .action-btn {
+  position: absolute;
+  bottom: var(--space-xl);
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--space-xs));
+  z-index: var(--z-index-step-10);
+  opacity: 0;
+  transition: opacity var(--motion-base), transform var(--motion-base);
+  pointer-events: auto;
+}
+
+.media-shell:hover .bottom-action,
+.media-shell:has(:focus-visible) .bottom-action,
+.media-shell:hover .action-btn,
+.media-shell:has(:focus-visible) .action-btn,
+.media-shell .bottom-action:hover,
+.media-shell .action-btn:hover,
+.media-shell .bottom-action:hover:not(:disabled),
+.media-shell .action-btn:hover:not(:disabled) {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.bottom-action-state-default,
+.action-btn-state-default,
+.bottom-action [data-state="active"],
+.action-btn [data-state="active"] {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.bottom-action-state-hover,
+.action-btn-state-hover,
+.bottom-action [data-state="hover"],
+.action-btn [data-state="hover"] {
+  display: none;
+}
+
+.media-shell .bottom-action:hover .bottom-action-state-default,
+.media-shell .action-btn:hover .action-btn-state-default,
+.media-shell .bottom-action:hover [data-state="active"],
+.media-shell .action-btn:hover [data-state="active"] {
+  display: none;
+}
+
+.media-shell .bottom-action:hover .bottom-action-state-hover,
+.media-shell .action-btn:hover .action-btn-state-hover,
+.media-shell .bottom-action:hover [data-state="hover"],
+.media-shell .action-btn:hover [data-state="hover"] {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.details {
+  padding: calc(var(--space-xs) / 2) var(--space-xs) 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--space-xs) / 2);
+  position: relative;
+  z-index: var(--z-index-step-1);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+  transition: color var(--motion-duration-fast) var(--motion-ease-standard);
+}
+
+.title[role="button"] {
+  cursor: pointer;
+}
+
+.subtitle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  width: 100%;
+}
+
+.subtitle {
+  font-size: var(--font-size-xs);
+  color: var(--color-muted);
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
+}
+
+.meta-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  flex-shrink: 0;
+}
+
+.date {
+  font-size: var(--font-size-xs);
+  color: var(--color-muted);
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.card[data-selected="true"] .image-wrapper {
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--color-accent) 42%, transparent),
+    0 0 0 2px color-mix(in srgb, var(--color-accent) 16%, transparent);
+}
+
+.card[data-variant="overlay-title"] {
+  gap: 0;
+}
+
+/* Native fillHeight stretch support */
+.card[data-fill-height="true"] {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card[data-fill-height="true"] .media-shell {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card[data-fill-height="true"] .image-wrapper {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card[data-missing="true"] {
+  opacity: 0.7;
+  transition: opacity var(--motion-duration-base) var(--motion-ease-standard);
+}
+
+.card[data-missing="true"]:hover {
+  opacity: 1;
+}
+
+.card.no-hover-animation:hover {
+  --poster-image-scale: none;
+  transform: none;
+}
+
+.card.no-hover-animation:hover .image-wrapper {
+  transform: none;
+  box-shadow: none;
+}
+
+.card[data-clickable="true"]:hover:not(:has(a:hover)):not(:has(button:not(.image-wrapper):hover)) .title {
+  color: var(--color-accent-blue-soft);
+}
+
+.play-overlay-spinner {
+  display: block;
+  position: absolute;
+  inset: -0.125rem;
+  border-radius: var(--radius-full);
+  border: 0.1875rem solid transparent;
+  border-top-color: var(--color-accent);
+  animation: poster-play-spin var(--motion-duration-spinner-slow) var(--motion-ease-linear) infinite;
+  pointer-events: none;
+  z-index: var(--z-index-step-1);
+}
+
+@keyframes poster-play-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

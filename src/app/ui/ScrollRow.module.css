@@ -1,0 +1,77 @@
+.container {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding-top: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  will-change: scroll-position;
+  transform: translateZ(0);
+}
+
+/* Column layout: Chevrons occupy their own layout slots beside the track */
+.container--layout-column {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.container--layout-column .track {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Base Arrow layout positioning */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: var(--z-index-step-20);
+}
+
+.arrow.is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.arrow.is-left {
+  left: 0.625rem;
+}
+
+.arrow.is-right {
+  right: 0.625rem;
+}
+
+/* ScrollRow-specific size-sm overrides */
+.container--size-sm .arrow {
+  width: 1.625rem;
+  height: 1.625rem;
+  opacity: 0.85;
+}
+
+/* ScrollRow-specific layout-column overrides */
+.container--layout-column .arrow {
+  position: static;
+  transform: none;
+  flex-shrink: 0;
+}
+
+.container--size-sm .arrow.is-left {
+  left: var(--space-xs);
+}
+
+.container--size-sm .arrow.is-right {
+  right: var(--space-xs);
+}
+
+.container--size-sm .track {
+  gap: var(--space-sm);
+}
+

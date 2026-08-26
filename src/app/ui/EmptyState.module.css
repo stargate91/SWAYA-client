@@ -1,0 +1,215 @@
+/* EmptyState */
+.root {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+  color: var(--ui-empty-icon-color, inherit);
+  background: var(--ui-empty-icon-bg, transparent);
+  border: 1px solid var(--ui-empty-icon-border, transparent);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title {
+  margin: 0;
+  color: var(--color-ink);
+}
+
+.description {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+/* Layout */
+.layout-centered {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.layout-centered .body {
+  align-items: center;
+}
+
+.layout-left {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.layout-left .body {
+  align-items: flex-start;
+}
+
+/* Size: Small */
+.size-sm {
+  min-height: 0;
+  gap: var(--space-sm);
+  padding: var(--space-lg) var(--space-md);
+}
+
+.size-sm .body {
+  max-width: 100%;
+  gap: var(--space-2xs);
+}
+
+.size-sm .title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-muted);
+  letter-spacing: var(--letter-spacing-normal);
+}
+
+.size-sm .description {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-faint);
+  line-height: 1.4;
+}
+
+.size-sm .icon {
+  width: var(--button-height-sm);
+  height: var(--button-height-sm);
+}
+
+/* Size: Medium */
+.size-md {
+  min-height: 0;
+  gap: var(--space-md);
+  padding: var(--space-2xl);
+}
+
+.size-md .body {
+  max-width: 28.75rem;
+  gap: var(--space-xs);
+}
+
+.size-md .title {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-tight);
+  color: var(--color-text-primary);
+}
+
+.size-md .description {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+}
+
+.size-md .icon {
+  width: var(--button-height-md);
+  height: var(--button-height-md);
+}
+
+/* Size: Large */
+.size-lg {
+  min-height: 17.5rem;
+  gap: var(--space-lg);
+  padding: var(--space-4xl) var(--space-2xl);
+}
+
+.size-lg .body {
+  max-width: 32.5rem;
+  gap: var(--space-sm);
+}
+
+.size-lg .title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: calc(2 * var(--letter-spacing-tight));
+}
+
+.size-lg .description {
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+}
+
+.size-lg .icon {
+  width: var(--button-height-lg);
+  height: var(--button-height-lg);
+}
+
+/* Border Modifiers */
+.border-solid {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-lg);
+}
+
+.border-dashed {
+  border: 1px dashed var(--color-line);
+  border-radius: var(--radius-lg);
+}
+
+.border-none {
+  border: 0;
+  border-radius: var(--radius-none);
+}
+
+/* Background Modifiers */
+.background-solid {
+  background:
+    radial-gradient(circle at top, var(--color-surface-glass), transparent 55%),
+    var(--color-surface-card);
+}
+
+.background-translucent {
+  background: color-mix(in srgb, var(--color-surface-card) 64%, transparent);
+}
+
+.background-none {
+  background: transparent;
+}
+
+/* Icon Color Modifiers */
+.icon-color-accent {
+  --ui-empty-icon-color: var(--list-theme-color, var(--color-accent));
+  --ui-empty-icon-bg: color-mix(in srgb, var(--list-theme-color, var(--color-accent)) 14%, transparent);
+  --ui-empty-icon-border: color-mix(in srgb, var(--list-theme-color, var(--color-accent)) 20%, transparent);
+}
+
+.icon-color-muted {
+  --ui-empty-icon-color: var(--color-text-secondary);
+  --ui-empty-icon-bg: color-mix(in srgb, var(--color-surface-glass-strong) 72%, transparent);
+  --ui-empty-icon-border: color-mix(in srgb, var(--color-border-default) 14%, transparent);
+}
+
+.icon-color-warning {
+  --ui-empty-icon-color: var(--color-state-warning);
+  --ui-empty-icon-bg: color-mix(in srgb, var(--color-state-warning) 14%, transparent);
+  --ui-empty-icon-border: color-mix(in srgb, var(--color-state-warning) 20%, transparent);
+}
+
+/* Vertical Sizing Modifiers */
+.fill-height {
+  height: 100%;
+  flex-grow: 1;
+}
+
+/* Animation Modifiers */
+.animated-icon .icon {
+  transition: transform var(--motion-expressive), opacity var(--motion-base), color var(--motion-base);
+}
+
+.animated-icon:hover .icon {
+  transform: scale(1.15) rotate(4deg);
+  color: var(--color-accent);
+}

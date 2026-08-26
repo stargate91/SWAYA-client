@@ -1,0 +1,9 @@
+.preview-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: zoom-in;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}

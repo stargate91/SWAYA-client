@@ -1,0 +1,16 @@
+.media-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+  border-radius: var(--radius-xl);
+  background: color-mix(in srgb, var(--color-panel-translucent) 22%, transparent);
+  border: 0.0625rem solid color-mix(in srgb, var(--color-border-default) 40%, transparent);
+  backdrop-filter: blur(1rem);
+  box-shadow: 0 1rem 2.5rem color-mix(in srgb, var(--color-bg-canvas) 30%, transparent);
+  box-sizing: border-box;
+  min-width: 0;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}

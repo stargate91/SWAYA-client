@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "title": "SWAYA - 100% Offline Mediacenter & MPV-spelare för Windows",
+    "description": "Det serverlösa offline-alternativet till Plex och FileBot för Windows. Byt namn på filer automatiskt, organisera din samling och spela upp 4K HDR i MPV."
+  },
+  "navbar": {
+    "brand": "SWAYA",
+    "home": "Hem",
+    "docs": "Dokumentation",
+    "changelog": "Ändringslogg",
+    "compare": "Jämförelser",
+    "help": "Hjälp & Support",
+    "download": "Ladda ner & Priser",
+    "title": "SWAYA Webbplatsnavigering",
+    "discord": "Discord",
+    "buy": "Köp SWAYA (€39)",
+    "openMenu": "Öppna meny",
+    "closeMenu": "Stäng meny"
+  },
+  "hero": {
+    "title": "SWAYA",
+    "taglinePrefix": "Ta kontroll över ditt offline-medieuniversum,",
+    "taglineAccent": "med kompromisslös precision och integritet.",
+    "subtitle": "Är dina hårddiskar fulla av fantastiska filmer med kaotiska filnamn? SWAYA organiserar röran, skapar en visuell 4K-katalog och kräver absolut ingen server.",
+    "priceOld": "€79",
+    "priceNew": "€39",
+    "priceTag": "Lanseringsrabatt (50% rabatt)",
+    "buyCta": "Köp livstidslicens för €39",
+    "demoCta": "Starta interaktiv demo",
+    "guarantees": {
+      "payment": "Engångsbetalning, äg för alltid",
+      "updates": "Livstids gratis uppdateringar",
+      "devices": "Upp till 3 personliga Windows-datorer"
+    }
+  },
+  "video": {
+    "tag": "Produktpresentation",
+    "title": "Vad är SWAYA?",
+    "titleAccent": "Se hur det fungerar i praktiken.",
+    "subtitle": "SWAYA är ett modernt Windows-program som byter namn på kaotiska nedladdningar, bygger ett visuellt bibliotek och ger sömlös 4K MPV-uppspelning.",
+    "badge": "2:48 Produktgenomgång",
+    "placeholderTitle": "Produktpresentationsvideo",
+    "placeholderSubtitle": "En snabb genomgång av filnamnsändring, multikällekatalog och MPV-spelare.",
+    "transcriptTitle": "Videoöversikt och kärnfunktioner",
+    "transcriptOrganizer": "00:00 - Smart massnamnändring och automatisk mappstruktur",
+    "transcriptCuration": "01:00 - Bibliotek, detaljsidor och kataloghantering",
+    "transcriptPrivacy": "02:25 - Inbyggd MPV-spelare, återupptagning och historik",
+    "comingSoon": "Videodemo kommer snart",
+    "play": "Spela upp demo",
+    "pause": "Pausa demo"
+  },
+  "showcase": {
+    "organizer": {
+      "tag": "Automatiserad filnamnändring",
+      "title": "Förvandla kaotiska nedladdningar till ett perfekt bibliotek.",
+      "titleAccent": "Organisera de faktiska filerna på din hårddisk.",
+      "description": "Matcha filmer, serier och scener automatiskt mot TMDb och StashDB. Anpassa namnregler och undvik konflikter när tusentals filer flyttas till standardiserade Plex/Jellyfin-mappar.",
+      "benefits": [
+        "Automatisk metadatamatchning från ledande databaser",
+        "Byter namn på fysiska filer och skapar rena mappstrukturer",
+        "Säker förhandsgranskning (dry-run) och filkonfliktskydd"
+      ],
+      "supportedApisLabel": "Stödda metadataleverantörer",
+      "mockupTitle": "Smart filorganisatör",
+      "mockupBadge": "142 filer matchade • Redo att byta namn",
+      "mockupPlaceholder": "Skärmdump från filorganisatören"
+    },
+    "curation": {
+      "tag": "Allt på ett ställe",
+      "title": "Filmer, serier, scener och skådespelare.",
+      "titleAccent": "I en sammanhängande, vacker katalog.",
+      "description": "Berika dina lokala filer med 4K-affischer, bakgrunder, skådespelarprofiler och studiodata. Skapa anpassade listor med 4-affischers collageomslag och skriv privata Markdown-recensioner.",
+      "benefits": [
+        "Enat bibliotek för filmer, serier, scener och producenter",
+        "Blixtsnabb bläddring bland lokala och externa USB-diskar",
+        "10-stjärnigt betygssystem och privata Markdown-anteckningar"
+      ],
+      "mockupTitle": "Komplett mediekatalog",
+      "mockupBadge": "4K Artwork • Lokal SQLite-databas",
+      "mockupPlaceholder": "Skärmdump av mediedetaljer"
+    },
+    "privacy": {
+      "tag": "Inget moln • Inga konton",
+      "title": "100% offline & absolut integritet.",
+      "titleAccent": "Noll molnberoende, noll telemetri.",
+      "description": "Inga Plex-servrar i bakgrunden, inga molnkonton och inga månadskostnader. All data stannar på din dator med snabb åtkomst till ett diskret valv via tangentbordsgenväg.",
+      "benefits": [
+        "100% lokal databehandling (ingen telemetri, ingen spårning)",
+        "Diskret valv som snabbt döljer känsliga bibliotek med snabbkommando",
+        "Engångsköp på €39 för permanent och trygg offlineanvändning"
+      ],
+      "mockupTitle": "Diskret valv & integritet",
+      "mockupBadge": "Lokal SQLite • Inget moln",
+      "mockupPlaceholder": "Skärmdump av det diskreta valvet"
+    }
+  },
+  "faq": {
+    "tag": "Vanliga frågor",
+    "title": "Vanliga frågor och svar",
+    "titleAccent": "(FAQ)",
+    "subtitle": "Allt du behöver veta om funktioner, licensiering, integritet och prestanda i SWAYA.",
+    "items": [
+      {
+        "question": "Hur skiljer sig SWAYA från Plex, Jellyfin eller Kodi?",
+        "answer": "Till skillnad från Plex eller Jellyfin kräver SWAYA ingen serverinstallation, inget nätverkskrångel och inget användarkonto. Det är ett blixtsnabbt Windows-program som organiserar dina fysiska filer och spelar upp dem direkt med högsta möjliga kvalitet via MPV."
+      },
+      {
+        "question": "Kan SWAYA ersätta FileBot för filnamnändring?",
+        "answer": "Ja. SWAYA har en inbyggd massorganisatör som identifierar kaotiska filnamn via TMDb, StashDB och ThePornDB, och byter namn på filerna enligt Plex/Jellyfin-standard."
+      },
+      {
+        "question": "Fungerar SWAYA med externa USB-hårddiskar?",
+        "answer": "Ja, absolut. Även när den externa hårddisken är frånkopplad sparas hela din katalog med affischer, betyg och historik lokalt så att du alltid kan söka i den."
+      },
+      {
+        "question": "Är SWAYA verkligen 100% offline och privat?",
+        "answer": "Ja. All metadata, inställningar och din SQLite-databas lagras 100% lokalt på din dator. Ingen data delas med externa servrar."
+      },
+      {
+        "question": "Vilken videospelare använder SWAYA?",
+        "answer": "SWAYA har en integrerad och optimerad MPV-videospelare med full hårdvaruacceleration (GPU) för 4K HDR, Dolby Vision, avancerade undertexter och flera ljudspår."
+      },
+      {
+        "question": "Vilka metadatadabaser stöds?",
+        "answer": "SWAYA stödjer TMDb, OMDb, StashDB, FansDB och ThePornDB för att hämta affischer, bakgrunder, skådespelare och studiodata."
+      },
+      {
+        "question": "Hur fungerar licensen?",
+        "answer": "SWAYA säljs som ett engångsköp för €39 med livstidslicens. Inga månadskostnader, gratis uppdateringar för alla framtida v1.x-versioner och aktivering på upp till 3 personliga Windows-datorer."
+      }
+    ]
+  },
+  "download": {
+    "title": "Börja organisera din mediesamling idag",
+    "subtitle": "Köp en livstidslicens för Windows. Engångsbetalning på €39, inga återkommande avgifter.",
+    "button": "Köp livstidslicens (€39)",
+    "disclaimer": "Omedelbar leverans av licensnyckel och nedladdningslänk. 100% offline-kompatibel."
+  },
+  "footer": {
+    "tagline": "Den integritetsfokuserade mediecentret och filorganisatören för seriösa samlare.",
+    "badge": "Offline-först • v1.0 Windows",
+    "columns": {
+      "navigation": "Navigering",
+      "comparisons": "Jämförelser",
+      "documentation": "Dokumentation",
+      "getSwaya": "Köp SWAYA"
+    },
+    "links": {
+      "home": "Hem",
+      "docs": "Dokumentation",
+      "changelog": "Ändringslogg",
+      "help": "Hjälp & Support",
+      "privacy": "Integritetspolicy",
+      "terms": "Villkor & Återbetalning",
+      "discord": "Discord Community",
+      "contact": "Kontakta utvecklaren",
+      "liveDemo": "Interaktiv demo",
+      "allGuides": "Alla guider →",
+      "allComparisons": "Alla jämförelser →"
+    },
+    "licenseDescription": "Köp en gång, använd för alltid på upp till 3 personliga Windows-datorer.",
+    "buyLicense": "Köp licens (€39)",
+    "copyright": "© {{year}} SWAYA. Alla rättigheter förbehållna.",
+    "madeWithLove": "Skapad med omsorg",
+    "forCollectors": "för passionerade mediesamlare",
+    "languages": "Språk:"
+  },
+  "changelog": {
+    "badge": "Versionshistorik",
+    "title": "Versionshistorik & Ändringslogg",
+    "subtitle": "Upptäck nya funktioner, prestandaförbättringar och buggfixar i SWAYA.",
+    "latest": "Senaste versionen",
+    "highlights": "Viktiga höjdpunkter"
+  },
+  "help": {
+    "badge": "Support & Gemenskap",
+    "title": "Hur kan vi hjälpa dig?",
+    "subtitle": "Kontakta utvecklaren direkt, gå med i vår Discord-gemenskap eller läs våra detaljerade guider.",
+    "cards": {
+      "discord": {
+        "tag": "Gemenskap",
+        "title": "Officiell Discord",
+        "description": "Gå med i vår community av mediesamlare för snabb hjälp, tips och diskussioner om nya funktioner.",
+        "button": "Gå med i Discord",
+        "badge": "Online gemenskap"
+      },
+      "email": {
+        "tag": "Direktkontakt",
+        "title": "E-postsupport",
+        "description": "För licensfrågor, funktionsförslag, privat feedback eller felrapporter.",
+        "button": "Skicka e-post",
+        "badge": "levicore@proton.me"
+      }
+    },
+    "quickDocs": {
+      "title": "Letar du efter dokumentation?",
+      "subtitle": "Läs våra omfattande guider om filnamnändring, inställningar och avancerade funktioner.",
+      "allGuides": "Visa alla 13 guider →"
+    },
+    "faq": {
+      "title": "Vanliga supportfrågor",
+      "subtitle": "Snabba svar om licensiering, integritet och funktioner."
+    }
+  },
+  "compare": {
+    "metaTitle": "SWAYA Jämförelser & Programvarualternativ",
+    "metaDescription": "Jämför SWAYA med FileBot, Plex, tinyMediaManager, StashApp, Jellyfin och Kodi. Upptäck det ultimata 100% offline-mediecentret för Windows.",
+    "tag": "Jämförelse",
+    "title": "Varför välja SWAYA?",
+    "titleAccent": "En noggrann jämförelse",
+    "subtitle": "Ta reda på varför mediesamlare föredrar denna serverlösa arbetsstation med filorganisatör och 4K MPV-spelare.",
+    "viewAll": "Se alla alternativ och fullständiga funktionsmatriser →",
+    "badge": "Programvaruanalys",
+    "hubTitle": "SWAYA mot",
+    "hubTitleAccent": "Populära Alternativ",
+    "hubSubtitle": "Jämför SWAYA med populära medieservrar och filnamnshanterare, och upptäck fördelarna med en 100% offline-lösning för Windows.",
+    "viewComparison": "Visa jämförelse",
+    "relatedDocsTitle": "Relaterade SWAYA-funktioner",
+    "relatedDocsSubtitle": "Läs fördjupande tekniska guider om funktionerna som nämns i jämförelsen.",
+    "honestComparison": "Ärlig jämförelse: Vilket verktyg passar dig bäst?",
+    "honestSubtitle": "Varje program har sina styrkor. Här är en objektiv översikt för att hjälpa dig välja rätt.",
+    "chooseCompetitor": "Välj {{name}} om:",
+    "chooseSwaya": "Välj SWAYA om:",
+    "featureBreakdown": "Detaljerad funktionsjämförelse",
+    "featureSubtitle": "Direkt teknisk jämförelse mellan SWAYA och {{name}}.",
+    "featureHeader": "Funktion / Egenskap",
+    "whySwitch": "Varför SWAYA är det bättre valet",
+    "whySwitchSubtitle": "Utvecklat specifikt för seriösa mediesamlares krav.",
+    "faqSubtitle": "Vanliga frågor om att byta från eller kombinera med {{name}}.",
+    "ctaTitle": "Redo att ta full kontroll över din mediesamling?",
+    "ctaSubtitle": "Det ultimata offline-mediecentret för Windows. Organisera dina filer och njut av perfekt 4K HDR-uppspelning.",
+    "buyCta": "Köp livstidslicens (€39)",
+    "demoCta": "Starta interaktiv demo",
+    "yes": "Ja",
+    "no": "Nej",
+    "partial": "Delvis"
+  },
+  "cookies": {
+    "ariaLabel": "Integritets- och Cookie-inställningar",
+    "title": "Integritet & Anonym Diagnostik",
+    "description": "Vi använder anonym prestandadiagnostik för att hålla webbplatsen snabb och stabil.",
+    "essentialOnly": "Endast nödvändiga",
+    "acceptAll": "Acceptera alla"
+  },
+  "privacy": {
+    "badge": "Integritet & Säkerhet",
+    "title": "Integritetspolicy",
+    "subtitle": "SWAYA är 100% offline för Windows. Noll telemetri, all data lagras lokalt på din egen dator.",
+    "lastUpdated": "Senast uppdaterad: 20 augusti 2026",
+    "scope": "Gäller för SWAYA Windows-program och swaya.xyz",
+    "section1Title": "1. Noll telemetri & 100% lokal lagring",
+    "section1Text": "SWAYA är byggt enligt offline-först-principen. Dina filer, kataloger, tittarhistorik, betyg och anteckningar sparas uteslutande i din lokala SQLite-databas (data/swaya.db).",
+    "section1Point1": "Vi laddar aldrig upp eller analyserar innehållet på dina hårddiskar.",
+    "section1Point2": "Ingen information om vad du tittar på eller dina vanor registreras på externa servrar.",
+    "section1Point3": "Metadatabegäranden (TMDb, StashDB) skickas direkt från din dator till API-källorna utan mellanhänder.",
+    "section2Title": "2. Betalning och licensutfärdande",
+    "section2Text": "Betalningar hanteras säkert via Stripe Inc. Vi sparar aldrig kreditkorts- eller bankuppgifter.",
+    "section2Point1": "Insamlad information: E-postadress, namn (valfritt), Stripe-transaktions-ID och tidsstämpel.",
+    "section2Point2": "Syfte: För att generera din krypterade licensnyckel och skicka kvitto.",
+    "section2Point3": "Lagringstid: Licens- och bokföringsuppgifter sparas enligt gällande skattelagstiftning.",
+    "section3Title": "3. Enhetsaktivering och offlinevalidering",
+    "section3Text": "Vid aktivering genomför programmet en engångsverifiering mot vår licensserver:",
+    "section3Point1": "Endast en icke-reversibel hårdvaruhash överförs för att hantera gränsen på 3 enheter.",
+    "section3Point2": "Efter aktiveringen fungerar SWAYA permanent helt utan internetanslutning.",
+    "section3Point3": "Du kan när som helst avaktivera enheter direkt i inställningspanelen.",
+    "section4Title": "4. Webbplatsstatistik och cookies",
+    "section4Text": "På vår webbplats (swaya.xyz) använder vi endast anonym diagnostik för prestandamätning:",
+    "section4Point1": "Ingen spårning över flera webbplatser, ingen data säljs till tredje part.",
+    "section4Point2": "Analyscookies aktiveras endast efter ditt uttryckliga godkännande.",
+    "section5Title": "5. Dina rättigheter (GDPR) och kontakt",
+    "section5Text": "Enligt GDPR har du rätt att begära utdrag, rättelse eller radering av dina sparade licensuppgifter.",
+    "section5Contact": "Vid frågor eller begäranden, kontakta utvecklaren direkt:"
+  },
+  "terms": {
+    "badge": "Användarvillkor",
+    "title": "Villkor & Återbetalningspolicy",
+    "subtitle": "Läs igenom dessa villkor noggrant innan du köper eller laddar ner programmet.",
+    "lastUpdated": "Senast uppdaterad: 20 augusti 2026",
+    "scope": "SWAYA v1.x Windows skrivbordsprogram",
+    "section1Title": "1. Licensomfattning",
+    "section1Text": "Vid köp av licens (€39 lanseringspris, €79 ordinarie) erhåller du en icke-exklusiv, livslång licens för personligt bruk på upp till 3 Windows-datorer.",
+    "section1Point1": "Du kan flytta licensen mellan datorer genom att avaktivera den gamla enheten.",
+    "section1Point2": "Vidareförsäljning, uthyrning eller offentlig spridning av licensnyckeln är förbjuden.",
+    "section1Point3": "Kommersiell vidarespridning eller bakåtkompilering av programvaran är inte tillåtet.",
+    "section2Title": "2. Återbetalningspolicy",
+    "section2Text": "SWAYA erbjuder tydliga och transparenta återbetalningsvillkor:",
+    "section2Point1": "Oaktiverade nycklar (14 dagars ångerrätt): Full återbetalning inom 14 dagar från köp om nyckeln inte har aktiverats.",
+    "section2Point2": "Aktiverade nycklar (7 dagars teknisk garanti): Full återbetalning inom 7 dagar vid olösbara tekniska fel på system som uppfyller kraven.",
+    "section2Point3": "Hantering vid återbetalning: Återbetalda licensnycklar spärras permanent.",
+    "section3Title": "3. Innehållsansvar och laglig användning",
+    "section3Text": "SWAYA är ett verktyg för lokal filhantering och uppspelning. Användaren bär det fulla ansvaret för det medieinnehåll som hanteras.",
+    "section3Point1": "Du behåller fullständiga rättigheter till dina egna mediefiler.",
+    "section3Point2": "Du förbinder dig att följa alla tillämpliga lagar vid användning av programmet.",
+    "section4Title": "4. Livstidsuppdateringar",
+    "section4Text": "Licensinnehavare har rätt till alla framtida funktions- och säkerhetsuppdateringar inom v1.x-serien utan extra kostnad.",
+    "section5Title": "5. Ansvarsbegränsning",
+    "section5Text1": "SWAYA tillhandahålls i befintligt skick (\"as is\"). Programmet erbjuder förhandsgranskning så att du kan kontrollera namnändringar innan de utförs.",
+    "section5Text2": "I den utsträckning lagen tillåter ansvarar utvecklaren inte för indirekta skador eller dataförlust.",
+    "section6Title": "6. Kundsupport & kontakt",
+    "section6Text": "För återbetalningar eller tekniska frågor, kontakta levicore@proton.me eller besök vår Discord."
+  }
+}

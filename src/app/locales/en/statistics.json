@@ -1,0 +1,50 @@
+{
+  "description": "Visual overview and breakdown of your media collection",
+  "sections": {
+    "overview": "Overview",
+    "ratings": "Ratings & Reviews",
+    "insights": "Library Insights & Timeline"
+  },
+  "ratings": {
+    "distribution": "Rating Distribution",
+    "mediaAverages": "Average Ratings",
+    "mediaItems": "Rated vs Unrated Titles",
+    "talents": "Talents",
+    "rated": "Rated",
+    "unrated": "Unrated",
+    "average": "Average Rating",
+    "totalRated": "Total Rated",
+    "favoritePerformers": "Top Adult Stars",
+    "favoriteArtists": "Top Stars",
+    "favoriteStudios": "Top Studios"
+  },
+  "stats": {
+    "total_movies": "Total Movies",
+    "movies_sub": "in library",
+    "total_scenes": "Total Scenes",
+    "scenes_sub": "in library",
+    "total_videos": "Total Videos",
+    "videos_sub": "in library",
+    "total_tv": "TV Shows",
+    "tv_sub": "{count} episodes",
+    "storage_used": "Storage Used",
+    "storage_sub": "across {count} drives",
+    "unmatched": "Unmatched",
+    "unmatched_sub": "pending in organizer",
+    "total_scenes_videos": "Scenes & Videos",
+    "library_dna": "Genre Breakdown",
+    "timeline": "Release Timeline",
+    "decade_label": "{decade}s",
+    "top_decade": "Your most populated decade is the {decade}s",
+    "other_genres": "Other Genres",
+    "items_count_tooltip": "{label}: {count} items",
+    "dna_overlay_title": "Genre Breakdown",
+    "dna_overlay_copy_sfw": "Organize titles to reveal your collection's unique genre distribution.",
+    "dna_overlay_copy_nsfw": "Organize scenes to map your library's tag distribution.",
+    "dna_progress_text": "{count} of {limit} titles",
+    "timeline_overlay_title": "Release Timeline",
+    "timeline_overlay_copy_sfw": "Organize more titles to visualize your collection across release decades.",
+    "timeline_overlay_copy_nsfw": "Organize more scenes to build a chronological timeline of your collection.",
+    "timeline_progress_text": "{count} of {limit} items"
+  }
+}

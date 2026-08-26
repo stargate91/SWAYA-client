@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Home",
+    "breadcrumbDocs": "Docs",
+    "defaultCategory": "Documentation",
+    "minRead": "{{count}} min read",
+    "prevGuide": "Previous Guide",
+    "nextGuide": "Next Guide",
+    "searchPlaceholder": "Search guides...",
+    "searchAriaLabel": "Search documentation",
+    "clearSearchAriaLabel": "Clear search",
+    "noGuidesFound": "No guides found for \"{{query}}\"",
+    "onThisPage": "On this page",
+    "tableOfContents": "Table of contents",
+    "navigationAriaLabel": "Documentation Navigation",
+    "relatedGuides": "Related Guides",
+    "error404": "Error 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Page Not Found",
+    "pageNotFoundDesc": "The page or documentation guide you are looking for has been moved, renamed, or does not exist.",
+    "goBack": "Go Back",
+    "returnHome": "Return to Home",
+    "skipToContent": "Skip to main content",
+    "errorBoundaryTitle": "Something Went Wrong",
+    "errorBoundaryDesc": "An unexpected error occurred while rendering this page. You can try refreshing or returning to the homepage.",
+    "reloadPage": "Reload Page",
+    "browseDocs": "Browse Documentation",
+    "allGuides": "All Guides",
+    "home": "Home",
+    "popularGuides": "Popular Guides",
+    "documentationHub": "User Guides",
+    "hubTitle": "SWAYA Documentation & Guides",
+    "hubSubtitle": "Everything you need to configure automated batch file renaming, multi-source metadata scraping, custom library curation, and hardware-accelerated playback."
+  },
+  "categories": {
+    "gettingStarted": "Getting Started",
+    "coreWorkflows": "Core Workflows",
+    "libraryCuration": "Library & Curation",
+    "systemAutomation": "System & Automation"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Introduction & Overview",
+      "description": "Understand SWAYA architecture, features, and core pillars."
+    },
+    "organizer": {
+      "title": "Smart File Organizer",
+      "description": "Automated matching, batch renaming, collision resolution."
+    },
+    "dashboard": {
+      "title": "Dashboard & Discovery",
+      "description": "Spotlight banner, continue watching, discovery feeds."
+    },
+    "library": {
+      "title": "Library & Media Catalog",
+      "description": "Grid browsing, dual mode, advanced filtering, tags, and local vs. tracked status."
+    },
+    "details": {
+      "title": "Detail Pages & Profiles",
+      "description": "Hero artwork pickers, action buttons, TV season breakdowns, and artist filmographies."
+    },
+    "player": {
+      "title": "Playback Engine",
+      "description": "MPV integration, GPU acceleration, external player support."
+    },
+    "search": {
+      "title": "Universal Search & Filter",
+      "description": "Global multi-source search, real-time filters."
+    },
+    "lists": {
+      "title": "Custom Lists & Collections",
+      "description": "Themed collections, 4-poster collage art, import/export."
+    },
+    "ratings": {
+      "title": "Ratings & Reviews",
+      "description": "10-star rating scale, markdown reviews, favorites."
+    },
+    "history": {
+      "title": "Watch History & Logs",
+      "description": "Resume tracking, granular playback history."
+    },
+    "statistics": {
+      "title": "Library Analytics (DNA)",
+      "description": "Storage charts, Library DNA genre breakdown, timelines."
+    },
+    "settings": {
+      "title": "Settings & Configuration",
+      "description": "Folder templates, collision policies, themes, API keys."
+    },
+    "torrent": {
+      "title": "Torrent Integration",
+      "description": "Jackett & qBittorrent monitoring and workflow."
+    }
+  }
+}

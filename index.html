@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/32x32.png?v=2" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/16x16.png?v=2" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/96x96.png?v=2" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/swaya-s-mark-256.png?v=2" />
+  <link rel="shortcut icon" href="/favicon.ico?v=2" />
+
+  <link rel="canonical" href="https://swaya.xyz/" />
+  <script>
+    (function() {
+      try {
+        var path = window.location.pathname;
+        if (path && path !== '/' && !path.endsWith('/index.html')) {
+          var canonicalLink = document.querySelector('link[rel="canonical"]');
+          if (canonicalLink) {
+            canonicalLink.setAttribute('href', 'https://swaya.xyz' + path);
+          }
+        }
+      } catch(e) {}
+    })();
+  </script>
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="alternate" type="application/rss+xml" title="SWAYA Releases &amp; Changelog" href="https://swaya.xyz/feed.xml" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0c0f17" />
+  <meta name="author" content="SWAYA" />
+  <meta name="referrer" content="origin-when-cross-origin" />
+  <meta name="description" content="Offline Plex & FileBot alternative for Windows. Automatically rename downloads, organize movie collections on hard drives, and play 4K HDR without servers." />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Search Engine Webmaster Verification -->
+  <meta name="google-site-verification" content="heGkMrY6Cv7S3UsT494K1jz07-HFHvZPkdIBK055zFU" />
+  <meta name="msvalidate.01" content="11F8A467FA3C48BE70348023E354FCA3" />
+  <meta name="yandex-verification" content="d36c091e015f30be" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://swaya.xyz/" />
+  <meta property="og:title" content="SWAYA - Offline Media Center & Video Player for Windows" />
+  <meta property="og:description" content="Offline Plex & FileBot alternative for Windows. Automatically rename downloads, organize movie collections on hard drives, and play 4K HDR without servers." />
+  <meta property="og:site_name" content="SWAYA" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="de_DE" />
+  <meta property="og:locale:alternate" content="ja_JP" />
+  <meta property="og:locale:alternate" content="hu_HU" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+  <meta property="og:locale:alternate" content="it_IT" />
+  <meta property="og:locale:alternate" content="ru_RU" />
+  <meta property="og:locale:alternate" content="pt_BR" />
+  <meta property="og:locale:alternate" content="ko_KR" />
+  <meta property="og:locale:alternate" content="nl_NL" />
+  <meta property="og:locale:alternate" content="pl_PL" />
+  <meta property="og:locale:alternate" content="zh_TW" />
+  <meta property="og:locale:alternate" content="sv_SE" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+  <meta property="og:locale:alternate" content="cs_CZ" />
+  <meta property="og:image" content="https://swaya.xyz/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="SWAYA - Offline Media Center & Video Player for Windows" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@swaya_official" />
+  <meta name="twitter:creator" content="@swaya_official" />
+  <meta name="twitter:title" content="SWAYA - Offline Media Center & Video Player for Windows" />
+  <meta name="twitter:description" content="Offline Plex & FileBot alternative for Windows. Automatically rename downloads, organize movie collections on hard drives, and play 4K HDR without servers." />
+  <meta name="twitter:image" content="https://swaya.xyz/og-image.jpg" />
+  <meta name="twitter:image:alt" content="SWAYA - Offline Media Center & Video Player for Windows" />
+
+  <!-- Structured Data / JSON-LD -->
+  <script id="site-jsonld" type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://swaya.xyz/#website",
+          "url": "https://swaya.xyz",
+          "name": "SWAYA",
+          "description": "Offline Plex & FileBot alternative for Windows. Automatically rename downloads, organize movie collections on hard drives, and play 4K HDR without servers.",
+          "publisher": {
+            "@id": "https://swaya.xyz/#organization"
+          },
+          "inLanguage": "en",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://swaya.xyz/docs?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://swaya.xyz/#webpage",
+          "url": "https://swaya.xyz/",
+          "name": "SWAYA - Offline Media Center & Video Player for Windows",
+          "description": "Personal offline media center and video player for Windows. Organize movies, TV shows, and adult video collections with rich metadata, custom curation, and complete privacy.",
+          "isPartOf": {
+            "@id": "https://swaya.xyz/#website"
+          },
+          "about": {
+            "@id": "https://swaya.xyz/#organization"
+          },
+          "inLanguage": "en"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://swaya.xyz/#organization",
+          "name": "SWAYA",
+          "url": "https://swaya.xyz",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://swaya.xyz/og-image.jpg"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "levicore@proton.me",
+            "contactType": "customer support"
+          },
+          "sameAs": [
+            "https://discord.gg/g34ZcJScj",
+            "https://github.com/zsakfoso/SWAYA",
+            "https://x.com/swaya_official",
+            "https://www.instagram.com/swayaxyz"
+          ]
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "SWAYA",
+          "applicationCategory": "MultimediaApplication",
+          "operatingSystem": "Windows 10, Windows 11",
+          "processorRequirements": "x64 architecture",
+          "fileSize": "145MB",
+          "softwareVersion": "1.0.0",
+          "downloadUrl": "https://swaya.xyz/#download",
+          "screenshot": [
+            "https://swaya.xyz/og-image.jpg",
+            "https://swaya.xyz/og/docs-organizer.jpg",
+            "https://swaya.xyz/og/docs-library.jpg",
+            "https://swaya.xyz/og/docs-player.jpg",
+            "https://swaya.xyz/og/docs-dashboard.jpg"
+          ],
+          "description": "Offline Plex & FileBot alternative for Windows. Automatically rename downloads, organize movie collections on hard drives, and play 4K HDR without servers.",
+          "featureList": [
+            "Automated batch physical file renaming with custom Plex and Jellyfin templates",
+            "Multi-source metadata scraping across TMDb, OMDb, StashDB, FansDB, and ThePornDB",
+            "Hardware-accelerated 4K HDR offline video playback powered by MPV",
+            "100% offline privacy with 1-click stealth vault mode",
+            "Custom themed collections with auto 4-poster collage covers"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "price": "39.00",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-12-31",
+            "url": "https://buy.stripe.com/aFaaEXaIOb64dhT4YmcjS00"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "142",
+            "ratingCount": "142",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Marcus T."
+              },
+              "datePublished": "2026-08-18",
+              "reviewBody": "Finally an offline media center that feels modern and premium. It automatically organized years of messy movie downloads in minutes, matched gorgeous 4K posters, and plays every video effortlessly.",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              }
+            },
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Elena R."
+              },
+              "datePublished": "2026-08-19",
+              "reviewBody": "The most elegant movie collection manager on Windows. Keeps my entire library organized and 100% private on my storage drives with zero server hassle.",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "VideoObject",
+          "name": "SWAYA - Product Overview & Feature Walkthrough",
+          "description": "SWAYA is a Windows desktop app that cleans up messy files on your drive, organizes your library, and plays your entire collection offline with a built-in MPV player.",
+          "thumbnailUrl": [
+            "https://swaya.xyz/og-image.jpg"
+          ],
+          "uploadDate": "2026-08-20T00:00:00+00:00",
+          "duration": "PT2M48S",
+          "contentUrl": "https://swaya.xyz/assets/action.mp4",
+          "embedUrl": "https://swaya.xyz/#demo-video"
+        },
+        {
+          "@type": "ItemList",
+          "@id": "https://swaya.xyz/#navigation",
+          "name": "SWAYA Site Navigation",
+          "itemListElement": [
+            {
+              "@type": "SiteNavigationElement",
+              "position": 1,
+              "name": "Documentation",
+              "description": "Comprehensive user guides and feature manuals",
+              "url": "https://swaya.xyz/docs"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 2,
+              "name": "Changelog",
+              "description": "Version releases, new features, and update history",
+              "url": "https://swaya.xyz/changelog"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 3,
+              "name": "Compare",
+              "description": "Software comparisons and feature matrices",
+              "url": "https://swaya.xyz/compare"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 4,
+              "name": "Help & Support",
+              "description": "Customer support, Discord community, and FAQ",
+              "url": "https://swaya.xyz/help"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 5,
+              "name": "Download & Pricing",
+              "description": "One-time perpetual license with instant access",
+              "url": "https://swaya.xyz/#download"
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+
+  <!-- Google tag (gtag.js) & Consent Mode v2 (Deferred for optimal FCP & LCP) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    // Initialize Google Consent Mode v2 with privacy-first default denied state
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'wait_for_update': 500
+    });
+
+    gtag('js', new Date());
+    gtag('config', 'G-96MR50XZC2', {
+      'anonymize_ip': true
+    });
+
+    function loadAnalyticsScript() {
+      if (window._analyticsLoaded) return;
+      window._analyticsLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-96MR50XZC2';
+      document.head.appendChild(s);
+    }
+
+    if ('requestIdleCallback' in window) {
+      window.requestIdleCallback(loadAnalyticsScript, { timeout: 3500 });
+    } else {
+      window.addEventListener('load', function() {
+        setTimeout(loadAnalyticsScript, 2000);
+      });
+    }
+  </script>
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://swaya.xyz https://image.tmdb.org https://images.unsplash.com https://*.google-analytics.com https://*.googletagmanager.com https://*.stripe.com; media-src 'self' blob: data: https://swaya.xyz; font-src 'self' data:; connect-src 'self' https://buy.stripe.com https://api.stripe.com https://image.tmdb.org https://api.themoviedb.org https://api.github.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self' https://buy.stripe.com;" />
+  <title>SWAYA - Offline Media Center & Video Player for Windows</title>
+</head>
+
+<body>
+  <noscript>
+    <div style="max-width: 800px; margin: 2rem auto; padding: 2rem; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #f1f5f9; background: #0c0f17; text-align: center; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+      <h1 style="font-size: 1.75rem; margin-bottom: 1rem; color: #fff;">SWAYA — Offline Media Center &amp; Video Player for Windows</h1>
+      <p style="font-size: 1rem; line-height: 1.6; color: #94a3b8; margin-bottom: 1.5rem;">
+        Organize movies, TV series, and video collections directly on your hard drives. Automatic metadata scraping, Plex &amp; Jellyfin folder templates, and hardware-accelerated 4K HDR playback with zero server requirements.
+      </p>
+      <nav style="margin-bottom: 1.5rem;">
+        <a href="/docs" style="color: #60a5fa; margin: 0 0.75rem; text-decoration: underline;">Documentation Guides</a>
+        <a href="/changelog" style="color: #60a5fa; margin: 0 0.75rem; text-decoration: underline;">Changelog &amp; Release Notes</a>
+        <a href="/compare" style="color: #60a5fa; margin: 0 0.75rem; text-decoration: underline;">Software Comparisons</a>
+        <a href="/help" style="color: #60a5fa; margin: 0 0.75rem; text-decoration: underline;">Help &amp; Support</a>
+      </nav>
+      <p style="font-size: 0.875rem; color: #64748b;">
+        JavaScript is required to launch the interactive live demo and web application.
+      </p>
+    </div>
+  </noscript>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

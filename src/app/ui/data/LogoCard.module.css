@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.75rem;
+  min-width: 7.5rem;
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  box-sizing: border-box;
+  background: color-mix(in srgb, var(--color-text-primary) 2%, transparent);
+  border: 1px solid var(--color-border-default);
+  text-align: center;
+}
+
+.logo {
+  object-fit: contain;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.logo-invert {
+  filter: drop-shadow(0 0 0.0625rem color-mix(in srgb, var(--color-text-primary) 55%, transparent)) opacity(0.8);
+  transition: filter var(--motion-fast), opacity var(--motion-fast);
+}
+
+.logo-invert:hover {
+  filter: drop-shadow(0 0 0.0625rem color-mix(in srgb, var(--color-text-primary) 85%, transparent)) drop-shadow(0 0 0.125rem color-mix(in srgb, var(--color-text-primary) 40%, transparent)) opacity(1);
+}
+
+.logo[data-size="xs"] {
+  max-height: 1rem;
+  max-width: 3.5rem;
+}
+
+.logo[data-size="sm"] {
+  max-height: 1.25rem;
+  max-width: 4.5rem;
+}
+
+.logo[data-size="md"] {
+  max-height: 1.75rem;
+  max-width: 6.5rem;
+}
+
+.logo[data-size="lg"] {
+  max-height: 2.5rem;
+  max-width: 8.5rem;
+}
+
+.logo[data-size="xl"] {
+  max-height: 3.25rem;
+  max-width: 10.5rem;
+}

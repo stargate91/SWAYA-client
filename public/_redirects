@@ -1,0 +1,71 @@
+# Canonical domain normalization (www -> non-www)
+https://www.swaya.xyz/* https://swaya.xyz/:splat 301!
+http://www.swaya.xyz/* https://swaya.xyz/:splat 301!
+http://swaya.xyz/* https://swaya.xyz/:splat 301!
+
+# StashApp URL normalization (legacy / typo redirect)
+/compare/stashapp /compare/stash 301!
+/:lang/compare/stashapp /:lang/compare/stash 301!
+
+# SPA Rewrites for Live Web Demo routes (root & localized)
+/dashboard/* /index.html 200
+/dashboard /index.html 200
+/library/* /index.html 200
+/library /index.html 200
+/organizer/* /index.html 200
+/organizer /index.html 200
+/player/* /index.html 200
+/player /index.html 200
+/settings/* /index.html 200
+/settings /index.html 200
+/onboarding/* /index.html 200
+/onboarding /index.html 200
+/search/* /index.html 200
+/search /index.html 200
+/history/* /index.html 200
+/history /index.html 200
+/ratings/* /index.html 200
+/ratings /index.html 200
+/my-ratings/* /index.html 200
+/my-ratings /index.html 200
+/lists/* /index.html 200
+/lists /index.html 200
+/statistics/* /index.html 200
+/statistics /index.html 200
+/torrent/* /index.html 200
+/torrent /index.html 200
+/tags/* /index.html 200
+/tags /index.html 200
+/about/* /index.html 200
+/about /index.html 200
+
+/:lang/dashboard/* /index.html 200
+/:lang/dashboard /index.html 200
+/:lang/library/* /index.html 200
+/:lang/library /index.html 200
+/:lang/organizer/* /index.html 200
+/:lang/organizer /index.html 200
+/:lang/player/* /index.html 200
+/:lang/player /index.html 200
+/:lang/settings/* /index.html 200
+/:lang/settings /index.html 200
+/:lang/onboarding/* /index.html 200
+/:lang/onboarding /index.html 200
+/:lang/search/* /index.html 200
+/:lang/search /index.html 200
+/:lang/history/* /index.html 200
+/:lang/history /index.html 200
+/:lang/ratings/* /index.html 200
+/:lang/ratings /index.html 200
+/:lang/my-ratings/* /index.html 200
+/:lang/my-ratings /index.html 200
+/:lang/lists/* /index.html 200
+/:lang/lists /index.html 200
+/:lang/statistics/* /index.html 200
+/:lang/statistics /index.html 200
+/:lang/torrent/* /index.html 200
+/:lang/torrent /index.html 200
+/:lang/tags/* /index.html 200
+/:lang/tags /index.html 200
+/:lang/about/* /index.html 200
+/:lang/about /index.html 200

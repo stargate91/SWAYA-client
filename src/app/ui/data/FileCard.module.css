@@ -1,0 +1,15 @@
+.card {
+  composes: card from './dataCommon.module.css';
+}
+
+.icon-wrapper {
+  composes: icon-wrapper from './dataCommon.module.css';
+}
+
+.content {
+  composes: content from './dataCommon.module.css';
+}
+
+.full-width {
+  width: 100%;
+}

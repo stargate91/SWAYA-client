@@ -1,0 +1,40 @@
+.brand-col {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  max-width: 20rem;
+}
+
+.brand-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  text-decoration: none;
+}
+
+.logo-text {
+  font-family: var(--font-display, var(--font-sans));
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: calc(4.5 * var(--letter-spacing-wide));
+  color: var(--color-accent);
+  line-height: 1;
+  transition: color var(--transition-fast);
+}
+
+.brand-link:hover .logo-text {
+  color: var(--color-accent-hover, var(--color-accent));
+}
+
+.brand-tagline {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-text {
+    transition: none;
+  }
+}
+

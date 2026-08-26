@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "首页",
+    "breadcrumbDocs": "文档",
+    "defaultCategory": "文档",
+    "minRead": "阅读时间 {{count}} 分钟",
+    "prevGuide": "上一篇指南",
+    "nextGuide": "下一篇指南",
+    "searchPlaceholder": "搜索文档指南...",
+    "searchAriaLabel": "搜索文档",
+    "clearSearchAriaLabel": "清空搜索",
+    "noGuidesFound": "未找到与 \"{{query}}\" 相关的指南",
+    "onThisPage": "本页目录",
+    "tableOfContents": "目录大纲",
+    "navigationAriaLabel": "文档导航",
+    "relatedGuides": "相关指南",
+    "error404": "404 错误",
+    "error404Code": "404",
+    "pageNotFoundTitle": "页面未找到",
+    "pageNotFoundDesc": "您要访问的文档指南或页面不存在，或已被移动。",
+    "goBack": "返回上一页",
+    "returnHome": "返回首页",
+    "skipToContent": "跳转至主要内容",
+    "errorBoundaryTitle": "出现错误",
+    "errorBoundaryDesc": "加载此页面时发生了意外错误。您可以刷新页面或返回首页。",
+    "reloadPage": "重新加载页面",
+    "browseDocs": "浏览文档",
+    "allGuides": "所有指南",
+    "home": "首页",
+    "popularGuides": "热门指南",
+    "documentationHub": "工作站功能指南",
+    "hubTitle": "SWAYA 官方文档与指南",
+    "hubSubtitle": "掌握自动化批量文件重命名、多源元数据刮削、自定义影视媒体库管理和硬件加速流畅播放的一切知识。"
+  },
+  "categories": {
+    "gettingStarted": "入门上手",
+    "coreWorkflows": "核心工作流",
+    "libraryCuration": "媒体库与收藏",
+    "systemAutomation": "系统与自动化"
+  },
+  "items": {
+    "getting-started": {
+      "title": "快速入门与概览",
+      "description": "了解 SWAYA 的离线架构、存储方式、核心特性与设计理念。"
+    },
+    "organizer": {
+      "title": "智能文件整理器",
+      "description": "基于 TMDb 和 StashDB 的自动识别刮削、批量电影与剧集重命名与防冲突文件整理。"
+    },
+    "dashboard": {
+      "title": "仪表盘与发现",
+      "description": "焦点推荐海报轮播、继续观看进度条、发现频道与快速跳转。"
+    },
+    "library": {
+      "title": "媒体库与资源目录",
+      "description": "网格化浏览、双模式切换、高级组合筛选、标签管理与本地 vs 追更状态。"
+    },
+    "details": {
+      "title": "详情页面与档案",
+      "description": "海报背景选择器、快捷操作栏、TV季集交互结构与演职员完整作品年表。"
+    },
+    "player": {
+      "title": "播放引擎与控制",
+      "description": "内置 MPV 4K HDR 硬件加速播放引擎、多音轨与字幕切换及精准续播。"
+    },
+    "search": {
+      "title": "全能搜索与筛选",
+      "description": "多数据源全局即时搜索，支持电影、剧集、演员和影片片段的实时过滤。"
+    },
+    "lists": {
+      "title": "自定义片单与合集",
+      "description": "主题片单、4张海报自适应拼图封面与 JSON 数据导入导出。"
+    },
+    "ratings": {
+      "title": "评分与专属影评",
+      "description": "10星细化评分体系、私密 Markdown 观影笔记与星标收藏。"
+    },
+    "history": {
+      "title": "观看历史与日志",
+      "description": "自动记录播放进度、详细播放日志与一键文件整理撤销时光机。"
+    },
+    "statistics": {
+      "title": "媒体库统计分析 (DNA)",
+      "description": "硬盘容量占用图表、媒体库 DNA 类型雷达图与发行年代时间线。"
+    },
+    "settings": {
+      "title": "设置与自定义配置",
+      "description": "目录命名模版、冲突替换策略、30+ 精致主题、API 密钥与隐私快捷键。"
+    },
+    "torrent": {
+      "title": "Torrent 下载联动",
+      "description": "下载监控、智能资源匹配、自动导入媒体库与 qBittorrent / Jackett 联动。"
+    }
+  }
+}

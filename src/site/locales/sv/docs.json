@@ -1,0 +1,95 @@
+{
+  "ui": {
+    "breadcrumbHome": "Hem",
+    "breadcrumbDocs": "Dokumentation",
+    "defaultCategory": "Dokumentation",
+    "minRead": "{{count}} min läsning",
+    "prevGuide": "Föregående guide",
+    "nextGuide": "Nästa guide",
+    "searchPlaceholder": "Sök i guider...",
+    "searchAriaLabel": "Sök i dokumentation",
+    "clearSearchAriaLabel": "Rensa sökning",
+    "noGuidesFound": "Inga guider hittades för \"{{query}}\"",
+    "onThisPage": "På denna sida",
+    "tableOfContents": "Innehållsförteckning",
+    "navigationAriaLabel": "Dokumentationsnavigering",
+    "relatedGuides": "Relaterade guider",
+    "error404": "Fel 404",
+    "error404Code": "404",
+    "pageNotFoundTitle": "Sidan hittades inte",
+    "pageNotFoundDesc": "Guiden eller sidan du söker finns inte eller har flyttats.",
+    "goBack": "Gå tillbaka",
+    "returnHome": "Återvänd till startsidan",
+    "skipToContent": "Hoppa till huvudinnehåll",
+    "errorBoundaryTitle": "Något gick fel",
+    "errorBoundaryDesc": "Ett oväntat fel inträffade vid laddning av denna sida. Ladda om eller återvänd hem.",
+    "reloadPage": "Ladda om sidan",
+    "browseDocs": "Bläddra i dokumentation",
+    "allGuides": "Alla guider",
+    "home": "Hem",
+    "popularGuides": "Populära guider",
+    "documentationHub": "Arbetsstationsguider",
+    "hubTitle": "SWAYA Dokumentation & Guider",
+    "hubSubtitle": "Lär dig allt om automatisk massnamnändring, metadatasökning från flera källor, 4K-organisering och MPV-videouppspelning."
+  },
+  "categories": {
+    "gettingStarted": "Kom igång",
+    "coreWorkflows": "Kärnfunktioner",
+    "libraryCuration": "Bibliotek & Kuratering",
+    "systemAutomation": "System & Automatisering"
+  },
+  "items": {
+    "getting-started": {
+      "title": "Översikt & Snabbstart",
+      "description": "Lär dig mer om SWAYAs arkitektur, funktioner och designfilosofi."
+    },
+    "organizer": {
+      "title": "Filorganisatör & Namnändring",
+      "description": "Automatisk matchning, massnamnändring och filkonflikthantering."
+    },
+    "dashboard": {
+      "title": "Översikt & Upptäck",
+      "description": "Fokusbanner, fortsätt titta och upptäcktsflöden."
+    },
+    "library": {
+      "title": "Bibliotek & Katalog",
+      "description": "Affischrutnät, dubbelläge, avancerade filter och taggar."
+    },
+    "details": {
+      "title": "Detaljsidor & Profiler",
+      "description": "Bakgrundsval, actions, TV-säsonger och skådespelarfilmografier."
+    },
+    "player": {
+      "title": "Inbyggd Spelarmotor",
+      "description": "MPV-kärna, hårdvaruacceleration och integration med externa spelare."
+    },
+    "search": {
+      "title": "Universell Sökning",
+      "description": "Sökning över flera källor och realtidsfiltrering."
+    },
+    "lists": {
+      "title": "Anpassade Listor & Samlingar",
+      "description": "Temasamlingar, automatiska 4-affischers collageomslag och JSON-export."
+    },
+    "ratings": {
+      "title": "Betyg & Privata Recensioner",
+      "description": "10-stjärnigt betygssystem, privata Markdown-anteckningar och favoriter."
+    },
+    "history": {
+      "title": "Tittarhistorik & Loggar",
+      "description": "Spårning av uppspelningsframsteg och detaljerad tidslinje."
+    },
+    "statistics": {
+      "title": "Bibliotekets DNA & Statistik",
+      "description": "Lagringsanalys, genrediagram och tidslinjer för utgivningsår."
+    },
+    "settings": {
+      "title": "Inställningar & Konfiguration",
+      "description": "Mappmallar, dubblettregler, teman och API-nycklar."
+    },
+    "torrent": {
+      "title": "Torrent-klientintegration",
+      "description": "Översiktspanel för qBittorrent och automatisk organisering vid slutförande."
+    }
+  }
+}

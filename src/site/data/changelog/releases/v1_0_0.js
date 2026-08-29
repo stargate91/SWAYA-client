@@ -1,7 +1,7 @@
 export const v1_0_0 = {
   version: '1.0.0',
   date: '2026-08-16',
-  isLatest: true,
+  isLatest: false,
   title: 'Torrent Client Integration, Granular Reviews & Bespoke Series Architecture',
   description: 'Major workstation release introducing full external torrent client dashboards, global torrent search, ratings drawer, bespoke TV season navigation, and optimized batch SQL logs.',
   highlights: [

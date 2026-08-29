@@ -6,6 +6,17 @@ export const es = {
     fixed: 'Corrección de Errores & Ajustes',
   },
   releases: {
+    '1.1.0': {
+      title: "Navegación Interactiva, Motor de Restauración de Desplazamiento & Migraciones Automáticas",
+      description: "Actualización importante de estabilidad y experiencia de usuario con navegación interactiva en la barra de título, restauración de posición de desplazamiento en filmografías, migraciones automáticas de base de datos Alembic y arquitectura de diseño modular.",
+      highlights: [
+              "Navegación interactiva en la barra de título con enlace al inicio y botón para alternar la barra lateral",
+              "Motor robusto de restauración de desplazamiento para páginas de filmografía y perfiles de intérpretes",
+              "Ejecución automática de migraciones de base de datos Alembic al iniciar la aplicación",
+              "Filtrado y desinfección de contenido para adultos en búsquedas de torrents con Jackett",
+              "Modularización integral del sistema de diseño con más de 600 componentes aislados y tokens CSS"
+      ]
+    },
     '1.0.0': {
       title: 'Integración de Torrent, Reseñas Granulares & Arquitectura de Series TV',
       description: 'Lanzamiento importante de la estación de trabajo que introduce paneles para clientes torrent externos, búsqueda global de torrents, panel de reseñas, navegación por temporadas y registros SQL optimizados.',

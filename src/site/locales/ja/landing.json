@@ -189,7 +189,7 @@
         "title": "メールサポート",
         "description": "ライセンスのご相談、機能要望、フィードバック、バグ報告は開発者へ直接ご連絡ください。",
         "button": "メールを送信",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYAは「現状有姿（as is）」で提供されます。本ソフトウェアはファイル名変更などのプレビュー機能を提供しており、ディスクへの書き込み実行前にプレビューを確認する責任はユーザーにあります。",
     "section5Text2": "法律が許容する最大限において、開発者はデータの損失や記憶媒体の障害を含む間接的損害について一切の責任を負いません。",
     "section6Title": "6. カスタマーサポート & お問い合わせ",
-    "section6Text": "返金のご請求、技術的なご質問等は、levicore@proton.me または公式Discordコミュニティまでお気軽にご連絡ください。"
+    "section6Text": "返金のご請求、技術的なご質問等は、support@swaya.xyz または公式Discordコミュニティまでお気軽にご連絡ください。"
   }
 }

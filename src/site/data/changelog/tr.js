@@ -6,6 +6,17 @@ export const tr = {
     fixed: 'Hata Düzeltmeleri & İyileştirmeler',
   },
   releases: {
+    '1.1.0': {
+      title: "Etkileşimli Gezinme, Kaydırma Konumu Geri Yükleme ve Otomatik Veritabanı Geçişleri",
+      description: "Etkileşimli başlık çubuğu gezinmesi, filmografi kaydırma konumu geri yükleme, otomatik Alembic veritabanı şeması geçişleri ve modüler tasarım sistemi sunan büyük kararlılık güncellemesi.",
+      highlights: [
+              "Ana sayfa bağlantısı ve kenar çubuğu geçiş düğmesi içeren etkileşimli başlık çubuğu gezinmesi",
+              "Oyuncu ve sanatçı filmografi sayfaları için gelişmiş kaydırma konumu geri yükleme motoru",
+              "Başlangıçta veritabanı şemasını otomatik olarak güncelleyen Alembic geçiş çalıştırıcısı",
+              "Jackett torrent aramalarında yetişkin içerik filtreleme ve kategori temizleme desteği",
+              "600’den fazla bağımsız bileşen ve CSS belirteci ile kapsamlı tasarım sistemi modülerleştirmesi"
+      ]
+    },
     '1.0.0': {
       title: 'Torrent Entegrasyonu, Kapsamlı İnceleme Çekmecesi & TV Sezon Mimarisi',
       description: 'Harici torrent istemcisi kontrol paneli, evrensel arama, inceleme çekmecesi, TV sezon hiyerarşisi ve optimize edilmiş SQL işlem günlüklerini içeren büyük sürüm.',

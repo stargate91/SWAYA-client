@@ -17,7 +17,7 @@ export function useDeveloperContactActions(appInfo, t) {
   const developerEmail =
     appInfo?.developer?.email ||
     (t ? t('about.app_info.developer_email') : '') ||
-    'levicore@proton.me';
+    'support@swaya.xyz';
 
   const handleEmailClick = useCallback(
     (e) => {

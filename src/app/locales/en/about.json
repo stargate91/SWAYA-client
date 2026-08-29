@@ -72,7 +72,7 @@
     "developer": "Developer",
     "developer_intro": "Reach out directly if you want to report bugs, collaborate, or share feedback.",
     "developer_name": "Levi",
-    "developer_email": "levicore@proton.me"
+    "developer_email": "support@swaya.xyz"
   },
   "toasts": {
     "email_copied": "Copied email to clipboard: {{email}}"

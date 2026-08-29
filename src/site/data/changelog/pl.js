@@ -6,6 +6,17 @@ export const pl = {
     fixed: 'Poprawki błędów & Szlify',
   },
   releases: {
+    '1.1.0': {
+      title: "Interaktywna Nawigacja, Przywracanie Przewijania & Automatyczne Migracje Bazy Danych",
+      description: "Duża aktualizacja stabilności i interfejsu wprowadzająca interaktywną nawigację na pasku tytułu, przywracanie pozycji przewijania w filmografiach, automatyczne migracje Alembic oraz modułowy system projektowania.",
+      highlights: [
+              "Interaktywna nawigacja na pasku tytułu z linkiem do pulpitu i przełącznikiem paska bocznego",
+              "Niezawodny mechanizm przywracania pozycji przewijania dla stron filmografii twórców",
+              "Automatyczne wykonywanie migracji bazy danych Alembic przy starcie aplikacji",
+              "Filtrowanie treści dla dorosłych i czyszczenie kategorii w wyszukiwaniu torrentów przez Jackett",
+              "Kompleksowa modularyzacja systemu projektowania z ponad 600 komponentami i tokenami CSS"
+      ]
+    },
     '1.0.0': {
       title: 'Integracja z Torrentami, Rozbudowane Recenzje & Architektura Seriali TV',
       description: 'Główne wydanie wprowadzające pulpity zewnętrznych klientów torrent, wyszukiwanie uniwersalne, panel edycji recenzji, hierarchię sezonów TV oraz zoptymalizowane masowe logi SQL.',

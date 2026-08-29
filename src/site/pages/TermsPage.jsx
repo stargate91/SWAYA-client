@@ -180,7 +180,7 @@ export default function TermsPage() {
           <p className={styles['section-text']}>
             {t('landing.terms.section6Text', {
               defaultValue:
-                'To request a refund, report a technical issue, or ask questions regarding these terms, please contact us directly at levicore@proton.me. Please include your Stripe purchase email and license key for expedited assistance.',
+                'To request a refund, report a technical issue, or ask questions regarding these terms, please contact us directly at support@swaya.xyz. Please include your Stripe purchase email and license key for expedited assistance.',
             })}
           </p>
         </section>

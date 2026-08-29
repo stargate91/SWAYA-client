@@ -189,7 +189,7 @@
         "title": "電子郵件支援",
         "description": "關於授權問題、功能建議、私人反饋或錯誤回報，歡迎直接寄信給開發者。",
         "button": "傳送電子郵件",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA 依「現狀」提供。軟體提供演練預覽功能，以便使用者在檔案重新命名之前先行確認。",
     "section5Text2": "在法律允許的最大範圍內，開發者不對任何間接損害或資料遺失承擔責任。",
     "section6Title": "6. 客戶服務與聯繫方式",
-    "section6Text": "如有退款申請或技術支援需求，請來信 levicore@proton.me 或至官方 Discord 諮詢。"
+    "section6Text": "如有退款申請或技術支援需求，請來信 support@swaya.xyz 或至官方 Discord 諮詢。"
   }
 }

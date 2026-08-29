@@ -6,6 +6,17 @@ export const de = {
     fixed: 'Fehlerbehebungen & Feinschliff',
   },
   releases: {
+    '1.1.0': {
+      title: "Interaktive Navigation, Scroll-Wiederherstellung & Automatische Datenbankmigrationen",
+      description: "Großes Stabilitäts- und Benutzerfreundlichkeits-Update mit interaktiver Titelleistennavigation, Filmografie-Scroll-Wiederherstellung, automatischen Alembic-Datenbankmigrationen und modularisiertem Designsystem.",
+      highlights: [
+              "Interaktive Titelleistennavigation mit Startseiten-Link und Schnellschaltfläche für die Seitenleiste",
+              "Robuste Scroll-Wiederherstellung für Filmografie- und Darstellerseiten bei Vor-/Zurück-Navigation",
+              "Automatische Alembic-Datenbankmigration beim Programmstart für nahtlose Schema-Updates",
+              "Bereinigung von Erwachseneninhalten und Tracker-Filterung bei Jackett-Torrentsuchen",
+              "Umfassende Modularisierung des Designsystems mit über 600 isolierten Komponenten und Tokens"
+      ]
+    },
     '1.0.0': {
       title: 'Torrent-Client-Integration, Detaillierte Bewertungen & TV-Serien-Architektur',
       description: 'Großes Workstation-Release mit integriertem Dashboard für externe Torrent-Clients, globaler Torrent-Suche, Bewertungs-Drawer, TV-Staffelnavigation und optimierten Batch-SQL-Logs.',

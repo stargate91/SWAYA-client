@@ -189,7 +189,7 @@
         "title": "E-mailová Podpora",
         "description": "Pro dotazy k licenci, návrhy funkcí, soukromou zpětnou vazbu nebo hlášení chyb.",
         "button": "Odeslat E-mail",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA se poskytuje \"tak jak je\". Aplikace nabízí zkušební náhled, abyste mohli zkontrolovat přejmenování před jeho provedením.",
     "section5Text2": "V maximálním rozsahu povoleném zákonem vývojář neodpovídá za nepřímé škody nebo ztrátu dat.",
     "section6Title": "6. Zákaznická podpora & kontakt",
-    "section6Text": "Pro žádosti o vrácení peněz nebo technické dotazy napište na levicore@proton.me nebo navštivte náš Discord."
+    "section6Text": "Pro žádosti o vrácení peněz nebo technické dotazy napište na support@swaya.xyz nebo navštivte náš Discord."
   }
 }

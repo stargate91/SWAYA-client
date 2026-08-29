@@ -6,6 +6,17 @@ export const fr = {
     fixed: 'Corrections de bugs & Finitions',
   },
   releases: {
+    '1.1.0': {
+      title: "Navigation Interactive, Moteur de Restauration de Défilement & Migrations Automatiques",
+      description: "Mise à jour majeure de stabilité et d’expérience utilisateur avec navigation interactive dans la barre de titre, restauration du défilement des filmographies, migrations automatiques de base de données Alembic et refonte modulaire du design system.",
+      highlights: [
+              "Navigation interactive dans la barre de titre avec raccourci accueil et bascule de la barre latérale",
+              "Moteur robuste de restauration de la position de défilement pour les pages de filmographie et talents",
+              "Exécuteur de migrations de base de données Alembic automatique au démarrage de l’application",
+              "Filtrage du contenu adulte et assainissement des catégories pour les recherches torrents Jackett",
+              "Modularisation complète du design system avec plus de 600 composants isolés et tokens CSS"
+      ]
+    },
     '1.0.0': {
       title: 'Intégration Client Torrent, Avis Détaillés & Architecture Séries TV',
       description: 'Mise à jour majeure de la station de travail intégrant des tableaux de bord pour clients torrent externes, recherche globale, panneau d\'avis, navigation par saisons TV et logs SQL optimisés.',

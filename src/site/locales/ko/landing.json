@@ -189,7 +189,7 @@
         "title": "이메일 고객지원",
         "description": "라이선스 문의, 기능 제안, 피드백, 버그 리포트는 개발자에게 직접 이메일을 보내주세요.",
         "button": "이메일 보내기",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA는 '있는 그대로(AS IS)' 제공됩니다. 파일 이름 변경 전 미리보기가 제공되며, 디스크 쓰기 실행 전 미리보기를 확인할 책임은 사용자에게 있습니다.",
     "section5Text2": "법률이 허용하는 최대 범위 내에서, 개발자는 데이터 손실이나 저장 장치 장애를 포함한 간접적 손해에 대해 책임을 지지 않습니다.",
     "section6Title": "6. 고객지원 & 문의처",
-    "section6Text": "환불 요청, 기술 문의 등은 levicore@proton.me 또는 공식 디스코드 커뮤니티로 언제든지 문의하세요."
+    "section6Text": "환불 요청, 기술 문의 등은 support@swaya.xyz 또는 공식 디스코드 커뮤니티로 언제든지 문의하세요."
   }
 }

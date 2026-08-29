@@ -13,10 +13,10 @@ import { useQueryParams } from '@/hooks/useQueryParams';
 
 export const APP_INFO = {
   name: 'Swaya',
-  version: '1.0.0',
+  version: '1.1.0',
   developer: {
     name: 'Levi',
-    email: 'levicore@proton.me',
+    email: 'support@swaya.xyz',
     website: 'https://swaya.xyz',
     github: 'https://github.com/zsakfoso',
     discordServer: 'https://discord.gg/pEFY4ZFGKy',

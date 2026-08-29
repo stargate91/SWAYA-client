@@ -65,11 +65,11 @@ export function buildHtmlForChangelog(templateHtml, locale = 'en') {
         <section>
           <article style="background: #131722; border: 1px solid #222; border-radius: 12px; padding: 2rem; margin-bottom: 2rem;">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
-              <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.85rem;">v1.0.0 (Latest Release)</span>
-              <time datetime="2026-08-16" style="color: #64748b; font-size: 0.9rem;">2026-08-16</time>
+              <span style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.85rem;">v1.1.0 (Latest Release)</span>
+              <time datetime="2026-08-29" style="color: #64748b; font-size: 0.9rem;">2026-08-29</time>
             </div>
-            <h2 style="font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem;">Torrent Client Integration, Granular Reviews & Bespoke Series Architecture</h2>
-            <p style="color: #94a3b8; line-height: 1.6; margin-bottom: 1.5rem;">Major workstation release introducing full external torrent client dashboards, global torrent search, ratings drawer, bespoke TV season navigation, and optimized batch SQL logs.</p>
+            <h2 style="font-size: 1.5rem; font-weight: 700; color: #fff; margin-bottom: 0.75rem;">Interactive Navigation, Scroll Restoration Engine &amp; Automatic Database Migrations</h2>
+            <p style="color: #94a3b8; line-height: 1.6; margin-bottom: 1.5rem;">Major stability and user experience update featuring interactive titlebar navigation, person filmography scroll position restoration, automatic Alembic database schema migrations, and modularized design system architecture.</p>
           </article>
         </section>
       </main>

@@ -189,7 +189,7 @@
         "title": "E-mail Ondersteuning",
         "description": "Vragen over licenties, functieverzoeken, feedback of bugrapporten kunt u rechtstreeks sturen.",
         "button": "Stuur een E-mail",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA wordt geleverd 'as is'. Er is een previewfunctie beschikbaar om wijzigingen te controleren voordat bestanden op schijf worden hernoemd.",
     "section5Text2": "Voor zover wettelijk toegestaan is de ontwikkelaar niet aansprakelijk voor indirecte schade of gegevensverlies.",
     "section6Title": "6. Klantenservice & Vragen",
-    "section6Text": "Voor vragen over terugbetalingen of technische ondersteuning kunt u terecht op levicore@proton.me of onze Discord community."
+    "section6Text": "Voor vragen over terugbetalingen of technische ondersteuning kunt u terecht op support@swaya.xyz of onze Discord community."
   }
 }

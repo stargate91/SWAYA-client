@@ -6,6 +6,17 @@ export const en = {
     "fixed": "Bug Fixes & Polish"
   },
   "releases": {
+    "1.1.0": {
+      "title": "Interactive Navigation, Scroll Restoration Engine & Automatic Database Migrations",
+      "description": "Major stability and user experience update featuring interactive titlebar navigation, person filmography scroll position restoration, automatic Alembic database schema migrations, and modularized design system architecture.",
+      "highlights": [
+              "Interactive window titlebar navigation with home link and quick sidebar toggle button",
+              "Robust anchor-aware scroll restoration engine for actor and talent filmography pages",
+              "Automatic Alembic database migration runner executing schema updates on startup",
+              "Adult content sanitization and tracker filtering for Jackett torrent queries",
+              "Comprehensive design system modularization with 600+ isolated components and tokens"
+      ]
+    },
     "1.0.0": {
       "title": "Torrent Client Integration, Granular Reviews & Bespoke Series Architecture",
       "description": "Major workstation release introducing full external torrent client dashboards, global torrent search, ratings drawer, bespoke TV season navigation, and optimized batch SQL logs.",

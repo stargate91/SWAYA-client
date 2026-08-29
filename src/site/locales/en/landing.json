@@ -189,7 +189,7 @@
         "title": "Direct Email Support",
         "description": "Have questions about licensing, feature requests, private feedback, or encountered a bug? Reach out to the developer directly.",
         "button": "Send Email",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA is provided on an \"as is\" and \"as available\" basis without warranties of any kind, whether express or implied. SWAYA provides simulated preview capabilities for file organization and renaming operations; you are responsible for reviewing file move previews prior to applying destructive disk operations.",
     "section5Text2": "To the maximum extent permitted by applicable law, SWAYA and its developers shall not be liable for any indirect, incidental, or consequential damages, including loss of data or storage media failure.",
     "section6Title": "6. Customer Support & Refund Requests",
-    "section6Text": "To request a refund, report a technical issue, or ask questions regarding these terms, please contact us at levicore@proton.me. Please include your Stripe purchase email and license key for expedited assistance."
+    "section6Text": "To request a refund, report a technical issue, or ask questions regarding these terms, please contact us at support@swaya.xyz. Please include your Stripe purchase email and license key for expedited assistance."
   }
 }

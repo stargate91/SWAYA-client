@@ -6,6 +6,17 @@ export const hu = {
     fixed: 'Hibajavítások & Finomhangolás',
   },
   releases: {
+    '1.1.0': {
+      title: "Interaktív Navigáció, Görgetés-Helyreállító Motor & Automatikus Adatbázis-Migrációk",
+      description: "Jelentős stabilitási és felhasználói élmény frissítés interaktív címsor navigációval, filmográfia görgetési pozíció megőrzéssel, automatikus Alembic adatbázis-migrációkkal és moduláris dizájnrendszerrel.",
+      highlights: [
+              "Interaktív ablak címsor navigáció kezdőlap hivatkozással és oldalsáv kapcsoló gombbal",
+              "Robusztus horgony-alapú görgetés-helyreállító motor a színész- és közreműködő-oldalakhoz",
+              "Automatikus Alembic adatbázis-migráció futtató az adatbázis-séma indításkori frissítéséhez",
+              "Felnőtt tartalom szűrés és kategória-tisztítás a Jackett torrent keresésekhez",
+              "Átfogó dizájnrendszer modularizálás több mint 600 elkülönített komponenssel és CSS tokennel"
+      ]
+    },
     '1.0.0': {
       title: 'Torrent Kliens Integráció, Részletes Értékelések & Egyedi Sorozat Architektúra',
       description: 'Mérföldkőnek számító kiadás: beépített külső torrent kliens vezérlőpult, globális torrent keresés, értékelő fiók, egyedi TV évad-navigáció és optimalizált kötegelt SQL naplózás.',

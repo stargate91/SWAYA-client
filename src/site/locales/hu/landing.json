@@ -189,7 +189,7 @@
         "title": "Közvetlen Email Támogatás",
         "description": "Kérdésed van a licencelésről, új funkciót javasolnál, visszajelzést küldenél vagy hibát találtál? Írj közvetlenül a fejlesztőnek.",
         "button": "Email küldése",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "A SWAYA \"ahogy van\" (as-is) alapon kerül átadásra. A szoftver szimulált előnézetet biztosít a fájlátnevezésekről és mozgatásokról; a felhasználó felelőssége a lemezműveletek jóváhagyása.",
     "section5Text2": "A jogszabályok által megengedett legteljesebb mértékben a fejlesztő nem vállal felelősséget közvetett vagy következményi károkért, beleértve az adatvesztést vagy adattároló hibákat.",
     "section6Title": "6. Ügyfélszolgálat & Kapcsolat",
-    "section6Text": "Visszatérítési igény, technikai kérdés vagy javaslat esetén fordulj közvetlenül a fejlesztőhöz a levicore@proton.me címen vagy Discord közösségünkben."
+    "section6Text": "Visszatérítési igény, technikai kérdés vagy javaslat esetén fordulj közvetlenül a fejlesztőhöz a support@swaya.xyz címen vagy Discord közösségünkben."
   }
 }

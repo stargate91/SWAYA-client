@@ -189,7 +189,7 @@
         "title": "E-postsupport",
         "description": "För licensfrågor, funktionsförslag, privat feedback eller felrapporter.",
         "button": "Skicka e-post",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA tillhandahålls i befintligt skick (\"as is\"). Programmet erbjuder förhandsgranskning så att du kan kontrollera namnändringar innan de utförs.",
     "section5Text2": "I den utsträckning lagen tillåter ansvarar utvecklaren inte för indirekta skador eller dataförlust.",
     "section6Title": "6. Kundsupport & kontakt",
-    "section6Text": "För återbetalningar eller tekniska frågor, kontakta levicore@proton.me eller besök vår Discord."
+    "section6Text": "För återbetalningar eller tekniska frågor, kontakta support@swaya.xyz eller besök vår Discord."
   }
 }

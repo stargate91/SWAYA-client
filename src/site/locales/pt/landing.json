@@ -189,7 +189,7 @@
         "title": "Suporte Direto por Email",
         "description": "Dúvidas sobre licenças, sugestões de novos recursos ou encontrou algum problema? Fale diretamente com o criador do app.",
         "button": "Enviar Email",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "O SWAYA é fornecido «no estado em que se encontra» (as is). O programa oferece prévias simuladas de renomeação de arquivos; cabe ao usuário verificar as prévias antes de aplicar modificações no disco.",
     "section5Text2": "Na extensão máxima permitida por lei, o desenvolvedor não se responsabiliza por danos indiretos, perda de dados ou falhas de disco.",
     "section6Title": "6. Suporte ao Cliente & Contato",
-    "section6Text": "Para solicitar reembolso ou suporte técnico, envie um e-mail para levicore@proton.me ou participe da nossa comunidade no Discord."
+    "section6Text": "Para solicitar reembolso ou suporte técnico, envie um e-mail para support@swaya.xyz ou participe da nossa comunidade no Discord."
   }
 }

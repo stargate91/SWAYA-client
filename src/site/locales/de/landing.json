@@ -189,7 +189,7 @@
         "title": "Direkter E-Mail-Support",
         "description": "Hast du Fragen zur Lizenz, Funktionswünsche, privates Feedback oder einen Fehler gefunden? Kontaktiere den Entwickler direkt.",
         "button": "E-Mail senden",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA wird ohne Mängelgewähr (\"as is\") bereitgestellt. Das Programm bietet Vorschaufunktionen für Dateioperationen; Sie sind dafür verantwortlich, diese vor der Ausführung zu prüfen.",
     "section5Text2": "Soweit gesetzlich zulässig, haftet der Entwickler nicht für indirekte Schäden, Datenverluste oder Speichermedienfehler.",
     "section6Title": "6. Kundensupport & Kontakt",
-    "section6Text": "Für Rückerstattungen, Support oder Fragen wenden Sie sich bitte an levicore@proton.me oder besuchen Sie unsere Discord-Community."
+    "section6Text": "Für Rückerstattungen, Support oder Fragen wenden Sie sich bitte an support@swaya.xyz oder besuchen Sie unsere Discord-Community."
   }
 }

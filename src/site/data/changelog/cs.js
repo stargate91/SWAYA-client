@@ -6,6 +6,17 @@ export const cs = {
     fixed: 'Opravy chyb & Ladění',
   },
   releases: {
+    '1.1.0': {
+      title: "Interaktivní Navigace, Obnova Pozice Posunu & Automatické Migrace Databáze",
+      description: "Velká aktualizace stability a uživatelského rozhraní s interaktivní navigací v záhlaví okna, obnovou pozice posunu ve filmografiích, automatickými migracemi Alembic a modulárním design systémem.",
+      highlights: [
+              "Interaktivní navigace v záhlaví okna s odkazem na domovskou stránku a přepínačem postranního panelu",
+              "Spolehlivý modul pro obnovu pozice posunu na stránkách filmografií a profilů osobností",
+              "Automatické provádění migrací databáze Alembic při spuštění aplikace",
+              "Filtrování obsahu pro dospělé a čištění kategorií při vyhledávání torrentů přes Jackett",
+              "Komplexní modularizace design systému s více než 600 izolovanými komponentami a CSS tokeny"
+      ]
+    },
     '1.0.0': {
       title: 'Integrace Torrentu, Hloubkový Panel Recenzí & Architektura TV Sezón',
       description: 'Hlavní vydání přinášející ovládací panel pro externí torrent klienty, univerzální vyhledávání, zásuvný panel recenzí, hierarchii TV sezón a optimalizované SQL logy.',

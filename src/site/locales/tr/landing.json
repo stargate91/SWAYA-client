@@ -189,7 +189,7 @@
         "title": "E-posta Desteği",
         "description": "Lisans soruları, özellik önerileri, geri bildirimler veya hata bildirimleri için doğrudan yazın.",
         "button": "E-posta Gönder",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA \"olduğu gibi\" sunulmaktadır. Yazılım, dosya adlarını değiştirmeden önce kontrol edebilmeniz için prova önizleme özelliği sağlar.",
     "section5Text2": "Yasaların izin verdiği azami ölçüde, geliştirici dolaylı zararlardan veya veri kayıplarından sorumlu tutulamaz.",
     "section6Title": "6. Müşteri Desteği & İletişim",
-    "section6Text": "İade talepleri veya teknik sorularınız için levicore@proton.me adresine yazabilir veya Discord sunucumuzu ziyaret edebilirsiniz."
+    "section6Text": "İade talepleri veya teknik sorularınız için support@swaya.xyz adresine yazabilir veya Discord sunucumuzu ziyaret edebilirsiniz."
   }
 }

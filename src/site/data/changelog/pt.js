@@ -6,6 +6,17 @@ export const pt = {
     fixed: 'Correções & Polimento',
   },
   releases: {
+    '1.1.0': {
+      title: "Navegação Interativa, Motor de Restauração de Rolagem e Migrações Automáticas",
+      description: "Grande atualização de estabilidade e experiência do usuário com navegação na barra de título, restauração de rolagem em filmografias, migrações automáticas de banco de dados Alembic e design system modular.",
+      highlights: [
+              "Navegação interativa na barra de título com link para o início e botão da barra lateral",
+              "Motor robusto de restauração de posição de rolagem para páginas de filmografia de artistas",
+              "Execução automática de migrações Alembic na inicialização para atualização do banco de dados",
+              "Filtragem e sanitização de conteúdo adulto em buscas de torrents no Jackett",
+              "Modularização abrangente do design system com mais de 600 componentes isolados e tokens CSS"
+      ]
+    },
     '1.0.0': {
       title: 'Integração de Torrent, Avaliações Granulares & Arquitetura de Séries',
       description: 'Grande lançamento trazendo painéis para clientes de torrent externos, busca global de torrents, drawer de avaliações, navegação por temporadas e logs SQL otimizados.',

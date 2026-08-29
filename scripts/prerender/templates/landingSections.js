@@ -249,7 +249,7 @@ export function renderFooterHtml({ footer, homeUrl, docsUrl, changelogUrl, prefi
               <li><a href="${changelogUrl}" style="color: #94a3b8; text-decoration: none;">${footer.links?.changelog || 'Changelog'}</a></li>
               <li><a href="${prefix}/help" style="color: #94a3b8; text-decoration: none;">${footer.links?.help || 'Help & Support'}</a></li>
               <li><a href="https://discord.gg/g34ZcJScj" style="color: #94a3b8; text-decoration: none;" target="_blank" rel="noopener noreferrer">${footer.links?.discord || 'Discord'} ↗</a></li>
-              <li><a href="mailto:levicore@proton.me" style="color: #94a3b8; text-decoration: none;">${footer.links?.contact || 'Contact Developer'}</a></li>
+              <li><a href="mailto:support@swaya.xyz" style="color: #94a3b8; text-decoration: none;">${footer.links?.contact || 'Contact Developer'}</a></li>
               <li><a href="/dashboard" style="color: #38bdf8; text-decoration: none; font-weight: 600;">${footer.links?.liveDemo || 'Live Demo'} →</a></li>
             </ul>
           </div>

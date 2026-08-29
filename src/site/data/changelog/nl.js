@@ -6,6 +6,17 @@ export const nl = {
     fixed: 'Opgeloste problemen & Verfijningen',
   },
   releases: {
+    '1.1.0': {
+      title: "Interactieve Navigatie, Scroll-Herstelmotor & Automatische Databasemigraties",
+      description: "Grote update voor stabiliteit en gebruikerservaring met interactieve titelbalknavigatie, scrollpositieherstel voor filmografieën, automatische Alembic databasemigraties en een modulair ontwerpsysteem.",
+      highlights: [
+              "Interactieve titelbalknavigatie met startpagina-link en zijbalk-wisselknop",
+              "Robuuste scroll-herstelmotor voor filmografie- en artiestenpagina’s bij navigatie",
+              "Automatische Alembic databasemigraties bij het opstarten voor naadloze updates",
+              "Filtering van volwassen inhoud en categorie-opschoning voor Jackett torrent-zoekopdrachten",
+              "Volledige modularisering van het ontwerpsysteem met 600+ geïsoleerde componenten en CSS-tokens"
+      ]
+    },
     '1.0.0': {
       title: 'Torrent-integratie, Uitgebreide Recensies & TV-serie Architectuur',
       description: 'Grote release met externe torrent-client dashboards, universeel zoeken, recensiepaneel, tv-seizoensnavigatie en geoptimaliseerde batch SQL-logging.',

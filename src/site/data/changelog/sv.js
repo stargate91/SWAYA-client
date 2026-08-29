@@ -6,6 +6,17 @@ export const sv = {
     fixed: 'Buggfixar & Justeringar',
   },
   releases: {
+    '1.1.0': {
+      title: "Interaktiv Navigering, Rullningsåterställning & Automatiska Databasmigreringar",
+      description: "Stor uppdatering för stabilitet och användarupplevelse med interaktiv titelfältsnavigering, rullningsåterställning för filmografier, automatiska Alembic databasmigreringar och ett modulärt designsystem.",
+      highlights: [
+              "Interaktiv titelfältsnavigering med hemlänk och snabbknapp för sidofältet",
+              "Robust rullningsåterställning för skådespelar- och filmografisidor vid bakåt/framåt-navigering",
+              "Automatisk Alembic databasmigrering vid start för sömlösa schemauppdateringar",
+              "Filtrering av vuxeninnehåll och kategorisanering för Jackett torrentsökningar",
+              "Omfattande modularisering av designsystemet med över 600 isolerade komponenter och tokens"
+      ]
+    },
     '1.0.0': {
       title: 'Torrent-integration, Djupgående Recensioner & TV-seriehierarki',
       description: 'Större lansering med översiktspanel för externa torrent-klienter, universell sökning, recensionspanel, säsongshierarki för TV-serier och optimerade SQL-loggar.',

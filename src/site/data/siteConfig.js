@@ -6,7 +6,7 @@ export const DISCORD_INVITE_URL =
   'https://discord.gg/g34ZcJScj';
 export const DEV_EMAIL =
   (typeof import.meta !== 'undefined' && import.meta.env?.VITE_DEV_EMAIL) ||
-  'levicore@proton.me';
+  'support@swaya.xyz';
 export const TWITTER_HANDLE =
   (typeof import.meta !== 'undefined' && import.meta.env?.VITE_TWITTER_HANDLE) ||
   '@swaya_official';
@@ -22,7 +22,7 @@ export const INSTAGRAM_PROFILE_URL =
 
 export const LATEST_SOFTWARE_VERSION =
   (typeof import.meta !== 'undefined' && import.meta.env?.VITE_APP_VERSION) ||
-  '1.0.0';
+  '1.1.0';
 
 export const DEFAULT_SAME_AS = [
   DISCORD_INVITE_URL,

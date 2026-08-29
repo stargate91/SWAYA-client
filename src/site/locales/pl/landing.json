@@ -189,7 +189,7 @@
         "title": "Wsparcie E-mail",
         "description": "Pytania o licencje, propozycje funkcji, opinie lub zgłoszenia błędów możesz przesłać bezpośrednio.",
         "button": "Napisz E-mail",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA jest dostarczana w stanie 'takim, w jakim jest'. Funkcja podglądu pozwala sprawdzić zmiany przed zmianą nazw plików na dysku.",
     "section5Text2": "W najszerszym zakresie dozwolonym przez prawo twórca nie ponosi odpowiedzialności za szkody pośrednie ani utratę danych.",
     "section6Title": "6. Obsługa Klienta & Pytania",
-    "section6Text": "W przypadku pytań dotyczących zwrotów lub pomocy technicznej prosimy o kontakt pod adresem levicore@proton.me lub na naszym Discordzie."
+    "section6Text": "W przypadku pytań dotyczących zwrotów lub pomocy technicznej prosimy o kontakt pod adresem support@swaya.xyz lub na naszym Discordzie."
   }
 }

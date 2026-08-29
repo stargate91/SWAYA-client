@@ -83,9 +83,9 @@ export function getChangelogJsonLd({ locale, changelogUrl, prefix }) {
     changelogUrl,
     t: (key, options) => options?.defaultValue || key,
     latestRelease: {
-      version: '1.0.0',
-      date: '2026-08-16',
-      description: 'Major software release introducing full external torrent client dashboards, global torrent search, ratings drawer, bespoke TV season navigation, and optimized batch SQL logs.',
+      version: '1.1.0',
+      date: '2026-08-29',
+      description: 'Major stability and user experience update featuring interactive titlebar navigation, person filmography scroll position restoration, automatic Alembic database schema migrations, and modularized design system architecture.',
     },
   });
 

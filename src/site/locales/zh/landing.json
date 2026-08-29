@@ -189,7 +189,7 @@
         "title": "邮件直接支持",
         "description": "遇到授权问题、有新功能建议、私密使用反馈或发现了 Bug 缺陷？欢迎直接发送邮件给开发者。",
         "button": "发送邮件",
-        "badge": "levicore@proton.me"
+        "badge": "support@swaya.xyz"
       }
     },
     "quickDocs": {
@@ -297,6 +297,6 @@
     "section5Text1": "SWAYA 按“原样”（as is）提供，不包含任何明示或默示的保证。软件提供重命名操作的模拟预览，用户在执行实际磁盘写入操作前有责任仔细核对预览结果。",
     "section5Text2": "在法律允许的最大限度内，开发者不对任何间接损失、数据损坏或存储介质故障承担赔偿责任。",
     "section6Title": "6. 客户支持与联系途径",
-    "section6Text": "如需申请退款、报告技术缺陷或咨询条款，请直接发送邮件至 levicore@proton.me 或加入官方 Discord 社区交流。"
+    "section6Text": "如需申请退款、报告技术缺陷或咨询条款，请直接发送邮件至 support@swaya.xyz 或加入官方 Discord 社区交流。"
   }
 }

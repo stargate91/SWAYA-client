@@ -6,6 +6,17 @@ export const it = {
     fixed: 'Correzioni & Ottimizzazioni',
   },
   releases: {
+    '1.1.0': {
+      title: "Navigazione Interattiva, Ripristino dello Scorrimento & Migrazioni Automatiche del Database",
+      description: "Importante aggiornamento di stabilità ed esperienza utente con navigazione interattiva nella barra del titolo, ripristino della posizione di scorrimento nelle filmografie, migrazioni automatiche Alembic e design system modulare.",
+      highlights: [
+              "Navigazione interattiva nella barra del titolo con link alla dashboard e pulsante barra laterale",
+              "Motore affidabile per il ripristino dello scorrimento nelle pagine di filmografia e attori",
+              "Esecuzione automatica delle migrazioni Alembic all’avvio per aggiornare lo schema del database",
+              "Filtraggio dei contenuti per adulti e pulizia delle categorie nelle ricerche torrent con Jackett",
+              "Modularizzazione completa del design system con oltre 600 componenti isolati e token CSS"
+      ]
+    },
     '1.0.0': {
       title: 'Integrazione Client Torrent, Recensioni Granulari & Architettura Serie TV',
       description: 'Importante aggiornamento della workstation che introduce dashboard per client torrent esterni, ricerca torrent globale, drawer recensioni, navigazione stagioni TV e log SQL ottimizzati.',

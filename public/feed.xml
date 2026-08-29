@@ -5,7 +5,7 @@
     <link>https://swaya.xyz/changelog</link>
     <description>Track updates, new features, performance improvements, and bug fixes for the SWAYA desktop media center &amp; video player.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://swaya.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <url>https://swaya.xyz/og-image.jpg</url>
@@ -14,6 +14,13 @@
       <width>144</width>
       <height>144</height>
     </image>
+    <item>
+      <title>SWAYA v1.1.0 - Interactive Navigation, Scroll Restoration Engine &amp; Automatic Database Migrations</title>
+      <link>https://swaya.xyz/changelog#v1_1_0</link>
+      <guid isPermaLink="true">https://swaya.xyz/changelog#v1_1_0</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Major stability and user experience update featuring interactive titlebar navigation, person filmography scroll position restoration, automatic Alembic database schema migrations, and modularized design system architecture.</p><h3>Key Highlights</h3><ul><li>Interactive window titlebar navigation with home link and quick sidebar toggle button</li><li>Robust anchor-aware scroll restoration engine for actor and talent filmography pages</li><li>Automatic Alembic database migration runner executing schema updates on startup</li><li>Adult content sanitization and tracker filtering for Jackett torrent queries</li><li>Comprehensive design system modularization with 600+ isolated components and tokens</li></ul><h4>New Features</h4><ul><li>Interactive Titlebar Navigation: SWAYA logo now routes directly to Dashboard with state reset, and a dedicated sidebar toggle button was added to the titlebar.</li><li>Filmography Scroll Restoration: Preserves exact scroll position, anchor items, and paginated lists across browser history navigation.</li><li>Automatic Database Migrations: Startup migration engine with automatic Alembic revision stamping and upgrade execution.</li><li>Adult Content Filtering: Category and keyword sanitization for Jackett torrent queries when adult mode is disabled.</li><li>ToggleIconButton Primitive: Reusable toolbar button for active and toggled state indicators.</li></ul><h4>Improvements</h4><ul><li>Design System Modularization: Reorganized UI into clean domain barrels across controls, drawers, media, navigation, overlays, and primitives.</li><li>Adult PIN Modal Decomposition: Refactored monolithic PIN dialog into isolated step subcomponents and form state hooks.</li><li>Jackett Config Relocation: Relocated jackett configuration to persistent user data directory with automatic legacy cleanup.</li><li>Onboarding UX Enhancements: Improved folder selection step styling and prioritized TMDb Bearer tokens.</li><li>Recursive Sub-Studio Resolution: Dynamic resolution of descendant sub-studios via studio detail service.</li></ul><h4>Performance & Architecture</h4><ul><li>Duplicate Scraping Safeguard: Automatic tracker checks skip redundant network requests for already enriched items.</li></ul><h4>Bug Fixes & Polish</h4><ul><li>Fixed custom list membership identifier matching for external provider IDs and numeric media IDs.</li><li>Fixed database schema consistency for non-nullable boolean defaults via Alembic migration cc5cafc2ddba.</li><li>Fixed Picture-in-Picture (PiP) drag handle and spacing using standard CSS tokens.</li></ul>]]></description>
+    </item>
     <item>
       <title>SWAYA v1.0.0 - Torrent Client Integration, Granular Reviews &amp; Bespoke Series Architecture</title>
       <link>https://swaya.xyz/changelog#v1_0_0</link>
